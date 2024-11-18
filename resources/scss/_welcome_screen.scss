@@ -1,0 +1,33 @@
+.welcome-screen {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .access-screen {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        background-color: #5f27cd;
+        .access-screen-content{
+            max-width: 600px;
+            width: 100%;
+            display: block;
+        }
+    }
+
+    .vocational-screen {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        background-color: #009432;
+        .vocational-screen-content{
+            max-width: 600px;
+            width: 100%;
+            display: block;
+        }
+    }
+}
