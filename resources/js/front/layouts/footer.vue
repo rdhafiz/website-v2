@@ -1,18 +1,18 @@
 <template>
     <div class="w-100 py-5 border-top awarding-bodies">
         <div class="w-100 py-5">
-            <div class="container">
-                <div class="w-100">
-                    <h1 class="fs-1 text-dark text-center">Awarding Bodies</h1>
+            <div class="container-fluid">
+                <div class="w-100 px-lg-">
+                    <h1 class="fs-1 text-dark text-center">We are proud to work with</h1>
                 </div>
                 <div class="w-100 mt-3">
                     <div class="w-100 text-center">
-                        <a class="compImg"><img class="bg-dark p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/Matrix-Standard.png'" alt=""></a>
-                        <a class="compImg"><img class="bg-dark p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/logo-hed--on-dark.svg'" alt=""></a>
-                        <a class="compImg"><img class="bg-dark p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/esfa-bnw-1.png'" alt=""></a>
-                        <a class="compImg"><img class="bg-dark p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/apprenticeships-logo.svg'" alt=""></a>
-                        <a class="compImg"><img class="bg-dark p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/OCRLogo.png'" alt=""></a>
-                        <a class="compImg"><img class="bg-dark p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/white-logo-main.png'" alt=""></a>
+                        <a href="https://www.qaa.ac.uk/" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/qaa-logo.png'" alt=""></a>
+                        <a href="https://www.gatewayqualifications.org.uk/" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/Gateway.jpg'" alt=""></a>
+                        <a href="https://matrixstandard.com/" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/Matrix-Standard.png'" alt=""></a>
+                        <a href="https://www.gov.uk/government/organisations/ofsted" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/ofsted-logo.png'" alt=""></a>
+                        <a href="https://www.gov.uk/government/organisations/education-and-skills-funding-agency" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/esfa-logo.png'" alt=""></a>
+                        <a href="https://www.ncfe.org.uk/" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/ncfe-cache.png'" alt=""></a>
                     </div>
                 </div>
             </div>
