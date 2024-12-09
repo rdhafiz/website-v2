@@ -1,0 +1,127 @@
+.course-details-screen {
+
+    .course-details-cover {
+        background-color: rgba(95, 39, 205, 0.20);
+        .course-details-title {
+            font-size: 74px;
+        }
+        .btn-theme {
+            background-color: #5f27cd !important;
+            transition: 0.3s all ease-in-out !important;
+            color: #ffffff !important;
+            font-size: 24px;
+            &:hover {
+                background-color: #009432 !important;
+                transition: 0.3s all ease-in-out !important;
+            }
+        }
+    }
+
+    .overview {
+        .course-details-title {
+            font-size: 32px;
+        }
+        .course-details-description {
+            font-size: 24px;
+        }
+        .btn-outline-theme {
+            border: 2px solid #5f27cd !important;
+            background-color: transparent !important;
+            color: #5f27cd !important;
+            transition: 0.3s all ease-in-out !important;
+            font-size: 24px;
+            text-align: start !important;
+            .description {
+                font-size: 20px !important;
+            }
+            &:hover {
+                background-color: #5f27cd !important;
+                color: #ffffff !important;
+            }
+        }
+    }
+
+    .architecture {
+        .architecture-title {
+            font-size: 32px;
+        }
+        .architecture-description {
+            font-size: 24px;
+        }
+        .architecture-img {
+            width: 100%;
+            height: 450px;
+            min-height: 450px;
+            max-height: 450px;
+            object-fit: cover;
+            object-position: center;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+    .team {
+        .team-image {
+            width: 350px;
+            max-width: 350px;
+            min-width: 350px;
+            height: 450px;
+            max-height: 450px;
+            min-height: 450px;
+            object-fit: cover;
+            object-position: center;
+            background-size: cover;
+            background-position: center;
+        }
+        .team-title {
+            font-size: 32px;
+        }
+    }
+
+    .accordion {
+        .accordion-item {
+            border: none !important;
+            margin-bottom: 20px !important;
+            .accordion-header {
+                .accordion-button {
+                    box-shadow: 0 0 0 0 !important;
+                    border: none !important;
+                    border-radius: 10px !important;
+                    font-size: 32px !important;
+                    background-color: #5f27cd;
+                    color: #ffffff;
+                    &.collapsed {
+                        background-color: rgba(136, 138, 133, 0.2) !important;
+                        color: #000000;
+                        &:after {
+                            filter: inherit;
+                        }
+                    }
+                    &:after {
+                        filter: brightness(100);
+                    }
+                }
+            }
+            .accordion-collapse {
+                .accordion-body {
+                    margin-top: 20px !important;
+                    padding: 20px !important;
+                    background-color: rgba(136, 138, 133, 0.2) !important;
+                    border-radius: 10px !important;
+                    font-size: 24px;
+                    .link {
+                        color: #5f27cd;
+                        transition: 0.3s all ease-in-out;
+
+                        &:hover {
+                            color: #009432;
+                            transition: 0.3s all ease-in-out;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -2,7 +2,11 @@
 
     <div class="about-screen">
         <div class="breadcrumb-content w-100 animate__animated animate__fadeIn" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/breadcrumb.jpg)' }">
-            <div class="breadcrumb-content-left"></div>
+            <div class="breadcrumb-content-left">
+                <span class="shadow-1"></span>
+                <span class="shadow-2"></span>
+                <span class="shadow-3"></span>
+            </div>
             <div class="container">
                 <div class="breadcrumb-left">
                     <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
@@ -104,7 +108,10 @@
         </section>
 
         <section class="py-5 about-screen-governance">
-            <div class="container">
+            <span class="shadow-1"></span>
+            <span class="shadow-2"></span>
+            <span class="shadow-3"></span>
+            <div class="container position-relative z-2">
                 <div class="fs-4 mb-3 text-white animate__animated animate__fadeInLeft">
                     Governance
                     <hr class="border bg-white mt-2 border-white" style="width: 39px">

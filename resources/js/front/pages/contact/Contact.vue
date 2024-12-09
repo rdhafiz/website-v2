@@ -2,7 +2,11 @@
     <div class="contact-screen">
 
         <div class="breadcrumb-content w-100 animate__animated animate__fadeIn" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/breadcrumb.jpg)' }">
-            <div class="breadcrumb-content-left"></div>
+            <div class="breadcrumb-content-left">
+                <span class="shadow-1"></span>
+                <span class="shadow-2"></span>
+                <span class="shadow-3"></span>
+            </div>
             <div class="container">
                 <div class="breadcrumb-left">
                     <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
@@ -38,7 +42,16 @@
                     <div class="contact-box text-center d-flex justify-content-center align-items-center flex-column p-5">
                         <div class="mb-2 fs-1"> <i class="fas fa-solid fa-phone"></i> </div>
                         <div class="text-center mb-3 fs-4"> Phone Number </div>
-                        <div class="fs-6">  <a href="tel:02084726060" class="text-decoration-none text-white"> 02084726060 </a> </div>
+                        <div class="fs-6">
+                            <div class="mb-3">
+                                <a href="tel:02084726060" class="text-decoration-none text-white"> 02084726060</a>
+                            </div>
+                            <div>
+                                The office is open from <br>
+                                9:30-17:30 Mon-Fri br
+                                9:30-15:00 Sat
+                            </div>
+                        </div>
                     </div>
                     <div class="contact-box text-center d-flex justify-content-center align-items-center flex-column p-5">
                         <div class="mb-2 fs-1"> <i class="fas fa-solid fa-envelope"></i> </div>
