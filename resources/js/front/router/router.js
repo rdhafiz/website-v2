@@ -16,8 +16,8 @@ const routes = [
         path: ROOT_URL, name: 'Layout', component: Layout,
         children: [
             {path: ROOT_URL + '', name: 'Home', component: Home},
-            {path: ROOT_URL + '', name: 'Contact', component: Contact},
-            {path: ROOT_URL + '', name: 'About', component: About},
+            {path: ROOT_URL + '/contact', name: 'Contact', component: Contact},
+            {path: ROOT_URL + '/about', name: 'About', component: About},
         ]
     }
 ];

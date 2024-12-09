@@ -1,0 +1,79 @@
+.about-screen {
+    .introduction-title {
+        font-size: 25px;
+    }
+    .introduction-description {
+        font-size: 17px;
+    }
+    .breadcrumb {
+        background-color: #5f27cd;
+        height: 350px;
+        .breadcrumb-lg{
+            font-size: 75px;
+        }
+    }
+    .about-screen-container {
+        background-color: rgba(95, 39, 205, 0.15);
+        .about-screen-image-relate {
+            max-width: 700px;
+            .content-top-right {
+                top: 35px;
+                right: -235px;
+                .about-screen-text-container {
+                    background-color: #009432;
+                    max-width: 320px;
+                }
+            }
+        }
+        .about-img {
+            max-height: 450px;
+        }
+    }
+    .about-screen-governance {
+        background-color: #5f27cd;
+        .text-small {
+            font-size: 15px;
+        }
+        .governance-title {
+            font-size: 35px;
+        }
+        .text-green {
+            color: #009432;
+        }
+        .governance-description {
+            font-size: 17px;
+        }
+        .small-text {
+            font-size: 13px;
+        }
+        .governance-box-title {
+            font-size: 21px;
+            color: #009432;
+            font-weight: 600;
+        }
+        .governance-box-description {
+            font-size: 14px;
+        }
+        .governance-box-container {
+            background-color: #009432;
+            .governance-box-text {
+                font-size: 30px;
+            }
+            .governance-box-description {
+                font-size: 20px;
+            }
+            .trusted-company {
+                width: 120px;
+                min-width: 120px;
+                height: 120px;
+                min-height: 120px;
+                background-color: #5f27cd;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 21px;
+                color: #ffffff;
+            }
+        }
+    }
+}
