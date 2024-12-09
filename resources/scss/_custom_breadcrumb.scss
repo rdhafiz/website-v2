@@ -1,0 +1,42 @@
+.breadcrumb-content {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center center;
+    object-position: center center;
+    .breadcrumb-content-left {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        align-items: center;
+        background-color: #5f27cd;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        float: left;
+        height: 700px;
+        width: 50%;
+        &:before {
+            position: absolute;
+            content: "";
+            border-left: 150px solid #5f27cd;
+            border-top: 700px solid transparent;
+            right: -150px;
+            top: 0;
+            background-color: transparent;
+            z-index: 20;
+        }
+    }
+    .breadcrumb-left {
+        width: 100%;
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

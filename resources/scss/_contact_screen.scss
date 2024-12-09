@@ -1,8 +1,4 @@
 .contact-screen {
-    .breadcrumb {
-        background-color: #5f27cd;
-        height: 350px;
-    }
     .background-cover {
         width: 100%;
         height: 500px;
@@ -13,6 +9,9 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+    }
+    .large-title {
+        font-size: 75px;
     }
     .title {
         font-size: 32px;
@@ -26,24 +25,84 @@
             }
         }
     }
-    .accordion {
-        .accordion-item {
-            border: none !important;
-            .accordion-header {
-                .accordion-button {
-                    box-shadow: 0 0 0 0 !important;
-                    border: none !important;
-                    border-radius: 10px !important;
-                    font-size: 24px !important;
+    .contact-screen-container {
+        .accordion {
+            .accordion-item {
+                border: none !important;
+                margin-bottom: 20px !important;
+                .accordion-header {
+                    .accordion-button {
+                        box-shadow: 0 0 0 0 !important;
+                        border: none !important;
+                        border-radius: 10px !important;
+                        font-size: 32px !important;
+                        background-color: #5f27cd;
+                        color: #ffffff;
+                        &.collapsed {
+                            background-color: rgba(136, 138, 133, 0.2) !important;
+                            color: #000000;
+                            &:after {
+                                filter: inherit;
+                            }
+                        }
+                        &:after {
+                            filter: brightness(100);
+                        }
+                    }
+                }
+                .accordion-collapse {
+                    .accordion-body {
+                        margin-top: 20px !important;
+                        padding: 20px !important;
+                        background-color: rgba(136, 138, 133, 0.2) !important;
+                        border-radius: 10px !important;
+                        font-size: 24px;
+                        .link {
+                            color: #5f27cd;
+                            transition: 0.3s all ease-in-out;
+
+                            &:hover {
+                                color: #009432;
+                                transition: 0.3s all ease-in-out;
+                            }
+
+                        }
+                    }
                 }
             }
-            .accordion-collapse {
-                .accordion-body {
-                    margin: 20px 0 !important;
-                    padding: 20px !important;
-                    background-color: rgba(136, 138, 133, 0.2) !important;
-                    border-radius: 10px !important;
-                }
+        }
+    }
+    .get-in-touch-screen-container {
+        .form-label {
+            font-size: 24px;
+        }
+        .form-control {
+            background-color: #dee2e6 !important;
+            border: 1px solid #dee2e6 !important;
+            font-size: 24px;
+            transition: 0.3s all ease-in-out;
+
+            &:focus-visible {
+                transition: 0.3s all ease-in-out;
+                box-shadow: 0 0 0 0.25rem rgba(95, 39, 205, 0.25) !important;
+            }
+        }
+        .text-link {
+            color: #5f27cd;
+            transition: 0.3s all ease-in-out;
+
+            &:hover {
+                color: #009432;
+                transition: 0.3s all ease-in-out;
+            }
+        }
+        .btn-theme {
+            background-color: #009432;
+            transition: 0.3s all ease-in-out;
+            color: #FFFFFF;
+            &:hover {
+                background-color: #5f27cd;
+                transition: 0.3s all ease-in-out;
             }
         }
     }

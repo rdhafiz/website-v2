@@ -1,18 +1,29 @@
 <template>
 
     <div class="about-screen">
-        <div class="breadcrumb w-100 d-flex justify-content-center align-items-center align-items-center flex-column animate__animated animate__fadeIn">
-            <h1 class="text-center text-white animate__animated animate__fadeInLeft">
-                About Us
-            </h1>
-            <div class="d-flex justify-content-center align-items-center gap-3 fs-4 animate__animated animate__fadeInLeft">
-                <a href="javascript:void(0)" class="text-decoration-none text-white">
-                    Home
-                </a>
-                <div class="text-white"> /</div>
-                <a href="javascript:void(0)" class="text-decoration-none text-white">
-                    About us
-                </a>
+        <div class="breadcrumb-content w-100 animate__animated animate__fadeIn" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/breadcrumb.jpg)' }">
+            <div class="breadcrumb-content-left"></div>
+            <div class="container">
+                <div class="breadcrumb-left">
+                    <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
+                        About Us
+                    </h1>
+                    <ul class="breadcrumb w-100 d-flex justify-content-start align-items-center fs-4 animate__animated animate__fadeInLeft">
+                        <li class="breadcrumb-item">
+                            <a href="javascript:void(0)" class="text-decoration-none text-white p-0 m-0">
+                                Home
+                            </a>
+                        </li>
+                        <li class="text-white mx-3">
+                            /
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="javascript:void(0)" class="text-decoration-none text-white p-0 m-0">
+                                About us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
 
@@ -25,21 +36,38 @@
                         <div class="position-absolute content-top-right">
                             <div class="p-5 about-screen-text-container rounded-3">
                                 <div class="text-white mb-3 introduction-title">
-                                    Introduction to the centre
+                                    Since 2007, <br> Mediprospects
                                 </div>
                                 <div class="text-white text-opacity-75 introduction-description">
-                                    the centre for advanced welsh and celtic is a dedicated research institute of the
-                                    university of wales, located alongside the national library of wales in haberdashery
+                                    has been delivering learning, skills and employability services for vocational sectors: helping Apprentices, Learners, Employers and Employees in developing skills and securing a better, brighter future.
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="mt-5 introduction-description max-width-70 animate__animated animate__fadeInLeft">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid, assumenda beatae
-                        distinctio dolor doloremque earum eligendi esse, est facere, facilis id ipsa ipsam iste
-                        laboriosam laborum neque numquam quam recusandae repellat sint tempora totam vel vitae
-                        voluptate? Amet, itaque modi natus omnis possimus provident! Ad dignissimos laboriosam quos
-                        temporibus.
+                        <div class="introduction-title">
+                            The values we believe:
+                        </div>
+                        <ul>
+                            <li class="introduction-description">
+                                Respect – respect others, and recognise and value their contribution.
+                            </li>
+                            <li class="introduction-description">
+                                To be accountable – inculcate personal responsibility for the success of our company and ourselves as individuals.
+                            </li>
+                            <li class="introduction-description">
+                                To be inclusive – take into account the different needs, values, beliefs and aspirations of others.
+                            </li>
+                            <li class="introduction-description">
+                                To challenge paradigms – confidently express our opinions while remaining open to the views of others and learn from the process.
+                            </li>
+                            <li class="introduction-description">
+                                To empower – assist others in achieving the best they can be and to realise their potential.
+                            </li>
+                            <li class="introduction-description">
+                                To pursue excellence – share best practice, learn from others, and develop continually.
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
