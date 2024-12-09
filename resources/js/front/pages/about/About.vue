@@ -47,11 +47,11 @@
         <section class="py-5 w-100 about-screen-container bg-light">
             <div class="container py-5">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="introduction-title fw-bold">
                             Educating tomorrow's global citizens
                         </div>
-                        <div class="mt-3 introduction-description">
+                        <div class="mt-3 introduction-description mb-4">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi at cupiditate
                             debitis dicta earum eligendi facere fugit inventore maiores maxime nulla perspiciatis
                             placeat quaerat quam quia quis quod repellat, rerum sequi totam, unde voluptate voluptatem,
@@ -65,7 +65,7 @@
                             incidunt, ipsum nam nesciunt nostrum numquam perferendis quidem vel voluptas.
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <img :src="'/assets/img/about/background-1.png'"
                              class="img-fluid object-fit-cover rounded-4 about-img w-100" alt="about">
                     </div>
@@ -88,7 +88,7 @@
                 </div>
                 <div class="mt-5">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-xl-6">
                             <div class="row">
                                 <div class="col-md-6 p-2 h-100">
                                     <div class="w-100 p-5 bg-white rounded-4">
@@ -132,7 +132,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 p-2">
+                        <div class="col-xl-6 p-2">
                             <div class="w-100 p-5 governance-box-container rounded-4 h-100 d-flex justify-content-between align-items-start flex-column">
                                 <div>
                                     <div class="governance-box-text text-white mb-3">

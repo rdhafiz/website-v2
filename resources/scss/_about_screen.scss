@@ -10,15 +10,28 @@
         height: 350px;
         .breadcrumb-lg{
             font-size: 75px;
+            @media screen and (max-width: 768px) {
+                font-size: 45px;
+            }
         }
     }
     .about-screen-container {
         background-color: rgba(95, 39, 205, 0.15);
         .about-screen-image-relate {
             max-width: 700px;
+            @media screen and (max-width: 576px) {
+                max-width: 100%;
+                width: 100%;
+            }
             .content-top-right {
                 top: 35px;
                 right: -235px;
+                @media screen and (max-width: 1024px) {
+                    right: -10px;
+                }
+                @media screen and (max-width: 576px) {
+                    right: inherit;
+                }
                 .about-screen-text-container {
                     background-color: #009432;
                     max-width: 320px;
@@ -36,6 +49,9 @@
         }
         .governance-title {
             font-size: 35px;
+            @media screen and (max-width: 991px) {
+                font-size: 25px;
+            }
         }
         .text-green {
             color: #009432;
