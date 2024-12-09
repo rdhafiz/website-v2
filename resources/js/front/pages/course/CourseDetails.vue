@@ -3,7 +3,11 @@
     <div class="course-details-screen">
 
         <div class="breadcrumb-content w-100 animate__animated animate__fadeIn" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/breadcrumb.jpg)' }">
-            <div class="breadcrumb-content-left"></div>
+            <div class="breadcrumb-content-left">
+                <div class="shadow-1"></div>
+                <div class="shadow-2"></div>
+                <div class="shadow-3"></div>
+            </div>
             <div class="container">
                 <div class="breadcrumb-left">
                     <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
@@ -239,116 +243,9 @@
             </div>
         </section>
 
-        <section class="w-100 py-5">
-            <div class="container">
-                <div class="row row-cols-1 row-cols-md-2">
-                    <div class="p-3 team d-flex justify-content-start align-items-start">
-                        <div class="overflow-hidden">
-                            <img :src="'/assets/img/team/Donna_Simmonds.jpg'" class="team-image" alt="team">
-                        </div>
-                        <div class="p-3">
-                            <div class="team-title">
-                                Donna Simmonds MA (Ed), Access to HE Team Leader
-                            </div>
-                            <div class="team-description">
+        <Teams/>
 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-3 team d-flex justify-content-start align-items-start">
-                        <div class="overflow-hidden">
-                            <img :src="'/assets/img/team/Melanie_Lancley.jpg'" class="team-image" alt="team">
-                        </div>
-                        <div class="p-3">
-                            <div class="team-title">
-                                Mel Lancley MSc CPsychol, Teacher and Internal Moderator
-                            </div>
-                            <div class="team-description">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-3 team d-flex justify-content-start align-items-start">
-                        <div class="overflow-hidden">
-                            <img :src="'/assets/img/team/lisa_ross.jpg'" class="team-image" alt="team">
-                        </div>
-                        <div class="p-3">
-                            <div class="team-title">
-                                Lisa Ross BSc (Hons) Sports Rehabilitation, Teacher, Internal Moderator and UCAS Co-ordinator
-                            </div>
-                            <div class="team-description">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-3 team d-flex justify-content-start align-items-start">
-                        <div class="overflow-hidden">
-                            <img :src="'/assets/img/team/Sarah_Kenny.png'" class="team-image" alt="team">
-                        </div>
-                        <div class="p-3">
-                            <div class="team-title">
-                                Sarah Kenny BSc (Hons) Biological Sciences, Teacher & Internal Moderator
-                            </div>
-                            <div class="team-description">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-3 team d-flex justify-content-start align-items-start">
-                        <div class="overflow-hidden">
-                            <img :src="'/assets/img/team/Carol_Rees.jpg'" class="team-image" alt="team">
-                        </div>
-                        <div class="p-3">
-                            <div class="team-title">
-                                Carol Rees RGN. PGCE. MinstLM. ITEC Anatomy, Physiology and Massage Teacher
-                            </div>
-                            <div class="team-description">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-3 team d-flex justify-content-start align-items-start">
-                        <div class="overflow-hidden">
-                            <img :src="'/assets/img/team/Angela_Thompson.jpeg'" class="team-image" alt="team">
-                        </div>
-                        <div class="p-3">
-                            <div class="team-title">
-                                Angela Thompson, Teacher
-                            </div>
-                            <div class="team-description">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-3 team d-flex justify-content-start align-items-start">
-                        <div class="overflow-hidden">
-                            <img :src="'/assets/img/team/Darya_Tobutt.jpg'" class="team-image" alt="team">
-                        </div>
-                        <div class="p-3">
-                            <div class="team-title">
-                                Darya Tobutt, BSc, RM, MSc(Dist), PGcert, Teacher
-                            </div>
-                            <div class="team-description">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-3 team d-flex justify-content-start align-items-start">
-                        <div class="overflow-hidden">
-                            <img :src="'/assets/img/team/Katie_Spencer_Bowdage.jpg'" class="team-image" alt="team">
-                        </div>
-                        <div class="p-3">
-                            <div class="team-title">
-                                Katie Spencer, BSc (Hons) Behavioural Biology, PGCE. Teacher
-                            </div>
-                            <div class="team-description">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <FAQs/>
 
     </div>
 
@@ -356,7 +253,13 @@
 
 <script>
 
+import Teams from "./widgets/Teams.vue";
+import FAQs from "./widgets/FAQs.vue";
+
 export default {
+    components: {
+        Teams, FAQs
+    },
     data(){
         return {
 

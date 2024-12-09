@@ -62,19 +62,24 @@
 
     .team {
         .team-image {
-            width: 350px;
-            max-width: 350px;
-            min-width: 350px;
-            height: 450px;
-            max-height: 450px;
-            min-height: 450px;
-            object-fit: cover;
-            object-position: center;
-            background-size: cover;
-            background-position: center;
+            img {
+                width: 100%;
+                max-width: 100%;
+                min-width: 100%;
+                height: 250px;
+                min-height: 250px;
+                object-fit: cover;
+                object-position: center;
+                background-size: cover;
+                background-position: center;
+            }
+
         }
         .team-title {
             font-size: 32px;
+        }
+        .team-description {
+            font-size: 24px;
         }
     }
 
