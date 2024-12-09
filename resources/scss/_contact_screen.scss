@@ -1,0 +1,143 @@
+.contact-screen {
+    .background-cover {
+        width: 100%;
+        height: 500px;
+        min-height: 500px;
+        max-height: 500px;
+        object-fit: cover;
+        object-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .large-title {
+        font-size: 75px;
+    }
+    .title {
+        font-size: 32px;
+    }
+    .description {
+        font-size: 24px;
+        &.max-width-70 {
+            max-width: 70%;
+            @media screen and (max-width: 768px) {
+                max-width: 100%;
+            }
+        }
+    }
+    .contact-screen-container {
+        .contact-box {
+            width: 390px;
+            height: 390px;
+
+            &:nth-child(1) {
+                background-color: #FF0066;
+                border-radius: 30% 70% 59% 41% / 54% 30% 70% 46%;
+            }
+            &:nth-child(2) {
+                background-color: #4834D4;
+                border-radius: 22% 78% 44% 56% / 61% 41% 59% 39%;
+            }
+            &:nth-child(3) {
+                background-color: #EE5A24;
+                border-radius: 30% 70% 59% 41% / 54% 30% 70% 46%;
+            }
+        }
+    }
+    .get-in-touch-screen-container {
+        .maps-wrapper {
+            width: 100%;
+            height: 350px !important;
+            .iframe-container {
+                width: 100%;
+                height: 100%;
+                border: none !important;
+            }
+        }
+        .form-control {
+            background-color: #dee2e6 !important;
+            border: 1px solid #dee2e6 !important;
+            transition: 0.3s all ease-in-out;
+
+            &:focus-visible {
+                transition: 0.3s all ease-in-out;
+                box-shadow: 0 0 0 0.25rem rgba(95, 39, 205, 0.25) !important;
+            }
+        }
+        .text-link {
+            color: #5f27cd;
+            transition: 0.3s all ease-in-out;
+
+            &:hover {
+                color: #009432;
+                transition: 0.3s all ease-in-out;
+            }
+        }
+        .btn-theme {
+            background-color: #009432;
+            transition: 0.3s all ease-in-out;
+            color: #FFFFFF;
+            &:hover {
+                background-color: #5f27cd;
+                transition: 0.3s all ease-in-out;
+            }
+        }
+        .form-checkbox[type=checkbox] {
+            position: relative;
+            border: 2px solid var(--bs-secondary);
+            border-radius: 4px;
+            background: none;
+            cursor: pointer;
+            line-height: 0;
+            margin: 0 .6em 0 0;
+            outline: 0;
+            padding: 0 !important;
+            vertical-align: text-top;
+            height: 20px;
+            width: 20px;
+            -webkit-appearance: none;
+            opacity: .5;
+            box-shadow: 0 0 0 0 !important;
+
+            &[type=checkbox]:hover {
+                opacity: 1;
+            }
+
+            &[type=checkbox]:checked {
+                border: 2px solid transparent;
+                background-color: #5f27cd;
+                opacity: 1;
+
+                &[type=checkbox]:before {
+                    content: '';
+                    position: absolute;
+                    right: 50%;
+                    top: 50%;
+                    width: 5px;
+                    border: solid #FFF;
+                    height: 8px;
+                    border-width: 0 2px 2px 0;
+                    margin: 0 -1px 0;
+                    transform: rotate(45deg) translate(-50%, -50%);
+                    z-index: 2;
+                }
+
+            }
+
+            &[type=checkbox]:before {
+                content: '';
+                position: absolute;
+                right: 50%;
+                top: 50%;
+                width: 7px;
+                height: 14px;
+                border: transparent;
+                border-width: 0 2px 2px 0;
+                margin: 0 -1px 0;
+                transform: rotate(45deg) translate(-50%, -50%);
+                z-index: 2;
+            }
+
+        }
+    }
+}

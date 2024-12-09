@@ -4,17 +4,35 @@
             <div class="w-100 d-flex justify-content-between align-items-center">
                 <div class="col-3">
                     <div class="website-name">
-                        <h1 class="m-0"><a href="">Mediprospects</a></h1>
+                        <h1 class="m-0">
+                            <router-link :to="{name: 'Home'}">
+                                Mediprospects
+                            </router-link>
+                        </h1>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="main-menu">
                         <ul>
-                            <li><a class="active" href="">Home</a></li>
-                            <li><a href="">Courses</a></li>
-                            <li><a href="">News & Events</a></li>
-                            <li><a href="">About Us</a></li>
-                            <li><a href="">Contact</a></li>
+                            <li>
+                                <a class="active" href="">Home</a>
+                            </li>
+                            <li>
+                                <a href="">Courses</a>
+                            </li>
+                            <li>
+                                <a href="">News & Events</a>
+                            </li>
+                            <li>
+                                <router-link :to="{name: 'About'}">
+                                    About Us
+                                </router-link>
+                            </li>
+                            <li>
+                                <router-link :to="{name: 'Contact'}">
+                                    Contact
+                                </router-link>
+                            </li>
                         </ul>
                     </div>
                 </div>
