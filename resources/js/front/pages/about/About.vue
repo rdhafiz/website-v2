@@ -8,7 +8,7 @@
                 <a href="javascript:void(0)" class="text-decoration-none text-white text-opacity-25">
                     Home
                 </a>
-                <div> /</div>
+                <div class="text-white"> /</div>
                 <a href="javascript:void(0)" class="text-decoration-none text-white">
                     About us
                 </a>
