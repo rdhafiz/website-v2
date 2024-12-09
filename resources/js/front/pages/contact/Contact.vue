@@ -174,7 +174,7 @@
                             </div>
                             <div class="form-group mb-4">
                                 <label for="agree" class="form-check-label">
-                                    <input type="checkbox" name="agree" id="agree" class="form-check-input me-2" />
+                                    <input type="checkbox" name="agree" id="agree" class="form-checkbox me-2" />
                                     I agree to receive about canonical products and services. By submitting this form, i confirm that i have read and agree to
                                     <a href="javascript:void(0)" class="text-decoration-none text-link">
                                         canonical privacy & policy
