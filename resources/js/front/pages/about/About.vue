@@ -1,6 +1,7 @@
 <template>
+
     <div class="about-screen">
-        <div class="breadcrumb w-100 d-flex justify-content-center align-items-center align-items-center flex-column">
+        <div class="breadcrumb w-100 d-flex justify-content-center align-items-center align-items-center flex-column animate__animated animate__fadeIn">
             <h1 class="text-center text-white">
                 About Us
             </h1>
@@ -17,11 +18,11 @@
 
         <section class="py-5 w-100 about-screen-container bg-white">
             <div class="container">
-                <div class="about-screen-image-relate">
+                <div>
                     <div class="position-relative">
-                        <img :src="'/assets/img/about/background.png'" class="img-fluid object-fit-cover rounded-3"
+                        <img :src="'/assets/img/about/background.png'" class="img-fluid about-screen-image-cover object-fit-cover rounded-3"
                              alt="background"/>
-                        <div class="position-absolute p-5 content-top-right">
+                        <div class="position-absolute content-top-right">
                             <div class="p-5 about-screen-text-container rounded-3">
                                 <div class="text-white mb-3 introduction-title">
                                     Introduction to the centre
@@ -33,7 +34,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-5">
+                    <div class="mt-5 introduction-description max-width-70">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid, assumenda beatae
                         distinctio dolor doloremque earum eligendi esse, est facere, facilis id ipsa ipsam iste
                         laboriosam laborum neque numquam quam recusandae repellat sint tempora totam vel vitae
@@ -75,7 +76,7 @@
 
         <section class="py-5 about-screen-governance">
             <div class="container">
-                <div class="text-small mb-3 text-white-50">
+                <div class="fs-4 mb-3 text-white-50">
                     Governance
                 </div>
                 <div class="governance-title text-white">
@@ -88,10 +89,10 @@
                 </div>
                 <div class="mt-5">
                     <div class="row">
-                        <div class="col-xl-6">
+                        <div class="col-xl-7">
                             <div class="row">
                                 <div class="col-md-6 p-2 h-100">
-                                    <div class="w-100 p-5 bg-white rounded-4">
+                                    <div class="w-100 p-4 bg-white rounded-4">
                                         <div class="mb-3 governance-box-title">
                                             01.
                                         </div>
@@ -101,7 +102,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6 p-2 h-100">
-                                    <div class="w-100 p-5 bg-white rounded-4">
+                                    <div class="w-100 p-4 bg-white rounded-4">
                                         <div class="mb-3 governance-box-title">
                                             02.
                                         </div>
@@ -111,7 +112,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6 p-2 h-100">
-                                    <div class="w-100 p-5 bg-white rounded-4">
+                                    <div class="w-100 p-4 bg-white rounded-4">
                                         <div class="mb-3 governance-box-title">
                                             03.
                                         </div>
@@ -121,7 +122,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6 p-2 h-100">
-                                    <div class="w-100 p-5 bg-white rounded-4">
+                                    <div class="w-100 p-4 bg-white rounded-4">
                                         <div class="mb-3 governance-box-title">
                                             04.
                                         </div>
@@ -132,7 +133,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-6 p-2">
+                        <div class="col-xl-5 p-2">
                             <div class="w-100 p-5 governance-box-container rounded-4 h-100 d-flex justify-content-between align-items-start flex-column">
                                 <div>
                                     <div class="governance-box-text text-white mb-3">
@@ -144,7 +145,7 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="mb-3 text-white-50 governance-box-text">
+                                    <div class="mb-4 text-white-50 governance-box-text">
                                         Vanta maintains <a href="javascript:void(0)" class="text-decoration-none text-white">compliance with </a>
                                     </div>
                                     <div class="d-flex justify-content-around align-items-center flex-wrap gap-3">
@@ -170,6 +171,7 @@
         </section>
 
     </div>
+
 </template>
 <script>
 
