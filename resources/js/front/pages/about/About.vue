@@ -36,36 +36,37 @@
                         <div class="position-absolute content-top-right">
                             <div class="p-5 about-screen-text-container rounded-3">
                                 <div class="text-white mb-3 introduction-title">
-                                    Since 2007, <br> Mediprospects
+                                    Introduction to the centre
                                 </div>
                                 <div class="text-white text-opacity-75 introduction-description">
-                                    has been delivering learning, skills and employability services for vocational sectors: helping Apprentices, Learners, Employers and Employees in developing skills and securing a better, brighter future.
+                                    the centre for advanced welsh and celtic is a dedicated research institute of the
+                                    university of wales, located alongside the national library of wales in haberdashery
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="mt-5 introduction-description max-width-70 animate__animated animate__fadeInLeft">
                         <div class="introduction-title">
-                            The values we believe:
+                            Lorem ipsum dolor sit amet,
                         </div>
                         <ul>
                             <li class="introduction-description">
-                                Respect – respect others, and recognise and value their contribution.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem consequuntur culpa excepturi exercitationem expedita fugiat possimus quam quis repellendus?
                             </li>
                             <li class="introduction-description">
-                                To be accountable – inculcate personal responsibility for the success of our company and ourselves as individuals.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem consequuntur culpa excepturi exercitationem expedita fugiat possimus quam quis repellendus?
                             </li>
                             <li class="introduction-description">
-                                To be inclusive – take into account the different needs, values, beliefs and aspirations of others.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem consequuntur culpa excepturi exercitationem expedita fugiat possimus quam quis repellendus?
                             </li>
                             <li class="introduction-description">
-                                To challenge paradigms – confidently express our opinions while remaining open to the views of others and learn from the process.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem consequuntur culpa excepturi exercitationem expedita fugiat possimus quam quis repellendus?
                             </li>
                             <li class="introduction-description">
-                                To empower – assist others in achieving the best they can be and to realise their potential.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem consequuntur culpa excepturi exercitationem expedita fugiat possimus quam quis repellendus?
                             </li>
                             <li class="introduction-description">
-                                To pursue excellence – share best practice, learn from others, and develop continually.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem consequuntur culpa excepturi exercitationem expedita fugiat possimus quam quis repellendus?
                             </li>
                         </ul>
                     </div>

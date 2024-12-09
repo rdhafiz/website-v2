@@ -23,8 +23,16 @@
                             <li>
                                 <a href="">News & Events</a>
                             </li>
-                            <li><router-link :to="{name: 'About'}">About Us</router-link></li>
-                            <li><router-link :to="{name: 'Contact'}">Contact</router-link></li>
+                            <li>
+                                <router-link :to="{name: 'About'}">
+                                    About Us
+                                </router-link>
+                            </li>
+                            <li>
+                                <router-link :to="{name: 'Contact'}">
+                                    Contact
+                                </router-link>
+                            </li>
                         </ul>
                     </div>
                 </div>
