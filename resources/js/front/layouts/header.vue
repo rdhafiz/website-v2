@@ -25,9 +25,9 @@
                                 </router-link>
                             </li>
                             <li>
-                                <a href="javascript:void(0)">
+                                <router-link :to="{name: 'News'}">
                                     News & Events
-                                </a>
+                                </router-link>
                             </li>
                             <li>
                                 <router-link :to="{name: 'About'}">

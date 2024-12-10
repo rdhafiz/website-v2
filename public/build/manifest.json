@@ -1,12 +1,20 @@
 {
   "resources/js/front/app.js": {
+<<<<<<< HEAD
     "file": "assets/app-CaCNolVP.js",
+=======
+    "file": "assets/app-CtlezEpV.js",
+>>>>>>> 730058c (complete-ui-content-of-news)
     "name": "app",
     "src": "resources/js/front/app.js",
     "isEntry": true
   },
   "resources/scss/app.scss": {
+<<<<<<< HEAD
     "file": "assets/app-BhKTdcZY.css",
+=======
+    "file": "assets/app-BsRUi7N1.css",
+>>>>>>> 730058c (complete-ui-content-of-news)
     "src": "resources/scss/app.scss",
     "isEntry": true
   }
