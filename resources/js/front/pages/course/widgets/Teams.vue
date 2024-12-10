@@ -57,7 +57,7 @@
             <div class="d-inline-block mb-4">
               <div class="team rounded-4 shadow h-100">
                 <div class="overflow-hidden team-image w-100 rounded-4">
-                  <img :src="'/assets/img/team/lisa_ross.jpg'" alt="team">
+                  <img :src="'/assets/img/team/Lisa_Ross.jpg'" alt="team">
                 </div>
                 <div class="p-3">
                   <div class="fw-bold fs-4 text-center">
