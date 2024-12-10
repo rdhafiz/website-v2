@@ -21,7 +21,7 @@ const routes = [
             {path: ROOT_URL + '/contact', name: 'Contact', component: Contact},
             {path: ROOT_URL + '/about', name: 'About', component: About},
             {path: ROOT_URL + '/courses', name: 'Courses', component: Courses},
-            {path: ROOT_URL + '/course/single', name: 'CourseDetails', component: CourseDetails},
+            {path: ROOT_URL + '/course/:slug', name: 'CourseDetails', component: CourseDetails},
         ]
     }
 ];
