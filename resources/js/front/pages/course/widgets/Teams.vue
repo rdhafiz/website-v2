@@ -7,7 +7,7 @@
 
           <div class="team-title mb-3 fw-bold"> Our Team</div>
 
-          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-5">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-5 d-flex justify-content-center">
             <div class="d-inline-block mb-4">
               <div class="team rounded-4 shadow h-100">
                 <div class="overflow-hidden team-image w-100 rounded-4">

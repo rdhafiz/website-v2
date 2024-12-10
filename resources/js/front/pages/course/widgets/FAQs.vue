@@ -247,7 +247,7 @@
                     </h2>
                     <div id="collapseSeventeen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body bg-light border-top px-5">
-                            Absolutely, read more about funding here and guidance here.
+                            Absolutely, read more about funding <a class="text-decoration-none link" href="https://www.gov.uk/disabled-students-allowance-dsa">here</a> and guidance <a class="text-decoration-none link" href="https://www.ucas.com/undergraduate/applying-university/individual-needs/disabled-students">here</a>.
                         </div>
                     </div>
                 </div>
@@ -324,7 +324,7 @@
                         <div class="accordion-body bg-light border-top px-5">
                             We have a one-hour webinar every Wednesday at 6.30pm, during which we give an overview of
                             the course and answer any questions. You can watch the video or read the notes if you can't
-                            make it. Here is the link to book a place.
+                            make it. Here is the <a class="text-decoration-none link" href="https://mediprospects.ac.uk/pre-enrolment-online-events/courses/access-to-he-nursing-midwifery">link</a> to book a place.
                         </div>
                     </div>
                 </div>
@@ -383,7 +383,7 @@
                     </h2>
                     <div id="collapseTwentyFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body bg-light border-top px-5">
-                            Click here to express your interest.
+                            Click <a class="text-decoration-none link" href="https://mediprospects.ac.uk/learner/register-interest">here</a> to express your interest.
                         </div>
                     </div>
                 </div>
