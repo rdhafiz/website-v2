@@ -18,17 +18,17 @@
                             </h1>
                             <ul class="breadcrumb w-100 d-flex justify-content-start align-items-center fs-4 animate__animated animate__fadeInLeft">
                                 <li class="breadcrumb-item">
-                                    <a href="javascript:void(0)" class="text-decoration-none text-white p-0 m-0">
+                                    <router-link :to="{name: 'Home'}" class="text-decoration-none text-white p-0 m-0">
                                         Home
-                                    </a>
+                                    </router-link>
                                 </li>
                                 <li class="text-white mx-3">
                                     /
                                 </li>
                                 <li class="breadcrumb-item">
-                                    <a href="javascript:void(0)" class="text-decoration-none text-white p-0 m-0">
+                                    <router-link :to="{name: 'Courses'}" class="text-decoration-none text-white p-0 m-0">
                                         Course
-                                    </a>
+                                    </router-link>
                                 </li>
                                 <li class="text-white mx-3">
                                     /
