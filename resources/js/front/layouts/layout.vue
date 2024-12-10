@@ -22,6 +22,11 @@ export default {
             preloader.fadeOut()
             app.fadeIn();
         }, 1000)
+    },
+    watch: {
+        '$route.name': (routeName) => {
+            window.scrollTo(0, 0);
+        }
     }
 }
 </script>

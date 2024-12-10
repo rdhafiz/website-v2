@@ -24,7 +24,7 @@
                 <div class="row">
                     <div class="col-lg-3">
 
-                        <div class="w-100" data-aos="fade-up" data-aos-delay="200">
+                        <div class="w-100">
                             <div class="w-100">
                                 <h1 class="fs-1 fw-light text-white">Follow us</h1>
                             </div>
@@ -41,7 +41,7 @@
 
                     </div>
                     <div class="col-lg-5">
-                        <div class="w-100" data-aos="fade-up" data-aos-delay="400">
+                        <div class="w-100">
                             <div class="w-100">
                                 <h1 class="fs-1 fw-light text-white">Mediprospects</h1>
                             </div>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="col-lg-4">
 
-                        <div class="w-100" data-aos="fade-up" data-aos-delay="600">
+                        <div class="w-100">
                             <div class="w-100">
                                 <h1 class="fs-1 fw-light text-white">Quick Links</h1>
                             </div>
@@ -74,7 +74,7 @@
                     </div>
                     <!--                    <div class="col-lg-5">-->
 
-                    <!--                        <div class="w-100" data-aos="fade-up" data-aos-delay="400">-->
+                    <!--                        <div class="w-100">-->
                     <!--                            <div class="w-100">-->
                     <!--                                <h1 class="fs-1 text-white">Awarding Bodies</h1>-->
                     <!--                            </div>-->

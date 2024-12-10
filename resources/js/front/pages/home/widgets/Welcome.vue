@@ -7,7 +7,7 @@
                     <h1 class="text-white h1-lg text-shadow-sm animate__animated animate__fadeInRight" style="animation-delay: 1s">Access to Higher Education</h1>
                     <h2 class="text-white text-shadow-sm animate__animated animate__fadeInRight" style="animation-delay: 1.3s">Step into Higher Learning</h2>
                     <p class="text-white fs-4 text-shadow-sm animate__animated animate__fadeInRight" style="animation-delay: 1.6s">Prepare for university with structured courses designed to build your academic foundation.</p>
-                    <p class=" animate__animated animate__fadeInRight" style="animation-delay: 1.9s"><a href="#access-courses" class="btn btn-lg fw-bold btn-outline-light py-3 px-4"><i class="fas fa-graduation-cap"></i> Explore Access Courses <i class="fas fa-arrow-right ms-3"></i></a></p>
+                    <p class=" animate__animated animate__fadeInRight" style="animation-delay: 1.9s"><router-link :to="{name: 'Courses'}" class="btn btn-lg fw-bold btn-outline-light py-3 px-4"><i class="fas fa-graduation-cap"></i> Explore Access Courses <i class="fas fa-arrow-right ms-3"></i></router-link></p>
                 </div>
             </div>
         </div>

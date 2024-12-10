@@ -25,7 +25,7 @@
                                                     <p class="fs-5 text-center">Prepare for a rewarding career in health professions with foundational knowledge and essential skills.</p>
                                                 </div>
                                                 <div class="w-100">
-                                                    <a class="btn btn-success px-3">More Information <i class="fas fa-arrow-right ms-2"></i></a>
+                                                    <router-link :to="{name: 'CourseDetails', params: { slug: 'access-to-he-health-professions' }}" class="btn btn-success px-3">More Information <i class="fas fa-arrow-right ms-2"></i></router-link>
                                                 </div>
                                             </div>
                                         </div>
@@ -43,7 +43,7 @@
                                                     <p class="fs-5 text-center">Gain the expertise and confidence to pursue a fulfilling career in nursing and midwifery.</p>
                                                 </div>
                                                 <div class="w-100">
-                                                    <a class="btn btn-success px-3">More Information <i class="fas fa-arrow-right ms-2"></i></a>
+                                                    <router-link :to="{name: 'CourseDetails', params:{ slug: 'access-to-he-nursing-&-midwifery'}}" class="btn btn-success px-3">More Information <i class="fas fa-arrow-right ms-2"></i></router-link>
                                                 </div>
                                             </div>
                                         </div>
@@ -61,25 +61,7 @@
                                                     <p class="fs-5 text-center">Develop the skills needed to enter the nursing profession and make a difference every day.</p>
                                                 </div>
                                                 <div class="w-100">
-                                                    <a class="btn btn-success px-3">More Information <i class="fas fa-arrow-right ms-2"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="each-course shadow" data-aos="fade-up" data-aos-delay="800">
-                                    <div class="w-100">
-                                        <div class="w-100">
-                                            <div class="w-100">
-                                                <img class="each-course-img" :src="'/assets/img/access/SupportFund.jpg'" alt="">
-                                            </div>
-                                            <div class="each-course-content p-3">
-                                                <div class="w-100">
-                                                    <h3 class="fw-bold fs-2 text-center mb-3">NHS Learning <br> Support Fund</h3>
-                                                    <p class="fs-5 text-center">Access financial assistance to help you succeed in your healthcare education.</p>
-                                                </div>
-                                                <div class="w-100">
-                                                    <a class="btn btn-success px-3">More Information <i class="fas fa-arrow-right ms-2"></i></a>
+                                                    <router-link :to="{name: 'CourseDetails', params: { slug: 'access-to-he-nursing' }}" class="btn btn-success px-3">More Information <i class="fas fa-arrow-right ms-2"></i></router-link>
                                                 </div>
                                             </div>
                                         </div>
@@ -89,15 +71,15 @@
                                     <div class="w-100">
                                         <div class="w-100">
                                             <div class="w-100">
-                                                <img class="each-course-img" :src="'/assets/img/access/UniversityEntryRequirements.jpg'" alt="">
+                                                <img class="each-course-img" :src="'/assets/img/access/HealthScience.jpg'" alt="">
                                             </div>
                                             <div class="each-course-content p-3">
                                                 <div class="w-100">
-                                                    <h3 class="fw-bold fs-2 text-center mb-3">University <br> Entry Requirements</h3>
+                                                    <h3 class="fw-bold fs-2 text-center mb-3">Access to HE <br> Health Sciences</h3>
                                                     <p class="fs-5 text-center">Understand the requirements and prepare for a seamless transition to university.</p>
                                                 </div>
                                                 <div class="w-100">
-                                                    <a class="btn btn-success px-3">More Information <i class="fas fa-arrow-right ms-2"></i></a>
+                                                    <router-link :to="{name: 'CourseDetails', params: { slug: 'access-to-he-health-science' } }" class="btn btn-success px-3">More Information <i class="fas fa-arrow-right ms-2"></i></router-link>
                                                 </div>
                                             </div>
                                         </div>

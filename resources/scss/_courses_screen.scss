@@ -1,0 +1,31 @@
+.courses-screen {
+    width: 100%;
+
+    .each-data {
+        width: 100%;
+
+        .each-data-overflow {
+            width: 350px;
+            min-width: 350px;
+            max-width: 350px;
+        }
+        .each-data-img {
+            width: 350px;
+            height: 450px;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+        }
+        .btn-theme {
+            background-color: #009432;
+            transition: 0.3s all ease-in-out;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            &:hover {
+                background-color: #5f27cd;
+                transition: 0.3s all ease-in-out;
+            }
+        }
+    }
+
+}
