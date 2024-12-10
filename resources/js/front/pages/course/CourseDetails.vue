@@ -9,34 +9,38 @@
                 <div class="shadow-2"></div>
                 <div class="shadow-3"></div>
             </div>
-            <div class="container">
-                <div class="breadcrumb-left">
-                    <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
-                        Course Details
-                    </h1>
-                    <ul class="breadcrumb w-100 d-flex justify-content-start align-items-center fs-4 animate__animated animate__fadeInLeft">
-                        <li class="breadcrumb-item">
-                            <a href="javascript:void(0)" class="text-decoration-none text-white p-0 m-0">
-                                Home
-                            </a>
-                        </li>
-                        <li class="text-white mx-3">
-                            /
-                        </li>
-                        <li class="breadcrumb-item">
-                            <a href="javascript:void(0)" class="text-decoration-none text-white p-0 m-0">
-                                Course
-                            </a>
-                        </li>
-                        <li class="text-white mx-3">
-                            /
-                        </li>
-                        <li class="breadcrumb-item">
-                            <a href="javascript:void(0)" class="text-decoration-none text-white p-0 m-0">
+            <div class="w-100 px-5">
+                <div class="w-100 px-5">
+                    <div class="container-fluid">
+                        <div class="breadcrumb-left">
+                            <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
                                 Course Details
-                            </a>
-                        </li>
-                    </ul>
+                            </h1>
+                            <ul class="breadcrumb w-100 d-flex justify-content-start align-items-center fs-4 animate__animated animate__fadeInLeft">
+                                <li class="breadcrumb-item">
+                                    <a href="javascript:void(0)" class="text-decoration-none text-white p-0 m-0">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="text-white mx-3">
+                                    /
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="javascript:void(0)" class="text-decoration-none text-white p-0 m-0">
+                                        Course
+                                    </a>
+                                </li>
+                                <li class="text-white mx-3">
+                                    /
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="javascript:void(0)" class="text-decoration-none text-white p-0 m-0">
+                                        Course Details
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
