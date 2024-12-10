@@ -26,7 +26,7 @@ export default {
             AOS.init({
                 duration: 1000
             });
-        }, 7000)
+        }, 500)
     }
 }
 </script>
