@@ -1,5 +1,5 @@
 <template>
-    <div class="header" :class="{'header-light': headerLight === true}">
+    <div class="header header-light" :class="{'header-light': headerLight === true}">
         <div class="container-fluid px-5">
             <div class="w-100 d-flex justify-content-between align-items-center">
                 <div class="col-3">
