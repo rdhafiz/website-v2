@@ -112,44 +112,54 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="mb-2">
-                                    <div class="btn btn-outline-theme w-100 p-3">
-                                        <div class="d-block mb-2 fw-semibold">Psychology (9 Credits)</div>
-                                        <div class="description d-block">
-                                            Introduction to Psychology and Health Psychology
-                                        </div>
-                                    </div>
+                              <div class="mb-2">
+                                <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
+                                  <div class="fs-4 fw-medium">Psychology (9 Credits)</div>
+                                  <div class="fs-6">
+                                    <p>Introduction to Psychology and Health Psychology</p>
+                                  </div>
                                 </div>
-                                <div class="mb-2">
-                                    <div class="btn btn-outline-theme w-100 p-3">
-                                        <div class="d-block mb-2 fw-semibold">Sociology (3 Credits)</div>
-                                        <div class="description d-block">
-                                            Health Inequalities
-                                        </div>
-                                    </div>
+                              </div>
+                              <div class="mb-2">
+                                <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
+                                  <div class="fs-4 fw-medium">Sociology (3 Credits)</div>
+                                  <div class="fs-6">
+                                    <p>Health Inequalities</p>
+                                  </div>
                                 </div>
-                                <div class="mb-2">
-                                    <div class="btn btn-outline-theme w-100 p-3">
-                                        <div class="d-block mb-2 fw-semibold">Health Studies (6 Credits)</div>
-                                        <div class="description d-block">
-                                            *Promoting Health, *Antenatal Care & the Role of the Midwife, *The Role of the
-                                            Midwife During Labour and Birth, *Actions of Medicines on the Human Body, *Social
-                                            Drugs and Medicines
-                                        </div>
-                                    </div>
+                              </div>
+                              <div class="mb-2">
+                                <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
+                                  <div class="fs-4 fw-medium">Health Studies (6 Credits)</div>
+                                  <div class="fs-6">
+                                    <ul class="m-0">
+                                      <li>Promoting Health</li>
+                                      <li>Antenatal Care & the Role of the Midwife</li>
+                                      <li>The Role of the Midwife During Labour and Birth</li>
+                                      <li>Actions of Medicines on the Human Body</li>
+                                      <li>Social Drugs and Medicines</li>
+                                    </ul>
+                                    <p>Health Inequalities</p>
+                                  </div>
                                 </div>
-                                <div class="mb-2">
-                                    <div class="btn btn-outline-theme w-100 p-3">
-                                        <div class="d-block mb-2 fw-semibold">Skills Development (21 Credits)</div>
-                                        <div class="description d-block">
-                                            Academic Writing Skills, Promoting Wellbeing & Building Resilience, Research Skills,
-                                            Numeracy in a Health Context, Professional Behaviour in Nursing and Health
-                                            Professions, Preparation for Higher Education
-                                            <small class="mt-2"> *Learners will be supported to choose from these optional
-                                                units </small>
-                                        </div>
-                                    </div>
+                              </div>
+                              <div class="mb-2">
+                                <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
+                                  <div class="fs-4 fw-medium">Skills Development (21 Credits)</div>
+                                  <div class="fs-6">
+                                    <ul class="m-0">
+                                      <li>Academic Writing Skills</li>
+                                      <li>Promoting Wellbeing & Building Resilience</li>
+                                      <li>Research Skills</li>
+                                      <li>Numeracy in a Health Context</li>
+                                      <li>Professional Behaviour in Nursing and Health Professions</li>
+                                      <li>Preparation for Higher Education</li>
+                                    </ul>
+                                    <p>Learners will be supported to choose from these optional
+                                      units</p>
+                                  </div>
                                 </div>
+                              </div>
                             </div>
                         </div>
                     </div>

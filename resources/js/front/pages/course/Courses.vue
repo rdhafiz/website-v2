@@ -1,6 +1,37 @@
 <template>
 
+  <div class="breadcrumb-content w-100 animate__animated animate__fadeIn" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/breadcrumb.jpg)' }">
+    <div class="breadcrumb-content-left">
+      <span class="shadow-1"></span>
+      <span class="shadow-2"></span>
+      <span class="shadow-3"></span>
+    </div>
+    <div class="container">
+      <div class="breadcrumb-left">
+        <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
+          Courses
+        </h1>
+        <ul class="breadcrumb w-100 d-flex justify-content-start align-items-center fs-4 animate__animated animate__fadeInLeft">
+          <li class="breadcrumb-item">
+            <a href="javascript:void(0)" class="text-decoration-none text-white p-0 m-0">
+              Home
+            </a>
+          </li>
+          <li class="text-white mx-3">
+            /
+          </li>
+          <li class="breadcrumb-item">
+            <a href="javascript:void(0)" class="text-decoration-none text-white p-0 m-0">
+              Courses
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
     <div class="courses-screen py-5">
+
         <div class="container py-5">
 
             <div class="each-data shadow mb-5 overflow-hidden">
