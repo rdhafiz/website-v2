@@ -1,6 +1,10 @@
 {
   "resources/js/front/app.js": {
+<<<<<<< HEAD
     "file": "assets/app-D5raWdhh.js",
+=======
+    "file": "assets/app-CXpAyAGn.js",
+>>>>>>> 6d0972c (quick-update-content)
     "name": "app",
     "src": "resources/js/front/app.js",
     "isEntry": true
