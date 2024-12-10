@@ -9,6 +9,7 @@ import Layout from "../layouts/layout.vue";
 import Home from "../pages/home/Home.vue";
 import Contact from "../pages/contact/Contact.vue";
 import About from "../pages/about/About.vue";
+import Courses from "../pages/course/Courses.vue";
 import CourseDetails from "../pages/course/CourseDetails.vue";
 
 const ROOT_URL = "";
@@ -19,6 +20,7 @@ const routes = [
             {path: ROOT_URL + '', name: 'Home', component: Home},
             {path: ROOT_URL + '/contact', name: 'Contact', component: Contact},
             {path: ROOT_URL + '/about', name: 'About', component: About},
+            {path: ROOT_URL + '/courses', name: 'Courses', component: Courses},
             {path: ROOT_URL + '/course/single', name: 'CourseDetails', component: CourseDetails},
         ]
     }

@@ -2,7 +2,10 @@
 
     <section class="w-100 py-5">
         <div class="container">
-            <div class="row row-cols-1 row-cols-md-2">
+
+            <div class="team-title mb-3 fw-bold"> Our Team </div>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                 <div class="p-3">
                     <div class="team shadow h-100">
                         <div class="overflow-hidden team-image w-100">

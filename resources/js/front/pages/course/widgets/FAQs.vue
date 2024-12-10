@@ -2,6 +2,7 @@
 
     <section class="w-100 py-5">
         <div class="container">
+            <div class="faqs-title mb-3 fw-bold"> Frequently Asking Question </div>
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header">

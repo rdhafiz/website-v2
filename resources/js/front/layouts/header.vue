@@ -15,13 +15,19 @@
                     <div class="main-menu">
                         <ul>
                             <li>
-                                <a class="active" href="">Home</a>
+                                <router-link :to="{name: 'Home'}">
+                                    Home
+                                </router-link>
                             </li>
                             <li>
-                                <a href="">Courses</a>
+                                <router-link :to="{name: 'Courses'}">
+                                    Courses
+                                </router-link>
                             </li>
                             <li>
-                                <a href="">News & Events</a>
+                                <a href="javascript:void(0)">
+                                    News & Events
+                                </a>
                             </li>
                             <li>
                                 <router-link :to="{name: 'About'}">
