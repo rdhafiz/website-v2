@@ -26,7 +26,8 @@
                         <br>
                         <ul>
                             <li>
-                                Evening: Tuesday and Thursday 6.30 – 9.30pm from the 25th of February to the 27th November 2025
+                                Evening: Tuesday and Thursday 6.30 – 9.30pm from the 25th of February to the 27th
+                                November 2025
                             </li>
                             <li>
                                 Weekday: Tuesday 9.30am – 4pm from the 25th of February to the 2nd December 2025
@@ -66,7 +67,8 @@
                     </div>
                     <br>
                     <div class="course-details-description">
-                        Level 2 English (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
+                        Level 2 English (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2,
+                        Adult Literacy Level 2)
                     </div>
                     <br>
                     <div class="course-details-title fw-semibold">
@@ -86,15 +88,16 @@
                     <div>
                         <div class="mb-2">
                             <div class="btn btn-outline-theme w-100 px-3 py-2">
-                                <div class="d-block mb-2 fw-semibold">Biology (21 Credits) </div>
+                                <div class="d-block mb-2 fw-semibold">Biology (21 Credits)</div>
                                 <div class="description d-block">
-                                    Cells and Tissues, Human Anatomy & Physiology, Human Reproduction & Health Related Issues, Homeostasis, Introduction to Health & Disease
+                                    Cells and Tissues, Human Anatomy & Physiology, Human Reproduction & Health Related
+                                    Issues, Homeostasis, Introduction to Health & Disease
                                 </div>
                             </div>
                         </div>
                         <div class="mb-2">
                             <div class="btn btn-outline-theme w-100 p-3">
-                                <div class="d-block mb-2 fw-semibold">Psychology (9 Credits) </div>
+                                <div class="d-block mb-2 fw-semibold">Psychology (9 Credits)</div>
                                 <div class="description d-block">
                                     Introduction to Psychology and Health Psychology
                                 </div>
@@ -102,7 +105,7 @@
                         </div>
                         <div class="mb-2">
                             <div class="btn btn-outline-theme w-100 p-3">
-                                <div class="d-block mb-2 fw-semibold">Sociology (3 Credits) </div>
+                                <div class="d-block mb-2 fw-semibold">Sociology (3 Credits)</div>
                                 <div class="description d-block">
                                     Health Inequalities
                                 </div>
@@ -110,18 +113,21 @@
                         </div>
                         <div class="mb-2">
                             <div class="btn btn-outline-theme w-100 p-3">
-                                <div class="d-block mb-2 fw-semibold">Health Studies (6 Credits) </div>
+                                <div class="d-block mb-2 fw-semibold">Health Studies (6 Credits)</div>
                                 <div class="description d-block">
-                                    Promoting Health, Actions of Medicines  on the Human Body, Social Drugs and Medicines
+                                    Promoting Health, Actions of Medicines on the Human Body, Social Drugs and Medicines
                                 </div>
                             </div>
                         </div>
                         <div class="mb-2">
                             <div class="btn btn-outline-theme w-100 p-3">
-                                <div class="d-block mb-2 fw-semibold">Skills Development (21 Credits) </div>
+                                <div class="d-block mb-2 fw-semibold">Skills Development (21 Credits)</div>
                                 <div class="description d-block">
-                                    Academic Writing Skills, Promoting Wellbeing & Building Resilience, Research Skills, Numeracy in a Health Context, Professional Behaviour in Nursing and Health Professions, Preparation for Higher Education
-                                    <small class="mt-2"> *Learners will be supported to choose from these optional units </small>
+                                    Academic Writing Skills, Promoting Wellbeing & Building Resilience, Research Skills,
+                                    Numeracy in a Health Context, Professional Behaviour in Nursing and Health
+                                    Professions, Preparation for Higher Education
+                                    <small class="mt-2"> *Learners will be supported to choose from these optional
+                                        units </small>
                                 </div>
                             </div>
                         </div>
@@ -134,7 +140,8 @@
                     </div>
                     <br>
                     <div class="course-details-description">
-                        There are over 350 career opportunities in the NHS, including Paramedic, Speech and Language Therapist, and Dentistry. Explore your opportunities here:
+                        There are over 350 career opportunities in the NHS, including Paramedic, Speech and Language
+                        Therapist, and Dentistry. Explore your opportunities here:
                         <a href="https://www.healthcareers.nhs.uk" class="text-decoration-none text-link">www.healthcareers.nhs.uk</a>
                     </div>
                 </div>
@@ -147,17 +154,13 @@
 <script>
 
 export default {
-    data(){
-        return {
-
-        }
+    data() {
+        return {}
     },
     mounted() {
 
     },
-    methods: {
-
-    }
+    methods: {}
 }
 
 </script>

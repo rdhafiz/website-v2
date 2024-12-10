@@ -6,7 +6,8 @@
             <div class="each-data shadow mb-5 overflow-hidden">
                 <div class="w-100 d-flex justify-content-start align-items-start border-bottom">
                     <div class="overflow-hidden each-data-overflow">
-                        <img class="each-data-img" :src="'/assets/img/access/NursingMidwifery.jpg'" alt="NursingMidwifery">
+                        <img class="each-data-img" :src="'/assets/img/access/NursingMidwifery.jpg'"
+                             alt="NursingMidwifery">
                     </div>
                     <div class="h-100 p-4">
                         <div class="w-100 mb-4">
@@ -20,19 +21,19 @@
                         </div>
                         <div class="w-100 d-flex justify-content-between align-items-center mb-2">
                             <div class="w-100 p-3 border border-secondary border-opacity-25">
-                                <div class="w-100 mb-2"> <span class="badge bg-primary fs-6">Evening</span> </div>
-                                <div class="w-100"> <span class="fs-6">Tuesday and Thursday 6.30pm – 9.30pm</span> </div>
-                                <div class="w-100"> <span class="fs-6">25th of Feb -- 27th Nov 2025</span> </div>
+                                <div class="w-100 mb-2"><span class="badge bg-primary fs-6">Evening</span></div>
+                                <div class="w-100"><span class="fs-6">Tuesday and Thursday 6.30pm – 9.30pm</span></div>
+                                <div class="w-100"><span class="fs-6">25th of Feb -- 27th Nov 2025</span></div>
                             </div>
                             <div class="w-100 p-3 border border-secondary border-opacity-25 mx-2">
-                                <div class="w-100 mb-2"> <span class="badge bg-primary fs-6">Weekday</span> </div>
-                                <div class="w-100"> <span class="fs-6">Tuesday 9.30am – 4pm</span> </div>
-                                <div class="w-100"> <span class="fs-6">25th of Feb -- 2nd Dec 2025</span> </div>
+                                <div class="w-100 mb-2"><span class="badge bg-primary fs-6">Weekday</span></div>
+                                <div class="w-100"><span class="fs-6">Tuesday 9.30am – 4pm</span></div>
+                                <div class="w-100"><span class="fs-6">25th of Feb -- 2nd Dec 2025</span></div>
                             </div>
                             <div class="w-100 p-3 border border-secondary border-opacity-25">
-                                <div class="w-100 mb-2"> <span class="badge bg-primary fs-6">Saturday</span> </div>
-                                <div class="w-100"> <span class="fs-6">Saturday 9.30am – 4pm</span></div>
-                                <div class="w-100"> <span class="fs-6">29th Mar -- 10th of Jan 2026</span></div>
+                                <div class="w-100 mb-2"><span class="badge bg-primary fs-6">Saturday</span></div>
+                                <div class="w-100"><span class="fs-6">Saturday 9.30am – 4pm</span></div>
+                                <div class="w-100"><span class="fs-6">29th Mar -- 10th of Jan 2026</span></div>
                             </div>
                         </div>
                         <div class="w-100 mb-2">
@@ -40,7 +41,8 @@
                                 <h4 class="m-0 d-inline-block">Location</h4>
                                 <div class="fs-5">Online Via Microsoft Teams</div>
                                 <div class="w-100">
-                                    You will be issued with a Mediprospects Office 365 account, Live online lessons delivered by subject specialists six hours per week term time only
+                                    You will be issued with a Mediprospects Office 365 account, Live online lessons
+                                    delivered by subject specialists six hours per week term time only
                                 </div>
                             </div>
                         </div>
@@ -50,9 +52,9 @@
                             </h4>
                         </div>
                         <ul class="mb-2">
-                            <li class="fs-6 mb-2"> English level 2 </li>
-                            <li class="fs-6 mb-2"> Adult Literacy level 2 </li>
-                            <li class="fs-6 mb-2"> GCSE Grade C/4 or above </li>
+                            <li class="fs-6 mb-2"> English level 2</li>
+                            <li class="fs-6 mb-2"> Adult Literacy level 2</li>
+                            <li class="fs-6 mb-2"> GCSE Grade C/4 or above</li>
                         </ul>
                         <div class="w-100 mb-2">
                             <div class="w-100">
@@ -63,7 +65,8 @@
                     </div>
                 </div>
                 <div class="w-100 d-flex justify-content-end align-items-center p-3">
-                    <router-link :to="{name: 'CourseDetails', params:{ slug: 'access-to-he-nursing-&-midwifery'}}" class="btn btn-theme">
+                    <router-link :to="{name: 'CourseDetails', params:{ slug: 'access-to-he-nursing-&-midwifery'}}"
+                                 class="btn btn-theme">
                         View course <i class="fas fa-arrow-right ms-2"></i>
                     </router-link>
                 </div>
@@ -72,7 +75,8 @@
             <div class="each-data shadow mb-5 overflow-hidden">
                 <div class="w-100 d-flex justify-content-start align-items-start border-bottom">
                     <div class="overflow-hidden each-data-overflow">
-                        <img class="each-data-img" :src="'/assets/img/access/HealthProfessions.jpg'" alt="HealthProfessions">
+                        <img class="each-data-img" :src="'/assets/img/access/HealthProfessions.jpg'"
+                             alt="HealthProfessions">
                     </div>
                     <div class="h-100 p-4">
                         <div class="w-100 mb-4">
@@ -86,19 +90,19 @@
                         </div>
                         <div class="w-100 d-flex justify-content-between align-items-center mb-2">
                             <div class="w-100 p-3 border border-secondary border-opacity-25">
-                                <div class="w-100 mb-2"> <span class="badge bg-primary fs-6">Evening</span> </div>
-                                <div class="w-100"> <span class="fs-6">Tuesday and Thursday 6.30pm – 9.30pm</span> </div>
-                                <div class="w-100"> <span class="fs-6">25th of Feb -- 27th Nov 2025</span> </div>
+                                <div class="w-100 mb-2"><span class="badge bg-primary fs-6">Evening</span></div>
+                                <div class="w-100"><span class="fs-6">Tuesday and Thursday 6.30pm – 9.30pm</span></div>
+                                <div class="w-100"><span class="fs-6">25th of Feb -- 27th Nov 2025</span></div>
                             </div>
                             <div class="w-100 p-3 border border-secondary border-opacity-25 mx-2">
-                                <div class="w-100 mb-2"> <span class="badge bg-primary fs-6">Weekday</span> </div>
-                                <div class="w-100"> <span class="fs-6">Tuesday 9.30am – 4pm</span> </div>
-                                <div class="w-100"> <span class="fs-6">25th of Feb -- 2nd Dec 2025</span> </div>
+                                <div class="w-100 mb-2"><span class="badge bg-primary fs-6">Weekday</span></div>
+                                <div class="w-100"><span class="fs-6">Tuesday 9.30am – 4pm</span></div>
+                                <div class="w-100"><span class="fs-6">25th of Feb -- 2nd Dec 2025</span></div>
                             </div>
                             <div class="w-100 p-3 border border-secondary border-opacity-25">
-                                <div class="w-100 mb-2"> <span class="badge bg-primary fs-6">Saturday</span> </div>
-                                <div class="w-100"> <span class="fs-6">Saturday 9.30am – 4pm</span></div>
-                                <div class="w-100"> <span class="fs-6">29th Mar -- 10th of Jan 2026</span></div>
+                                <div class="w-100 mb-2"><span class="badge bg-primary fs-6">Saturday</span></div>
+                                <div class="w-100"><span class="fs-6">Saturday 9.30am – 4pm</span></div>
+                                <div class="w-100"><span class="fs-6">29th Mar -- 10th of Jan 2026</span></div>
                             </div>
                         </div>
                         <div class="w-100 mb-2">
@@ -106,7 +110,8 @@
                                 <h4 class="m-0 d-inline-block">Location</h4>
                                 <div class="fs-5">Online Via Microsoft Teams</div>
                                 <div class="w-100">
-                                    You will be issued with a Mediprospects Office 365 account, Live online lessons delivered by subject specialists six hours per week term time only
+                                    You will be issued with a Mediprospects Office 365 account, Live online lessons
+                                    delivered by subject specialists six hours per week term time only
                                 </div>
                             </div>
                         </div>
@@ -116,9 +121,9 @@
                             </h4>
                         </div>
                         <ul class="mb-2">
-                            <li class="fs-6 mb-2"> English level 2 </li>
-                            <li class="fs-6 mb-2"> Adult Literacy level 2 </li>
-                            <li class="fs-6 mb-2"> GCSE Grade C/4 or above </li>
+                            <li class="fs-6 mb-2"> English level 2</li>
+                            <li class="fs-6 mb-2"> Adult Literacy level 2</li>
+                            <li class="fs-6 mb-2"> GCSE Grade C/4 or above</li>
                         </ul>
                         <div class="w-100 mb-2">
                             <div class="w-100">
@@ -129,7 +134,8 @@
                     </div>
                 </div>
                 <div class="w-100 d-flex justify-content-end align-items-center p-3">
-                    <router-link :to="{name: 'CourseDetails', params: { slug: 'access-to-he-health-professions' }}" class="btn btn-theme">
+                    <router-link :to="{name: 'CourseDetails', params: { slug: 'access-to-he-health-professions' }}"
+                                 class="btn btn-theme">
                         View course <i class="fas fa-arrow-right ms-2"></i>
                     </router-link>
                 </div>
@@ -152,19 +158,19 @@
                         </div>
                         <div class="w-100 d-flex justify-content-between align-items-center mb-2">
                             <div class="w-100 p-3 border border-secondary border-opacity-25">
-                                <div class="w-100 mb-2"> <span class="badge bg-primary fs-6">Evening</span> </div>
-                                <div class="w-100"> <span class="fs-6">Tuesday and Thursday 6.30pm – 9.30pm</span> </div>
-                                <div class="w-100"> <span class="fs-6">25th of Feb -- 27th Nov 2025</span> </div>
+                                <div class="w-100 mb-2"><span class="badge bg-primary fs-6">Evening</span></div>
+                                <div class="w-100"><span class="fs-6">Tuesday and Thursday 6.30pm – 9.30pm</span></div>
+                                <div class="w-100"><span class="fs-6">25th of Feb -- 27th Nov 2025</span></div>
                             </div>
                             <div class="w-100 p-3 border border-secondary border-opacity-25 mx-2">
-                                <div class="w-100 mb-2"> <span class="badge bg-primary fs-6">Weekday</span> </div>
-                                <div class="w-100"> <span class="fs-6">Tuesday 9.30am – 4pm</span> </div>
-                                <div class="w-100"> <span class="fs-6">25th of Feb -- 2nd Dec 2025</span> </div>
+                                <div class="w-100 mb-2"><span class="badge bg-primary fs-6">Weekday</span></div>
+                                <div class="w-100"><span class="fs-6">Tuesday 9.30am – 4pm</span></div>
+                                <div class="w-100"><span class="fs-6">25th of Feb -- 2nd Dec 2025</span></div>
                             </div>
                             <div class="w-100 p-3 border border-secondary border-opacity-25">
-                                <div class="w-100 mb-2"> <span class="badge bg-primary fs-6">Saturday</span> </div>
-                                <div class="w-100"> <span class="fs-6">Saturday 9.30am – 4pm</span></div>
-                                <div class="w-100"> <span class="fs-6">29th Mar -- 10th of Jan 2026</span></div>
+                                <div class="w-100 mb-2"><span class="badge bg-primary fs-6">Saturday</span></div>
+                                <div class="w-100"><span class="fs-6">Saturday 9.30am – 4pm</span></div>
+                                <div class="w-100"><span class="fs-6">29th Mar -- 10th of Jan 2026</span></div>
                             </div>
                         </div>
                         <div class="w-100 mb-2">
@@ -172,7 +178,8 @@
                                 <h4 class="m-0 d-inline-block">Location</h4>
                                 <div class="fs-5">Online Via Microsoft Teams</div>
                                 <div class="w-100">
-                                    You will be issued with a Mediprospects Office 365 account, Live online lessons delivered by subject specialists six hours per week term time only
+                                    You will be issued with a Mediprospects Office 365 account, Live online lessons
+                                    delivered by subject specialists six hours per week term time only
                                 </div>
                             </div>
                         </div>
@@ -182,9 +189,9 @@
                             </h4>
                         </div>
                         <ul class="mb-2">
-                            <li class="fs-6 mb-2"> English level 2 </li>
-                            <li class="fs-6 mb-2"> Adult Literacy level 2 </li>
-                            <li class="fs-6 mb-2"> GCSE Grade C/4 or above </li>
+                            <li class="fs-6 mb-2"> English level 2</li>
+                            <li class="fs-6 mb-2"> Adult Literacy level 2</li>
+                            <li class="fs-6 mb-2"> GCSE Grade C/4 or above</li>
                         </ul>
                         <div class="w-100 mb-2">
                             <div class="w-100">
@@ -195,7 +202,8 @@
                     </div>
                 </div>
                 <div class="w-100 d-flex justify-content-end align-items-center p-3">
-                    <router-link :to="{name: 'CourseDetails', params: { slug: 'access-to-he-nursing' }}" class="btn btn-theme">
+                    <router-link :to="{name: 'CourseDetails', params: { slug: 'access-to-he-nursing' }}"
+                                 class="btn btn-theme">
                         View course <i class="fas fa-arrow-right ms-2"></i>
                     </router-link>
                 </div>
@@ -218,9 +226,10 @@
                         </div>
                         <div class="w-100 mb-2">
                             <div class="w-100 p-3 border border-secondary border-opacity-25">
-                                <div class="w-100 mb-2"> <span class="badge bg-primary fs-6">Evening</span> </div>
-                                <div class="w-100"> <span class="fs-6">Tuesdays and Thursdays 6.30pm – 9.30pm</span> </div>
-                                <div class="w-100"> <span class="fs-6">25th of Feb to the 27th Nov 2025</span> </div>
+                                <div class="w-100 mb-2"><span class="badge bg-primary fs-6">Evening</span></div>
+                                <div class="w-100"><span class="fs-6">Tuesdays and Thursdays 6.30pm – 9.30pm</span>
+                                </div>
+                                <div class="w-100"><span class="fs-6">25th of Feb to the 27th Nov 2025</span></div>
                             </div>
                         </div>
                         <div class="w-100 mb-2">
@@ -228,7 +237,8 @@
                                 <h4 class="m-0 d-inline-block">Location</h4>
                                 <div class="fs-5">Online Via Microsoft Teams</div>
                                 <div class="w-100">
-                                    You will be issued with a Mediprospects Office 365 account, Live online lessons delivered by subject specialists six hours per week term time only
+                                    You will be issued with a Mediprospects Office 365 account, Live online lessons
+                                    delivered by subject specialists six hours per week term time only
                                 </div>
                             </div>
                         </div>
@@ -238,9 +248,9 @@
                             </h4>
                         </div>
                         <ul class="mb-2">
-                            <li class="fs-6 mb-2"> English level 2 </li>
-                            <li class="fs-6 mb-2"> Adult Literacy level 2 </li>
-                            <li class="fs-6 mb-2"> GCSE Grade C/4 or above </li>
+                            <li class="fs-6 mb-2"> English level 2</li>
+                            <li class="fs-6 mb-2"> Adult Literacy level 2</li>
+                            <li class="fs-6 mb-2"> GCSE Grade C/4 or above</li>
                         </ul>
                         <div class="w-100 mb-2">
                             <div class="w-100">
@@ -251,7 +261,8 @@
                     </div>
                 </div>
                 <div class="w-100 d-flex justify-content-end align-items-center p-3">
-                    <router-link :to="{name: 'CourseDetails', params: { slug: 'access-to-he-health-science' } }" class="btn btn-theme">
+                    <router-link :to="{name: 'CourseDetails', params: { slug: 'access-to-he-health-science' } }"
+                                 class="btn btn-theme">
                         View course <i class="fas fa-arrow-right ms-2"></i>
                     </router-link>
                 </div>
@@ -265,17 +276,13 @@
 <script>
 
 export default {
-    data(){
-        return {
-
-        }
+    data() {
+        return {}
     },
     mounted() {
 
     },
-    methods: {
-
-    }
+    methods: {}
 }
 
 </script>

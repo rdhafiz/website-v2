@@ -26,7 +26,8 @@
                         <br>
                         <ul>
                             <li>
-                                Evening: Tuesday and Thursday 6.30 – 9.30pm from the 25th of February to the 27th November 2025
+                                Evening: Tuesday and Thursday 6.30 – 9.30pm from the 25th of February to the 27th
+                                November 2025
                             </li>
                             <li>
                                 Weekday: Tuesday 9.30am – 4pm from the 25th of February to the 2nd December 2025
@@ -67,9 +68,9 @@
                     <br>
                     <div class="course-details-description">
                         <ul>
-                            <li> Level 2 English </li>
-                            <li> GCSE Grade C/4 or above </li>
-                            <li> Adult Literacy Level 2 </li>
+                            <li> Level 2 English</li>
+                            <li> GCSE Grade C/4 or above</li>
+                            <li> Adult Literacy Level 2</li>
                         </ul>
                     </div>
                     <br>
@@ -92,7 +93,10 @@
                             <div class="btn btn-outline-theme w-100 px-3 py-2">
                                 <div class="d-block mb-2 fw-semibold">Biology (21 Credits)</div>
                                 <div class="description d-block">
-                                    Cells and Tissues, Human Anatomy & Physiology, *The Endocrine System, Human Reproduction & Health Related Issues, Homeostasis, Introduction to Health and Disease (We can offer an additional three credit unit for learners needing 24 credits)
+                                    Cells and Tissues, Human Anatomy & Physiology, *The Endocrine System, Human
+                                    Reproduction & Health Related Issues, Homeostasis, Introduction to Health and
+                                    Disease (We can offer an additional three credit unit for learners needing 24
+                                    credits)
                                 </div>
                             </div>
                         </div>
@@ -116,7 +120,9 @@
                             <div class="btn btn-outline-theme w-100 p-3">
                                 <div class="d-block mb-2 fw-semibold">Health Studies (6 Credits)</div>
                                 <div class="description d-block">
-                                    *Promoting Health, *Antenatal Care & the Role of the Midwife, *The Role of the Midwife During Labour and Birth, *Actions of Medicines  on the Human Body, *Social Drugs and Medicines
+                                    *Promoting Health, *Antenatal Care & the Role of the Midwife, *The Role of the
+                                    Midwife During Labour and Birth, *Actions of Medicines on the Human Body, *Social
+                                    Drugs and Medicines
                                 </div>
                             </div>
                         </div>
@@ -124,8 +130,11 @@
                             <div class="btn btn-outline-theme w-100 p-3">
                                 <div class="d-block mb-2 fw-semibold">Skills Development (21 Credits)</div>
                                 <div class="description d-block">
-                                    Academic Writing Skills, Promoting Wellbeing & Building Resilience, Research Skills, Numeracy in a Health Context, Professional Behaviour in Nursing and Health Professions, Preparation for Higher Education
-                                    <small class="mt-2"> *Learners will be supported to choose from these optional units </small>
+                                    Academic Writing Skills, Promoting Wellbeing & Building Resilience, Research Skills,
+                                    Numeracy in a Health Context, Professional Behaviour in Nursing and Health
+                                    Professions, Preparation for Higher Education
+                                    <small class="mt-2"> *Learners will be supported to choose from these optional
+                                        units </small>
                                 </div>
                             </div>
                         </div>
@@ -138,14 +147,21 @@
                     </div>
                     <br>
                     <div class="course-details-description">
-                        Midwives provide care and support to women and their families while pregnant, throughout labour and during the period after a baby’s birth.
+                        Midwives provide care and support to women and their families while pregnant, throughout labour
+                        and during the period after a baby’s birth.
                         <br>
-                        You’ll mainly work with pregnant women who require professional support and advice. You will likely be a woman's lead health professional and contact, providing evidence-based information and helping her make informed choices about the options and services available throughout her pregnancy.
+                        You’ll mainly work with pregnant women who require professional support and advice. You will
+                        likely be a woman's lead health professional and contact, providing evidence-based information
+                        and helping her make informed choices about the options and services available throughout her
+                        pregnancy.
                         <br>
-                        You’ll be the expert on childbirth, and your responsibilities will likely be diverse. You’ll provide:
+                        You’ll be the expert on childbirth, and your responsibilities will likely be diverse. You’ll
+                        provide:
                         <br>
                         <ul>
-                            <li>provide full antenatal care, including parenting classes, clinical examinations and screening</li>
+                            <li>provide full antenatal care, including parenting classes, clinical examinations and
+                                screening
+                            </li>
                             <li>identify high-risk pregnancies</li>
                             <li>monitor women and support them during labour and the birthing process</li>
                             <li>teach new and expectant mothers how to feed, care for and bathe their babies</li>
@@ -161,17 +177,13 @@
 <script>
 
 export default {
-    data(){
-        return {
-
-        }
+    data() {
+        return {}
     },
     mounted() {
 
     },
-    methods: {
-
-    }
+    methods: {}
 }
 
 </script>

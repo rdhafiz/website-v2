@@ -2,7 +2,8 @@
 
     <div class="course-details-screen">
 
-        <div class="breadcrumb-content w-100 animate__animated animate__fadeIn" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/breadcrumb.jpg)' }">
+        <div class="breadcrumb-content w-100 animate__animated animate__fadeIn"
+             :style="{ backgroundImage: 'url(/assets/img/breadcrumb/breadcrumb.jpg)' }">
             <div class="breadcrumb-content-left">
                 <div class="shadow-1"></div>
                 <div class="shadow-2"></div>
@@ -72,29 +73,27 @@ import AccessToHeNursing from "./widgets/access-to-he-nursing.vue";
 import AccessToHeHealthScience from "./widgets/access-to-he-health-science.vue";
 import Teams from "./widgets/Teams.vue";
 import FAQs from "./widgets/FAQs.vue";
-import { useRoute } from "vue-router";
+import {useRoute} from "vue-router";
 
 export default {
     components: {
         Teams, FAQs, AccessToHeNursingMidWifery, AccessToHeHealthProfessions, AccessToHeNursing, AccessToHeHealthScience
     },
-    data(){
+    data() {
         return {
             routeName: '',
         }
     },
     mounted() {
         const route = useRoute();
-        if(route.params.slug) {
+        if (route.params.slug) {
             this.routeName = route.params.slug;
             console.log(this.routeName);
         } else {
-            this.$router.push({name:'Courses'});
+            this.$router.push({name: 'Courses'});
         }
     },
-    methods: {
-
-    }
+    methods: {}
 }
 
 </script>
