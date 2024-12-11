@@ -111,7 +111,7 @@
                                 </label>
                             </div>
                             <div class="w-100">
-                                <button type="submit" class="btn btn-theme px-4 py-2">
+                                <button type="submit" class="btn btn-primary px-4 py-2">
                                     Submit
                                 </button>
                             </div>

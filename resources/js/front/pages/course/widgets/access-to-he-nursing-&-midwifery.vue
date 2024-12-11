@@ -7,7 +7,7 @@
                     <div class="course-details-title mb-3 fw-bold">
                         Access to HE: Nursing & Midwifery
                     </div>
-                    <a href="javascript:void(0)" class="btn btn-theme px-5 py-3">
+                    <a href="javascript:void(0)" class="btn btn-primary px-5 py-3">
                         Apply now
                     </a>
                 </div>

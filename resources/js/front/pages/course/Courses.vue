@@ -99,7 +99,7 @@
 
                             <div class="w-100 text-end">
                                 <router-link :to="{name: 'CourseDetails', params:{ slug: 'access-to-he-nursing-&-midwifery'}}"
-                                             class="btn btn-sm btn-theme mt-3">
+                                             class="btn btn-sm btn-primary mt-3">
                                     View course <i class="fas fa-arrow-right ms-2"></i>
                                 </router-link>
                             </div>
@@ -170,7 +170,7 @@
 
                             <div class="w-100 text-end">
                                 <router-link :to="{name: 'CourseDetails', params:{ slug: 'access-to-he-health-professions'}}"
-                                             class="btn btn-sm btn-theme mt-3">
+                                             class="btn btn-sm btn-primary mt-3">
                                     View course <i class="fas fa-arrow-right ms-2"></i>
                                 </router-link>
                             </div>
@@ -241,7 +241,7 @@
 
                             <div class="w-100 text-end">
                                 <router-link :to="{name: 'CourseDetails', params:{ slug: 'access-to-he-nursing'}}"
-                                             class="btn btn-sm btn-theme mt-3">
+                                             class="btn btn-sm btn-primary mt-3">
                                     View course <i class="fas fa-arrow-right ms-2"></i>
                                 </router-link>
                             </div>
@@ -312,7 +312,7 @@
 
                             <div class="w-100 text-end">
                                 <router-link :to="{name: 'CourseDetails', params:{ slug: 'access-to-he-health-science'}}"
-                                             class="btn btn-sm btn-theme mt-3">
+                                             class="btn btn-sm btn-primary mt-3">
                                     View course <i class="fas fa-arrow-right ms-2"></i>
                                 </router-link>
                             </div>

@@ -1,19 +1,12 @@
 .course-details-screen {
 
     .course-details-cover {
-        background-color: rgba(95, 39, 205, 0.20);
+        background-color: rgba(36, 145, 235, 0.2);
         .course-details-title {
             font-size: 74px;
         }
-        .btn-theme {
-            background-color: #5f27cd !important;
-            transition: 0.3s all ease-in-out !important;
-            color: #ffffff !important;
-            font-size: 24px;
-            &:hover {
-                background-color: #009432 !important;
-                transition: 0.3s all ease-in-out !important;
-            }
+        .btn-primary {
+            font-size: 24px !important;
         }
     }
 
