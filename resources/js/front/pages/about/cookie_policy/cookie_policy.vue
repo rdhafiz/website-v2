@@ -1,6 +1,6 @@
 <template>
 
-    <div class="breadcrumb-content w-100 animate__animated animate__fadeIn" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/breadcrumb.jpg)' }">
+    <div class="breadcrumb-content w-100 animate__animated animate__fadeIn" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/breadcrumb-6.jpg)' }">
         <div class="breadcrumb-content-left">
             <span class="shadow-1"></span>
             <span class="shadow-2"></span>
