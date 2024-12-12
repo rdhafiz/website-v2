@@ -1,12 +1,9 @@
 <template>
     <div class="w-100">
-
         <Welcome/>
         <HECourses/>
         <Awards/>
         <Features/>
-
-
     </div>
 </template>
 <script>

@@ -1,5 +1,5 @@
 <template>
-    <div class="header" :class="{'header-light': headerLight === true || $route.name === 'Contact' || $route.name === 'About' || $route.name === 'Courses' || $route.name === 'CourseDetails' || $route.name === 'News'}">
+    <div class="header" :class="{'header-light': isHeaderLight }">
         <div class="container-fluid px-5">
             <div class="w-100 d-flex justify-content-between align-items-center">
                 <div class="col-3">
@@ -39,13 +39,17 @@
                                     Contact
                                 </router-link>
                             </li>
+                            <li>
+                                <router-link :to="{name: 'Excellence'}">
+                                    Excellence
+                                </router-link>
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-3">
                     <div class="header-action">
-                        <a class="btn btn-primary px-4 rounded-pill btn-lg me-3 shadow">Login</a>
-                        <a class="btn btn-warning px-4 btn-lg rounded-pill shadow" href="">Apply Now</a>
+                        <a class="btn btn-theme px-4 btn-lg rounded-pill shadow" href="javascript:void(0)">Apply Now</a>
                     </div>
                 </div>
             </div>
@@ -55,6 +59,14 @@
 <script>
 
 export default {
+    computed: {
+        isHeaderLight() {
+            const lightRoutes = [
+                'Contact', 'About', 'Courses', 'CourseDetails', 'News', 'Excellence', 'PrivacyPolicy', 'TermsOfUse', 'CookiePolicy', 'SafeGuardingPolicy'
+            ];
+            return this.headerLight === true || lightRoutes.includes(this.$route.name)
+        }
+    },
     data() {
         return {
             headerLight: false

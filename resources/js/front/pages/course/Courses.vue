@@ -39,79 +39,12 @@
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
                 <div class="w-100 d-flex justify-content-start align-items-start border-bottom">
                     <div class="h-100">
-                        <img class="each-data-img" :src="'/assets/img/access/NursingMidwifery.jpg'" alt="NursingMidwifery">
-                    </div>
-                    <div class="h-100 p-4">
-                        <div class="w-100">
-                            <div class="w-100 mb-4">
-                                <h2>Access to HE: Nursing & Midwifery</h2>
-                            </div>
-
-                            <div class="w-100 d-flex justify-content-between mt-2">
-                                <div style="width: 150px">
-                                    <strong class="fs-5">Courses:</strong>
-                                </div>
-                                <div class="w-100 ps-3">
-                                    <span class="fs-5">3 Courses starting Spring 2025</span>
-                                </div>
-                            </div>
-                            <div class="w-100 d-flex justify-content-between mt-2">
-                                <div style="width: 150px">
-                                    <strong class="fs-5">Location:</strong>
-                                </div>
-                                <div class="w-100 ps-3">
-                                    <strong class="p-0 fs-5">Online Via Microsoft Teams</strong><br>
-                                    <span class="p-0 fs-6">
-                                            You will be issued with a Mediprospects Office 365 account, Live online lessons
-                                            delivered by subject specialists six hours per week term time only
-                                        </span>
-                                </div>
-                            </div>
-                            <div class="w-100 d-flex justify-content-between mt-3">
-                                <div style="width: 150px">
-                                    <strong class="fs-5">Entry Requirements:</strong>
-                                </div>
-                                <div class="w-100 ps-3 fs-5">
-                                    Level 2 English (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
-                                </div>
-                            </div>
-                            <div class="w-100 d-flex justify-content-between mt-2">
-                                <div style="width: 150px">
-                                    <strong class="fs-5">Course Credit:</strong>
-                                </div>
-                                <div class="w-100 ps-3 fs-5">
-                                    60 credits (45 graded and 15 ungraded)
-                                </div>
-                            </div>
-                            <div class="w-100 d-flex justify-content-between mt-2">
-                                <div style="width: 150px">
-                                    <strong class="fs-5">Course Fee:</strong>
-                                </div>
-                                <div class="w-100 ps-3 fs-5">
-                                    <span>Free if you meet specific eligibility requirements</span>
-                                </div>
-                            </div>
-
-
-                            <div class="w-100 text-end mt-5">
-                                <router-link :to="{name: 'CourseDetails', params:{ slug: 'access-to-he-nursing-&-midwifery'}}"
-                                             class="btn px-3 py-2 btn-primary">
-                                    View course <i class="fas fa-arrow-right ms-2"></i>
-                                </router-link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
-                <div class="w-100 d-flex justify-content-start align-items-start border-bottom">
-                    <div class="h-100">
                         <img class="each-data-img" :src="'/assets/img/access/HealthProfessions.jpg'" alt="NursingMidwifery">
                     </div>
                     <div class="h-100 p-4">
                         <div class="w-100">
                             <div class="w-100 mb-4">
-                                <h2>Access to HE: Health Professions</h2>
+                                <h2>Access to HE Health Professions</h2>
                             </div>
 
                             <div class="w-100 d-flex justify-content-between mt-2">
@@ -162,7 +95,74 @@
 
                             <div class="w-100 text-end mt-5">
                                 <router-link :to="{name: 'CourseDetails', params:{ slug: 'access-to-he-health-professions'}}"
-                                             class="btn px-3 py-2 btn-primary">
+                                             class="btn px-3 py-2 btn-theme">
+                                    View course <i class="fas fa-arrow-right ms-2"></i>
+                                </router-link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
+                <div class="w-100 d-flex justify-content-start align-items-start border-bottom">
+                    <div class="h-100">
+                        <img class="each-data-img" :src="'/assets/img/access/NursingMidwifery.jpg'" alt="NursingMidwifery">
+                    </div>
+                    <div class="h-100 p-4">
+                        <div class="w-100">
+                            <div class="w-100 mb-4">
+                                <h2>Access to HE Nursing & Midwifery</h2>
+                            </div>
+
+                            <div class="w-100 d-flex justify-content-between mt-2">
+                                <div style="width: 150px">
+                                    <strong class="fs-5">Courses:</strong>
+                                </div>
+                                <div class="w-100 ps-3">
+                                    <span class="fs-5">3 Courses starting Spring 2025</span>
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between mt-2">
+                                <div style="width: 150px">
+                                    <strong class="fs-5">Location:</strong>
+                                </div>
+                                <div class="w-100 ps-3">
+                                    <strong class="p-0 fs-5">Online Via Microsoft Teams</strong><br>
+                                    <span class="p-0 fs-6">
+                                            You will be issued with a Mediprospects Office 365 account, Live online lessons
+                                            delivered by subject specialists six hours per week term time only
+                                        </span>
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between mt-3">
+                                <div style="width: 150px">
+                                    <strong class="fs-5">Entry Requirements:</strong>
+                                </div>
+                                <div class="w-100 ps-3 fs-5">
+                                    Level 2 English (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between mt-2">
+                                <div style="width: 150px">
+                                    <strong class="fs-5">Course Credit:</strong>
+                                </div>
+                                <div class="w-100 ps-3 fs-5">
+                                    60 credits (45 graded and 15 ungraded)
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between mt-2">
+                                <div style="width: 150px">
+                                    <strong class="fs-5">Course Fee:</strong>
+                                </div>
+                                <div class="w-100 ps-3 fs-5">
+                                    <span>Free if you meet specific eligibility requirements</span>
+                                </div>
+                            </div>
+
+
+                            <div class="w-100 text-end mt-5">
+                                <router-link :to="{name: 'CourseDetails', params:{ slug: 'access-to-he-nursing-&-midwifery'}}"
+                                             class="btn px-3 py-2 btn-theme">
                                     View course <i class="fas fa-arrow-right ms-2"></i>
                                 </router-link>
                             </div>
@@ -178,7 +178,7 @@
                     <div class="h-100 p-4">
                         <div class="w-100">
                             <div class="w-100 mb-4">
-                                <h2>Access to HE: Nursing</h2>
+                                <h2>Access to HE Nursing</h2>
                             </div>
 
                             <div class="w-100 d-flex justify-content-between mt-2">
@@ -229,7 +229,7 @@
 
                             <div class="w-100 text-end mt-5">
                                 <router-link :to="{name: 'CourseDetails', params:{ slug: 'access-to-he-nursing'}}"
-                                             class="btn px-3 py-2 btn-primary">
+                                             class="btn px-3 py-2 btn-theme">
                                     View course <i class="fas fa-arrow-right ms-2"></i>
                                 </router-link>
                             </div>
@@ -245,7 +245,7 @@
                     <div class="h-100 p-4">
                         <div class="w-100">
                             <div class="w-100 mb-4">
-                                <h2>Access to HE: Health Science</h2>
+                                <h2>Access to HE Health Science</h2>
                             </div>
 
                             <div class="w-100 d-flex justify-content-between mt-2">
@@ -296,7 +296,7 @@
 
                             <div class="w-100 text-end mt-5">
                                 <router-link :to="{name: 'CourseDetails', params:{ slug: 'access-to-he-health-science'}}"
-                                             class="btn px-3 py-2 btn-primary">
+                                             class="btn px-3 py-2 btn-theme">
                                     View course <i class="fas fa-arrow-right ms-2"></i>
                                 </router-link>
                             </div>

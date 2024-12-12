@@ -31,18 +31,18 @@
                             <div class="w-100 mt-3">
                                 <div class="w-100">
                                     <div class="w-100 p-3 border border-secondary border-opacity-25 rounded-3 mb-2">
-                                        <div class="w-100 mb-2"><span class="badge bg-primary fs-6">Evening</span></div>
+                                        <div class="w-100 mb-2"><span class="badge bg-theme fs-6">Evening</span></div>
                                         <div class="w-100"><span
                                             class="fs-6">Tuesday and Thursday 6.30pm – 9.30pm</span></div>
                                         <div class="w-100"><span class="fs-6">25th of Feb - 27th Nov 2025</span></div>
                                     </div>
                                     <div class="w-100 p-3 border border-secondary border-opacity-25 rounded-3 mb-2">
-                                        <div class="w-100 mb-2"><span class="badge bg-primary fs-6">Weekday</span></div>
+                                        <div class="w-100 mb-2"><span class="badge bg-theme fs-6">Weekday</span></div>
                                         <div class="w-100"><span class="fs-6">Tuesday 9.30am – 4pm</span></div>
                                         <div class="w-100"><span class="fs-6">25th of Feb - 2nd Dec 2025</span></div>
                                     </div>
                                     <div class="w-100 p-3 border border-secondary border-opacity-25 rounded-3 mb-2">
-                                        <div class="w-100 mb-2"><span class="badge bg-primary fs-6">Saturday</span>
+                                        <div class="w-100 mb-2"><span class="badge bg-theme fs-6">Saturday</span>
                                         </div>
                                         <div class="w-100"><span class="fs-6">Saturday 9.30am – 4pm</span></div>
                                         <div class="w-100"><span class="fs-6">29th Mar - 10th of Jan 2026</span></div>

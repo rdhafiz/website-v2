@@ -9,7 +9,9 @@
             font-size: 24px !important;
         }
     }
-
+    .bg-theme {
+        background-color: #2491eb !important;
+    }
     .overview {
         .course-details-title {
             font-size: 32px;
@@ -115,11 +117,11 @@
                     //border-radius: 10px !important;
                     font-size: 20px;
                     .link {
-                        color: #5f27cd;
+                        color: #2491eb;
                         transition: 0.3s all ease-in-out;
 
                         &:hover {
-                            color: #009432;
+                            color: #2075bb;
                             transition: 0.3s all ease-in-out;
                         }
 
