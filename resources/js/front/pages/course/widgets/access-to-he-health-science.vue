@@ -60,11 +60,7 @@
               <div class="w-100 mt-5">
                 <h2 class="text-secondary fw-bold">Entry Requirements</h2>
                 <h5 class="text-secondary fw-normal">
-                  <ul>
-                    <li> Level 2 English</li>
-                    <li> GCSE Grade C/4 or above</li>
-                    <li> Adult Literacy Level 2</li>
-                  </ul>
+                    Level 2 English (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
                 </h5>
               </div>
 
@@ -72,15 +68,6 @@
                 <h2 class="text-secondary fw-bold">Course Content</h2>
                 <h5 class="text-secondary fw-normal">
                   60 Credits (45 Graded and 15 Ungraded)
-                </h5>
-              </div>
-
-              <div class="w-100 mt-5">
-                <h2 class="text-secondary fw-bold">
-                  Why choose this Diploma?
-                </h2>
-                <h5 class="text-secondary fw-normal">
-                  The Health Science Diploma supports learners in meeting entry requirements where universities demand a high number of science credits. This includes courses such as Radiography and Radiotherapy, Dental Hygiene and Therapy, Pharmaceutical or Human Nutrition and Dietetics, amongst others.
                 </h5>
               </div>
 
@@ -93,48 +80,40 @@
               <div>
                 <div class="mb-2">
                   <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
-                    <div class="fs-4 fw-medium">Biology (21 Credits)</div>
+                    <div class="fs-4 fw-medium">Biology (27 Credits)</div>
                     <div class="fs-6">
+                      <p class="mb-0">Introduction to Biology:</p>
                       <ul class="m-0">
                         <li>Cells and Tissues</li>
-                        <li>Human Anatomy & Physiology</li>
-                        <li>The Endocrine System</li>
-                        <li>Human Reproduction & Health Related Issues</li>
+                        <li>The Muscular Skeletal System</li>
+                        <li>Fundamental Concepts & Scientific Method in Biology</li>
+                        <li>Circulation & Immunity</li>
                         <li>Homeostasis</li>
-                        <li>Introduction to Health and Disease</li>
-                      </ul>
-                      <p>We can offer an additional three credit unit for learners needing 24 credits</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="mb-2">
-                  <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
-                    <div class="fs-4 fw-medium">Psychology (9 Credits)</div>
-                    <div class="fs-6">
-                      <p>Introduction to Psychology and Health Psychology</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="mb-2">
-                  <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
-                    <div class="fs-4 fw-medium">Sociology (3 Credits)</div>
-                    <div class="fs-6">
-                      <p>Health Inequalities</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="mb-2">
-                  <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
-                    <div class="fs-4 fw-medium">Health Studies (6 Credits)</div>
-                    <div class="fs-6">
-                      <ul class="m-0">
-                        <li>Promoting Health</li>
-                        <li>Antenatal Care & the Role of the Midwife</li>
-                        <li>The Role of the Midwife During Labour and Birth</li>
+                        <li>Reproduction</li>
+                        <li>Growth & Development</li>
+                        <li>Nutrition</li>
+                        <li>Digestion & Excretion</li>
                         <li>Actions of Medicines on the Human Body</li>
-                        <li>Social Drugs and Medicines</li>
                       </ul>
-                      <p>Health Inequalities</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-2">
+                  <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
+                    <div class="fs-4 fw-medium">Physics (6 Credits)</div>
+                    <div class="fs-6">
+                      <p class="mb-0">Medical Applications for Radiography or Fundamental Physics: Theory</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-2">
+                  <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
+                    <div class="fs-4 fw-medium">Chemistry (6 Credits)</div>
+                    <div class="fs-6">
+                        <ul class="m-0">
+                            <li>Biochemistry and Biochemical Techniques</li>
+                            <li>Practical Chemical Science for Health Studies</li>
+                        </ul>
                     </div>
                   </div>
                 </div>
@@ -150,14 +129,25 @@
                         <li>Professional Behaviour in Nursing and Health Professions</li>
                         <li>Preparation for Higher Education</li>
                       </ul>
-                      <p>Learners will be supported to choose from these optional
-                        units</p>
+                      <p class="mb-0">Learners will be supported to choose from these optional units</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="w-100 mt-5">
+                        <h2 class="text-secondary fw-bold">
+                            Why choose this Diploma?
+                        </h2>
+                        <h5 class="text-secondary fw-normal">
+                            The Health Science Diploma supports learners in meeting entry requirements where universities demand a high number of science credits. This includes courses such as Radiography and Radiotherapy, Dental Hygiene and Therapy, Pharmaceutical or Human Nutrition and Dietetics, amongst others.
+                        </h5>
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
     </div>

@@ -71,11 +71,7 @@
               <div class="w-100 mt-5">
                 <h2 class="text-secondary fw-bold">Entry Requirements</h2>
                 <h5 class="text-secondary fw-normal">
-                  <ul>
-                    <li> Level 2 English</li>
-                    <li> GCSE Grade C/4 or above</li>
-                    <li> Adult Literacy Level 2</li>
-                  </ul>
+                    Level 2 English (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
                 </h5>
               </div>
 
@@ -85,10 +81,6 @@
                   60 Credits (45 Graded and 15 Ungraded)
                 </h5>
               </div>
-
-              There are over 350 career opportunities in the NHS, including Paramedic, Speech and Language
-              Therapist, and Dentistry. Explore your opportunities here:
-              <a href="https://www.healthcareers.nhs.uk" class="text-decoration-none text-link">www.healthcareers.nhs.uk</a>
 
             </div>
             <div class="col-lg-6">
@@ -107,9 +99,8 @@
                         <li>The Endocrine System</li>
                         <li>Human Reproduction & Health Related Issues</li>
                         <li>Homeostasis</li>
-                        <li>Introduction to Health and Disease</li>
+                        <li>Introduction to Health & Disease</li>
                       </ul>
-                      <p>We can offer an additional three credit unit for learners needing 24 credits</p>
                     </div>
                   </div>
                 </div>
@@ -117,7 +108,7 @@
                   <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
                     <div class="fs-4 fw-medium">Psychology (9 Credits)</div>
                     <div class="fs-6">
-                      <p>Introduction to Psychology and Health Psychology</p>
+                      <p class="mb-0">Introduction to Psychology and Health Psychology</p>
                     </div>
                   </div>
                 </div>
@@ -125,7 +116,7 @@
                   <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
                     <div class="fs-4 fw-medium">Sociology (3 Credits)</div>
                     <div class="fs-6">
-                      <p>Health Inequalities</p>
+                      <p class="mb-0">Health Inequalities</p>
                     </div>
                   </div>
                 </div>
@@ -135,12 +126,10 @@
                     <div class="fs-6">
                       <ul class="m-0">
                         <li>Promoting Health</li>
-                        <li>Antenatal Care & the Role of the Midwife</li>
-                        <li>The Role of the Midwife During Labour and Birth</li>
+                        <li>Role & Responsibilities of the Paramedic Team</li>
                         <li>Actions of Medicines on the Human Body</li>
                         <li>Social Drugs and Medicines</li>
                       </ul>
-                      <p>Health Inequalities</p>
                     </div>
                   </div>
                 </div>
@@ -153,11 +142,10 @@
                         <li>Promoting Wellbeing & Building Resilience</li>
                         <li>Research Skills</li>
                         <li>Numeracy in a Health Context</li>
-                        <li>Professional Behaviour in Nursing and Health Professions</li>
+                        <li>Professional Behaviour: Nursing and Health Professions</li>
                         <li>Preparation for Higher Education</li>
                       </ul>
-                      <p>Learners will be supported to choose from these optional
-                        units</p>
+                      <p class="mb-0">Learners will be supported to choose from these optional units</p>
                     </div>
                   </div>
                 </div>
@@ -170,25 +158,9 @@
               <div class="w-100 mt-5">
                 <h2 class="text-secondary fw-bold">The Role of a Health Professional</h2>
                 <h5 class="text-secondary fw-normal">
-                  Midwives provide care and support to women and their families while pregnant, throughout labour
-                  and during the period after a baby’s birth.
-                  <br><br>
-                  You’ll mainly work with pregnant women who require professional support and advice. You will
-                  likely be a woman's lead health professional and contact, providing evidence-based information
-                  and helping her make informed choices about the options and services available throughout her
-                  pregnancy.
-                  <br>
-                  You’ll be the expert on childbirth, and your responsibilities will likely be diverse. You’ll
-                  provide:
-                  <br>
-                  <ul>
-                    <li>provide full antenatal care, including parenting classes, clinical examinations and
-                      screening
-                    </li>
-                    <li>identify high-risk pregnancies</li>
-                    <li>monitor women and support them during labour and the birthing process</li>
-                    <li>teach new and expectant mothers how to feed, care for and bathe their babies</li>
-                  </ul>
+                    There are over 350 career opportunities in the NHS, including Paramedic, Speech and Language
+                    Therapist, and Dentistry. Explore your opportunities here:
+                    <a href="https://www.healthcareers.nhs.uk" class="text-decoration-none text-link">www.healthcareers.nhs.uk</a>
                 </h5>
               </div>
 

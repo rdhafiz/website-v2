@@ -1,5 +1,5 @@
 <template>
-    <div class="header header-light" :class="{'header-light': headerLight === true}">
+    <div class="header" :class="{'header-light': headerLight === true || $route.name === 'Contact' || $route.name === 'About' || $route.name === 'Courses' || $route.name === 'CourseDetails' || $route.name === 'News'}">
         <div class="container-fluid px-5">
             <div class="w-100 d-flex justify-content-between align-items-center">
                 <div class="col-3">
@@ -64,12 +64,8 @@ export default {
     mounted() {
         const THIS = this;
         window.addEventListener('scroll', () => {
-            if(window.scrollY > 200){
-                THIS.headerLight = true;
-            } else {
-                THIS.headerLight = false;
-            }
+            THIS.headerLight = window.scrollY > 200;
         });
-    }
+    },
 }
 </script>

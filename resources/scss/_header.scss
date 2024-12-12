@@ -24,7 +24,7 @@
 
     .main-menu {
         width: 100%;
-        display: none;
+        display: flex;
         justify-content: center;
         align-items: center;
 
@@ -42,14 +42,15 @@
                     text-decoration: none;
                     font-size: 20px;
                     padding: 10px;
-                    color: #777777;
+                    color: #e1e1e1;
+                    text-shadow: 1px 1px 1px #000000;
                     font-weight: 500;
                     border-bottom: 3px solid transparent;
                     @include transition(all 0.2s linear);
 
                     &:hover, &:active, &.active,&.router-link-exact-active {
-                        color: #5F27CD;
-                        border-bottom: 3px solid #5F27CD;
+                        color: #2491eb;
+                        border-bottom: 3px solid #2491eb;
                         @include transition(all 0.2s linear);
                     }
                 }
@@ -75,10 +76,22 @@
                 }
             }
         }
-
-        .main-menu{
-            display: flex;
+        .main-menu {
+            ul {
+                li {
+                    a {
+                        color: #555555;
+                        text-shadow: none;
+                        &:hover, &:active, &.active,&.router-link-exact-active {
+                            color: #2491eb;
+                            border-bottom: 3px solid #2491eb;
+                            @include transition(all 0.2s linear);
+                        }
+                    }
+                }
+            }
         }
+
     }
 
 }

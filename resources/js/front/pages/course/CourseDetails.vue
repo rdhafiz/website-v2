@@ -12,7 +12,7 @@
             <div class="w-100 px-5">
                 <div class="w-100 px-5">
                     <div class="container-fluid">
-                        <div class="breadcrumb-left">
+                        <div class="breadcrumb-left position-relative z-2">
                             <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
                                 Course Details
                             </h1>
