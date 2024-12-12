@@ -117,17 +117,8 @@
                                     <option value="Other">Other</option>
                                 </select>
                             </div>
-                            <div class="form-group mb-2">
-                                <label for="agree" class="form-check-label">
-                                    <input type="checkbox" name="agree" id="agree" class="form-checkbox me-2" />
-                                    I agree to receive about canonical products and services. By submitting this form, i confirm that i have read and agree to
-                                    <a href="javascript:void(0)" class="text-decoration-none text-link">
-                                        canonical privacy & policy
-                                    </a>
-                                </label>
-                            </div>
                             <div class="w-100">
-                                <button type="submit" class="btn btn-primary px-4 py-2">
+                                <button type="submit" class="btn btn-theme px-4 py-2">
                                     Submit
                                 </button>
                             </div>

@@ -33,13 +33,13 @@
             margin: 5px;
 
             &:nth-child(1) {
-                background-color: #FF0066;
+                background-color: #2491eb;
             }
             &:nth-child(2) {
-                background-color: #4834D4;
+                background-color: #009432;
             }
             &:nth-child(3) {
-                background-color: #EE5A24;
+                background-color: #1B1464;
             }
         }
     }
@@ -64,24 +64,15 @@
 
             &:focus-visible {
                 transition: 0.3s all ease-in-out;
-                box-shadow: 0 0 0 0.25rem rgba(95, 39, 205, 0.25) !important;
+                box-shadow: 0 0 0 0.25rem rgba(36, 145, 235, 0.25) !important;
             }
         }
         .text-link {
-            color: #5f27cd;
+            color: #2491eb;
             transition: 0.3s all ease-in-out;
 
             &:hover {
-                color: #009432;
-                transition: 0.3s all ease-in-out;
-            }
-        }
-        .btn-theme {
-            background-color: #009432;
-            transition: 0.3s all ease-in-out;
-            color: #FFFFFF;
-            &:hover {
-                background-color: #5f27cd;
+                color: #2075bb;
                 transition: 0.3s all ease-in-out;
             }
         }
@@ -108,7 +99,7 @@
 
             &[type=checkbox]:checked {
                 border: 2px solid transparent;
-                background-color: #5f27cd;
+                background-color: #2491eb;
                 opacity: 1;
 
                 &[type=checkbox]:before {
@@ -141,6 +132,17 @@
                 z-index: 2;
             }
 
+        }
+    }
+    .btn-theme {
+        background-color: #2491eb !important;
+        transition: 0.3s all ease-in-out !important;
+        color: #ffffff !important;
+        border: 1px solid #2491eb !important;
+        &:hover {
+            background-color: #2075bb !important;
+            transition: 0.3s all ease-in-out !important;
+            border: 1px solid #2075bb !important;
         }
     }
 }

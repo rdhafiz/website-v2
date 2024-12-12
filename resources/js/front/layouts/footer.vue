@@ -47,9 +47,9 @@
                             </div>
                             <div class="w-100 mt-4">
                                 <div class="w-100">
-                                    <p class="text-white d-flex justify-content-start align-items-center fs-5 mb-2"><i class="fas fa-home me-2 text-primary"></i> <a>Hawley House, 5-7 High Street, E13 0AD</a></p>
-                                    <p class="text-white d-flex justify-content-start align-items-center fs-5 mb-2"><i class="fas fa-phone-alt me-2 text-primary"></i> <a class="text-decoration-none text-white" href="tel:02084726060">020 8472 6060</a></p>
-                                    <p class="text-white d-flex justify-content-start align-items-center fs-5 mb-2"><i class="fas fa-envelope me-2 text-primary"></i> <a class="text-decoration-none text-white" href="mailto:info@mediprospects.ac.uk">info@mediprospects.ac.uk</a></p>
+                                    <p class="text-white d-flex justify-content-start align-items-center fs-5 mb-2"><i class="fas fa-home me-2 text-theme"></i> <a>Hawley House, 5-7 High Street, E13 0AD</a></p>
+                                    <p class="text-white d-flex justify-content-start align-items-center fs-5 mb-2"><i class="fas fa-phone-alt me-2 text-theme"></i> <a class="text-decoration-none text-white" href="tel:02084726060">020 8472 6060</a></p>
+                                    <p class="text-white d-flex justify-content-start align-items-center fs-5 mb-2"><i class="fas fa-envelope me-2 text-theme"></i> <a class="text-decoration-none text-white" href="mailto:info@mediprospects.ac.uk">info@mediprospects.ac.uk</a></p>
                                 </div>
                             </div>
                         </div>
@@ -63,10 +63,22 @@
                             </div>
                             <div class="w-100 mt-4">
                                 <div class="w-100">
-                                    <p class="text-white d-flex justify-content-start align-items-center fs-5 mb-2"><a><i class="far fa-hand-point-right text-primary me-2"></i> Privacy Policy</a></p>
-                                    <p class="text-white d-flex justify-content-start align-items-center fs-5 mb-2"><a><i class="far fa-hand-point-right text-primary me-2"></i> Terms of use</a></p>
-                                    <p class="text-white d-flex justify-content-start align-items-center fs-5 mb-2"><a><i class="far fa-hand-point-right text-primary me-2"></i> Cookie Policy</a></p>
-                                    <p class="text-white d-flex justify-content-start align-items-center fs-5 mb-2"><a><i class="far fa-hand-point-right text-primary me-2"></i> Safeguarding Policy</a></p>
+                                    <router-link :to="{name: 'PrivacyPolicy'}" class="text-white text-decoration-none d-flex justify-content-start align-items-center fs-5 mb-2">
+                                        <i class="far fa-hand-point-right text-theme me-2"></i>
+                                        Privacy Policy
+                                    </router-link>
+                                    <router-link :to="{name: 'TermsOfUse'}" class="text-white text-decoration-none d-flex justify-content-start align-items-center fs-5 mb-2">
+                                        <i class="far fa-hand-point-right text-theme me-2"></i>
+                                        Terms of use
+                                    </router-link>
+                                    <router-link :to="{name: 'CookiePolicy'}" class="text-white text-decoration-none d-flex justify-content-start align-items-center fs-5 mb-2">
+                                        <i class="far fa-hand-point-right text-theme me-2"></i>
+                                        Cookie Policy
+                                    </router-link>
+                                    <router-link :to="{name: 'SafeGuardingPolicy'}" class="text-white text-decoration-none d-flex justify-content-start align-items-center fs-5 mb-2">
+                                        <i class="far fa-hand-point-right text-theme me-2"></i>
+                                        Safeguarding Policy
+                                    </router-link>
                                 </div>
                             </div>
                         </div>

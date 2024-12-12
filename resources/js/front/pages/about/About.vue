@@ -24,7 +24,7 @@
                                     /
                                 </li>
                                 <li class="breadcrumb-item">
-                                    <router-link :to="{name: 'About'}" href="javascript:void(0)" class="text-decoration-none text-white p-0 m-0">
+                                    <router-link :to="{name: 'About'}" class="text-decoration-none text-white p-0 m-0">
                                         About us
                                     </router-link>
                                 </li>
