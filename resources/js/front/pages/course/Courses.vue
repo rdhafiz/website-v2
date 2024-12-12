@@ -71,12 +71,8 @@
                                 <div style="width: 150px">
                                     <strong class="fs-5">Entry Requirements:</strong>
                                 </div>
-                                <div class="w-100 ps-3">
-                                    <ul>
-                                        <li class="fs-5 mb-2"> English level 2</li>
-                                        <li class="fs-5 mb-2"> Adult Literacy level 2</li>
-                                        <li class="fs-5 mb-2"> GCSE Grade C/4 or above</li>
-                                    </ul>
+                                <div class="w-100 ps-3 fs-5">
+                                    Level 2 English (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between mt-2">
@@ -97,9 +93,9 @@
                             </div>
 
 
-                            <div class="w-100 text-end">
+                            <div class="w-100 text-end mt-5">
                                 <router-link :to="{name: 'CourseDetails', params:{ slug: 'access-to-he-nursing-&-midwifery'}}"
-                                             class="btn btn-sm btn-primary mt-3">
+                                             class="btn px-3 py-2 btn-primary">
                                     View course <i class="fas fa-arrow-right ms-2"></i>
                                 </router-link>
                             </div>
@@ -142,12 +138,8 @@
                                 <div style="width: 150px">
                                     <strong class="fs-5">Entry Requirements:</strong>
                                 </div>
-                                <div class="w-100 ps-3">
-                                    <ul>
-                                        <li class="fs-5 mb-2"> English level 2</li>
-                                        <li class="fs-5 mb-2"> Adult Literacy level 2</li>
-                                        <li class="fs-5 mb-2"> GCSE Grade C/4 or above</li>
-                                    </ul>
+                                <div class="w-100 ps-3 fs-5">
+                                    Level 2 English (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between mt-2">
@@ -168,9 +160,9 @@
                             </div>
 
 
-                            <div class="w-100 text-end">
+                            <div class="w-100 text-end mt-5">
                                 <router-link :to="{name: 'CourseDetails', params:{ slug: 'access-to-he-health-professions'}}"
-                                             class="btn btn-sm btn-primary mt-3">
+                                             class="btn px-3 py-2 btn-primary">
                                     View course <i class="fas fa-arrow-right ms-2"></i>
                                 </router-link>
                             </div>
@@ -213,12 +205,8 @@
                                 <div style="width: 150px">
                                     <strong class="fs-5">Entry Requirements:</strong>
                                 </div>
-                                <div class="w-100 ps-3">
-                                    <ul>
-                                        <li class="fs-5 mb-2"> English level 2</li>
-                                        <li class="fs-5 mb-2"> Adult Literacy level 2</li>
-                                        <li class="fs-5 mb-2"> GCSE Grade C/4 or above</li>
-                                    </ul>
+                                <div class="w-100 ps-3 fs-5">
+                                    Level 2 English (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between mt-2">
@@ -239,9 +227,9 @@
                             </div>
 
 
-                            <div class="w-100 text-end">
+                            <div class="w-100 text-end mt-5">
                                 <router-link :to="{name: 'CourseDetails', params:{ slug: 'access-to-he-nursing'}}"
-                                             class="btn btn-sm btn-primary mt-3">
+                                             class="btn px-3 py-2 btn-primary">
                                     View course <i class="fas fa-arrow-right ms-2"></i>
                                 </router-link>
                             </div>
@@ -284,12 +272,8 @@
                                 <div style="width: 150px">
                                     <strong class="fs-5">Entry Requirements:</strong>
                                 </div>
-                                <div class="w-100 ps-3">
-                                    <ul>
-                                        <li class="fs-5 mb-2"> English level 2</li>
-                                        <li class="fs-5 mb-2"> Adult Literacy level 2</li>
-                                        <li class="fs-5 mb-2"> GCSE Grade C/4 or above</li>
-                                    </ul>
+                                <div class="w-100 ps-3 fs-5">
+                                    Level 2 English (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between mt-2">
@@ -310,9 +294,9 @@
                             </div>
 
 
-                            <div class="w-100 text-end">
+                            <div class="w-100 text-end mt-5">
                                 <router-link :to="{name: 'CourseDetails', params:{ slug: 'access-to-he-health-science'}}"
-                                             class="btn btn-sm btn-primary mt-3">
+                                             class="btn px-3 py-2 btn-primary">
                                     View course <i class="fas fa-arrow-right ms-2"></i>
                                 </router-link>
                             </div>

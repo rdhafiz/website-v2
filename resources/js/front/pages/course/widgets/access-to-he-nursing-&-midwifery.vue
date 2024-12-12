@@ -74,11 +74,7 @@
                             <div class="w-100 mt-5">
                                 <h2 class="text-secondary fw-bold">Entry Requirements</h2>
                                 <h5 class="text-secondary fw-normal">
-                                    <ul>
-                                        <li> Level 2 English</li>
-                                        <li> GCSE Grade C/4 or above</li>
-                                        <li> Adult Literacy Level 2</li>
-                                    </ul>
+                                    Level 2 English (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
                                 </h5>
                             </div>
 
@@ -176,10 +172,10 @@
                                     likely be a woman's lead health professional and contact, providing evidence-based information
                                     and helping her make informed choices about the options and services available throughout her
                                     pregnancy.
-                                    <br>
+                                    <br><br>
                                     You’ll be the expert on childbirth, and your responsibilities will likely be diverse. You’ll
                                     provide:
-                                    <br>
+                                    <br><br>
                                     <ul>
                                         <li>provide full antenatal care, including parenting classes, clinical examinations and
                                             screening

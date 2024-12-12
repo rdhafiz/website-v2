@@ -75,7 +75,7 @@
                                             </div>
                                             <div class="each-course-content p-3">
                                                 <div class="w-100">
-                                                    <h3 class="fw-bold fs-2 text-center mb-3">Access to HE <br> Health Sciences</h3>
+                                                    <h3 class="fw-bold fs-2 text-center mb-3">Access to HE <br> Health Science</h3>
                                                     <p class="fs-5 text-center">Understand the requirements and prepare for a seamless transition to university.</p>
                                                 </div>
                                                 <div class="w-100">

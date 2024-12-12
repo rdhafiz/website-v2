@@ -11,20 +11,10 @@
         }
         .each-data-img {
             width: 350px;
-            height: 500px;
+            height: 470px;
             object-fit: cover;
             object-position: center;
             display: block;
-        }
-        .btn-theme {
-            background-color: #009432;
-            transition: 0.3s all ease-in-out;
-            color: #FFFFFF;
-            padding: 10px 20px;
-            &:hover {
-                background-color: #5f27cd;
-                transition: 0.3s all ease-in-out;
-            }
         }
     }
 
