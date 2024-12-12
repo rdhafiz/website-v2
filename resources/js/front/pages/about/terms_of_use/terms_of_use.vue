@@ -44,7 +44,7 @@
 
     <section class="w-100 py-5">
         <div class="container">
-            <h2 class="text-secondary fw-bold"> Terms of use </h2>
+            <h1 class="text-secondary fw-bold"> Terms of use </h1>
             <div class="border rounded-3 p-5">
                 <div>
                     <div class="fs-6"> Please read our <router-link :to="{name: 'PrivacyPolicy'}" class="text-decoration-none text-theme"> privacy policy </router-link> together with these Terms. </div>
