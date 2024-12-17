@@ -22,7 +22,7 @@
                                             <div class="each-course-content p-3">
                                                 <div class="w-100">
                                                     <h3 class="fw-bold fs-2 text-center mb-3">Access to HE <br> Health Professions</h3>
-                                                    <p class="fs-5 text-center">Prepare for a rewarding career in health professions with foundational knowledge and essential skills.</p>
+                                                    <p class="fs-5 text-center mb-3">Prepare for a rewarding career in health professions.</p>
                                                 </div>
                                                 <div class="w-100">
                                                     <router-link :to="{name: 'CourseDetails', params: { slug: 'access-to-he-health-professions' }}" class="btn btn-theme px-3">More Information <i class="fas fa-arrow-right ms-2"></i></router-link>
@@ -40,7 +40,7 @@
                                             <div class="each-course-content p-3">
                                                 <div class="w-100">
                                                     <h3 class="fw-bold fs-2 text-center mb-3">Access to HE <br> Nursing & Midwifery</h3>
-                                                    <p class="fs-5 text-center">Gain the expertise and confidence to pursue a fulfilling career in nursing and midwifery.</p>
+                                                    <p class="fs-5 text-center mb-3">Gain the expertise to pursue a career in nursing and midwifery.</p>
                                                 </div>
                                                 <div class="w-100">
                                                     <router-link :to="{name: 'CourseDetails', params:{ slug: 'access-to-he-nursing-&-midwifery'}}" class="btn btn-theme px-3">More Information <i class="fas fa-arrow-right ms-2"></i></router-link>
@@ -58,7 +58,7 @@
                                             <div class="each-course-content p-3">
                                                 <div class="w-100">
                                                     <h3 class="fw-bold fs-2 text-center mb-3">Access to HE <br> Nursing</h3>
-                                                    <p class="fs-5 text-center">Develop the skills needed to enter the nursing profession and make a difference every day.</p>
+                                                    <p class="fs-5 text-center mb-3">Develop the skills for the nursing profession.</p>
                                                 </div>
                                                 <div class="w-100">
                                                     <router-link :to="{name: 'CourseDetails', params: { slug: 'access-to-he-nursing' }}" class="btn btn-theme px-3">More Information <i class="fas fa-arrow-right ms-2"></i></router-link>
@@ -76,7 +76,7 @@
                                             <div class="each-course-content p-3">
                                                 <div class="w-100">
                                                     <h3 class="fw-bold fs-2 text-center mb-3">Access to HE <br> Health Science</h3>
-                                                    <p class="fs-5 text-center">Understand the requirements and prepare for a seamless transition to university.</p>
+                                                    <p class="fs-5 text-center mb-3">Your pathway to a rewarding career in healthcare and science.</p>
                                                 </div>
                                                 <div class="w-100">
                                                     <router-link :to="{name: 'CourseDetails', params: { slug: 'access-to-he-health-science' } }" class="btn btn-theme px-3">More Information <i class="fas fa-arrow-right ms-2"></i></router-link>

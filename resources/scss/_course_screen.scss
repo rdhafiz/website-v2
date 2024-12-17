@@ -10,8 +10,8 @@
         align-items: center;
         background-color: #ffffff;
         .each-course{
-            width: 400px;
-            height: 530px;
+            width: 295px;
+            //height: 530px;
             display: inline-block;
             background-position: center;
             background-size: contain;
@@ -19,13 +19,13 @@
             margin: 10px;
             .each-course-img{
                 width: 100%;
-                height: 250px;
+                height: 200px;
                 object-fit: cover;
                 object-position: top;
             }
             .each-course-content{
                 width: 100%;
-                height: 280px;
+                //height: 280px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;

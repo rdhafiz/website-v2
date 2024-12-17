@@ -1,8 +1,8 @@
 <template>
     <div class="header" :class="{'header-light': isHeaderLight }">
-        <div class="container-fluid px-5">
+        <div class="container-fluid px-xxl-5 px-0">
             <div class="w-100 d-flex justify-content-between align-items-center">
-                <div class="col-3">
+                <div class="col-2">
                     <div class="website-name">
                         <h1 class="m-0">
                             <router-link :to="{name: 'Home'}">
@@ -11,7 +11,7 @@
                         </h1>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-8">
                     <div class="main-menu">
                         <ul>
                             <li>
@@ -44,10 +44,15 @@
                                     Excellence
                                 </router-link>
                             </li>
+                            <li>
+                                <router-link :to="{name: 'Excellence'}">
+                                    Fees & Funding
+                                </router-link>
+                            </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-2">
                     <div class="header-action">
                         <a class="btn btn-theme px-4 btn-lg rounded-pill shadow" href="javascript:void(0)">Apply Now</a>
                     </div>
