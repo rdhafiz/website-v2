@@ -4,7 +4,7 @@
 
     <section class="w-100 py-5">
         <div class="container">
-            <h1 class="mb-3 text-secondary fw-bold"> Fees, Funding and Grants Information </h1>
+            <h1 class="mb-3 text-secondary fw-bold"> Fees & Funding - Access to HE Diplomas </h1>
             <div class="d-flex justify-content-start align-items-center mb-4">
                 <router-link :to="{name: 'Home'}" class="text-decoration-none text-secondary">
                     Home
@@ -14,18 +14,14 @@
                     About us
                 </router-link>
                 <div class="mx-2"> / </div>
-                <router-link :to="{name: 'FeesFundingGrandsInformation'}" class="text-decoration-none text-secondary fw-medium">
-                    Fees, Funding and Grants Information
+                <router-link :to="{name: 'FeesFunding'}" class="text-decoration-none text-secondary fw-medium">
+                    Fees & Funding
                 </router-link>
             </div>
             <div class="border rounded-3 p-5">
-                <div>
-                    <h2 class="text-secondary fw-bold"> Fees, Funding and Grants Information </h2>
-                    <h5 class="fs-6 text-secondary fw-normal"> Access to HE Diplomas </h5>
-                </div>
-                <div class="mt-5">
-                    <h2 class="text-secondary fw-bold"> Advanced Learner Loan <span class="fw-normal"> ( <span class="text-danger">*</span> eligibility rules apply ) </span> </h2>
-                    <h5 class="fs-6 text-secondary fw-normal">
+                <div class="mt-3">
+                    <h2 class="text-secondary fw-bold"> Advanced Learner Loan <span class="fw-normal"> ( <span class="text-danger">*</span> Eligibility rules apply ) </span> </h2>
+                    <h5 class="fs-5 text-secondary fw-normal">
                         Student Finance England will fund the course for learners living in the UK (England, Northern Ireland, Scotland, or Wales). This is a non-means-tested loan; it will be written off in full when you complete your degree. Our advisors will provide you with a letter from us and support you when you apply for the loan. More information here:
                         <a href="https://www.gov.uk/advanced-learner-loan" target="_blank" class="text-decoration-none text-theme">
                             www.gov.uk/advanced-learner-loan
@@ -38,16 +34,16 @@
                 </div>
                 <div class="mt-5">
                     <h2 class="text-secondary fw-bold"> Self-Funding </h2>
-                    <h5 class="fs-6 text-secondary fw-normal">
+                    <h5 class="fs-5 text-secondary fw-normal">
                         The cost for learners who are self-funding the course is currently £2000, payable in instalments.
                     </h5>
                 </div>
                 <div class="mt-5">
                     <h2 class="text-secondary fw-bold"> University Funding </h2>
-                    <h5 class="fs-6 text-secondary fw-normal">
+                    <h5 class="fs-5 text-secondary fw-normal">
                         <a href="https://www.gov.uk/student-finance" target="_blank" class="text-decoration-none text-theme d-inline-block"> www.gov.uk/student-finance </a>
                     </h5>
-                    <h5 class="fs-6 text-secondary fw-normal">
+                    <h5 class="fs-5 text-secondary fw-normal">
                         You may be able to borrow money to help pay for university or college tuition fees and to help with living costs
                         <br><br>
                         You might get extra money on top of this, for example, if you’re on a low income, are disabled or have children. You may be able to get student finance even if you’re not from the UK.
@@ -55,10 +51,10 @@
                 </div>
                 <div class="mt-5">
                     <h2 class="text-secondary fw-bold"> Disabled Student Funding & Support at University </h2>
-                    <h5 class="fs-6 text-secondary fw-normal mb-2">
+                    <h5 class="fs-5 text-secondary fw-normal mb-2">
                         <a href="https://www.gov.uk/disabled-students-allowance-dsa" target="_blank" class="text-decoration-none text-theme d-inline-block"> www.gov.uk/disabled-students-allowance-dsa </a>
                     </h5>
-                    <h5 class="fs-6 text-secondary fw-normal">
+                    <h5 class="fs-5 text-secondary fw-normal">
                         Disabled Students’ Allowance (DSA) is support to cover the study-related costs you have because of a mental health problem, long-term illness or any other disability.
                         <br><br>
                         This can be on its own or in addition to any student finance you get. The type of support and how much you get depends on your individual needs - not your household income.
@@ -67,7 +63,7 @@
                 </div>
                 <div class="mt-5">
                     <h2 class="text-secondary fw-bold"> NHS Learner Support Fund </h2>
-                    <h5 class="fs-6 text-secondary fw-normal">
+                    <h5 class="fs-5 text-secondary fw-normal">
                         NHS Learning Support Fund (LSF) is funding to support eligible healthcare students. <span class="fw-bold"> This is a grant and does not need to be repaid</span>. To apply, you need to be on one of the following pre-registration undergraduate or postgraduate courses:
                         <br>
                         <ul>

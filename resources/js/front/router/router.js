@@ -18,7 +18,7 @@ import TermsOfUse from "../pages/general/terms_of_use.vue";
 import CookiePolicy from "../pages/general/cookie_policy.vue";
 import SafeGuardingPolicy from "../pages/general/safe_guarding_policy.vue";
 import Pathways from "../pages/general/pathways.vue";
-import FeesFundingGrandsInformation from "../pages/about/fees_funding_grands_information/fees_funding_grants_information.vue";
+import FeesFunding from "../pages/general/fees_funding.vue";
 
 const ROOT_URL = "";
 const routes = [
@@ -37,7 +37,7 @@ const routes = [
             {path: ROOT_URL + '/terms_of_use', name: 'TermsOfUse', component: TermsOfUse},
             {path: ROOT_URL + '/cookie_policy', name: 'CookiePolicy', component: CookiePolicy},
             {path: ROOT_URL + '/safe_guarding_policy', name: 'SafeGuardingPolicy', component: SafeGuardingPolicy},
-            {path: ROOT_URL + '/fees_funding_grands_information', name: 'FeesFundingGrandsInformation', component: FeesFundingGrandsInformation},
+            {path: ROOT_URL + '/fees_funding_grands_information', name: 'FeesFunding', component: FeesFunding},
         ]
     }
 ];
