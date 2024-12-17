@@ -1,6 +1,10 @@
 {
   "resources/js/front/app.js": {
+<<<<<<< HEAD
     "file": "assets/app-D8n3bkK_.js",
+=======
+    "file": "assets/app-CWt3TQwu.js",
+>>>>>>> 23d6838 (course-content-color-and-important-symbol-added)
     "name": "app",
     "src": "resources/js/front/app.js",
     "isEntry": true

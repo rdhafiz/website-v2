@@ -148,7 +148,7 @@
                                                 <li>Professional Behaviour: Nursing and Health Professions</li>
                                                 <li>Preparation for Higher Education</li>
                                             </ul>
-                                            <p class="mb-0 text-danger">Learners will be supported to choose from these optional units</p>
+                                            <p class="mb-0 text-danger">* Learners will be supported to choose from these optional units</p>
                                         </div>
                                     </div>
                                 </div>

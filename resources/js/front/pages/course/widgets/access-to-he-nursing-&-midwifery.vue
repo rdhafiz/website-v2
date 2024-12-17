@@ -107,7 +107,7 @@
                                                 <li>Homeostasis</li>
                                                 <li>Introduction to Health and Disease</li>
                                             </ul>
-                                            <p class="text-danger">We can offer an additional three credit unit for learners needing 24 credits</p>
+                                            <p class="text-danger">(We can offer an additional three credit unit for learners needing 24 credits)</p>
                                         </div>
                                     </div>
                                 </div>
