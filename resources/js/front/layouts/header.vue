@@ -25,16 +25,6 @@
                                 </router-link>
                             </li>
                             <li>
-                                <router-link :to="{name: 'Excellence'}">
-                                    Excellence
-                                </router-link>
-                            </li>
-                            <li>
-                                <router-link :to="{name: 'Excellence'}">
-                                    Fees & Funding
-                                </router-link>
-                            </li>
-                            <li>
                                 <router-link :to="{name: 'Pathways'}">
                                     Pathways
                                 </router-link>
@@ -54,6 +44,16 @@
                                     Contact
                                 </router-link>
                             </li>
+                            <li>
+                                <router-link :to="{name: 'Excellence'}">
+                                    Excellence
+                                </router-link>
+                            </li>
+                            <li>
+                                <router-link :to="{name: 'FeesFundingGrandsInformation'}">
+                                    Fees & Funding
+                                </router-link>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -66,8 +66,10 @@
 export default {
     computed: {
         isHeaderLight() {
-            const lightRoutes = ['Home'];
-            return this.headerLight === true || lightRoutes.includes(this.$route.name) === false
+            const lightRoutes = [
+                'Contact', 'About', 'Courses', 'CourseDetails', 'News', 'Excellence', 'PrivacyPolicy', 'TermsOfUse', 'CookiePolicy', 'SafeGuardingPolicy', 'FeesFundingGrandsInformation'
+            ];
+            return this.headerLight === true || lightRoutes.includes(this.$route.name)
         }
     },
     data() {

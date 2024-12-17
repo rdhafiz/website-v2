@@ -1,50 +1,23 @@
 <template>
 
-    <div class="breadcrumb-content w-100 animate__animated animate__fadeIn" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/breadcrumb-9.jpg)' }">
-        <div class="breadcrumb-content-left">
-            <span class="shadow-1"></span>
-            <span class="shadow-2"></span>
-            <span class="shadow-3"></span>
-        </div>
-        <div class="container-fluid">
-            <div class="breadcrumb-left">
-                <div class="px-5 w-100">
-                    <div class="px-5 w-100 position-relative z-2">
-                        <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
-                            Terms of use
-                        </h1>
-                        <ul class="breadcrumb w-100 d-flex justify-content-start align-items-center fs-4 animate__animated animate__fadeInLeft">
-                            <li class="breadcrumb-item">
-                                <router-link :to="{name: 'Home'}" class="text-decoration-none text-white p-0 m-0">
-                                    Home
-                                </router-link>
-                            </li>
-                            <li class="text-white mx-3">
-                                /
-                            </li>
-                            <li class="breadcrumb-item">
-                                <router-link :to="{name: 'About'}" class="text-decoration-none text-white p-0 m-0">
-                                    About us
-                                </router-link>
-                            </li>
-                            <li class="text-white mx-3">
-                                /
-                            </li>
-                            <li class="breadcrumb-item">
-                                <router-link :to="{name: 'About'}" class="text-decoration-none text-white p-0 m-0">
-                                    Terms of use
-                                </router-link>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <br><br><br><br>
 
     <section class="w-100 py-5">
         <div class="container">
-            <h1 class="text-secondary fw-bold"> Terms of use </h1>
+            <h1 class="mb-3 text-secondary fw-bold"> Terms of use </h1>
+            <div class="d-flex justify-content-start align-items-center mb-4">
+                <router-link :to="{name: 'Home'}" class="text-decoration-none text-secondary">
+                    Home
+                </router-link>
+                <div class="mx-2"> / </div>
+                <router-link :to="{name: 'About'}" class="text-decoration-none text-secondary">
+                    About us
+                </router-link>
+                <div class="mx-2"> / </div>
+                <router-link :to="{name: 'TermsOfUse'}" class="text-decoration-none text-secondary fw-medium">
+                    Terms of use
+                </router-link>
+            </div>
             <div class="border rounded-3 p-5">
                 <div>
                     <div class="fs-6"> Please read our <router-link :to="{name: 'PrivacyPolicy'}" class="text-decoration-none text-theme"> privacy policy </router-link> together with these Terms. </div>
