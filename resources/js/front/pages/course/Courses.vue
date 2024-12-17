@@ -32,7 +32,7 @@
 
                             <h1 class="mt-5 text-white fw-bold">
                                 Weekly one-hour <br> online open events <br>
-                                <a class="btn btn-outline-light btn-lg mt-3 px-5">Book Here</a>
+                                <router-link :to="{name: 'PreEnrollmentOnlineEvent'}" class="btn btn-outline-light btn-lg mt-3 px-5">Book Here</router-link>
                             </h1>
                         </div>
                     </div>

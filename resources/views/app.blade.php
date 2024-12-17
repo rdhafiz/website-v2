@@ -12,6 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
+    <!-- recaptcha cdn -->
+{{--    <script src="https://www.google.com/recaptcha/api.js" async defer></script>--}}
+
     <link rel="stylesheet" href="{{asset('css/aos.css')}}">
     <script src="{{asset('js/aos.js')}}"></script>
 

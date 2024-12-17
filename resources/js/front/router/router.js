@@ -19,6 +19,7 @@ import CookiePolicy from "../pages/general/cookie_policy.vue";
 import SafeGuardingPolicy from "../pages/general/safe_guarding_policy.vue";
 import Pathways from "../pages/general/pathways.vue";
 import FeesFunding from "../pages/general/fees_funding.vue";
+import PreEnrollmentOnlineEvent from "../pages/pre-enrollment-online-event/pre-enrollment-online-event.vue";
 
 const ROOT_URL = "";
 const routes = [
@@ -38,6 +39,7 @@ const routes = [
             {path: ROOT_URL + '/cookie_policy', name: 'CookiePolicy', component: CookiePolicy},
             {path: ROOT_URL + '/safe_guarding_policy', name: 'SafeGuardingPolicy', component: SafeGuardingPolicy},
             {path: ROOT_URL + '/fees_funding_grands_information', name: 'FeesFunding', component: FeesFunding},
+            {path: ROOT_URL + '/pre_enrollment_online_event', name: 'PreEnrollmentOnlineEvent', component: PreEnrollmentOnlineEvent},
         ]
     }
 ];
