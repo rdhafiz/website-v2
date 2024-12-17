@@ -98,7 +98,7 @@
                                     <strong class="fs-5">Course Fee:</strong>
                                 </div>
                                 <div class="w-100 ps-3 fs-5">
-                                    <span>Free if you meet specific eligibility requirements</span>
+                                    <span> <span class="text-danger">*</span> Free if you meet specific eligibility requirements</span>
                                 </div>
                             </div>
 
@@ -168,7 +168,7 @@
                                     <strong class="fs-5">Course Fee:</strong>
                                 </div>
                                 <div class="w-100 ps-3 fs-5">
-                                    <span>Free if you meet specific eligibility requirements</span>
+                                    <span><span class="text-danger">*</span> Free if you meet specific eligibility requirements</span>
                                 </div>
                             </div>
 
@@ -238,7 +238,7 @@
                                     <strong class="fs-5">Course Fee:</strong>
                                 </div>
                                 <div class="w-100 ps-3 fs-5">
-                                    <span>Free if you meet specific eligibility requirements</span>
+                                    <span> <span class="text-danger">*</span> Free if you meet specific eligibility requirements</span>
                                 </div>
                             </div>
 
@@ -308,7 +308,7 @@
                                     <strong class="fs-5">Course Fee:</strong>
                                 </div>
                                 <div class="w-100 ps-3 fs-5">
-                                    <span>Free if you meet specific eligibility requirements</span>
+                                    <span><span class="text-danger">*</span> Free if you meet specific eligibility requirements</span>
                                 </div>
                             </div>
 

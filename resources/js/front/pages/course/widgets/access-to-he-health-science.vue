@@ -53,7 +53,7 @@
                             <div class="w-100 mt-5">
                                 <h2 class="text-secondary fw-bold">Cost</h2>
                                 <h5 class="text-secondary fw-normal">
-                                    Free if you meet specific eligibility requirements
+                                    <span class="text-danger">*</span> Free if you meet specific eligibility requirements
                                 </h5>
                             </div>
 
@@ -105,7 +105,7 @@
                                     <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
                                         <div class="fs-4 fw-medium">Physics (6 Credits)</div>
                                         <div class="fs-6">
-                                            <p class="mb-0">Medical Applications for Radiography or Fundamental Physics: Theory</p>
+                                            <p class="mb-0"><span class="text-danger">*</span> Medical Applications for Radiography or <span class="text-danger">*</span> Fundamental Physics: Theory</p>
                                         </div>
                                     </div>
                                 </div>
@@ -132,7 +132,7 @@
                                                 <li>Professional Behaviour in Nursing and Health Professions</li>
                                                 <li>Preparation for Higher Education</li>
                                             </ul>
-                                            <p class="mb-0">Learners will be supported to choose from these optional units</p>
+                                            <p class="mb-0 text-danger"> * Learners will be supported to choose from these optional units</p>
                                         </div>
                                     </div>
                                 </div>

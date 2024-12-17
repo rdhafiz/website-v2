@@ -67,7 +67,7 @@
                             <div class="w-100 mt-5">
                                 <h2 class="text-secondary fw-bold">Cost</h2>
                                 <h5 class="text-secondary fw-normal">
-                                    Free if you meet specific eligibility requirements
+                                    <span class="text-danger">*</span> Free if you meet specific eligibility requirements
                                 </h5>
                             </div>
 
@@ -102,12 +102,12 @@
                                             <ul class="m-0">
                                                 <li>Cells and Tissues</li>
                                                 <li>Human Anatomy & Physiology</li>
-                                                <li>The Endocrine System</li>
+                                                <li><span class="text-danger">*</span> The Endocrine System</li>
                                                 <li>Human Reproduction & Health Related Issues</li>
                                                 <li>Homeostasis</li>
                                                 <li>Introduction to Health and Disease</li>
                                             </ul>
-                                            <p>We can offer an additional three credit unit for learners needing 24 credits</p>
+                                            <p class="text-danger">We can offer an additional three credit unit for learners needing 24 credits</p>
                                         </div>
                                     </div>
                                 </div>
@@ -132,11 +132,11 @@
                                         <div class="fs-4 fw-medium">Health Studies (6 Credits)</div>
                                         <div class="fs-6">
                                             <ul class="m-0">
-                                                <li>Promoting Health</li>
-                                                <li>Antenatal Care & the Role of the Midwife</li>
-                                                <li>The Role of the Midwife During Labour and Birth</li>
-                                                <li>Actions of Medicines on the Human Body</li>
-                                                <li>Social Drugs and Medicines</li>
+                                                <li><span class="text-danger">*</span> Promoting Health</li>
+                                                <li><span class="text-danger">*</span> Antenatal Care & the Role of the Midwife</li>
+                                                <li><span class="text-danger">*</span> The Role of the Midwife During Labour and Birth</li>
+                                                <li><span class="text-danger">*</span> Actions of Medicines on the Human Body</li>
+                                                <li><span class="text-danger">*</span> Social Drugs and Medicines</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -153,7 +153,7 @@
                                                 <li>Professional Behaviour in Nursing and Health Professions</li>
                                                 <li>Preparation for Higher Education</li>
                                             </ul>
-                                            <p>Learners will be supported to choose from these optional
+                                            <p class="text-danger"> * Learners will be supported to choose from these optional
                                                 units</p>
                                         </div>
                                     </div>
