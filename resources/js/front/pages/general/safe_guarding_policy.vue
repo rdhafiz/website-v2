@@ -1,50 +1,23 @@
 <template>
 
-    <div class="breadcrumb-content w-100 animate__animated animate__fadeIn" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/breadcrumb-8.jpg)' }">
-        <div class="breadcrumb-content-left">
-            <span class="shadow-1"></span>
-            <span class="shadow-2"></span>
-            <span class="shadow-3"></span>
-        </div>
-        <div class="container-fluid">
-            <div class="breadcrumb-left">
-                <div class="px-5 w-100">
-                    <div class="px-5 w-100 position-relative z-2">
-                        <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
-                            Safeguarding Policy
-                        </h1>
-                        <ul class="breadcrumb w-100 d-flex justify-content-start align-items-center fs-4 animate__animated animate__fadeInLeft">
-                            <li class="breadcrumb-item">
-                                <router-link :to="{name: 'Home'}" class="text-decoration-none text-white p-0 m-0">
-                                    Home
-                                </router-link>
-                            </li>
-                            <li class="text-white mx-3">
-                                /
-                            </li>
-                            <li class="breadcrumb-item">
-                                <router-link :to="{name: 'About'}" class="text-decoration-none text-white p-0 m-0">
-                                    About us
-                                </router-link>
-                            </li>
-                            <li class="text-white mx-3">
-                                /
-                            </li>
-                            <li class="breadcrumb-item">
-                                <router-link :to="{name: 'SafeGuardingPolicy'}" class="text-decoration-none text-white p-0 m-0">
-                                    Safeguarding Policy
-                                </router-link>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <br><br><br><br>
 
     <section class="w-100 py-5">
         <div class="container">
             <h1 class="mb-3 text-secondary fw-bold"> Safeguarding Policy </h1>
+            <div class="d-flex justify-content-start align-items-center mb-4">
+                <router-link :to="{name: 'Home'}" class="text-decoration-none text-secondary">
+                    Home
+                </router-link>
+                <div class="mx-2"> / </div>
+                <router-link :to="{name: 'About'}" class="text-decoration-none text-secondary">
+                    About us
+                </router-link>
+                <div class="mx-2"> / </div>
+                <router-link :to="{name: 'SafeGuardingPolicy'}" class="text-decoration-none text-secondary fw-medium">
+                    Safeguarding Policy
+                </router-link>
+            </div>
             <div class="border rounded-3 p-5">
                 <h5 class="fs-6 text-secondary fw-normal">
                     At Mediprospects, the safety and well-being of all our students, staff, and visitors are of the utmost importance. We are committed to creating a secure and supportive environment where everyone can learn and work free from harm. Our safeguarding policy outlines the measures we take to protect children, young people, and vulnerable adults in our care.

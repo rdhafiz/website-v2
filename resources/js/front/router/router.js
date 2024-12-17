@@ -12,13 +12,13 @@ import CourseDetails from "../pages/course/CourseDetails.vue";
 import Excellence from "../pages/excellence/Excellence.vue";
 import News from "../pages/news/News.vue";
 import About from "../pages/about/About.vue";
-
 import Contact from "../pages/contact/Contact.vue";
 import PrivacyPolicy from "../pages/general/privacy_policy.vue";
 import TermsOfUse from "../pages/general/terms_of_use.vue";
 import CookiePolicy from "../pages/general/cookie_policy.vue";
 import SafeGuardingPolicy from "../pages/general/safe_guarding_policy.vue";
 import Pathways from "../pages/general/pathways.vue";
+import FeesFundingGrandsInformation from "../pages/about/fees_funding_grands_information/fees_funding_grants_information.vue";
 
 const ROOT_URL = "";
 const routes = [
@@ -33,11 +33,11 @@ const routes = [
             {path: ROOT_URL + '/news', name: 'News', component: News},
             {path: ROOT_URL + '/about', name: 'About', component: About},
             {path: ROOT_URL + '/contact', name: 'Contact', component: Contact},
-
             {path: ROOT_URL + '/privacy_policy', name: 'PrivacyPolicy', component: PrivacyPolicy},
             {path: ROOT_URL + '/terms_of_use', name: 'TermsOfUse', component: TermsOfUse},
             {path: ROOT_URL + '/cookie_policy', name: 'CookiePolicy', component: CookiePolicy},
             {path: ROOT_URL + '/safe_guarding_policy', name: 'SafeGuardingPolicy', component: SafeGuardingPolicy},
+            {path: ROOT_URL + '/fees_funding_grands_information', name: 'FeesFundingGrandsInformation', component: FeesFundingGrandsInformation},
         ]
     }
 ];
