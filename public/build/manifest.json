@@ -1,6 +1,7 @@
 {
   "resources/js/front/app.js": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "file": "assets/app-nGgB7XxH.js",
 =======
 <<<<<<< HEAD
@@ -9,6 +10,9 @@
     "file": "assets/app-ZsJGkeec.js",
 >>>>>>> ac3cf94 (build-ui)
 >>>>>>> 4299149 (build-ui)
+=======
+    "file": "assets/app-TKP5b8e6.js",
+>>>>>>> 06e551a (resolve-conflict)
     "name": "app",
     "src": "resources/js/front/app.js",
     "isEntry": true
