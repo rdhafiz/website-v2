@@ -9,11 +9,11 @@
                 <router-link :to="{name: 'Home'}" class="text-decoration-none text-secondary">
                     Home
                 </router-link>
-                <div class="mx-2"> / </div>
+                <div class="mx-2"> /</div>
                 <router-link :to="{name: 'About'}" class="text-decoration-none text-secondary">
                     About us
                 </router-link>
-                <div class="mx-2"> / </div>
+                <div class="mx-2"> /</div>
                 <router-link :to="{name: 'SafeGuardingPolicy'}" class="text-decoration-none text-secondary fw-medium">
                     Safeguarding Policy
                 </router-link>
@@ -33,19 +33,19 @@
                         <ul class="mt-4">
                             <li class="mt-1">
                                 <span class="fw-medium"> Zero Tolerance:</span>
-                                <span>We have a zero-tolerance approach to abuse and exploitation of any kind. </span> </li>
+                                <span>We have a zero-tolerance approach to abuse and exploitation of any kind. </span></li>
                             <li class="mt-1">
                                 <span class="fw-medium"> Prevention:</span>
-                                <span>We prioritise preventive measures to reduce the risk of harm. </span> </li>
+                                <span>We prioritise preventive measures to reduce the risk of harm. </span></li>
                             <li class="mt-1">
                                 <span class="fw-medium"> Responsiveness:</span>
-                                <span>We act swiftly and effectively in response to any safeguarding concerns or incidents. </span> </li>
+                                <span>We act swiftly and effectively in response to any safeguarding concerns or incidents. </span></li>
                             <li class="mt-1">
                                 <span class="fw-medium"> Confidentiality:</span>
-                                <span>We handle all concerns with discretion, respecting the privacy of those involved. </span> </li>
+                                <span>We handle all concerns with discretion, respecting the privacy of those involved. </span></li>
                             <li class="mt-1">
                                 <span class="fw-medium"> Collaboration:</span>
-                                <span>We work with external agencies, including social services and law enforcement, to ensure the safety of individuals. </span> </li>
+                                <span>We work with external agencies, including social services and law enforcement, to ensure the safety of individuals. </span></li>
                         </ul>
                     </h5>
                 </div>
@@ -105,20 +105,86 @@
         </div>
     </section>
 
+    <div class="w-100 course-details-screen mb-5">
+        <div class="container">
+            <div class="w-100">
+                <h1 class="text-secondary fw-bold mb-4 mt-4">Our Safeguarding Officers</h1>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 d-flex justify-content-start">
+
+                <div class="d-inline-block mb-4">
+                    <div class="team rounded-4 shadow h-100">
+                        <div class="overflow-hidden team-image w-100 rounded-4">
+                            <img :src="'/assets/img/team/Donna_Simmonds.jpg'" alt="team">
+                        </div>
+                        <div class="p-3">
+                            <div class="fw-bold fs-4 text-center">
+                                Donna Simmonds
+                            </div>
+                            <div class="text-secondary fs-5 text-center">
+                                Designated Safeguarding Lead
+                            </div>
+                            <div class="fw-bold text-secondary fs-6 text-center mb-3">
+                                <a class="text-decoration-none" href="mailto:donna@mediprospects.org.uk">donna@mediprospects.org.uk</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-inline-block mb-4">
+                    <div class="team rounded-4 shadow h-100">
+                        <div class="overflow-hidden team-image w-100 rounded-4">
+                            <img :src="'/assets/img/team/Fatema_Hussain.jpg'" alt="team">
+                        </div>
+                        <div class="p-3">
+                            <div class="fw-bold fs-4 text-center">
+                                Fatema Hussain
+                            </div>
+                            <div class="text-secondary fs-5 text-center">
+                                Deputy Designated Safeguarding Lead (Vocational Courses)
+                            </div>
+                            <div class="fw-bold text-secondary fs-6 text-center mb-3">
+                                <a class="text-decoration-none" href="mailto:fatema@mediprospects.org.uk">fatema@mediprospects.org.uk</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-inline-block mb-4">
+                    <div class="team rounded-4 shadow h-100">
+                        <div class="overflow-hidden team-image w-100 rounded-4">
+                            <img :src="'/assets/img/team/Melanie_Lancley.jpg'" alt="team">
+                        </div>
+                        <div class="p-3">
+                            <div class="fw-bold fs-4 text-center">
+                                Mel Lancley
+                            </div>
+                            <div class="text-secondary fs-5 text-center">
+                                Deputy Designated Safeguarding Lead (Access to HE)
+                            </div>
+                            <div class="fw-bold text-secondary fs-6 text-center mb-3">
+                                <a class="text-decoration-none" href="mailto:melanie@mediprospects.org.uk">melanie@mediprospects.org.uk</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 </template>
 
 <script>
 
 export default {
-    data(){
+    data() {
         return {}
     },
     mounted() {
 
     },
-    methods: {
-
-    }
+    methods: {}
 }
 
 </script>

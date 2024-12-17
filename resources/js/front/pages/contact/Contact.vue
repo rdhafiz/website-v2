@@ -66,46 +66,45 @@
             </div>
         </section>
 
-        <section class="py-5 w-100 get-in-touch-screen-container bg-light">
+        <section class="py-5 w-100 get-in-touch-screen-container">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="title">
-                            How should we get in touch?
-                        </div>
-                        <div class="mt-1">
-                            <div class="maps-wrapper w-100">
-                                <iframe class="iframe-container w-100" allowfullscreen src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Mediprospects%20Hawley%20House%2C%205-7%20High%20St%2C%20London%20E13%200AD%2C%20United%20Kingdom&zoom=10&maptype=roadmap"></iframe>
-                            </div>
+                        <div class="w-100 h-100">
+                            <iframe class="iframe-container w-100 h-100" allowfullscreen src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Mediprospects%20Hawley%20House%2C%205-7%20High%20St%2C%20London%20E13%200AD%2C%20United%20Kingdom&zoom=10&maptype=roadmap"></iframe>
                         </div>
                     </div>
                     <div class="col-lg-6">
+                        <div class="w-100 mb-4 d-inline-block">
+                            <h2>Contact Us</h2>
+                            <p>Your email address will not be published. Required fields are marked.</p>
+                        </div>
                         <form class="w-100">
-                            <div class="form-group mb-2">
+                            <div class="form-group mb-3">
                                 <label for="full-name" class="form-label fs-6"> Name <span class="ms-1 text-danger">*</span> </label>
                                 <input id="full-name" type="text" name="name" placeholder="Enter your name" class="form-control px-3 py-2" required autocomplete="off" />
                             </div>
-                            <div class="form-group mb-2">
+                            <div class="form-group mb-3">
                                 <label for="email-address" class="form-label fs-6"> Email <span class="ms-1 text-danger">*</span> </label>
                                 <input id="email-address" type="email" name="email" placeholder="Enter your email address" class="form-control px-3 py-2" required autocomplete="off" />
                             </div>
-                            <div class="form-group mb-2">
+                            <div class="form-group mb-3">
                                 <label for="subject" class="form-label fs-6"> Subject <span class="ms-1 text-danger">*</span> </label>
                                 <input id="subject" type="text" name="subject" placeholder="Enter your subject" class="form-control px-3 py-2" required autocomplete="off" />
                             </div>
-                            <div class="form-group mb-2">
+                            <div class="form-group mb-3">
                                 <label for="message" class="form-label fs-6"> Message <span class="ms-1 text-danger">*</span> </label>
                                 <textarea id="message" name="message" cols="30" rows="2" required autocomplete="off" class="form-textarea p-3" placeholder="Enter your message"></textarea>
                             </div>
-                            <div class="form-group mb-2">
+                            <div class="form-group mb-3">
                                 <label for="town/city" class="form-label fs-6"> Town/City <span class="ms-1 text-danger">*</span> </label>
                                 <input id="town/city" type="text" name="town/city" placeholder="Enter your town/city" class="form-control px-3 py-2" required autocomplete="off" />
                             </div>
-                            <div class="form-group mb-2">
+                            <div class="form-group mb-3">
                                 <label for="phone-number" class="form-label fs-6"> Phone Number <span class="ms-1 text-danger">*</span> </label>
                                 <input id="phone-number" type="text" name="phone_number" placeholder="Enter your phone number" class="form-control px-3 py-2" required autocomplete="off" />
                             </div>
-                            <div class="form-group mb-2">
+                            <div class="form-group mb-3">
                                 <label for="how-did-you-find-out-about-us" class="form-label fs-6"> How did you find out about us? <span class="ms-1 text-danger">*</span> </label>
                                 <select id="how-did-you-find-out-about-us" name="how_did_you_find_out_about_us" class="form-select px-3 py-2" required autocomplete="off">
                                     <option value="--">--</option>
@@ -117,7 +116,7 @@
                                     <option value="Other">Other</option>
                                 </select>
                             </div>
-                            <div class="w-100">
+                            <div class="form-group mb-3 text-end">
                                 <button type="submit" class="btn btn-theme px-4 py-2">
                                     Submit
                                 </button>
