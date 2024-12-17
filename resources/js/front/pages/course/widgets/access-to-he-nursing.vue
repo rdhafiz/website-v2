@@ -34,18 +34,18 @@
                                         <div class="w-100 mb-2"><span class="badge bg-theme fs-6">Evening</span></div>
                                         <div class="w-100"><span
                                             class="fs-6">Tuesday and Thursday 6.30pm – 9.30pm</span></div>
-                                        <div class="w-100"><span class="fs-6">25th of Feb - 27th Nov 2025</span></div>
+                                        <div class="w-100"><span class="fs-6">25th February - 27th November 2025</span></div>
                                     </div>
                                     <div class="w-100 p-3 border border-secondary border-opacity-25 rounded-3 mb-2">
                                         <div class="w-100 mb-2"><span class="badge bg-theme fs-6">Weekday</span></div>
-                                        <div class="w-100"><span class="fs-6">Tuesday 9.30am – 4pm</span></div>
-                                        <div class="w-100"><span class="fs-6">25th of Feb - 2nd Dec 2025</span></div>
+                                        <div class="w-100"><span class="fs-6">Tuesday 9.30am – 4:00pm</span></div>
+                                        <div class="w-100"><span class="fs-6">25th February - 2nd December 2025</span></div>
                                     </div>
                                     <div class="w-100 p-3 border border-secondary border-opacity-25 rounded-3 mb-2">
                                         <div class="w-100 mb-2"><span class="badge bg-theme fs-6">Saturday</span>
                                         </div>
-                                        <div class="w-100"><span class="fs-6">Saturday 9.30am – 4pm</span></div>
-                                        <div class="w-100"><span class="fs-6">29th Mar - 10th of Jan 2026</span></div>
+                                        <div class="w-100"><span class="fs-6">Saturday 9.30am – 4:00pm</span></div>
+                                        <div class="w-100"><span class="fs-6">29th March 2025 - 10th January 2026</span></div>
                                     </div>
                                 </div>
                             </div>
@@ -76,8 +76,10 @@
                             <div class="w-100 mt-5">
                                 <h2 class="text-secondary fw-bold">Entry Requirements</h2>
                                 <h5 class="text-secondary fw-normal">
-                                    Level 2 English (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills
-                                    English Level 2, Adult Literacy Level 2)
+                                    <strong class="p-0 fs-5">Level 2 English</strong><br>
+                                    <span class="p-0 fs-6">
+                                            (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
+                                        </span>
                                 </h5>
                             </div>
 

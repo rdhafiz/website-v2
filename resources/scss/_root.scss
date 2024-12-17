@@ -11,3 +11,17 @@ body{
 
 .text-shadow-sm{ text-shadow: 1px 1px 1px #000000; }
 .text-theme { color: #2491eb; }
+
+
+
+.btn-theme {
+    background-color: #2491eb !important;
+    transition: 0.3s all ease-in-out !important;
+    color: #ffffff !important;
+    border: 1px solid #2491eb !important;
+    &:hover {
+        background-color: #2075bb !important;
+        transition: 0.3s all ease-in-out !important;
+        border: 1px solid #2075bb !important;
+    }
+}

@@ -39,184 +39,36 @@
             <div class="container">
 
                 <div class="w-100">
-                    <div class="position-relative animate__animated animate__fadeInRight">
-                        <img :src="'/assets/img/about/background.png'" class="img-fluid about-screen-image-cover object-fit-cover rounded-3"
-                             alt="background"/>
-                        <div class="position-absolute content-top-right">
-                            <div class="p-5 about-screen-text-container rounded-3">
-                                <div class="text-white mb-3 introduction-title">
-                                    Introduction to the centre
-                                </div>
-                                <div class="text-white text-opacity-75 introduction-description">
-                                    the centre for advanced welsh and celtic is a dedicated research institute of the
-                                    university of wales, located alongside the national library of wales in haberdashery
-                                </div>
+                    <div class="w-100">
+                        <div class="w-100 p-5 about-screen-text-container rounded-3">
+                            <div class="text-white text-center fs-1 fw-bold">
+                                We have been an Ofsted Inspected Training Provider since 2007
                             </div>
                         </div>
-                    </div>
-                    <div class="mt-5 introduction-description max-width-70 animate__animated animate__fadeInLeft">
-                        <div class="introduction-title">
-                            Lorem ipsum dolor sit amet,
-                        </div>
-                        <ul>
-                            <li class="introduction-description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem consequuntur culpa excepturi exercitationem expedita fugiat possimus quam quis repellendus?
-                            </li>
-                            <li class="introduction-description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem consequuntur culpa excepturi exercitationem expedita fugiat possimus quam quis repellendus?
-                            </li>
-                            <li class="introduction-description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem consequuntur culpa excepturi exercitationem expedita fugiat possimus quam quis repellendus?
-                            </li>
-                            <li class="introduction-description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem consequuntur culpa excepturi exercitationem expedita fugiat possimus quam quis repellendus?
-                            </li>
-                            <li class="introduction-description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem consequuntur culpa excepturi exercitationem expedita fugiat possimus quam quis repellendus?
-                            </li>
-                            <li class="introduction-description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem consequuntur culpa excepturi exercitationem expedita fugiat possimus quam quis repellendus?
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="py-5 w-100 about-screen-container bg-light">
-            <div class="container py-5">
-                <div class="row">
-                    <div class="col-lg-6 animate__animated animate__fadeInLeft">
-                        <div class="introduction-title fw-bold">
-                            Educating tomorrow's global citizens
-                        </div>
-                        <div class="mt-3 introduction-description mb-4">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi at cupiditate
-                            debitis dicta earum eligendi facere fugit inventore maiores maxime nulla perspiciatis
-                            placeat quaerat quam quia quis quod repellat, rerum sequi totam, unde voluptate voluptatem,
-                            voluptatibus voluptatum. Accusamus alias amet autem corporis culpa cupiditate eligendi
-                            exercitationem facilis fugit iure iusto laudantium maiores nesciunt, nobis officiis
-                            provident quo rerum, sequi, ut vel! Accusantium, commodi consequuntur, culpa delectus,
-                            dolorem eaque est eum minus nulla obcaecati officiis rem sint voluptatibus? Amet deleniti
-                            eveniet illum optio quae quam quas quasi repellat sapiente, suscipit! Aperiam aut cumque
-                            dolorem doloremque, eligendi ex ullam! Consequuntur in itaque pariatur sequi vitae. Alias
-                            aliquam consequuntur delectus deleniti eius exercitationem expedita explicabo harum illo
-                            incidunt, ipsum nam nesciunt nostrum numquam perferendis quidem vel voluptas.
-                        </div>
-                    </div>
-                    <div class="col-lg-6 animate__animated animate__fadeInRight">
-                        <img :src="'/assets/img/about/background-1.png'"
-                             class="img-fluid object-fit-cover rounded-4 about-img w-100" alt="about">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="py-5 about-screen-governance">
-            <span class="shadow-1"></span>
-            <span class="shadow-2"></span>
-            <span class="shadow-3"></span>
-            <div class="w-100">
-                <div class="container position-relative z-2">
-                    <div class="fs-4 mb-3 text-white animate__animated animate__fadeInLeft">
-                        Governance
-                        <hr class="border bg-white mt-2 border-white" style="width: 39px">
-                    </div>
-                    <div class="governance-title text-white animate__animated animate__fadeInLeft">
-                        Santa's Security and Policy teams establish policies and controls, monitor compliance with those
-                        controls, and prove our security and compliance to third-party auditors.
-                    </div>
-                    <div class="governance-description text-white mt-5 animate__animated animate__fadeInRight">
-                        Our policies are based on the following fundamentals principles
                     </div>
                     <div class="mt-5">
-                        <div class="row">
-                            <div class="col-xl-7">
-                                <div class="row">
-                                    <div class="col-md-6 p-2 h-100 animate__animated animate__fadeInLeft" style="animation-delay: 0.2s">
-                                        <div class="w-100 p-4 bg-white rounded-4">
-                                            <div class="mb-3 governance-box-title">
-                                                01.
-                                            </div>
-                                            <div class="governance-box-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, eaque iusto maiores nam nesciunt nisi nobis obcaecati omnis voluptate. Assumenda commodi exercitationem harum nihil unde.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 p-2 h-100 animate__animated animate__fadeInLeft" style="animation-delay: 0.4s">
-                                        <div class="w-100 p-4 bg-white rounded-4">
-                                            <div class="mb-3 governance-box-title">
-                                                02.
-                                            </div>
-                                            <div class="governance-box-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, eaque iusto maiores nam nesciunt nisi nobis obcaecati omnis voluptate. Assumenda commodi exercitationem harum nihil unde.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 p-2 h-100 animate__animated animate__fadeInLeft" style="animation-delay: 0.6s">
-                                        <div class="w-100 p-4 bg-white rounded-4">
-                                            <div class="mb-3 governance-box-title">
-                                                03.
-                                            </div>
-                                            <div class="governance-box-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, eaque iusto maiores nam nesciunt nisi nobis obcaecati omnis voluptate. Assumenda commodi exercitationem harum nihil unde.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 p-2 h-100 animate__animated animate__fadeInLeft" style="animation-delay: 0.8s">
-                                        <div class="w-100 p-4 bg-white rounded-4">
-                                            <div class="mb-3 governance-box-title">
-                                                04.
-                                            </div>
-                                            <div class="governance-box-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, eaque iusto maiores nam nesciunt nisi nobis obcaecati omnis voluptate. Assumenda commodi exercitationem harum nihil unde.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-5 p-2">
-                                <div class="w-100 p-5 governance-box-container rounded-4 h-100 d-flex justify-content-between align-items-start flex-column animate__animated animate__fadeInRight" style="animation-delay: 1s">
-                                    <div>
-                                        <div class="governance-box-text text-white mb-3">
-                                            Security and compliance at vanta
-                                        </div>
-                                        <div class="text-white mb-3 governance-box-description">
-                                            vanta maintains a SOC 2 Type || attestation and an ISO 27001 compliance certification. Our SOC 2 Type || report and ISO 27001 are available on our
-                                        </div>
-                                        <div class="mb-3">
-                                            <a href="javascript:void(0)" class="btn btn-lg fw-bold btn-outline-light py-3 px-4 w-100">
-                                                Trusted company <i class="fas fa-arrow-right ms-3"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="mb-4 governance-box-text text-white">
-                                            Vanta maintains
-                                        </div>
-                                        <div class="d-flex justify-content-around align-items-center flex-wrap gap-3">
-                                            <div>
-                                                <div class="trusted-company rounded-circle overflow-hidden"> HIPPA</div>
-                                            </div>
-                                            <div>
-                                                <div class="trusted-company rounded-circle overflow-hidden"> GDPR</div>
-                                            </div>
-                                            <div>
-                                                <div class="trusted-company rounded-circle overflow-hidden"> CCPA</div>
-                                            </div>
-                                            <div>
-                                                <div class="trusted-company rounded-circle overflow-hidden"> PCI</div>
-                                            </div>
-                                        </div>
-                                        <div class="mt-4 governance-box-text">
-                                            <a href="javascript:void(0)" class="btn btn-lg fw-bold btn-outline-light py-3 px-4 w-100">
-                                                compliance with <i class="fas fa-arrow-right ms-3"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="w-100 mt-5">
+                            <h2 class="text-secondary fw-bold mb-4">In August 2024, Ofsted said: </h2>
+                            <h4 class="text-secondary fw-normal mb-4">
+                                Learners are taught in respectful and calm environments. Learners, many of whom are parents of young children, value the opportunity that trainers provide to study at times that fit around their family and work placement commitments. For example, trainers offer learners choices of lessons in evenings or at weekends. This allows learners to balance their work and family lives with their education. As a result, most learners have high attendance and stay on their course to complete their studies.
+                            </h4>
+                            <h4 class="text-secondary fw-normal mb-4">
+                                Learners participate in a good range of additional courses and gain extra useful qualifications. These courses help learners to develop knowledge and skills beyond the core curriculum, and prepare them for their next steps such as work placement, employment or further study. For example, most early years learners gain safeguarding qualifications that employers value.
+                            </h4>
+                            <h4 class="text-secondary fw-normal mb-4">
+                                Access to HE learners gain valuable knowledge and skills throughout their course that prepare them well to study at university to become midwives or nurses.
+                            </h4>
+                            <h4 class="text-primary fw-normal mb-4">
+                                Trainers are well-qualified and experts in the subjects they teach
+                            </h4>
+                            <h4 class="text-primary fw-normal mb-4">
+                                Most Access to HE learners achieve distinctions for their work
+                            </h4>
+                            <h4 class="text-primary fw-normal mb-4">
+                                Trainers discuss a range of universities and career pathways with learners. As a result, learners make informed decisions about their next steps and careers
+                            </h4>
                         </div>
+
                     </div>
                 </div>
             </div>

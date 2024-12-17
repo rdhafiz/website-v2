@@ -7,30 +7,30 @@
             <span class="shadow-3"></span>
         </div>
         <div class="container-fluid">
-          <div class="w-100 px-5">
-            <div class="w-100 px-5 position-relative z-2">
-              <div class="breadcrumb-left">
-                <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
-                  Courses
-                </h1>
-                <ul class="breadcrumb w-100 d-flex justify-content-start align-items-center fs-4 animate__animated animate__fadeInLeft">
-                  <li class="breadcrumb-item">
-                    <router-link :to="{name: 'Home'}" class="text-decoration-none text-white p-0 m-0">
-                      Home
-                    </router-link>
-                  </li>
-                  <li class="text-white mx-3">
-                    /
-                  </li>
-                  <li class="breadcrumb-item">
-                    <router-link :to="{name: 'Courses'}" class="text-decoration-none text-white p-0 m-0">
-                      Courses
-                    </router-link>
-                  </li>
-                </ul>
-              </div>
+            <div class="w-100 px-5">
+                <div class="w-100 px-5 position-relative z-2">
+                    <div class="breadcrumb-left">
+                        <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
+                            Courses
+                        </h1>
+                        <ul class="breadcrumb w-100 d-flex justify-content-start align-items-center fs-4 animate__animated animate__fadeInLeft">
+                            <li class="breadcrumb-item">
+                                <router-link :to="{name: 'Home'}" class="text-decoration-none text-white p-0 m-0">
+                                    Home
+                                </router-link>
+                            </li>
+                            <li class="text-white mx-3">
+                                /
+                            </li>
+                            <li class="breadcrumb-item">
+                                <router-link :to="{name: 'Courses'}" class="text-decoration-none text-white p-0 m-0">
+                                    Courses
+                                </router-link>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
     </div>
 
@@ -48,7 +48,7 @@
                             </div>
 
                             <div class="w-100 d-flex justify-content-between mt-2">
-                                <div style="width: 150px">
+                                <div style="width: 200px">
                                     <strong class="fs-5">Courses:</strong>
                                 </div>
                                 <div class="w-100 ps-3">
@@ -56,7 +56,7 @@
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between mt-2">
-                                <div style="width: 150px">
+                                <div style="width: 200px">
                                     <strong class="fs-5">Location:</strong>
                                 </div>
                                 <div class="w-100 ps-3">
@@ -68,15 +68,18 @@
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between mt-3">
-                                <div style="width: 150px">
+                                <div style="width: 200px">
                                     <strong class="fs-5">Entry Requirements:</strong>
                                 </div>
                                 <div class="w-100 ps-3 fs-5">
-                                    Level 2 English (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
+                                    <strong class="p-0 fs-5">Level 2 English</strong><br>
+                                    <span class="p-0 fs-6">
+                                            (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
+                                        </span>
                                 </div>
                             </div>
-                            <div class="w-100 d-flex justify-content-between mt-2">
-                                <div style="width: 150px">
+                            <div class="w-100 d-flex justify-content-between mt-3">
+                                <div style="width: 200px">
                                     <strong class="fs-5">Course Credit:</strong>
                                 </div>
                                 <div class="w-100 ps-3 fs-5">
@@ -84,7 +87,7 @@
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between mt-2">
-                                <div style="width: 150px">
+                                <div style="width: 200px">
                                     <strong class="fs-5">Course Fee:</strong>
                                 </div>
                                 <div class="w-100 ps-3 fs-5">
@@ -115,7 +118,7 @@
                             </div>
 
                             <div class="w-100 d-flex justify-content-between mt-2">
-                                <div style="width: 150px">
+                                <div style="width: 200px">
                                     <strong class="fs-5">Courses:</strong>
                                 </div>
                                 <div class="w-100 ps-3">
@@ -123,7 +126,7 @@
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between mt-2">
-                                <div style="width: 150px">
+                                <div style="width: 200px">
                                     <strong class="fs-5">Location:</strong>
                                 </div>
                                 <div class="w-100 ps-3">
@@ -135,15 +138,18 @@
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between mt-3">
-                                <div style="width: 150px">
+                                <div style="width: 200px">
                                     <strong class="fs-5">Entry Requirements:</strong>
                                 </div>
                                 <div class="w-100 ps-3 fs-5">
-                                    Level 2 English (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
+                                    <strong class="p-0 fs-5">Level 2 English</strong><br>
+                                    <span class="p-0 fs-6">
+                                            (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
+                                        </span>
                                 </div>
                             </div>
-                            <div class="w-100 d-flex justify-content-between mt-2">
-                                <div style="width: 150px">
+                            <div class="w-100 d-flex justify-content-between mt-3">
+                                <div style="width: 200px">
                                     <strong class="fs-5">Course Credit:</strong>
                                 </div>
                                 <div class="w-100 ps-3 fs-5">
@@ -151,7 +157,7 @@
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between mt-2">
-                                <div style="width: 150px">
+                                <div style="width: 200px">
                                     <strong class="fs-5">Course Fee:</strong>
                                 </div>
                                 <div class="w-100 ps-3 fs-5">
@@ -182,7 +188,7 @@
                             </div>
 
                             <div class="w-100 d-flex justify-content-between mt-2">
-                                <div style="width: 150px">
+                                <div style="width: 200px">
                                     <strong class="fs-5">Courses:</strong>
                                 </div>
                                 <div class="w-100 ps-3">
@@ -190,7 +196,7 @@
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between mt-2">
-                                <div style="width: 150px">
+                                <div style="width: 200px">
                                     <strong class="fs-5">Location:</strong>
                                 </div>
                                 <div class="w-100 ps-3">
@@ -202,15 +208,18 @@
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between mt-3">
-                                <div style="width: 150px">
+                                <div style="width: 200px">
                                     <strong class="fs-5">Entry Requirements:</strong>
                                 </div>
                                 <div class="w-100 ps-3 fs-5">
-                                    Level 2 English (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
+                                    <strong class="p-0 fs-5">Level 2 English</strong><br>
+                                    <span class="p-0 fs-6">
+                                            (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
+                                        </span>
                                 </div>
                             </div>
-                            <div class="w-100 d-flex justify-content-between mt-2">
-                                <div style="width: 150px">
+                            <div class="w-100 d-flex justify-content-between mt-3">
+                                <div style="width: 200px">
                                     <strong class="fs-5">Course Credit:</strong>
                                 </div>
                                 <div class="w-100 ps-3 fs-5">
@@ -218,7 +227,7 @@
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between mt-2">
-                                <div style="width: 150px">
+                                <div style="width: 200px">
                                     <strong class="fs-5">Course Fee:</strong>
                                 </div>
                                 <div class="w-100 ps-3 fs-5">
@@ -249,7 +258,7 @@
                             </div>
 
                             <div class="w-100 d-flex justify-content-between mt-2">
-                                <div style="width: 150px">
+                                <div style="width: 200px">
                                     <strong class="fs-5">Courses:</strong>
                                 </div>
                                 <div class="w-100 ps-3">
@@ -257,7 +266,7 @@
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between mt-2">
-                                <div style="width: 150px">
+                                <div style="width: 200px">
                                     <strong class="fs-5">Location:</strong>
                                 </div>
                                 <div class="w-100 ps-3">
@@ -269,15 +278,18 @@
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between mt-3">
-                                <div style="width: 150px">
+                                <div style="width: 200px">
                                     <strong class="fs-5">Entry Requirements:</strong>
                                 </div>
                                 <div class="w-100 ps-3 fs-5">
-                                    Level 2 English (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
+                                    <strong class="p-0 fs-5">Level 2 English</strong><br>
+                                    <span class="p-0 fs-6">
+                                            (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
+                                        </span>
                                 </div>
                             </div>
-                            <div class="w-100 d-flex justify-content-between mt-2">
-                                <div style="width: 150px">
+                            <div class="w-100 d-flex justify-content-between mt-3">
+                                <div style="width: 200px">
                                     <strong class="fs-5">Course Credit:</strong>
                                 </div>
                                 <div class="w-100 ps-3 fs-5">
@@ -285,7 +297,7 @@
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between mt-2">
-                                <div style="width: 150px">
+                                <div style="width: 200px">
                                     <strong class="fs-5">Course Fee:</strong>
                                 </div>
                                 <div class="w-100 ps-3 fs-5">

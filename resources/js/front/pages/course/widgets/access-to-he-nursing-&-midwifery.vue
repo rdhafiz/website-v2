@@ -35,17 +35,17 @@
                                     <div class="w-100 p-3 border border-secondary border-opacity-25 rounded-3 mb-2">
                                         <div class="w-100 mb-2"><span class="badge bg-theme fs-6">Evening</span></div>
                                         <div class="w-100"><span class="fs-6">Tuesday and Thursday 6.30pm – 9.30pm</span></div>
-                                        <div class="w-100"><span class="fs-6">25th of Feb - 27th Nov 2025</span></div>
+                                        <div class="w-100"><span class="fs-6">25th February - 27th November 2025</span></div>
                                     </div>
                                     <div class="w-100 p-3 border border-secondary border-opacity-25 rounded-3 mb-2">
                                         <div class="w-100 mb-2"><span class="badge bg-theme fs-6">Weekday</span></div>
-                                        <div class="w-100"><span class="fs-6">Tuesday 9.30am – 4pm</span></div>
-                                        <div class="w-100"><span class="fs-6">25th of Feb - 2nd Dec 2025</span></div>
+                                        <div class="w-100"><span class="fs-6">Tuesday 9.30am – 4:00pm</span></div>
+                                        <div class="w-100"><span class="fs-6">25th February - 2nd December 2025</span></div>
                                     </div>
                                     <div class="w-100 p-3 border border-secondary border-opacity-25 rounded-3 mb-2">
                                         <div class="w-100 mb-2"><span class="badge bg-theme fs-6">Saturday</span></div>
-                                        <div class="w-100"><span class="fs-6">Saturday 9.30am – 4pm</span></div>
-                                        <div class="w-100"><span class="fs-6">29th Mar - 10th of Jan 2026</span></div>
+                                        <div class="w-100"><span class="fs-6">Saturday 9.30am – 4:00pm</span></div>
+                                        <div class="w-100"><span class="fs-6">29th March 2025 - 10th January 2026</span></div>
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +74,10 @@
                             <div class="w-100 mt-5">
                                 <h2 class="text-secondary fw-bold">Entry Requirements</h2>
                                 <h5 class="text-secondary fw-normal">
-                                    Level 2 English (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
+                                    <strong class="p-0 fs-5">Level 2 English</strong><br>
+                                    <span class="p-0 fs-6">
+                                            (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
+                                        </span>
                                 </h5>
                             </div>
 
@@ -108,53 +111,53 @@
                                         </div>
                                     </div>
                                 </div>
-                              <div class="mb-2">
-                                <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
-                                  <div class="fs-4 fw-medium">Psychology (9 Credits)</div>
-                                  <div class="fs-6">
-                                    <p>Introduction to Psychology and Health Psychology</p>
-                                  </div>
+                                <div class="mb-2">
+                                    <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
+                                        <div class="fs-4 fw-medium">Psychology (9 Credits)</div>
+                                        <div class="fs-6">
+                                            <p>Introduction to Psychology and Health Psychology</p>
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
-                              <div class="mb-2">
-                                <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
-                                  <div class="fs-4 fw-medium">Sociology (3 Credits)</div>
-                                  <div class="fs-6">
-                                    <p>Health Inequalities</p>
-                                  </div>
+                                <div class="mb-2">
+                                    <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
+                                        <div class="fs-4 fw-medium">Sociology (3 Credits)</div>
+                                        <div class="fs-6">
+                                            <p>Health Inequalities</p>
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
-                              <div class="mb-2">
-                                <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
-                                  <div class="fs-4 fw-medium">Health Studies (6 Credits)</div>
-                                  <div class="fs-6">
-                                    <ul class="m-0">
-                                      <li>Promoting Health</li>
-                                      <li>Antenatal Care & the Role of the Midwife</li>
-                                      <li>The Role of the Midwife During Labour and Birth</li>
-                                      <li>Actions of Medicines on the Human Body</li>
-                                      <li>Social Drugs and Medicines</li>
-                                    </ul>
-                                  </div>
+                                <div class="mb-2">
+                                    <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
+                                        <div class="fs-4 fw-medium">Health Studies (6 Credits)</div>
+                                        <div class="fs-6">
+                                            <ul class="m-0">
+                                                <li>Promoting Health</li>
+                                                <li>Antenatal Care & the Role of the Midwife</li>
+                                                <li>The Role of the Midwife During Labour and Birth</li>
+                                                <li>Actions of Medicines on the Human Body</li>
+                                                <li>Social Drugs and Medicines</li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
-                              <div class="mb-2">
-                                <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
-                                  <div class="fs-4 fw-medium">Skills Development (21 Credits)</div>
-                                  <div class="fs-6">
-                                    <ul class="m-0">
-                                      <li>Academic Writing Skills</li>
-                                      <li>Promoting Wellbeing & Building Resilience</li>
-                                      <li>Research Skills</li>
-                                      <li>Numeracy in a Health Context</li>
-                                      <li>Professional Behaviour in Nursing and Health Professions</li>
-                                      <li>Preparation for Higher Education</li>
-                                    </ul>
-                                    <p>Learners will be supported to choose from these optional
-                                      units</p>
-                                  </div>
+                                <div class="mb-2">
+                                    <div class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
+                                        <div class="fs-4 fw-medium">Skills Development (21 Credits)</div>
+                                        <div class="fs-6">
+                                            <ul class="m-0">
+                                                <li>Academic Writing Skills</li>
+                                                <li>Promoting Wellbeing & Building Resilience</li>
+                                                <li>Research Skills</li>
+                                                <li>Numeracy in a Health Context</li>
+                                                <li>Professional Behaviour in Nursing and Health Professions</li>
+                                                <li>Preparation for Higher Education</li>
+                                            </ul>
+                                            <p>Learners will be supported to choose from these optional
+                                                units</p>
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
                         </div>
                     </div>
