@@ -64,7 +64,7 @@
                             <div class="w-100 mt-5">
                                 <h2 class="text-secondary fw-bold">Cost</h2>
                                 <h5 class="text-secondary fw-normal">
-                                    Free if you meet specific eligibility requirements
+                                    <span class="text-danger">*</span> Free if you meet specific eligibility requirements
                                 </h5>
                             </div>
 
@@ -99,7 +99,7 @@
                                             <ul class="m-0">
                                                 <li>Cells and Tissues</li>
                                                 <li>Human Anatomy & Physiology</li>
-                                                <li>The Endocrine System</li>
+                                                <li><span class="text-danger">*</span> The Endocrine System</li>
                                                 <li>Human Reproduction & Health Related Issues</li>
                                                 <li>Homeostasis</li>
                                                 <li>Introduction to Health & Disease</li>
@@ -128,10 +128,10 @@
                                         <div class="fs-4 fw-medium">Health Studies (6 Credits)</div>
                                         <div class="fs-6">
                                             <ul class="m-0">
-                                                <li>Promoting Health</li>
-                                                <li>Role & Responsibilities of the Paramedic Team</li>
-                                                <li>Actions of Medicines on the Human Body</li>
-                                                <li>Social Drugs and Medicines</li>
+                                                <li> <span class="text-danger">*</span> Promoting Health</li>
+                                                <li> <span class="text-danger">*</span> Role & Responsibilities of the Paramedic Team</li>
+                                                <li> <span class="text-danger">*</span> Actions of Medicines on the Human Body</li>
+                                                <li> <span class="text-danger">*</span> Social Drugs and Medicines</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -148,7 +148,7 @@
                                                 <li>Professional Behaviour: Nursing and Health Professions</li>
                                                 <li>Preparation for Higher Education</li>
                                             </ul>
-                                            <p class="mb-0">Learners will be supported to choose from these optional units</p>
+                                            <p class="mb-0 text-danger">* Learners will be supported to choose from these optional units</p>
                                         </div>
                                     </div>
                                 </div>

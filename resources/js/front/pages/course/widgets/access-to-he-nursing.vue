@@ -69,7 +69,7 @@
                             <div class="w-100 mt-5">
                                 <h2 class="text-secondary fw-bold">Cost</h2>
                                 <h5 class="text-secondary fw-normal">
-                                    Free if you meet specific eligibility requirements
+                                    <span class="text-danger">*</span> Free if you meet specific eligibility requirements
                                 </h5>
                             </div>
 
