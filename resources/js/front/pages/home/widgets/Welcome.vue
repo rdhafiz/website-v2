@@ -1,5 +1,5 @@
 <template>
-    <div class="welcome-screen" :style="{ backgroundImage: 'url(/assets/img/home/background.jpg?v=2)' }">
+    <div class="welcome-screen" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/contact.png)' }">
 
         <div class="access-screen">
             <div class="w-100 d-flex justify-content-center align-items-center p-3">

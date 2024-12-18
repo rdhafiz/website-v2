@@ -13,7 +13,7 @@
                     <div class="breadcrumb-left">
                         <div class="w-100 mt-5">
                             <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
-                                Courses
+                                Pre Enrolment Events
                             </h1>
                             <ul class="breadcrumb w-100 d-flex justify-content-start align-items-center fs-4 animate__animated animate__fadeInLeft">
                                 <li class="breadcrumb-item">

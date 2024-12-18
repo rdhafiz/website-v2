@@ -1,3 +1,4 @@
+
 .contact-screen {
     .background-cover {
         width: 100%;
@@ -32,7 +33,7 @@
             padding: 0 50px;
             margin: 5px;
             background-color: #2491eb;
-            box-shadow: 0 16px 8px 0 $blue-600 inset;
+            @include box-shadow($blue-600);
         }
     }
     .get-in-touch-screen-container {
