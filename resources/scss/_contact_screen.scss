@@ -31,16 +31,8 @@
             height: 390px;
             padding: 0 50px;
             margin: 5px;
-
-            &:nth-child(1) {
-                background-color: #2491eb;
-            }
-            &:nth-child(2) {
-                background-color: #009432;
-            }
-            &:nth-child(3) {
-                background-color: #1B1464;
-            }
+            background-color: #2491eb;
+            box-shadow: 0 16px 8px 0 $blue-600 inset;
         }
     }
     .get-in-touch-screen-container {

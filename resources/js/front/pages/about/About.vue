@@ -1,12 +1,13 @@
 <template>
 
     <div class="about-screen">
-        <div class="breadcrumb-content w-100 animate__animated animate__fadeIn" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/breadcrumb-4.webp)' }">
+        <div class="breadcrumb-content w-100 animate__animated animate__fadeIn">
             <div class="breadcrumb-content-left">
                 <span class="shadow-1"></span>
                 <span class="shadow-2"></span>
                 <span class="shadow-3"></span>
             </div>
+            <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/about_us.jpg?v=2)' }"></div>
             <div class="container-fluid">
                 <div class="breadcrumb-left">
                     <div class="px-5 w-100">
@@ -58,13 +59,13 @@
                             <h4 class="text-secondary fw-normal mb-4">
                                 Access to HE learners gain valuable knowledge and skills throughout their course that prepare them well to study at university to become midwives or nurses.
                             </h4>
-                            <h4 class="text-primary fw-normal mb-4">
+                            <h4 class="text-secondary fw-normal mb-4">
                                 Trainers are well-qualified and experts in the subjects they teach
                             </h4>
-                            <h4 class="text-primary fw-normal mb-4">
+                            <h4 class="text-secondary fw-normal mb-4">
                                 Most Access to HE learners achieve distinctions for their work
                             </h4>
-                            <h4 class="text-primary fw-normal mb-4">
+                            <h4 class="text-secondary fw-normal mb-4">
                                 Trainers discuss a range of universities and career pathways with learners. As a result, learners make informed decisions about their next steps and careers
                             </h4>
                         </div>

@@ -6,6 +6,7 @@
       <span class="shadow-2"></span>
       <span class="shadow-3"></span>
     </div>
+    <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/News_and_Events.jpg)' }"></div>
     <div class="container-fluid">
       <div class="breadcrumb-left">
         <div class="w-100 px-5">

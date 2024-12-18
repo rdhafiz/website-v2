@@ -1,16 +1,56 @@
 <template>
 
-    <br><br><br><br>
+    <div class="breadcrumb-content w-100 animate__animated animate__fadeIn">
+        <div class="breadcrumb-content-left">
+            <span class="shadow-1"></span>
+            <span class="shadow-2"></span>
+            <span class="shadow-3"></span>
+        </div>
+        <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/courses.jpg)' }"></div>
+        <div class="container-fluid">
+            <div class="w-100 px-5">
+                <div class="w-100 px-5 position-relative z-2">
+                    <div class="breadcrumb-left">
+                        <div class="w-100 mt-5">
+                            <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
+                                Courses
+                            </h1>
+                            <ul class="breadcrumb w-100 d-flex justify-content-start align-items-center fs-4 animate__animated animate__fadeInLeft">
+                                <li class="breadcrumb-item">
+                                    <router-link :to="{name: 'Home'}" class="text-decoration-none text-white p-0 m-0">
+                                        Home
+                                    </router-link>
+                                </li>
+                                <li class="text-white mx-3">
+                                    /
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <router-link :to="{name: 'PreEnrollmentOnlineEvent'}" class="text-decoration-none text-white p-0 m-0">
+                                        Online open events
+                                    </router-link>
+                                </li>
+                            </ul>
+
+                            <h1 class="mt-5 text-white fw-bold">
+                                Weekly one-hour <br> online open events <br>
+                                <router-link :to="{name: 'PreEnrollmentOnlineEvent'}" class="btn btn-outline-light btn-lg mt-3 px-5">Book Here</router-link>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <section class="w-100 py-5">
         <div class="container">
-            <div class="d-flex justify-content-center align-items-center">
+            <div class="d-flex justify-content-center align-items-center px-5 w-100">
                 <div class="col-11 col-md-7">
                     <form method="POST" action="https://httpbin.org/post" class="w-100">
-                        <h1 class="fs-1 fw-bold mb-4 text-center">
+                        <h2 class="mb-4 text-center">
                             Online Open Events Pre Enrolment Form
-                        </h1>
-                        <div class="border p-5">
+                        </h2>
+                        <div class="border p-5 shadow">
                             <div class="mb-3">
                                 <label for="course-you-want-to-attend" class="form-label"> Course You Want to Attend <span class="text-danger">*</span> </label>
                                 <select name="course_you_want_to_attend" id="course-you-want-to-attend" class="form-select bg-secondary-subtle py-2 px-3" required autocomplete="off">

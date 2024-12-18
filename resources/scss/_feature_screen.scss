@@ -14,32 +14,8 @@
             height: 400px;
             padding: 0 25px;
             margin: 5px;
-
-            &:nth-child(1) {
-                background-color: #2491eb;
-            }
-            &:nth-child(2) {
-                background-color: #009432;
-            }
-            &:nth-child(3) {
-                background-color: #1B1464;
-            }
-            &:nth-child(4) {
-                background-color: #6D214F;
-            }
-            &:nth-child(5) {
-                background-color: #1289A7;
-            }
-            &:nth-child(6) {
-                background-color: #222F3E;
-            }
-            &:nth-child(7) {
-                background-color: #009432;
-            }
-            &:nth-child(8) {
-                background-color: #B33939;
-            }
-
+            background-color: #2491eb;
+            box-shadow: 0 16px 8px 0 $blue-600 inset;
         }
     }
 }
