@@ -25,9 +25,11 @@
                         width: 50%;
 
                         &:hover {
-                            transition: 0.3s all ease-in-out;
-                            background-color: rgba(36, 145, 235, 0.25);
-                            color: var(--bs-black) !important;
+                            div {
+                                transition: 0.3s all ease-in-out;
+                                background-color: rgba(36, 145, 235, 0.25);
+                                color: var(--bs-black) !important;
+                            }
                         }
 
                     }
