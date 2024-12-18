@@ -25,9 +25,9 @@
                                     /
                                 </li>
                                 <li class="breadcrumb-item">
-                                    <router-link :to="{name: 'PreEnrollmentOnlineEvent'}" class="text-decoration-none text-white p-0 m-0">
+                                    <a :to="{name: 'PreEnrollmentOnlineEvent'}" class="text-decoration-none text-white p-0 m-0">
                                         Online open events
-                                    </router-link>
+                                    </a>
                                 </li>
                             </ul>
 
