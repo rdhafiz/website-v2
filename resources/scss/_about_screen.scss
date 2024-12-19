@@ -50,10 +50,16 @@
     .contain-box {
         .mission-title, .vision-title {
             font-size: 72px;
+            @media screen and (max-width: 1199px) {
+                font-size: 32px;
+            }
         }
     }
     .introduction-description {
         font-size: 24px;
+        @media screen and (max-width: 1199px) {
+            font-size: 19px;
+        }
         &.max-width-70 {
             max-width: 70%;
             @media screen and (max-width: 768px) {

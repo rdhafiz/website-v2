@@ -15,6 +15,15 @@
             padding: 0 25px;
             margin: 5px;
             background-color: #2491eb;
+
+            @media screen and (max-width: 991px) {
+                width: 350px;
+                height: 350px;
+                .fs-3 {
+                    font-size: 24px !important;
+                }
+            }
+
         }
     }
 }

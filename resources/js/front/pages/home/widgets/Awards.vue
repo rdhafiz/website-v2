@@ -23,13 +23,13 @@
                                     <div class="carousel-item active">
                                         <div class="each-award">
                                             <div class="row">
-                                                <div class="col-7">
+                                                <div class="col-12 col-xl-7">
                                                     <h1 class="h1-lg text-white text-shadow-sm">Learner of the Year</h1>
                                                     <h2 class="text-white text-shadow-sm">Recognizing Academic Excellence</h2>
                                                     <p class="fs-4 text-white text-shadow-sm">Awarded to a learner who has demonstrated exceptional dedication, achievement, and progress in their studies.</p>
                                                     <p class=""><a class="btn btn-lg btn-outline-light px-4"> Learn More <i class="fas fa-arrow-right ms-3"></i></a></p>
                                                 </div>
-                                                <div class="col-5">
+                                                <div class="col-12 col-xl-5">
                                                     <div class="w-100 award-images">
                                                         <img class="shadow" :src="'/assets/img/award/lesley-heaney.jpg'" alt="">
                                                         <img class="shadow" :src="'/assets/img/award/Afroja_khan.jpg'" alt="">

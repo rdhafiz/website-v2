@@ -10,8 +10,8 @@
             <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/about.jpg)' }"></div>
             <div class="container-fluid">
                 <div class="breadcrumb-left">
-                    <div class="px-5 w-100">
-                        <div class="px-5 position-relative z-2 col-lg-6">
+                    <div class="px-0 px-md-5 w-100">
+                        <div class="px-1 px-md-5 position-relative z-2 col-lg-6">
                             <h1 class="w-100 breadcrumb-title text-white animate__animated animate__fadeInLeft mt-5">
                                 Since 2007, Mediprospects
                             </h1>

@@ -8,8 +8,8 @@
         </div>
         <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/courses.jpg)' }"></div>
         <div class="container-fluid">
-            <div class="w-100 px-5">
-                <div class="w-100 px-5 position-relative z-2">
+            <div class="w-100 px-0 px-md-5">
+                <div class="w-100 px-1 px-md-5 position-relative z-2">
                     <div class="breadcrumb-left">
                         <div class="w-100 mt-5">
                             <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
@@ -30,7 +30,6 @@
                                     </router-link>
                                 </li>
                             </ul>
-
                             <h1 class="mt-5 text-white fw-bold animate__animated animate__fadeInLeft" style="animation-delay: 0.2s">
                                 Weekly one-hour <br> online open events <br>
                                 <router-link :to="{name: 'PreEnrollmentOnlineEvent'}" class="btn btn-outline-light btn-lg mt-3 px-5">Book Here</router-link>
@@ -45,7 +44,7 @@
     <div class="courses-screen py-5">
         <div class="container py-5">
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
-                <div class="w-100 d-flex justify-content-start align-items-start border-bottom">
+                <div class="w-100 d-xl-flex justify-content-start align-items-start border-bottom">
                     <div class="h-100">
                         <img class="each-data-img" :src="'/assets/img/access/access-to-he-health-profession.webp'" alt="NursingMidwifery">
                     </div>
@@ -55,19 +54,19 @@
                                 <h2>Access to HE Health Professions</h2>
                             </div>
 
-                            <div class="w-100 d-flex justify-content-between mt-2">
+                            <div class="w-100 d-block d-md-flex justify-content-between mt-2">
                                 <div style="width: 200px">
                                     <strong class="fs-5">Courses:</strong>
                                 </div>
-                                <div class="w-100 ps-3">
+                                <div class="w-100 ps-md-3">
                                     <span class="fs-5">3 Courses starting Spring 2025</span>
                                 </div>
                             </div>
-                            <div class="w-100 d-flex justify-content-between mt-2">
+                            <div class="w-100 d-block d-md-flex justify-content-between mt-2">
                                 <div style="width: 200px">
                                     <strong class="fs-5">Location:</strong>
                                 </div>
-                                <div class="w-100 ps-3">
+                                <div class="w-100 ps-md-3">
                                     <strong class="p-0 fs-5">Online Via Microsoft Teams</strong><br>
                                     <span class="p-0 fs-6">
                                             You will be issued with a Mediprospects Office 365 account, Live online lessons
@@ -75,11 +74,11 @@
                                         </span>
                                 </div>
                             </div>
-                            <div class="w-100 d-flex justify-content-between mt-3">
+                            <div class="w-100 d-block d-md-flex justify-content-between mt-3">
                                 <div style="width: 200px">
                                     <strong class="fs-5">Entry Requirements:</strong>
                                 </div>
-                                <div class="w-100 ps-3 fs-5">
+                                <div class="w-100 ps-md-3 fs-5">
                                     <strong class="p-0 fs-5">Level 2 English</strong><br>
                                     <span class="p-0 fs-6">
                                         (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
@@ -91,19 +90,19 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-100 d-flex justify-content-between mt-3">
+                            <div class="w-100 d-block d-md-flex justify-content-between mt-3">
                                 <div style="width: 200px">
                                     <strong class="fs-5">Course Credit:</strong>
                                 </div>
-                                <div class="w-100 ps-3 fs-5">
+                                <div class="w-100 ps-md-3 fs-5">
                                     60 credits (45 graded and 15 ungraded)
                                 </div>
                             </div>
-                            <div class="w-100 d-flex justify-content-between mt-2">
+                            <div class="w-100 d-block d-md-flex justify-content-between mt-2">
                                 <div style="width: 200px">
                                     <strong class="fs-5">Course Fee:</strong>
                                 </div>
-                                <div class="w-100 ps-3 fs-5">
+                                <div class="w-100 ps-md-3 fs-5">
                                     <span> <span class="text-danger">*</span> Free if you meet specific eligibility requirements</span>
                                 </div>
                             </div>
@@ -120,7 +119,7 @@
                 </div>
             </div>
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
-                <div class="w-100 d-flex justify-content-start align-items-start border-bottom">
+                <div class="w-100 d-xl-flex justify-content-start align-items-start border-bottom">
                     <div class="h-100">
                         <img class="each-data-img" :src="'/assets/img/access/NursingMidwifery.jpg'" alt="NursingMidwifery">
                     </div>
@@ -130,19 +129,19 @@
                                 <h2>Access to HE Nursing & Midwifery</h2>
                             </div>
 
-                            <div class="w-100 d-flex justify-content-between mt-2">
+                            <div class="w-100 d-block d-md-flex justify-content-between mt-2">
                                 <div style="width: 200px">
                                     <strong class="fs-5">Courses:</strong>
                                 </div>
-                                <div class="w-100 ps-3">
+                                <div class="w-100 ps-md-3">
                                     <span class="fs-5">3 Courses starting Spring 2025</span>
                                 </div>
                             </div>
-                            <div class="w-100 d-flex justify-content-between mt-2">
+                            <div class="w-100 d-md-flex justify-content-between mt-2">
                                 <div style="width: 200px">
                                     <strong class="fs-5">Location:</strong>
                                 </div>
-                                <div class="w-100 ps-3">
+                                <div class="w-100 ps-md-3">
                                     <strong class="p-0 fs-5">Online Via Microsoft Teams</strong><br>
                                     <span class="p-0 fs-6">
                                             You will be issued with a Mediprospects Office 365 account, Live online lessons
@@ -150,11 +149,11 @@
                                         </span>
                                 </div>
                             </div>
-                            <div class="w-100 d-flex justify-content-between mt-3">
+                            <div class="w-100 d-block d-md-flex justify-content-between mt-3">
                                 <div style="width: 200px">
                                     <strong class="fs-5">Entry Requirements:</strong>
                                 </div>
-                                <div class="w-100 ps-3 fs-5">
+                                <div class="w-100 ps-md-3 fs-5">
                                     <strong class="p-0 fs-5">Level 2 English</strong><br>
                                     <span class="p-0 fs-6">
                                         (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
@@ -166,19 +165,19 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-100 d-flex justify-content-between mt-3">
+                            <div class="w-100 d-block d-md-flex justify-content-between mt-3">
                                 <div style="width: 200px">
                                     <strong class="fs-5">Course Credit:</strong>
                                 </div>
-                                <div class="w-100 ps-3 fs-5">
+                                <div class="w-100 ps-md-3 fs-5">
                                     60 credits (45 graded and 15 ungraded)
                                 </div>
                             </div>
-                            <div class="w-100 d-flex justify-content-between mt-2">
+                            <div class="w-100 d-block d-md-flex justify-content-between mt-2">
                                 <div style="width: 200px">
                                     <strong class="fs-5">Course Fee:</strong>
                                 </div>
-                                <div class="w-100 ps-3 fs-5">
+                                <div class="w-100 ps-md-3 fs-5">
                                     <span><span class="text-danger">*</span> Free if you meet specific eligibility requirements</span>
                                 </div>
                             </div>
@@ -195,7 +194,7 @@
                 </div>
             </div>
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
-                <div class="w-100 d-flex justify-content-start align-items-start border-bottom">
+                <div class="w-100 d-xl-flex justify-content-start align-items-start border-bottom">
                     <div class="h-100">
                         <img class="each-data-img" :src="'/assets/img/access/Nursing.jpg'" alt="NursingMidwifery">
                     </div>
@@ -205,19 +204,19 @@
                                 <h2>Access to HE Nursing</h2>
                             </div>
 
-                            <div class="w-100 d-flex justify-content-between mt-2">
+                            <div class="w-100 d-block d-md-flex justify-content-between mt-2">
                                 <div style="width: 200px">
                                     <strong class="fs-5">Courses:</strong>
                                 </div>
-                                <div class="w-100 ps-3">
+                                <div class="w-100 ps-md-3">
                                     <span class="fs-5">3 Courses starting Spring 2025</span>
                                 </div>
                             </div>
-                            <div class="w-100 d-flex justify-content-between mt-2">
+                            <div class="w-100 d-block d-md-flex justify-content-between mt-2">
                                 <div style="width: 200px">
                                     <strong class="fs-5">Location:</strong>
                                 </div>
-                                <div class="w-100 ps-3">
+                                <div class="w-100 ps-md-3">
                                     <strong class="p-0 fs-5">Online Via Microsoft Teams</strong><br>
                                     <span class="p-0 fs-6">
                                             You will be issued with a Mediprospects Office 365 account, Live online lessons
@@ -225,11 +224,11 @@
                                         </span>
                                 </div>
                             </div>
-                            <div class="w-100 d-flex justify-content-between mt-3">
+                            <div class="w-100 d-block d-md-flex justify-content-between mt-3">
                                 <div style="width: 200px">
                                     <strong class="fs-5">Entry Requirements:</strong>
                                 </div>
-                                <div class="w-100 ps-3 fs-5">
+                                <div class="w-100 ps-md-3 fs-5">
                                     <strong class="p-0 fs-5">Level 2 English</strong><br>
                                     <span class="p-0 fs-6">
                                         (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
@@ -241,19 +240,19 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-100 d-flex justify-content-between mt-3">
+                            <div class="w-100 d-block d-md-flex justify-content-between mt-3">
                                 <div style="width: 200px">
                                     <strong class="fs-5">Course Credit:</strong>
                                 </div>
-                                <div class="w-100 ps-3 fs-5">
+                                <div class="w-100 ps-md-3 fs-5">
                                     60 credits (45 graded and 15 ungraded)
                                 </div>
                             </div>
-                            <div class="w-100 d-flex justify-content-between mt-2">
+                            <div class="w-100 d-block d-md-flex justify-content-between mt-2">
                                 <div style="width: 200px">
                                     <strong class="fs-5">Course Fee:</strong>
                                 </div>
-                                <div class="w-100 ps-3 fs-5">
+                                <div class="w-100 ps-md-3 fs-5">
                                     <span> <span class="text-danger">*</span> Free if you meet specific eligibility requirements</span>
                                 </div>
                             </div>
@@ -270,7 +269,7 @@
                 </div>
             </div>
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
-                <div class="w-100 d-flex justify-content-start align-items-start border-bottom">
+                <div class="w-100 d-xl-flex justify-content-start align-items-start border-bottom">
                     <div class="h-100">
                         <img class="each-data-img" :src="'/assets/img/access/SupportFund.jpg'" alt="SupportFund">
                     </div>
@@ -280,19 +279,19 @@
                                 <h2>Access to HE Health Science</h2>
                             </div>
 
-                            <div class="w-100 d-flex justify-content-between mt-2">
+                            <div class="w-100 d-block d-md-flex justify-content-between mt-2">
                                 <div style="width: 200px">
                                     <strong class="fs-5">Courses:</strong>
                                 </div>
-                                <div class="w-100 ps-3">
+                                <div class="w-100 ps-md-3">
                                     <span class="fs-5">1 Course starting Spring 2025</span>
                                 </div>
                             </div>
-                            <div class="w-100 d-flex justify-content-between mt-2">
+                            <div class="w-100 d-block d-md-flex justify-content-between mt-2">
                                 <div style="width: 200px">
                                     <strong class="fs-5">Location:</strong>
                                 </div>
-                                <div class="w-100 ps-3">
+                                <div class="w-100 ps-md-3">
                                     <strong class="p-0 fs-5">Online Via Microsoft Teams</strong><br>
                                     <span class="p-0 fs-6">
                                             You will be issued with a Mediprospects Office 365 account, Live online lessons
@@ -300,11 +299,11 @@
                                         </span>
                                 </div>
                             </div>
-                            <div class="w-100 d-flex justify-content-between mt-3">
+                            <div class="w-100 d-block d-md-flex justify-content-between mt-3">
                                 <div style="width: 200px">
                                     <strong class="fs-5">Entry Requirements:</strong>
                                 </div>
-                                <div class="w-100 ps-3 fs-5">
+                                <div class="w-100 ps-md-3 fs-5">
                                     <strong class="p-0 fs-5">Level 2 English</strong><br>
                                     <span class="p-0 fs-6">
                                         (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
@@ -316,19 +315,19 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-100 d-flex justify-content-between mt-3">
+                            <div class="w-100 d-block d-md-flex justify-content-between mt-3">
                                 <div style="width: 200px">
                                     <strong class="fs-5">Course Credit:</strong>
                                 </div>
-                                <div class="w-100 ps-3 fs-5">
+                                <div class="w-100 ps-md-3 fs-5">
                                     60 credits (45 graded and 15 ungraded)
                                 </div>
                             </div>
-                            <div class="w-100 d-flex justify-content-between mt-2">
+                            <div class="w-100 d-block d-md-flex justify-content-between mt-2">
                                 <div style="width: 200px">
                                     <strong class="fs-5">Course Fee:</strong>
                                 </div>
-                                <div class="w-100 ps-3 fs-5">
+                                <div class="w-100 ps-md-3 fs-5">
                                     <span><span class="text-danger">*</span> Free if you meet specific eligibility requirements</span>
                                 </div>
                             </div>
