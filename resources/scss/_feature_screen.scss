@@ -9,12 +9,26 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        .fs-4 {
+            @media screen and (max-width: 576px) {
+                font-size: 16px !important;
+            }
+        }
         .each-feature{
             width: 400px;
             height: 400px;
             padding: 0 25px;
             margin: 5px;
             background-color: #2491eb;
+
+            @media screen and (max-width: 991px) {
+                width: 350px;
+                height: 350px;
+                .fs-3 {
+                    font-size: 24px !important;
+                }
+            }
+
         }
     }
 }

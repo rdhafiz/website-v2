@@ -33,6 +33,10 @@
             padding: 0 50px;
             margin: 5px;
             background-color: #2491eb;
+            @media screen and (max-width: 1024px) {
+                width: 320px;
+                height: 320px;
+            }
         }
     }
     .get-in-touch-screen-container {

@@ -4,8 +4,8 @@
 
     <section class="w-100 py-5">
         <div class="container">
-            <div class="d-flex justify-content-center align-items-center px-5 w-100">
-                <div class="col-11 col-md-7">
+            <div class="row justify-content-center align-items-center px-lg-5 w-100">
+                <div class="col-12 col-lg-7">
                     <form method="POST" action="https://httpbin.org/post" class="w-100">
                         <h2 class="mb-4 text-center">
                             Online Open Events Pre Enrolment Form

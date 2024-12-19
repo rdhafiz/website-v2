@@ -2,7 +2,7 @@
     <div class="course-screen py-5">
         <div class="w-100 d-inline-block">
             <div class="course-screen-content py-5">
-                <div class="w-100 px-5">
+                <div class="w-100 px-2 px-md-5">
                     <a id="access-courses"></a>
                     <div class="w-100">
 

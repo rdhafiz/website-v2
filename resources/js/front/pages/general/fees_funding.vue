@@ -18,7 +18,7 @@
                     Fees & Funding
                 </router-link>
             </div>
-            <div class="border rounded-3 p-5">
+            <div class="border rounded-3 p-3 p-md-5">
                 <div class="mt-3">
                     <h2 class="text-secondary fw-bold"> Advanced Learner Loan <span class="fw-normal"> ( <span class="text-danger">*</span> Eligibility rules apply ) </span> </h2>
                     <h5 class="fs-5 text-secondary fw-normal">
@@ -32,13 +32,13 @@
                         Learners living in Scotland, Northern Ireland, or Wales must print the application form and post it to Student Finance England via Recorded Delivery. Learners living in England can usually apply online with our letter.
                     </h5>
                 </div>
-                <div class="mt-5">
+                <div class="mt-3 mt-md-5">
                     <h2 class="text-secondary fw-bold"> Self-Funding </h2>
                     <h5 class="fs-5 text-secondary fw-normal">
                         The cost for learners who are self-funding the course is currently £2000, payable in instalments.
                     </h5>
                 </div>
-                <div class="mt-5">
+                <div class="mt-3 mt-md-5">
                     <h2 class="text-secondary fw-bold"> University Funding </h2>
                     <h5 class="fs-5 text-secondary fw-normal">
                         <a href="https://www.gov.uk/student-finance" target="_blank" class="text-decoration-none text-theme d-inline-block"> www.gov.uk/student-finance </a>
@@ -49,7 +49,7 @@
                         You might get extra money on top of this, for example, if you’re on a low income, are disabled or have children. You may be able to get student finance even if you’re not from the UK.
                     </h5>
                 </div>
-                <div class="mt-5">
+                <div class="mt-3 mt-md-5">
                     <h2 class="text-secondary fw-bold"> Disabled Student Funding & Support at University </h2>
                     <h5 class="fs-5 text-secondary fw-normal mb-2">
                         <a href="https://www.gov.uk/disabled-students-allowance-dsa" target="_blank" class="text-decoration-none text-theme d-inline-block"> www.gov.uk/disabled-students-allowance-dsa </a>
@@ -61,7 +61,7 @@
                         <br><br>
                     </h5>
                 </div>
-                <div class="mt-5">
+                <div class="mt-3 mt-md-5">
                     <h2 class="text-secondary fw-bold"> NHS Learner Support Fund </h2>
                     <h5 class="fs-5 text-secondary fw-normal">
                         NHS Learning Support Fund (LSF) is funding to support eligible healthcare students. <span class="fw-bold"> This is a grant and does not need to be repaid</span>. To apply, you need to be on one of the following pre-registration undergraduate or postgraduate courses:

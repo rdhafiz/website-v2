@@ -8,8 +8,8 @@
         </div>
         <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/new_and_event.jpg)' }"></div>
         <div class="container-fluid">
-            <div class="w-100 px-5">
-                <div class="w-100 px-5 position-relative z-2">
+            <div class="w-100 px-0 px-md-5">
+                <div class="w-100 px-1 px-md-5 position-relative z-2">
                     <div class="breadcrumb-left">
                         <div class="w-100 mt-5">
                             <h1 class="w-100 text-white animate__animated animate__fadeInLeft">

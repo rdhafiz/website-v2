@@ -1,8 +1,8 @@
 <template>
 
     <section class="w-100 py-5">
-        <section class="w-100 px-5">
-            <section class="w-100 px-5">
+        <div class="w-100 px-0 px-md-5">
+            <div class="w-100 px-2 px-md-5">
                 <div class="container-fluid">
 
                     <div class="team-title mb-3 fw-bold"> Our Team</div>
@@ -206,8 +206,8 @@
 
                     </div>
                 </div>
-            </section>
-        </section>
+            </div>
+        </div>
     </section>
 
 </template>
