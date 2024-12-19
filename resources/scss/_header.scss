@@ -44,7 +44,7 @@
                     &:hover {
                         .dropdown-custom-menu {
                             transform: translateY(0);
-                            transition: transform 0.5s;
+                            transition: transform 0.3s;
                         }
                     }
 
@@ -61,6 +61,7 @@
                         background-color: var(--bs-white);
                         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
                         border: 1px solid var(--bs-border-color);
+                        transition: transform 0.3s;
 
                         li {
                             list-style: none;
