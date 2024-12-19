@@ -23,7 +23,7 @@
         <div class="w-100 py-5">
             <div class="container-lg">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="mb-3 mb-md-0 col-12 col-md-6 col-lg-3">
 
                         <div class="w-100">
                             <div class="w-100">
@@ -41,7 +41,7 @@
                         </div>
 
                     </div>
-                    <div class="col-lg-5">
+                    <div class="mb-3 mb-md-0 col-12 col-md-6 col-lg-5">
                         <div class="w-100">
                             <div class="w-100">
                                 <h1 class="fs-1 fw-light text-white">Mediprospects</h1>
@@ -56,7 +56,7 @@
                         </div>
 
                     </div>
-                    <div class="col-lg-4">
+                    <div class="mb-3 mb-md-0 col-12 col-md-6 col-lg-4">
 
                         <div class="w-100">
                             <div class="w-100">
