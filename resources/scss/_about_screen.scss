@@ -1,7 +1,49 @@
 .about-screen {
     .breadcrumb-content {
+        .breadcrumb-content-left {
+            height: 800px;
+            @media screen and (max-width: 1300px) {
+                width: 100%;
+            }
+            &:before {
+                position: absolute;
+                content: "";
+                border-left: 150px solid #2491eb;
+                border-top: 800px solid transparent;
+                right: -150px;
+                top: 0;
+                background-color: transparent;
+                z-index: 1;
+            }
+            .shadow-1 {
+                bottom: -75px;
+            }
+            .shadow-3 {
+                bottom: -59%;
+            }
+        }
         .breadcrumb-left {
-            height: 700px;
+            height: 800px;
+        }
+    }
+    .breadcrumb-title {
+        font-size: 60px;
+        @media screen and (max-width: 1300px) {
+            font-size: 40px;
+        }
+    }
+    .breadcrumb-description {
+        font-size: 25px;
+        max-width: 640px;
+        @media screen and (max-width: 1300px) {
+            font-size: 17px;
+        }
+    }
+    .breadcrumb-sub-description {
+        font-size: 17px;
+        max-width: 640px;
+        @media screen and (max-width: 1300px) {
+            font-size: 13px;
         }
     }
     .introduction-title {

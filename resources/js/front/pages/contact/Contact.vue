@@ -69,12 +69,12 @@
 
         <section class="py-5 w-100 get-in-touch-screen-container">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="w-100 h-100">
-                            <iframe class="iframe-container w-100 h-100" allowfullscreen src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Mediprospects%20Hawley%20House%2C%205-7%20High%20St%2C%20London%20E13%200AD%2C%20United%20Kingdom&zoom=10&maptype=roadmap"></iframe>
-                        </div>
-                    </div>
+                <div class="row justify-content-center align-items-center">
+<!--                    <div class="col-lg-6">-->
+<!-- <div class="w-100 h-100">-->
+<!-- <iframe class="iframe-container w-100 h-100" allowfullscreen src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Mediprospects%20Hawley%20House%2C%205-7%20High%20St%2C%20London%20E13%200AD%2C%20United%20Kingdom&zoom=10&maptype=roadmap"></iframe>-->
+<!-- </div>-->
+<!--                    </div>-->
                     <div class="col-lg-6">
                         <div class="w-100 mb-4 d-inline-block">
                             <h2>Contact Us</h2>

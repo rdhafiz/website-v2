@@ -12,23 +12,23 @@
                 <div class="breadcrumb-left">
                     <div class="px-5 w-100">
                         <div class="px-5 w-100 position-relative z-2">
-                            <h1 class="w-100 text-white animate__animated animate__fadeInLeft mt-5">
+                            <h1 class="w-100 breadcrumb-title text-white animate__animated animate__fadeInLeft mt-5">
                                 Since 2007, Mediprospects
                             </h1>
-                            <div class="fs-4 text-white col-lg-6">
+                            <div class="breadcrumb-description mb-3 text-white">
                                 has been delivering learning, skills and employability services for vocational sectors: helping Apprentices, Learners, Employers and Employees in developing skills and securing a better, brighter future.
                             </div>
-                            <div class="fs-4 text-white col-lg-6 mb-3">
+                            <div class="breadcrumb-description text-white mb-3">
                                 The values we believe:
                             </div>
-                            <div class="fs-5 text-white col-lg-6">
-                                Respect – respect others, and recognise and value their contribution. <br>
-                                To be accountable – inculcate personal responsibility for the success of our company and ourselves as individuals. <br>
-                                To be inclusive – take into account the different needs, values, beliefs and aspirations of others. <br>
-                                To challenge paradigms – confidently express our opinions while remaining open to the views of others and learn from the process. <br>
-                                To empower – assist others in achieving the best they can be and to realise their potential. <br>
-                                To pursue excellence – share best practice, learn from others, and develop continually.
-                            </div>
+                            <ul class="breadcrumb-sub-description text-white">
+                                <li class="mt-1"> Respect – respect others, and recognise and value their contribution. </li>
+                                <li class="mt-1"> To be accountable – inculcate personal responsibility for the success of our company and ourselves as individuals. </li>
+                                <li class="mt-1"> To be inclusive – take into account the different needs, values, beliefs and aspirations of others. </li>
+                                <li class="mt-1"> To challenge paradigms – confidently express our opinions while remaining open to the views of others and learn from the process. </li>
+                                <li class="mt-1"> To empower – assist others in achieving the best they can be and to realise their potential. </li>
+                                <li class="mt-1"> To pursue excellence – share best practice, learn from others, and develop continually. </li>
+                            </ul>
                         </div>
                     </div>
                 </div>

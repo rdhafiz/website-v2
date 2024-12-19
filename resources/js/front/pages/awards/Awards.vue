@@ -8,7 +8,7 @@
                     <div class="w-100">
                         <div class="w-100 d-inline-block mb-3">
                             <h1 class="h1-md fw-bold text-white text-center" data-aos="fade-up">Celebrating Excellence</h1>
-                            <p class="fs-4 text-white text-center" data-aos="fade-up" data-aos-delay="500">Honoring the outstanding achievements of <br> our learners and educators who inspire and lead the way.</p>
+                            <p class="fs-4 text-white text-center" data-aos="fade-up" data-aos-delay="500">Honouring the outstanding achievements of <br> our learners and educators who inspire and lead the way.</p>
                         </div>
                         <div class="w-100 mt-5">
                             <div class="each-award height-auto">

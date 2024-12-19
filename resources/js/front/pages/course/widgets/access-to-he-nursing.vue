@@ -82,7 +82,7 @@
                                     </span>
                                     <span class="d-block fw-normal">
                                     <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
-                                        How to find a english course
+                                        How to find a english course?
                                     </router-link>
                                 </span>
                                 </h5>
@@ -138,12 +138,12 @@
                                 <div class="mb-2">
                                     <div
                                         class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
-                                        <div class="fs-4 fw-medium">Health Studies (9 Credits)</div>
+                                        <div class="fs-4 fw-medium">Health Studies (6 Credits)</div>
                                         <div class="fs-6">
                                             <ul class="m-0">
                                                 <li>Promoting Health</li>
                                                 <li>Actions of Medicines on the Human Body</li>
-                                                <li>Social Drugs and Medicines</li>
+                                                <li>Sociology</li>
                                             </ul>
                                         </div>
                                     </div>
