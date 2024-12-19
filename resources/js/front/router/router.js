@@ -22,6 +22,7 @@ import Pathways from "../pages/general/pathways.vue";
 import FeesFunding from "../pages/general/fees_funding.vue";
 import PreEnrollmentOnlineEvent from "../pages/pre-enrollment-online-event/pre-enrollment-online-event.vue";
 import EnglishMaths from "../pages/english-&-maths/english-&-maths.vue";
+import FAQs from "../pages/FAQs/FAQs.vue";
 
 const ROOT_URL = "";
 const routes = [
@@ -44,6 +45,7 @@ const routes = [
             {path: ROOT_URL + '/safe-guarding-policy', name: 'SafeGuardingPolicy', component: SafeGuardingPolicy},
             {path: ROOT_URL + '/fees-funding-grands-information', name: 'FeesFunding', component: FeesFunding},
             {path: ROOT_URL + '/pre-enrollment-online-event', name: 'PreEnrollmentOnlineEvent', component: PreEnrollmentOnlineEvent},
+            {path: ROOT_URL + '/frequently-asking-question', name: 'FAQs', component: FAQs},
         ]
     }
 ];

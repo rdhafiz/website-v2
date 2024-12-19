@@ -80,6 +80,11 @@
                                     Contact
                                 </router-link>
                             </li>
+                            <li>
+                                <router-link :to="{name: 'FAQs'}" @click="sidebarToggle()">
+                                    FAQs
+                                </router-link>
+                            </li>
                         </ul>
                     </div>
                 </div>

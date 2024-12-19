@@ -83,20 +83,18 @@
                         </ul>
                         How much can you claim?
                         <br><br>
-                        <ul class="ps-0">
-                            <li class="ps-2" style="list-style: none"> <span class="me-2"> &#11162; </span> £5000 per year </li>
-                            <li class="ps-2" style="list-style: none"> <span class="me-2"> &#11162; </span> Additional £2000 per year if you have at least one child under the age of 15 years </li>
-                            <li class="ps-2" style="list-style: none"> <span class="me-2"> &#11162; </span> Additional £1000 Special Subject Payment if you are studying any of the following degrees: </li>
+                        <ul class="mb-0">
+                            <li class="ps-2"> £5000 per year </li>
+                            <li class="ps-2"> Additional £2000 per year if you have at least one child under the age of 15 years </li>
+                            <li class="ps-2"> Additional £1000 Special Subject Payment if you are studying any of the following degrees:</li>
                         </ul>
-                        <br>
-                        <ul>
-                            <li>Mental health nursing</li>
-                            <li>Learning disability nursing</li>
-                            <li>Radiography (diagnostic and therapeutic)</li>
-                            <li>Prosthetics and orthotics</li>
-                            <li>Orthoptics and podiatry</li>
+                        <ul class="ps-5 mt-0">
+                            <li class="ms-3">Mental health nursing</li>
+                            <li class="ms-3">Learning disability nursing</li>
+                            <li class="ms-3">Radiography (diagnostic and therapeutic)</li>
+                            <li class="ms-3">Prosthetics and orthotics</li>
+                            <li class="ms-3">Orthoptics and podiatry</li>
                         </ul>
-                        <br>
                         More information here: <a href="http://www.nhsbsa.nhs.uk/nhs-learning-support-fund-lsf" target="_blank" class="text-decoration-none text-theme"> www.nhsbsa.nhs.uk/nhs-learning-support-fund-lsf </a>
                     </h5>
                 </div>

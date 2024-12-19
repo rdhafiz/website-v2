@@ -85,8 +85,6 @@
 
         <Teams/>
 
-        <FAQs/>
-
     </div>
 
 </template>
@@ -98,7 +96,6 @@ import AccessToHeHealthProfessions from "./widgets/access-to-he-health-professio
 import AccessToHeNursing from "./widgets/access-to-he-nursing.vue";
 import AccessToHeHealthScience from "./widgets/access-to-he-health-science.vue";
 import Teams from "./widgets/Teams.vue";
-import FAQs from "./widgets/FAQs.vue";
 import {useRoute} from "vue-router";
 import VocationalEarlyYearEducation from "./widgets/vocational-early-year-education.vue";
 import VocationalTeachingAssistance from "./widgets/vocational-teaching-assistance.vue";
@@ -107,7 +104,6 @@ import VocationalAdultCare from "./widgets/vocational-adult-care.vue";
 export default {
     components: {
         Teams,
-        FAQs,
         AccessToHeNursingMidWifery,
         AccessToHeHealthProfessions,
         AccessToHeNursing,

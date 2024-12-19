@@ -36,46 +36,36 @@
             </div>
         </div>
 
-        <section class="w-100 py-5 contact-screen-container">
+        <section class="w-100 py-5 contact-screen-container get-in-touch-screen-container">
             <div class="container">
-                <div class="d-flex justify-content-around align-items-center text-white flex-wrap">
-                    <div class="contact-box rounded-circle text-center d-flex justify-content-center align-items-center flex-column">
-                        <div class="mb-2 fs-1"> <i class="fas fa-solid fa-map"></i> </div>
-                        <div class="text-center mb-3 fs-4"> Current Address </div>
-                        <div class="fs-6"> Mediprospects, Hawley House 5-7 High Street London E13 0AD, UK </div>
-                    </div>
-                    <div class="contact-box rounded-circle text-center d-flex justify-content-center align-items-center flex-column">
-                        <div class="mb-2 fs-1"> <i class="fas fa-solid fa-phone"></i> </div>
-                        <div class="text-center mb-3 fs-4"> Phone Number </div>
-                        <div class="fs-6">
-                            <div class="mb-3">
-                                <a href="tel:02084726060" class="text-decoration-none text-white"> 02084726060</a>
-                            </div>
-                            <div>
-                                *The office is open from <br>
-                                9:30-17:30 Mon-Fri <br>
-                                9:30-15:00 Sat
+                <div class="row">
+                    <div class="col-lg-5 text-white d-flex justify-content-center align-items-center flex-wrap">
+                        <div class="contact-box rounded-circle text-center d-flex justify-content-center align-items-center flex-column">
+                            <div class="mb-2 fs-1"> <i class="fas fa-solid fa-map"></i> </div>
+                            <div class="text-center mb-3 fs-4"> Current Address </div>
+                            <div class="fs-6"> Mediprospects, Hawley House 5-7 High Street London E13 0AD, UK </div>
+                        </div>
+                        <div class="contact-box rounded-circle text-center d-flex justify-content-center align-items-center flex-column">
+                            <div class="mb-2 fs-1"> <i class="fas fa-solid fa-phone"></i> </div>
+                            <div class="text-center mb-3 fs-4"> Phone Number </div>
+                            <div class="fs-6">
+                                <div class="mb-3">
+                                    <a href="tel:02084726060" class="text-decoration-none text-white"> 02084726060</a>
+                                </div>
+                                <div>
+                                    *The office is open from <br>
+                                    9:30-17:30 Mon-Fri <br>
+                                    9:30-15:00 Sat
+                                </div>
                             </div>
                         </div>
+                        <div class="contact-box rounded-circle text-center d-flex justify-content-center align-items-center flex-column">
+                            <div class="mb-2 fs-1"> <i class="fas fa-solid fa-envelope"></i> </div>
+                            <div class="text-center mb-3 fs-4"> Email Address </div>
+                            <div class="fs-6"><a href="mailto:info@mediprospects.ac.uk" class="text-decoration-none text-white">info@mediprospects.ac.uk</a> </div>
+                        </div>
                     </div>
-                    <div class="contact-box rounded-circle text-center d-flex justify-content-center align-items-center flex-column">
-                        <div class="mb-2 fs-1"> <i class="fas fa-solid fa-envelope"></i> </div>
-                        <div class="text-center mb-3 fs-4"> Email Address </div>
-                        <div class="fs-6"><a href="mailto:info@mediprospects.ac.uk" class="text-decoration-none text-white">info@mediprospects.ac.uk</a> </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="py-5 w-100 get-in-touch-screen-container">
-            <div class="container">
-                <div class="row justify-content-center align-items-center">
-<!--                    <div class="col-lg-6">-->
-<!-- <div class="w-100 h-100">-->
-<!-- <iframe class="iframe-container w-100 h-100" allowfullscreen src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Mediprospects%20Hawley%20House%2C%205-7%20High%20St%2C%20London%20E13%200AD%2C%20United%20Kingdom&zoom=10&maptype=roadmap"></iframe>-->
-<!-- </div>-->
-<!--                    </div>-->
-                    <div class="col-lg-6">
+                    <div class="col-lg-7">
                         <div class="w-100 mb-4 d-inline-block">
                             <h2>Contact Us</h2>
                             <p>Your email address will not be published. Required fields are marked.</p>
@@ -83,31 +73,31 @@
                         <form class="w-100">
                             <div class="form-group mb-3">
                                 <label for="full-name" class="form-label fs-6"> Name <span class="ms-1 text-danger">*</span> </label>
-                                <input id="full-name" type="text" name="name" placeholder="Enter your name" class="form-control px-3 py-2" required autocomplete="off" />
+                                <input id="full-name" type="text" name="name" placeholder="Enter your name" class="form-control p-3" required autocomplete="off" />
                             </div>
                             <div class="form-group mb-3">
                                 <label for="email-address" class="form-label fs-6"> Email <span class="ms-1 text-danger">*</span> </label>
-                                <input id="email-address" type="email" name="email" placeholder="Enter your email address" class="form-control px-3 py-2" required autocomplete="off" />
+                                <input id="email-address" type="email" name="email" placeholder="Enter your email address" class="form-control p-3" required autocomplete="off" />
                             </div>
                             <div class="form-group mb-3">
                                 <label for="subject" class="form-label fs-6"> Subject <span class="ms-1 text-danger">*</span> </label>
-                                <input id="subject" type="text" name="subject" placeholder="Enter your subject" class="form-control px-3 py-2" required autocomplete="off" />
+                                <input id="subject" type="text" name="subject" placeholder="Enter your subject" class="form-control p-3" required autocomplete="off" />
                             </div>
                             <div class="form-group mb-3">
                                 <label for="message" class="form-label fs-6"> Message <span class="ms-1 text-danger">*</span> </label>
-                                <textarea id="message" name="message" cols="30" rows="2" required autocomplete="off" class="form-textarea p-3" placeholder="Enter your message"></textarea>
+                                <textarea id="message" name="message" cols="30" rows="7" required autocomplete="off" class="form-textarea p-3" placeholder="Enter your message"></textarea>
                             </div>
                             <div class="form-group mb-3">
                                 <label for="town/city" class="form-label fs-6"> Town/City <span class="ms-1 text-danger">*</span> </label>
-                                <input id="town/city" type="text" name="town/city" placeholder="Enter your town/city" class="form-control px-3 py-2" required autocomplete="off" />
+                                <input id="town/city" type="text" name="town/city" placeholder="Enter your town/city" class="form-control p-3" required autocomplete="off" />
                             </div>
                             <div class="form-group mb-3">
                                 <label for="phone-number" class="form-label fs-6"> Phone Number <span class="ms-1 text-danger">*</span> </label>
-                                <input id="phone-number" type="text" name="phone_number" placeholder="Enter your phone number" class="form-control px-3 py-2" required autocomplete="off" />
+                                <input id="phone-number" type="text" name="phone_number" placeholder="Enter your phone number" class="form-control p-3" required autocomplete="off" />
                             </div>
                             <div class="form-group mb-3">
                                 <label for="how-did-you-find-out-about-us" class="form-label fs-6"> How did you find out about us? <span class="ms-1 text-danger">*</span> </label>
-                                <select id="how-did-you-find-out-about-us" name="how_did_you_find_out_about_us" class="form-select px-3 py-2" required autocomplete="off">
+                                <select id="how-did-you-find-out-about-us" name="how_did_you_find_out_about_us" class="form-select p-3" required autocomplete="off">
                                     <option value="--">--</option>
                                     <option value="Have used Mediprospects Previously">Have used Mediprospects Previously</option>
                                     <option value="Search Engine">Search Engine</option>
@@ -118,7 +108,7 @@
                                 </select>
                             </div>
                             <div class="form-group mb-3 text-end">
-                                <button type="submit" class="btn btn-theme px-4 py-2">
+                                <button type="submit" class="btn btn-theme py-3 px-5">
                                     Submit
                                 </button>
                             </div>
