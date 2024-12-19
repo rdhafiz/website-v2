@@ -1,9 +1,7 @@
 .courses-screen {
     width: 100%;
-
     .each-data {
         width: 100%;
-
         .each-data-overflow {
             width: 350px;
             min-width: 350px;
@@ -11,11 +9,10 @@
         }
         .each-data-img {
             width: 350px;
-            height: 470px;
+            height: 520px;
             object-fit: cover;
             object-position: center;
             display: block;
         }
     }
-
 }

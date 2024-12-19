@@ -1,6 +1,16 @@
 .about-screen {
+    .breadcrumb-content {
+        .breadcrumb-left {
+            height: 700px;
+        }
+    }
     .introduction-title {
         font-size: 32px;
+    }
+    .contain-box {
+        .mission-title, .vision-title {
+            font-size: 72px;
+        }
     }
     .introduction-description {
         font-size: 24px;
