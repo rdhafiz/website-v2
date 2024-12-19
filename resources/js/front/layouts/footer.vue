@@ -10,7 +10,7 @@
                         <a target="_blank" href="https://www.ucas.com/" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/UCAS_logo.png'" alt=""></a>
                         <a target="_blank" href="https://www.qaa.ac.uk/" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/qaa-logo.png'" alt=""></a>
                         <a target="_blank" href="https://www.gatewayqualifications.org.uk/" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/Gateway.jpg'" alt=""></a>
-                        <a target="_blank" href="https://matrixstandard.com/" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/Matrix-Standard.png'" alt=""></a>
+<!--                        <a target="_blank" href="https://matrixstandard.com/" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/Matrix-Standard.png'" alt=""></a>-->
                         <a target="_blank" href="https://www.gov.uk/government/organisations/ofsted" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/ofsted-logo.png'" alt=""></a>
                         <a target="_blank" href="https://www.gov.uk/government/organisations/education-and-skills-funding-agency" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/esfa-logo.png'" alt=""></a>
                         <a target="_blank" href="https://www.ncfe.org.uk/" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/ncfe-cache.png'" alt=""></a>

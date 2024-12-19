@@ -73,22 +73,34 @@
                         <div class="w-100 mt-5">
                             <h2 class="text-secondary fw-bold mb-4">In August 2024, Ofsted said: </h2>
                             <h4 class="text-secondary fw-normal mb-4">
-                                Learners are taught in respectful and calm environments. Learners, many of whom are parents of young children, value the opportunity that trainers provide to study at times that fit around their family and work placement commitments. For example, trainers offer learners choices of lessons in evenings or at weekends. This allows learners to balance their work and family lives with their education. As a result, most learners have high attendance and stay on their course to complete their studies.
+                                <i class="fas fa-quote-left me-2"></i>
+                                    Learners are taught in respectful and calm environments. Learners, many of whom are parents of young children, value the opportunity that trainers provide to study at times that fit around their family and work placement commitments. For example, trainers offer learners choices of lessons in evenings or at weekends. This allows learners to balance their work and family lives with their education. As a result, most learners have high attendance and stay on their course to complete their studies.
+                                <i class="fas fa-quote-right ms-2"></i>
                             </h4>
                             <h4 class="text-secondary fw-normal mb-4">
-                                Learners participate in a good range of additional courses and gain extra useful qualifications. These courses help learners to develop knowledge and skills beyond the core curriculum, and prepare them for their next steps such as work placement, employment or further study. For example, most early years learners gain safeguarding qualifications that employers value.
+                                <i class="fas fa-quote-left me-2"></i>
+                                    Learners participate in a good range of additional courses and gain extra useful qualifications. These courses help learners to develop knowledge and skills beyond the core curriculum, and prepare them for their next steps such as work placement, employment or further study. For example, most early years learners gain safeguarding qualifications that employers value.
+                                <i class="fas fa-quote-right ms-2"></i>
                             </h4>
                             <h4 class="text-secondary fw-normal mb-4">
-                                Access to HE learners gain valuable knowledge and skills throughout their course that prepare them well to study at university to become midwives or nurses.
+                                <i class="fas fa-quote-left me-2"></i>
+                                    Access to HE learners gain valuable knowledge and skills throughout their course that prepare them well to study at university to become midwives or nurses.
+                                <i class="fas fa-quote-right ms-2"></i>
                             </h4>
                             <h4 class="text-secondary fw-normal mb-4">
-                                Trainers are well-qualified and experts in the subjects they teach
+                                <i class="fas fa-quote-left me-2"></i>
+                                    Trainers are well-qualified and experts in the subjects they teach
+                                <i class="fas fa-quote-right ms-2"></i>
                             </h4>
                             <h4 class="text-secondary fw-normal mb-4">
-                                Most Access to HE learners achieve distinctions for their work
+                                <i class="fas fa-quote-left me-2"></i>
+                                    Most Access to HE learners achieve distinctions for their work
+                                <i class="fas fa-quote-right ms-2"></i>
                             </h4>
                             <h4 class="text-secondary fw-normal mb-4">
-                                Trainers discuss a range of universities and career pathways with learners. As a result, learners make informed decisions about their next steps and careers
+                                <i class="fas fa-quote-left me-2"></i>
+                                    Trainers discuss a range of universities and career pathways with learners. As a result, learners make informed decisions about their next steps and careers
+                                <i class="fas fa-quote-right ms-2"></i>
                             </h4>
                         </div>
 

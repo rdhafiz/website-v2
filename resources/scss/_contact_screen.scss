@@ -28,23 +28,14 @@
     }
     .contact-screen-container {
         .contact-box {
-            width: 390px;
-            height: 390px;
+            width: 370px;
+            height: 370px;
             padding: 0 50px;
             margin: 5px;
             background-color: #2491eb;
         }
     }
     .get-in-touch-screen-container {
-        .maps-wrapper {
-            width: 100%;
-            height: 350px !important;
-            .iframe-container {
-                width: 100%;
-                height: 100%;
-                border: none !important;
-            }
-        }
         .form-control, .form-textarea, .form-select {
             background-color: #dee2e6 !important;
             border: 1px solid #dee2e6 !important;

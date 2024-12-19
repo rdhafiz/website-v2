@@ -142,7 +142,7 @@
                         </td>
                         <td class="p-2 pe-0">
                             <div class="fs-4 text-secondary p-3 rounded-3">
-                                Degree Apprenticeships Nursing and/or Trainee Nursing Associate
+                                Degree Apprenticeships Nursing
                             </div>
                         </td>
                     </tr>
