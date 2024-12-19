@@ -68,7 +68,7 @@
                     <div class="col-lg-12">
                         <div class="get-in-touch-screen-container">
                             <div class="row justify-content-center">
-                                <div class="col-md-5">
+                                <div class="col-md-8">
                                     <div class="w-100 mb-4 d-inline-block">
                                         <h2>Contact Us</h2>
                                         <p>Your email address will not be published. Required fields are marked.</p>
