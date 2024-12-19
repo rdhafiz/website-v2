@@ -1,39 +1,48 @@
 <template>
 
-  <div class="breadcrumb-content w-100 animate__animated animate__fadeIn" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/breadcrumb-2.webp)' }">
-    <div class="breadcrumb-content-left">
-      <span class="shadow-1"></span>
-      <span class="shadow-2"></span>
-      <span class="shadow-3"></span>
-    </div>
-    <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/new_and_event.jpg)' }"></div>
-    <div class="container-fluid">
-      <div class="breadcrumb-left">
-        <div class="w-100 px-5">
-          <div class="w-100 px-5 position-relative z-2">
-            <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
-              News
-            </h1>
-            <ul class="breadcrumb w-100 d-flex justify-content-start align-items-center fs-4 animate__animated animate__fadeInLeft">
-              <li class="breadcrumb-item">
-                <router-link :to="{name: 'Home'}" class="text-decoration-none text-white p-0 m-0">
-                  Home
-                </router-link>
-              </li>
-              <li class="text-white mx-3">
-                /
-              </li>
-              <li class="breadcrumb-item">
-                <router-link :to="{name: 'News'}" class="text-decoration-none text-white p-0 m-0">
-                  News
-                </router-link>
-              </li>
-            </ul>
-          </div>
+    <div class="breadcrumb-content w-100 animate__animated animate__fadeIn">
+        <div class="breadcrumb-content-left">
+            <span class="shadow-1"></span>
+            <span class="shadow-2"></span>
+            <span class="shadow-3"></span>
         </div>
-      </div>
+        <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/new_and_event.jpg)' }"></div>
+        <div class="container-fluid">
+            <div class="w-100 px-5">
+                <div class="w-100 px-5 position-relative z-2">
+                    <div class="breadcrumb-left">
+                        <div class="w-100 mt-5">
+                            <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
+                                News & Events
+                            </h1>
+                            <ul class="breadcrumb w-100 d-flex justify-content-start align-items-center fs-4 animate__animated animate__fadeInLeft">
+                                <li class="breadcrumb-item">
+                                    <router-link :to="{name: 'Home'}" class="text-decoration-none text-white p-0 m-0">
+                                        Home
+                                    </router-link>
+                                </li>
+                                <li class="text-white mx-3">
+                                    /
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <router-link :to="{name: 'NewsEvents'}" class="text-decoration-none text-white p-0 m-0">
+                                        News & Events
+                                    </router-link>
+                                </li>
+                            </ul>
+
+                            <h1 class="mt-5 text-white fw-bold animate__animated animate__fadeInLeft" style="animation-delay: 0.2s">
+                                Weekly one-hour <br> online open events <br>
+                                <router-link :to="{name: 'PreEnrollmentOnlineEvent'}" class="btn btn-outline-light btn-lg mt-3 px-5">
+                                    Book Here
+                                </router-link>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 
     <div class="news-screen">
 

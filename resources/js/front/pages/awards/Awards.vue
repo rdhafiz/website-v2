@@ -11,23 +11,19 @@
                             <p class="fs-4 text-white text-center" data-aos="fade-up" data-aos-delay="500">Honoring the outstanding achievements of <br> our learners and educators who inspire and lead the way.</p>
                         </div>
                         <div class="w-100 mt-5">
-                            <div class="w-100">
-                                <div class="w-100 py-5">
-                                    <div class="each-award">
-                                        <div class="row">
-                                            <div class="col-5">
-                                                <h1 class="h1-lg text-white text-shadow-sm">Learner of the Year</h1>
-                                                <h2 class="text-white text-shadow-sm">Recognizing Academic Excellence</h2>
-                                                <p class="fs-4 text-white text-shadow-sm">Awarded to a learner who has demonstrated exceptional dedication, achievement, and progress in their studies.</p>
-                                                <p class=""><a class="btn btn-lg btn-outline-light px-4"> Learn More <i class="fas fa-arrow-right ms-3"></i></a></p>
-                                            </div>
-                                            <div class="col-7">
-                                                <div class="w-100 award-images">
-                                                    <img class="shadow" :src="'/assets/img/award/lesley-heaney.jpg'" alt="">
-                                                    <img class="shadow" :src="'/assets/img/award/Afroja_khan.jpg'" alt="">
-                                                    <img class="shadow" :src="'/assets/img/award/gemma-lee-award.jpg'" alt="">
-                                                </div>
-                                            </div>
+                            <div class="each-award height-auto">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <h1 class="h1-lg text-white text-shadow-sm">Learner of the Year</h1>
+                                        <h2 class="text-white text-shadow-sm">Recognizing Academic Excellence</h2>
+                                        <p class="fs-4 text-white text-shadow-sm">Awarded to a learner who has demonstrated exceptional dedication, achievement, and progress in their studies.</p>
+                                        <p class=""><a class="btn btn-lg btn-outline-light px-4"> Learn More <i class="fas fa-arrow-right ms-3"></i></a></p>
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="w-100 award-images">
+                                            <img class="shadow" :src="'/assets/img/award/lesley-heaney.jpg'" alt="">
+                                            <img class="shadow" :src="'/assets/img/award/Afroja_khan.jpg'" alt="">
+                                            <img class="shadow" :src="'/assets/img/award/gemma-lee-award.jpg'" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -44,7 +40,7 @@
             <div class="award-screen-content py-5">
                 <div class="container-lg">
                     <div class="w-100">
-                        <div class="each-award">
+                        <div class="each-award height-auto">
                             <div class="row">
                                 <div class="col-5">
                                     <h1 class="h1-lg text-white text-shadow-sm">Teacher of the Year</h1>
@@ -70,7 +66,7 @@
             <div class="award-screen-content py-5">
                 <div class="container-lg">
                     <div class="w-100">
-                        <div class="each-award">
+                        <div class="each-award height-auto">
                             <div class="row">
                                 <div class="col-5">
                                     <h1 class="h1-lg text-white text-shadow-sm">Keith Fletcher <br> Memorial Award</h1>
@@ -98,7 +94,7 @@
             <div class="award-screen-content py-5">
                 <div class="container-lg">
                     <div class="w-100">
-                        <div class="each-award">
+                        <div class="each-award height-auto">
                             <div class="row">
                                 <div class="col-5">
                                     <h1 class="h1-lg text-white text-shadow-sm">Midwifery Student <br> of the Year</h1>

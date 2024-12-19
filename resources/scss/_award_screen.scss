@@ -18,6 +18,9 @@
 
         .each-award{
             min-height: 400px;
+            &.height-auto {
+                min-height: auto;
+            }
             .award-images{
                 position: relative;
                 display: block;

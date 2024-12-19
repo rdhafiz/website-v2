@@ -19,28 +19,40 @@
                                     Home
                                 </router-link>
                             </li>
-                            <li>
-                                <router-link :to="{name: 'Courses'}">
+                            <li class="dropdown-custom">
+                                <a href="javascript:void(0)">
                                     Courses
+                                </a>
+                                <ul class="dropdown-custom-menu">
+                                    <li>
+                                        <router-link :to="{name: 'Courses'}" class="dropdown-item">
+                                            Access to Higher Education
+                                        </router-link>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" class="dropdown-item">
+                                            Vocational Courses & Training
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <router-link :to="{name: 'FeesFunding'}" class="dropdown-item">
+                                            Fees & Funding
+                                        </router-link>
+                                    </li>
+                                    <li>
+                                        <router-link :to="{name: 'Pathways'}" class="dropdown-item">
+                                            Pathways
+                                        </router-link>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <router-link :to="{name: 'Awards'}">
+                                    Awards
                                 </router-link>
                             </li>
                             <li>
-                                <router-link :to="{name: 'Excellence'}">
-                                    Excellence
-                                </router-link>
-                            </li>
-                            <li>
-                                <router-link :to="{name: 'FeesFunding'}">
-                                    Fees & Funding
-                                </router-link>
-                            </li>
-                            <li>
-                                <router-link :to="{name: 'Pathways'}">
-                                    Pathways
-                                </router-link>
-                            </li>
-                            <li>
-                                <router-link :to="{name: 'News'}">
+                                <router-link :to="{name: 'NewsEvents'}">
                                     News & Events
                                 </router-link>
                             </li>

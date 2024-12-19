@@ -9,8 +9,8 @@ import Layout from "../layouts/layout.vue";
 import Home from "../pages/home/Home.vue";
 import Courses from "../pages/course/Courses.vue";
 import CourseDetails from "../pages/course/CourseDetails.vue";
-import Excellence from "../pages/excellence/Excellence.vue";
-import News from "../pages/news/News.vue";
+import Awards from "../pages/awards/Awards.vue";
+import NewsEvents from "../pages/news_&_events/NewsEvents.vue";
 import About from "../pages/about/About.vue";
 import Contact from "../pages/contact/Contact.vue";
 import PrivacyPolicy from "../pages/general/privacy_policy.vue";
@@ -29,9 +29,9 @@ const routes = [
             {path: ROOT_URL + '', name: 'Home', component: Home},
             {path: ROOT_URL + '/courses', name: 'Courses', component: Courses},
             {path: ROOT_URL + '/course/:slug', name: 'CourseDetails', component: CourseDetails},
-            {path: ROOT_URL + '/excellence', name: 'Excellence', component: Excellence},
+            {path: ROOT_URL + '/awards', name: 'Awards', component: Awards},
             {path: ROOT_URL + '/pathways', name: 'Pathways', component: Pathways},
-            {path: ROOT_URL + '/news', name: 'News', component: News},
+            {path: ROOT_URL + '/news_&_events', name: 'NewsEvents', component: NewsEvents},
             {path: ROOT_URL + '/about', name: 'About', component: About},
             {path: ROOT_URL + '/contact', name: 'Contact', component: Contact},
             {path: ROOT_URL + '/privacy_policy', name: 'PrivacyPolicy', component: PrivacyPolicy},
