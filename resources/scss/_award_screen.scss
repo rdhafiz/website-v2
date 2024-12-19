@@ -20,6 +20,12 @@
             flex-wrap: wrap;
         }
 
+        .h1-md {
+            @media screen and (max-width: 576px) {
+                font-size: 25px !important;
+            }
+        }
+
         .each-award{
             min-height: 400px;
             @media screen and (max-width: 1199px) {
@@ -51,6 +57,10 @@
                         width: 200px;
                         height: 200px;
                     }
+                    @media screen and (max-width: 576px) {
+                        width: 120px;
+                        height: 120px;
+                    }
                     &:nth-child(1){
                         position: absolute;
                         top: 0;
@@ -63,6 +73,9 @@
                         }
                         @media screen and (max-width: 576px) {
                             transform: translate(0, 0);
+                        }
+                        @media screen and (max-width: 480px) {
+
                         }
                     }
                     &:nth-child(2){
@@ -78,6 +91,9 @@
                         @media screen and (max-width: 576px) {
                             transform: translate(0, 0);
                         }
+                        @media screen and (max-width: 480px) {
+                            right: 65px;
+                        }
                     }
                     &:nth-child(3){
                         position: absolute;
@@ -91,6 +107,9 @@
                         }
                         @media screen and (max-width: 576px) {
                             transform: translate(0, 0);
+                        }
+                        @media screen and (max-width: 480px) {
+                            right: 125px;
                         }
                     }
                 }
