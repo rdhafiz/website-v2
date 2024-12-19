@@ -31,7 +31,7 @@
                                 </li>
                             </ul>
 
-                            <h1 class="mt-5 text-white fw-bold">
+                            <h1 class="mt-5 text-white fw-bold animate__animated animate__fadeInLeft" style="animation-delay: 0.2s">
                                 Weekly one-hour <br> online open events <br>
                                 <router-link :to="{name: 'PreEnrollmentOnlineEvent'}" class="btn btn-outline-light btn-lg mt-3 px-5">Book Here</router-link>
                             </h1>
