@@ -113,8 +113,10 @@ export default {
             this.isDropdown = !this.isDropdown;
         },
         sidebarToggle() {
-            this.isSidebar = !this.isSidebar;
-        }
+            if(window.innerWidth < 991) {
+                this.isSidebar = !this.isSidebar;
+            }
+        },
     },
     mounted() {
         const THIS = this;

@@ -2,7 +2,7 @@
     .breadcrumb-content {
         .breadcrumb-content-left {
             height: 800px;
-            @media screen and (max-width: 1300px) {
+            @media screen and (max-width: 991px) {
                 width: 100%;
             }
             &:before {
@@ -28,21 +28,19 @@
     }
     .breadcrumb-title {
         font-size: 60px;
-        @media screen and (max-width: 1300px) {
+        @media screen and (max-width: 1366px) {
             font-size: 40px;
         }
     }
     .breadcrumb-description {
         font-size: 25px;
-        max-width: 640px;
-        @media screen and (max-width: 1300px) {
+        @media screen and (max-width: 1366px) {
             font-size: 17px;
         }
     }
     .breadcrumb-sub-description {
         font-size: 17px;
-        max-width: 640px;
-        @media screen and (max-width: 1300px) {
+        @media screen and (max-width: 1366px) {
             font-size: 13px;
         }
     }

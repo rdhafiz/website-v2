@@ -50,7 +50,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="w-100 d-flex justify-content-center align-items-center">
+                                <div class="w-100 d-flex justify-content-center align-items-center flex-wrap">
                                     <div class="each-feature rounded-circle" data-aos="fade-up" data-aos-delay="600">
                                         <div class="w-100 h-100 d-flex align-items-center">
                                             <div class="w-100">
