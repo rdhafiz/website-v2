@@ -2,13 +2,13 @@
 
     <div class="course-details-screen">
 
-        <div class="breadcrumb-content w-100 animate__animated animate__fadeIn"
-             :style="{ backgroundImage: 'url(/assets/img/breadcrumb/breadcrumb.jpg)' }">
+        <div class="breadcrumb-content w-100 animate__animated animate__fadeIn">
             <div class="breadcrumb-content-left">
                 <div class="shadow-1"></div>
                 <div class="shadow-2"></div>
                 <div class="shadow-3"></div>
             </div>
+            <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/course_details.jpg)' }"></div>
             <div class="w-100 px-5">
                 <div class="w-100 px-5">
                     <div class="container-fluid">

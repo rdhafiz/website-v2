@@ -1,11 +1,12 @@
 <template>
 
-    <div class="breadcrumb-content w-100 animate__animated animate__fadeIn" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/breadcrumb-1.jpeg)' }">
+    <div class="breadcrumb-content w-100 animate__animated animate__fadeIn">
         <div class="breadcrumb-content-left">
             <span class="shadow-1"></span>
             <span class="shadow-2"></span>
             <span class="shadow-3"></span>
         </div>
+        <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/courses.jpg)' }"></div>
         <div class="container-fluid">
             <div class="w-100 px-5">
                 <div class="w-100 px-5 position-relative z-2">
@@ -32,7 +33,7 @@
 
                             <h1 class="mt-5 text-white fw-bold">
                                 Weekly one-hour <br> online open events <br>
-                                <a class="btn btn-outline-light btn-lg mt-3 px-5">Book Here</a>
+                                <router-link :to="{name: 'PreEnrollmentOnlineEvent'}" class="btn btn-outline-light btn-lg mt-3 px-5">Book Here</router-link>
                             </h1>
                         </div>
                     </div>
