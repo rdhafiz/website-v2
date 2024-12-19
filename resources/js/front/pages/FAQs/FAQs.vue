@@ -1,6 +1,8 @@
 <template>
 
-    <section class="w-100 py-5">
+    <br><br><br><br>
+
+    <section class="w-100 py-5 faq_screen">
         <div class="container">
             <div class="faqs-title mb-3 fw-bold"> Frequently Asked Questions </div>
             <div class="accordion" id="accordionExample">
@@ -14,7 +16,6 @@
                     <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                         <div class="accordion-body bg-light border-top px-5">
                             To join our course, you will need GCSE English Grade C/4 or above or Functional Skills Level
-                            2.
                         </div>
                     </div>
                 </div>
@@ -77,28 +78,28 @@
                     <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body bg-light border-top px-5">
                             We have 4 courses starting in Spring 2025. You can study on Tuesdays from 9.30 – 4pm, or
-                            Saturdays from 9.30 – 4pm, or Tuesdays and Thursday evenings from 6.30 – 9.30pm.
+                            Saturdays from 9.30 – 4pm, or Tuesdays and Thursday evenings from 6.30 – 9.30pm. Courses start in spring and Autumn each year.
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item shadow-sm border border-secondary border-opacity-25">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                            6. When are the following courses if I can’t join the September 24 course?
-                        </button>
-                    </h2>
-                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body bg-light border-top px-5">
-                            September 2025.
-                        </div>
-                    </div>
-                </div>
+<!--                <div class="accordion-item shadow-sm border border-secondary border-opacity-25">-->
+<!--                    <h2 class="accordion-header">-->
+<!--                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"-->
+<!--                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">-->
+<!--                            6. When are the following courses if I can’t join the September 24 course?-->
+<!--                        </button>-->
+<!--                    </h2>-->
+<!--                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">-->
+<!--                        <div class="accordion-body bg-light border-top px-5">-->
+<!--                            September 2025.-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
                 <div class="accordion-item shadow-sm border border-secondary border-opacity-25">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                            7. How long does the course last?
+                            6. How long does the course last?
                         </button>
                     </h2>
                     <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -111,7 +112,7 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                            8. How will the course be assessed? Are there any exams?
+                            7. How will the course be assessed? Are there any exams?
                         </button>
                     </h2>
                     <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -125,7 +126,7 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                            9. Do I need to have good computer skills?
+                            8. Do I need to have good computer skills?
                         </button>
                     </h2>
                     <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -141,7 +142,7 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                            10. Will I get help to apply for university?
+                            9. Will I get help to apply for university?
                         </button>
                     </h2>
                     <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -155,7 +156,7 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-                            11. Will I have to travel to lessons?
+                            10. Will I have to travel to lessons?
                         </button>
                     </h2>
                     <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -168,7 +169,7 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-                            12. Can I apply for the course if I need additional support with my studies?
+                            11. Can I apply for the course if I need additional support with my studies?
                         </button>
                     </h2>
                     <div id="collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -186,7 +187,7 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThirteen" aria-expanded="false"
                                 aria-controls="collapseThirteen">
-                            13. How long is the Access course valid for?
+                            12. How long is the Access course valid for?
                         </button>
                     </h2>
                     <div id="collapseThirteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -200,7 +201,7 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseFourteen" aria-expanded="false"
                                 aria-controls="collapseFourteen">
-                            14. Is there an age limit to studying a Health-related degree at university?
+                            13. Is there an age limit to studying a Health-related degree at university?
                         </button>
                     </h2>
                     <div id="collapseFourteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -213,7 +214,7 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
-                            15. What will I study in the Access course
+                            14. What will I study in the Access course
                         </button>
                     </h2>
                     <div id="collapseFifteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -227,7 +228,7 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
-                            16. How long does a degree take to complete?
+                            15. How long does a degree take to complete?
                         </button>
                     </h2>
                     <div id="collapseSixteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -242,7 +243,7 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseSeventeen" aria-expanded="false"
                                 aria-controls="collapseSeventeen">
-                            17. Will I get support with learning differences such as Dyslexia at university?
+                            16. Will I get support with learning differences such as Dyslexia at university?
                         </button>
                     </h2>
                     <div id="collapseSeventeen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -256,7 +257,7 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseEighteen" aria-expanded="false"
                                 aria-controls="collapseEighteen">
-                            18. How much can I earn as a health professional in the NHS?
+                            17. How much can I earn as a health professional in the NHS?
                         </button>
                     </h2>
                     <div id="collapseEighteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -273,7 +274,7 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseNineteen" aria-expanded="false"
                                 aria-controls="collapseNineteen">
-                            19. Is it true that Midwifery places are hard to find in the UK?
+                            18. Is it true that Midwifery places are hard to find in the UK?
                         </button>
                     </h2>
                     <div id="collapseNineteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -288,7 +289,7 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
-                            20. Can I apply for jobs with an Access to HE Diploma if I don’t go to university?
+                            19. Can I apply for jobs with an Access to HE Diploma if I don’t go to university?
                         </button>
                     </h2>
                     <div id="collapseTwenty" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -302,7 +303,7 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwentyOne" aria-expanded="false"
                                 aria-controls="collapseTwentyOne">
-                            21. Is the course recognized by UK universities?
+                            20. Is the course recognised by UK universities?
                         </button>
                     </h2>
                     <div id="collapseTwentyOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -317,7 +318,7 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwentyTwo" aria-expanded="false"
                                 aria-controls="collapseTwentyTwo">
-                            22. Can I meet you for an informal chat about the course before I decide to join?
+                            21. Do you have any open events where I can ask questions or meet the team?
                         </button>
                     </h2>
                     <div id="collapseTwentyTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -333,7 +334,7 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwentyThree" aria-expanded="false"
                                 aria-controls="collapseTwentyThree">
-                            23. Do I need experience in Health or Care work?
+                            22. Do I need experience in Health or Care work?
                         </button>
                     </h2>
                     <div id="collapseTwentyThree" class="accordion-collapse collapse"
@@ -378,7 +379,7 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwentyFour" aria-expanded="false"
                                 aria-controls="collapseTwentyFour">
-                            24. How do I apply?
+                            23. How do I apply?
                         </button>
                     </h2>
                     <div id="collapseTwentyFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">

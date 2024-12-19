@@ -4,7 +4,7 @@
     overflow: hidden;
     background-size: cover;
     object-fit: cover;
-    background-position: top;
+    background-position: center;
     object-position: top;
 
     .breadcrumb-content-left {
@@ -43,6 +43,12 @@
             position: absolute;
             width: 200px;
             z-index: 1;
+            @media screen and (max-width: 991px) {
+                width: 150px;
+                height: 150px;
+                bottom: 100px;
+                left: -40px;
+            }
         }
 
         .shadow-2 {
@@ -55,6 +61,14 @@
             top: 100px;
             width: 400px;
             z-index: 1;
+            @media screen and (max-width: 991px) {
+                width: 250px;
+                height: 250px;
+                left: 50px;
+                position: absolute;
+                top: 165px;
+                z-index: 1;
+            }
         }
 
         .shadow-3 {
@@ -67,8 +81,25 @@
             right: -124px;
             width: 550px;
             z-index: 1;
+            @media screen and (max-width: 991px) {
+                width: 250px;
+                height: 250px;
+                bottom: -5%;
+                right: -100px;
+            }
         }
 
+    }
+
+    .breadcrumb-content-right {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 65%;
+        z-index: -1;
+        height: 100%;
+        background-size: cover;
+        background-position: top;
     }
 
     .breadcrumb-left {
@@ -83,12 +114,15 @@
             .breadcrumb-item {
                 .text-white {
                     position: relative;
+
                     &:hover {
                         transition: 0.3s all ease-in-out;
+
                         &:before {
                             width: 100%;
                         }
                     }
+
                     &:before {
                         position: absolute;
                         content: '';

@@ -1,18 +1,19 @@
 <template>
 
-    <div class="breadcrumb-content w-100 animate__animated animate__fadeIn" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/breadcrumb-1.jpeg)' }">
+    <div class="breadcrumb-content w-100 animate__animated animate__fadeIn">
         <div class="breadcrumb-content-left">
             <span class="shadow-1"></span>
             <span class="shadow-2"></span>
             <span class="shadow-3"></span>
         </div>
+        <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/courses.jpg)' }"></div>
         <div class="container-fluid">
             <div class="w-100 px-5">
                 <div class="w-100 px-5 position-relative z-2">
                     <div class="breadcrumb-left">
                         <div class="w-100 mt-5">
                             <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
-                                Courses
+                                Access to Higher Education
                             </h1>
                             <ul class="breadcrumb w-100 d-flex justify-content-start align-items-center fs-4 animate__animated animate__fadeInLeft">
                                 <li class="breadcrumb-item">
@@ -24,15 +25,15 @@
                                     /
                                 </li>
                                 <li class="breadcrumb-item">
-                                    <router-link :to="{name: 'Courses'}" class="text-decoration-none text-white p-0 m-0">
-                                        Courses
+                                    <router-link :to="{name: 'CourseAccessToHe'}" class="text-decoration-none text-white p-0 m-0">
+                                        Access to Higher Education
                                     </router-link>
                                 </li>
                             </ul>
 
-                            <h1 class="mt-5 text-white fw-bold">
+                            <h1 class="mt-5 text-white fw-bold animate__animated animate__fadeInLeft" style="animation-delay: 0.2s">
                                 Weekly one-hour <br> online open events <br>
-                                <a class="btn btn-outline-light btn-lg mt-3 px-5">Book Here</a>
+                                <router-link :to="{name: 'PreEnrollmentOnlineEvent'}" class="btn btn-outline-light btn-lg mt-3 px-5">Book Here</router-link>
                             </h1>
                         </div>
                     </div>
@@ -46,7 +47,7 @@
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
                 <div class="w-100 d-flex justify-content-start align-items-start border-bottom">
                     <div class="h-100">
-                        <img class="each-data-img" :src="'/assets/img/access/HealthProfessions.jpg'" alt="NursingMidwifery">
+                        <img class="each-data-img" :src="'/assets/img/access/access-to-he-health-profession.webp'" alt="NursingMidwifery">
                     </div>
                     <div class="h-100 p-4">
                         <div class="w-100">
@@ -81,8 +82,13 @@
                                 <div class="w-100 ps-3 fs-5">
                                     <strong class="p-0 fs-5">Level 2 English</strong><br>
                                     <span class="p-0 fs-6">
-                                            (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
-                                        </span>
+                                        (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
+                                    </span>
+                                    <div class="d-block fw-normal">
+                                        <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
+                                            How to find a english course?
+                                        </router-link>
+                                    </div>
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between mt-3">
@@ -151,8 +157,13 @@
                                 <div class="w-100 ps-3 fs-5">
                                     <strong class="p-0 fs-5">Level 2 English</strong><br>
                                     <span class="p-0 fs-6">
-                                            (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
-                                        </span>
+                                        (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
+                                    </span>
+                                    <div class="d-block fw-normal">
+                                        <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
+                                            How to find a english course?
+                                        </router-link>
+                                    </div>
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between mt-3">
@@ -221,8 +232,13 @@
                                 <div class="w-100 ps-3 fs-5">
                                     <strong class="p-0 fs-5">Level 2 English</strong><br>
                                     <span class="p-0 fs-6">
-                                            (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
-                                        </span>
+                                        (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
+                                    </span>
+                                    <div class="d-block fw-normal">
+                                        <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
+                                            How to find a english course?
+                                        </router-link>
+                                    </div>
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between mt-3">
@@ -291,8 +307,13 @@
                                 <div class="w-100 ps-3 fs-5">
                                     <strong class="p-0 fs-5">Level 2 English</strong><br>
                                     <span class="p-0 fs-6">
-                                            (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
-                                        </span>
+                                        (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
+                                    </span>
+                                    <div class="d-block fw-normal">
+                                        <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
+                                            How to find a english course?
+                                        </router-link>
+                                    </div>
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between mt-3">

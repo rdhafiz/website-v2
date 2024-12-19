@@ -1,0 +1,9 @@
+@mixin buttonSizeControl($pixel, $radius, $backgroundColor, $color) {
+    width: $pixel+px;
+    height: $pixel+px;
+    border-radius: $radius+px;
+    background-color: $backgroundColor;
+    outline: none !important;
+    border: none !important;
+    color: $color;
+}

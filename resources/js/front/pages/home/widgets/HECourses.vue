@@ -10,14 +10,14 @@
                             <h1 class="h1-md fw-bold text-dark text-center" data-aos="fade-up">Access to HE Diplomas</h1>
                             <p class="fs-4 text-secondary text-center" data-aos="fade-up" data-aos-delay="500">Unlock your potential with specialized diploma courses <br> designed to prepare you for higher education and professional success.</p>
                         </div>
-                        <div class="w-100 mt-5">
+                        <div class="w-100 mt-2 mt-xl-5">
                             <div class="w-100 text-center">
 
                                 <div class="each-course shadow" data-aos="fade-up" data-aos-delay="200">
                                     <div class="w-100">
                                         <div class="w-100">
                                             <div class="w-100">
-                                                <img class="each-course-img" :src="'/assets/img/access/HealthProfessions.jpg'" alt="">
+                                                <img class="each-course-img" :src="'/assets/img/access/access-to-he-health-profession.webp'" alt="">
                                             </div>
                                             <div class="each-course-content p-3">
                                                 <div class="w-100">

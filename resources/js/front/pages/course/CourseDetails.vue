@@ -2,13 +2,14 @@
 
     <div class="course-details-screen">
 
-        <div class="breadcrumb-content w-100 animate__animated animate__fadeIn"
-             :style="{ backgroundImage: 'url(/assets/img/breadcrumb/breadcrumb.jpg)' }">
+        <div class="breadcrumb-content w-100 animate__animated animate__fadeIn">
             <div class="breadcrumb-content-left">
                 <div class="shadow-1"></div>
                 <div class="shadow-2"></div>
                 <div class="shadow-3"></div>
             </div>
+            <div class="breadcrumb-content-right"
+                 :style="{ backgroundImage: 'url(/assets/img/breadcrumb/course_details.jpg)' }"></div>
             <div class="w-100 px-5">
                 <div class="w-100 px-5">
                     <div class="container-fluid">
@@ -25,11 +26,20 @@
                                 <li class="text-white mx-3">
                                     /
                                 </li>
-                                <li class="breadcrumb-item">
-                                    <router-link :to="{name: 'Courses'}" class="text-decoration-none text-white p-0 m-0">
-                                        Course
-                                    </router-link>
-                                </li>
+                                <template v-if="this.routeName === 'access-to-he-nursing-&-midwifery' || this.routeName === 'access-to-he-health-professions' || this.routeName === 'access-to-he-nursing' || this.routeName === 'access-to-he-health-science'">
+                                    <li class="breadcrumb-item">
+                                        <router-link :to="{name: 'CourseAccessToHe'}" class="text-decoration-none text-white p-0 m-0">
+                                            Access to Higher Education
+                                        </router-link>
+                                    </li>
+                                </template>
+                                <template v-if="this.routeName === 'vocation-training-early-year-education' || this.routeName === 'vocational-training-teaching-assistance' || this.routeName === 'vocational-training-adult-care'">
+                                    <li class="breadcrumb-item">
+                                        <router-link :to="{name: 'CourseVocationalTraining'}" class="text-decoration-none text-white p-0 m-0">
+                                            Vocational Courses & Training
+                                        </router-link>
+                                    </li>
+                                </template>
                                 <li class="text-white mx-3">
                                     /
                                 </li>
@@ -61,9 +71,19 @@
             <AccessToHeHealthScience></AccessToHeHealthScience>
         </template>
 
-        <Teams/>
+        <template v-if="this.routeName === 'vocation-training-early-year-education'">
+            <VocationalEarlyYearEducation></VocationalEarlyYearEducation>
+        </template>
 
-        <FAQs/>
+        <template v-if="this.routeName === 'vocational-training-teaching-assistance'">
+            <VocationalTeachingAssistance></VocationalTeachingAssistance>
+        </template>
+
+        <template v-if="this.routeName === 'vocational-training-adult-care'">
+            <VocationalAdultCare></VocationalAdultCare>
+        </template>
+
+        <Teams/>
 
     </div>
 
@@ -76,12 +96,21 @@ import AccessToHeHealthProfessions from "./widgets/access-to-he-health-professio
 import AccessToHeNursing from "./widgets/access-to-he-nursing.vue";
 import AccessToHeHealthScience from "./widgets/access-to-he-health-science.vue";
 import Teams from "./widgets/Teams.vue";
-import FAQs from "./widgets/FAQs.vue";
 import {useRoute} from "vue-router";
+import VocationalEarlyYearEducation from "./widgets/vocational-early-year-education.vue";
+import VocationalTeachingAssistance from "./widgets/vocational-teaching-assistance.vue";
+import VocationalAdultCare from "./widgets/vocational-adult-care.vue";
 
 export default {
     components: {
-        Teams, FAQs, AccessToHeNursingMidWifery, AccessToHeHealthProfessions, AccessToHeNursing, AccessToHeHealthScience
+        Teams,
+        AccessToHeNursingMidWifery,
+        AccessToHeHealthProfessions,
+        AccessToHeNursing,
+        AccessToHeHealthScience,
+        VocationalEarlyYearEducation,
+        VocationalTeachingAssistance,
+        VocationalAdultCare
     },
     data() {
         return {
@@ -94,7 +123,7 @@ export default {
             this.routeName = route.params.slug;
             console.log(this.routeName);
         } else {
-            this.$router.push({name: 'Courses'});
+            this.$router.back();
         }
     },
     methods: {}

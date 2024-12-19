@@ -76,8 +76,13 @@
                                 <h5 class="text-secondary fw-normal">
                                     <strong class="p-0 fs-5">Level 2 English</strong><br>
                                     <span class="p-0 fs-6">
-                                            (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
-                                        </span>
+                                        (GCSE Grade C/4 or above, Level 2 Functional Skills, Keyskills English Level 2, Adult Literacy Level 2)
+                                    </span>
+                                    <span class="d-block fw-normal">
+                                    <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
+                                        How to find a english course?
+                                    </router-link>
+                                </span>
                                 </h5>
                             </div>
 
