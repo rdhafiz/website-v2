@@ -20,12 +20,15 @@
             flex-wrap: wrap;
         }
 
+<<<<<<< HEAD
         .h1-md {
             @media screen and (max-width: 576px) {
                 font-size: 25px !important;
             }
         }
 
+=======
+>>>>>>> 096c4e1 (responsive-awards-part-from-home-and-awards-content)
         .each-award{
             min-height: 400px;
             @media screen and (max-width: 1199px) {
@@ -88,6 +91,12 @@
                     justify-content: center;
                     align-items: center;
                 }
+<<<<<<< HEAD
+=======
+                @media screen and (max-width: 768px) {
+                    height: 200px;
+                }
+>>>>>>> 096c4e1 (responsive-awards-part-from-home-and-awards-content)
                 img{
                     width: 300px;
                     height: 300px;
@@ -99,10 +108,13 @@
                         width: 200px;
                         height: 200px;
                     }
+<<<<<<< HEAD
                     @media screen and (max-width: 576px) {
                         width: 120px;
                         height: 120px;
                     }
+=======
+>>>>>>> 096c4e1 (responsive-awards-part-from-home-and-awards-content)
                     &:nth-child(1){
                         position: absolute;
                         top: 0;
@@ -116,9 +128,12 @@
                         @media screen and (max-width: 576px) {
                             transform: translate(0, 0);
                         }
+<<<<<<< HEAD
                         @media screen and (max-width: 480px) {
 
                         }
+=======
+>>>>>>> 096c4e1 (responsive-awards-part-from-home-and-awards-content)
                     }
                     &:nth-child(2){
                         position: absolute;
@@ -133,9 +148,12 @@
                         @media screen and (max-width: 576px) {
                             transform: translate(0, 0);
                         }
+<<<<<<< HEAD
                         @media screen and (max-width: 480px) {
                             right: 65px;
                         }
+=======
+>>>>>>> 096c4e1 (responsive-awards-part-from-home-and-awards-content)
                     }
                     &:nth-child(3){
                         position: absolute;
@@ -150,9 +168,12 @@
                         @media screen and (max-width: 576px) {
                             transform: translate(0, 0);
                         }
+<<<<<<< HEAD
                         @media screen and (max-width: 480px) {
                             right: 125px;
                         }
+=======
+>>>>>>> 096c4e1 (responsive-awards-part-from-home-and-awards-content)
                     }
                 }
             }

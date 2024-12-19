@@ -1,12 +1,20 @@
 {
   "resources/js/front/app.js": {
+<<<<<<< HEAD
     "file": "assets/app-CrNn-xlb.js",
+=======
+    "file": "assets/app-BpvjmlJ6.js",
+>>>>>>> 096c4e1 (responsive-awards-part-from-home-and-awards-content)
     "name": "app",
     "src": "resources/js/front/app.js",
     "isEntry": true
   },
   "resources/scss/app.scss": {
+<<<<<<< HEAD
     "file": "assets/app-DqMPbPPQ.css",
+=======
+    "file": "assets/app-Y2piCcax.css",
+>>>>>>> 096c4e1 (responsive-awards-part-from-home-and-awards-content)
     "src": "resources/scss/app.scss",
     "isEntry": true
   }
