@@ -29,6 +29,7 @@
                                             <img class="shadow" :src="'/assets/img/award/lesley-heaney.jpg'" alt="lesley-heaney" loading='lazy' />
                                             <img class="shadow" :src="'/assets/img/award/Afroja_khan.jpg'" alt="Afroja_khan" loading='lazy' />
                                             <img class="shadow" :src="'/assets/img/award/gemma-lee-award.jpg'" alt="gemma-lee-award" loading='lazy' />
+
                                         </div>
                                     </div>
                                 </div>
