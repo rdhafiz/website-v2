@@ -2,6 +2,7 @@
   "resources/js/front/app.js": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "file": "assets/app-CrNn-xlb.js",
 =======
     "file": "assets/app-BpvjmlJ6.js",
@@ -9,16 +10,23 @@
 =======
     "file": "assets/app-Di6-X8Z1.js",
 >>>>>>> 84415d2 (build)
+=======
+    "file": "assets/app-dJJXvvAB.js",
+>>>>>>> 703612f (build-and-smooth-responsive)
     "name": "app",
     "src": "resources/js/front/app.js",
     "isEntry": true
   },
   "resources/scss/app.scss": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "file": "assets/app-DqMPbPPQ.css",
 =======
     "file": "assets/app-Y2piCcax.css",
 >>>>>>> 096c4e1 (responsive-awards-part-from-home-and-awards-content)
+=======
+    "file": "assets/app-B0SBSYAn.css",
+>>>>>>> 703612f (build-and-smooth-responsive)
     "src": "resources/scss/app.scss",
     "isEntry": true
   }

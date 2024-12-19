@@ -21,14 +21,20 @@
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 703612f (build-and-smooth-responsive)
         .h1-md {
             @media screen and (max-width: 576px) {
                 font-size: 25px !important;
             }
         }
 
+<<<<<<< HEAD
 =======
 >>>>>>> 096c4e1 (responsive-awards-part-from-home-and-awards-content)
+=======
+>>>>>>> 703612f (build-and-smooth-responsive)
         .each-award{
             min-height: 400px;
             @media screen and (max-width: 1199px) {
@@ -109,12 +115,18 @@
                         height: 200px;
                     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 703612f (build-and-smooth-responsive)
                     @media screen and (max-width: 576px) {
                         width: 120px;
                         height: 120px;
                     }
+<<<<<<< HEAD
 =======
 >>>>>>> 096c4e1 (responsive-awards-part-from-home-and-awards-content)
+=======
+>>>>>>> 703612f (build-and-smooth-responsive)
                     &:nth-child(1){
                         position: absolute;
                         top: 0;
@@ -129,11 +141,17 @@
                             transform: translate(0, 0);
                         }
 <<<<<<< HEAD
+<<<<<<< HEAD
                         @media screen and (max-width: 480px) {
 
                         }
 =======
 >>>>>>> 096c4e1 (responsive-awards-part-from-home-and-awards-content)
+=======
+                        @media screen and (max-width: 480px) {
+
+                        }
+>>>>>>> 703612f (build-and-smooth-responsive)
                     }
                     &:nth-child(2){
                         position: absolute;
@@ -149,11 +167,17 @@
                             transform: translate(0, 0);
                         }
 <<<<<<< HEAD
+<<<<<<< HEAD
                         @media screen and (max-width: 480px) {
                             right: 65px;
                         }
 =======
 >>>>>>> 096c4e1 (responsive-awards-part-from-home-and-awards-content)
+=======
+                        @media screen and (max-width: 480px) {
+                            right: 65px;
+                        }
+>>>>>>> 703612f (build-and-smooth-responsive)
                     }
                     &:nth-child(3){
                         position: absolute;
@@ -169,11 +193,17 @@
                             transform: translate(0, 0);
                         }
 <<<<<<< HEAD
+<<<<<<< HEAD
                         @media screen and (max-width: 480px) {
                             right: 125px;
                         }
 =======
 >>>>>>> 096c4e1 (responsive-awards-part-from-home-and-awards-content)
+=======
+                        @media screen and (max-width: 480px) {
+                            right: 125px;
+                        }
+>>>>>>> 703612f (build-and-smooth-responsive)
                     }
                 }
             }
