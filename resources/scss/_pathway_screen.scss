@@ -1,6 +1,7 @@
 .pathway_screen {
 
     .table-responsive {
+        overflow-x: scroll;
         .table {
             width: 100%;
             border-spacing: 0;
@@ -14,6 +15,9 @@
                         font-size: 30.119px;
                         @media screen and (max-width: 991px) {
                             font-size: 23px;
+                        }
+                        @media screen and (max-width: 768px) {
+                            font-size: 19px;
                         }
                     }
                 }
@@ -39,6 +43,9 @@
                         font-size: 22.704px;
                         @media screen and (max-width: 991px) {
                             font-size: 19px;
+                        }
+                        @media screen and (max-width: 768px) {
+                            font-size: 17px;
                         }
                         &:first-child {
                             border-top-left-radius: 0.5rem !important;

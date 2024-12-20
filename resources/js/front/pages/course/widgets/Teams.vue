@@ -12,7 +12,7 @@
                         <div class="d-inline-block mb-4">
                             <div class="team rounded-4 shadow h-100">
                                 <div class="overflow-hidden team-image w-100 rounded-4">
-                                    <img :src="'/assets/img/team/Donna_Simmonds.jpg'" alt="team">
+                                    <img :src="'/assets/img/team/Donna_Simmonds.jpg'" alt="team" loading='lazy' />
                                 </div>
                                 <div class="p-3">
                                     <div class="fw-bold fs-4 text-center">
@@ -38,7 +38,7 @@
                         <div class="d-inline-block mb-4">
                             <div class="team rounded-4 shadow h-100">
                                 <div class="overflow-hidden team-image w-100 rounded-4">
-                                    <img :src="'/assets/img/team/Melanie_Lancley.jpg'" alt="team">
+                                    <img :src="'/assets/img/team/Melanie_Lancley.jpg'" alt="team" loading='lazy' />
                                 </div>
                                 <div class="p-3">
                                     <div class="fw-bold fs-4 text-center">
@@ -64,7 +64,7 @@
                         <div class="d-inline-block mb-4">
                             <div class="team rounded-4 shadow h-100">
                                 <div class="overflow-hidden team-image w-100 rounded-4">
-                                    <img :src="'/assets/img/team/Lisa_Ross.jpg'" alt="team">
+                                    <img :src="'/assets/img/team/Lisa_Ross.jpg'" alt="team" loading='lazy' />
                                 </div>
                                 <div class="p-3">
                                     <div class="fw-bold fs-4 text-center">
@@ -88,7 +88,7 @@
                         <div class="d-inline-block mb-4">
                             <div class="team rounded-4 shadow h-100">
                                 <div class="overflow-hidden team-image w-100 rounded-4">
-                                    <img :src="'/assets/img/team/Sarah_Kenny.png'" alt="team">
+                                    <img :src="'/assets/img/team/Sarah_Kenny.png'" alt="team" loading='lazy' />
                                 </div>
                                 <div class="p-3">
                                     <div class="fw-bold fs-4 text-center">
@@ -113,7 +113,7 @@
                         <div class="d-inline-block mb-4">
                             <div class="team rounded-4 shadow h-100">
                                 <div class="overflow-hidden team-image w-100 rounded-4">
-                                    <img :src="'/assets/img/team/Carol_Rees.jpg'" alt="team">
+                                    <img :src="'/assets/img/team/Carol_Rees.jpg'" alt="team" loading='lazy' />
                                 </div>
                                 <div class="p-3">
                                     <div class="fw-bold fs-4 text-center">
@@ -136,7 +136,7 @@
                         <div class="d-inline-block mb-4">
                             <div class="team rounded-4 shadow h-100">
                                 <div class="overflow-hidden team-image w-100 rounded-4">
-                                    <img :src="'/assets/img/team/Angela_Thompson.jpeg'" alt="team">
+                                    <img :src="'/assets/img/team/Angela_Thompson.jpeg'" alt="team" loading='lazy' />
                                 </div>
                                 <div class="p-3">
                                     <div class="fw-bold fs-4 text-center">
@@ -158,7 +158,7 @@
                         <div class="d-inline-block mb-4">
                             <div class="team rounded-4 shadow h-100">
                                 <div class="overflow-hidden team-image w-100 rounded-4">
-                                    <img :src="'/assets/img/team/Darya_Tobutt.jpg'" alt="team">
+                                    <img :src="'/assets/img/team/Darya_Tobutt.jpg'" alt="team" loading='lazy' />
                                 </div>
                                 <div class="p-3">
                                     <div class="fw-bold fs-4 text-center">
@@ -184,7 +184,7 @@
                         <div class="d-inline-block mb-4">
                             <div class="team rounded-4 shadow h-100">
                                 <div class="overflow-hidden team-image w-100 rounded-4">
-                                    <img :src="'/assets/img/team/Katie_Spencer_Bowdage.jpg'" alt="team">
+                                    <img :src="'/assets/img/team/Katie_Spencer_Bowdage.jpg'" alt="team" loading='lazy' />
                                 </div>
                                 <div class="p-3">
                                     <div class="fw-bold fs-4 text-center">

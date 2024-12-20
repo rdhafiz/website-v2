@@ -10,7 +10,7 @@
                         <h2 class="mb-4 text-center">
                             Online Open Events Pre Enrolment Form
                         </h2>
-                        <div class="border p-5 shadow">
+                        <div class="border p-4 p-md-5 shadow">
                             <div class="mb-3">
                                 <label for="course-you-want-to-attend" class="form-label"> Course You Want to Attend <span class="text-danger">*</span> </label>
                                 <select name="course_you_want_to_attend" id="course-you-want-to-attend" class="form-select bg-secondary-subtle py-2 px-3" required autocomplete="off">

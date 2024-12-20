@@ -30,7 +30,7 @@
                             </li>
                             <li class="dropdown-custom">
                                 <a href="javascript:void(0)" @click="dropdownToggle()">
-                                    Courses <i class="fas fa-caret-down ms-2"></i>
+                                    Courses <i class="fas fa-chevron-down ms-2"></i>
                                 </a>
                                 <ul class="dropdown-custom-menu" :class="{ 'active' : isDropdown}">
                                     <li>

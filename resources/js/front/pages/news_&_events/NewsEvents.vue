@@ -54,7 +54,7 @@
                             <a href="javascript:void(0)" class="text-decoration-none d-block">
                                 <div class="w-100 position-relative">
                                     <div class="overflow-hidden">
-                                        <img :src="'/assets/img/news/news-4.jpg'" class="news-image" alt="news">
+                                        <img :src="'/assets/img/news/news-4.jpg'" class="news-image" alt="news" loading="lazy" />
                                     </div>
                                     <div class="w-100 h-100 bg-effect position-absolute start-0 top-0"></div>
                                     <div class="position-absolute start-0 bottom-0 p-3">
@@ -70,7 +70,7 @@
                                 <a href="javascript:void(0)" class="text-decoration-none d-block">
                                     <div class="w-100 news position-relative shadow">
                                         <div class="overflow-hidden">
-                                            <img :src="'/assets/img/news/news-5.jpg'" class="news-image row-box" alt="news">
+                                            <img :src="'/assets/img/news/news-5.jpg'" class="news-image row-box" alt="news" loading="lazy" />
                                         </div>
                                         <div class="bg-white p-4">
                                             <div class="fs-5 fw-medium mb-2 text-theme">Health & Medicine</div>
