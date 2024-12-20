@@ -10,8 +10,8 @@
             <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/contact.png)' }"></div>
             <div class="container-fluid">
                 <div class="breadcrumb-left">
-                  <div class="w-100 px-5">
-                    <div class="w-100 px-5 position-relative z-2">
+                  <div class="px-0 px-sm-5 w-100">
+                    <div class="w-100 px-1 px-sm-5 position-relative z-2">
                       <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
                         Contact Us
                       </h1>
@@ -68,7 +68,7 @@
                     <div class="col-lg-12">
                         <div class="get-in-touch-screen-container">
                             <div class="row justify-content-center">
-                                <div class="col-md-8">
+                                <div class="col-lg-8">
                                     <div class="w-100 mb-4 d-inline-block">
                                         <h2>Contact Us</h2>
                                         <p>Your email address will not be published. Required fields are marked.</p>

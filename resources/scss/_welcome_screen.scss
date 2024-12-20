@@ -20,6 +20,7 @@
 
     @media screen and (max-width: 1200px) {
         padding-top: 130px;
+        flex-direction: column;
     }
 
     .access-screen {
@@ -29,6 +30,9 @@
         align-items: center;
         height: 695px;
         position: relative;
+        @media screen and (max-width: 1200px) {
+            height: auto;
+        }
         @media screen and (max-width: 768px) {
             width: 100%;
         }
@@ -56,6 +60,7 @@
             }
             @media screen and (max-width: 768px) {
                 width: 100%;
+                padding: 30px;
             }
         }
     }
@@ -67,6 +72,12 @@
         align-items: center;
         height: 695px;
         position: relative;
+        @media screen and (max-width: 1200px) {
+            height: auto;
+        }
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
         .vocational-screen-content{
             max-width: 600px;
             width: 100%;
@@ -88,6 +99,10 @@
                         font-size: 16px !important;
                     }
                 }
+            }
+            @media screen and (max-width: 768px) {
+                width: 100%;
+                padding: 30px;
             }
         }
     }

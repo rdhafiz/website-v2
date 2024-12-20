@@ -7,13 +7,13 @@
                 </div>
                 <div class="w-100 mt-3">
                     <div class="w-100 text-center">
-                        <a target="_blank" href="https://www.ucas.com/" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/UCAS_logo.png'" alt=""></a>
-                        <a target="_blank" href="https://www.qaa.ac.uk/" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/qaa-logo.png'" alt=""></a>
-                        <a target="_blank" href="https://www.gatewayqualifications.org.uk/" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/Gateway.jpg'" alt=""></a>
-<!--                        <a target="_blank" href="https://matrixstandard.com/" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/Matrix-Standard.png'" alt=""></a>-->
-                        <a target="_blank" href="https://www.gov.uk/government/organisations/ofsted" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/ofsted-logo.png'" alt=""></a>
-                        <a target="_blank" href="https://www.gov.uk/government/organisations/education-and-skills-funding-agency" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/esfa-logo.png'" alt=""></a>
-                        <a target="_blank" href="https://www.ncfe.org.uk/" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/ncfe-cache.png'" alt=""></a>
+                        <a target="_blank" href="https://www.ucas.com/" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/UCAS_logo.png'" alt="UCAS_logo"  loading='lazy' /></a>
+                        <a target="_blank" href="https://www.qaa.ac.uk/" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/qaa-logo.png'" alt="qaa-logo" loading="lazy" /></a>
+                        <a target="_blank" href="https://www.gatewayqualifications.org.uk/" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/Gateway.jpg'" alt="Gateway" loading="lazy" /></a>
+<!--                        <a target="_blank" href="https://matrixstandard.com/" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/Matrix-Standard.png'" alt="Matrix-Standard" loading="lazy" /></a>-->
+                        <a target="_blank" href="https://www.gov.uk/government/organisations/ofsted" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/ofsted-logo.png'" alt="ofsted-logo" loading="lazy" /></a>
+                        <a target="_blank" href="https://www.gov.uk/government/organisations/education-and-skills-funding-agency" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/esfa-logo.png'" alt="esfa-logo" loading="lazy" /></a>
+                        <a target="_blank" href="https://www.ncfe.org.uk/" class="compImg"><img class="p-3 mx-3 my-2 shadow rounded-3" :src="'/assets/img/awarding/ncfe-cache.png'" alt="ncfe-cache" loading="lazy" /></a>
                     </div>
                 </div>
             </div>
@@ -93,12 +93,12 @@
                     <!--                            </div>-->
                     <!--                            <div class="w-100">-->
                     <!--                                <div class="w-100">-->
-                    <!--                                    <a class="compImg"><img class="bg-dark p-3 m-2 shadow" :src="'/assets/img/awarding/Matrix-Standard.png'" alt=""></a>-->
-                    <!--                                    <a class="compImg"><img class="bg-dark p-3 m-2 shadow" :src="'/assets/img/awarding/logo-hed&#45;&#45;on-dark.svg'" alt=""></a>-->
-                    <!--                                    <a class="compImg"><img class="bg-dark p-3 m-2 shadow" :src="'/assets/img/awarding/esfa-bnw-1.png'" alt=""></a>-->
-                    <!--                                    <a class="compImg"><img class="bg-dark p-3 m-2 shadow" :src="'/assets/img/awarding/apprenticeships-logo.svg'" alt=""></a>-->
-                    <!--                                    <a class="compImg"><img class="bg-dark p-3 m-2 shadow" :src="'/assets/img/awarding/OCRLogo.png'" alt=""></a>-->
-                    <!--                                    <a class="compImg"><img class="bg-dark p-3 m-2 shadow" :src="'/assets/img/awarding/white-logo-main.png'" alt=""></a>-->
+                    <!--                                    <a class="compImg"><img class="bg-dark p-3 m-2 shadow" :src="'/assets/img/awarding/Matrix-Standard.png'" alt="Matrix-Standard" loading="lazy" /></a>-->
+                    <!--                                    <a class="compImg"><img class="bg-dark p-3 m-2 shadow" :src="'/assets/img/awarding/logo-hed&#45;&#45;on-dark.svg'" alt="on-dark" loading="lazy" /></a>-->
+                    <!--                                    <a class="compImg"><img class="bg-dark p-3 m-2 shadow" :src="'/assets/img/awarding/esfa-bnw-1.png'" alt="esfa-bnw-1" loading="lazy" /></a>-->
+                    <!--                                    <a class="compImg"><img class="bg-dark p-3 m-2 shadow" :src="'/assets/img/awarding/apprenticeships-logo.svg'" alt="apprenticeships-logo" loading="lazy" /></a>-->
+                    <!--                                    <a class="compImg"><img class="bg-dark p-3 m-2 shadow" :src="'/assets/img/awarding/OCRLogo.png'" alt="OCRLogo.png" loading="lazy" /></a>-->
+                    <!--                                    <a class="compImg"><img class="bg-dark p-3 m-2 shadow" :src="'/assets/img/awarding/white-logo-main.png'" alt="white-logo-main" loading="lazy" /></a>-->
                     <!--                                </div>-->
                     <!--                            </div>-->
                     <!--                        </div>-->
