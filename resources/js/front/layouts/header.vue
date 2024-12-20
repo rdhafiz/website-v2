@@ -113,7 +113,7 @@ export default {
             this.isDropdown = !this.isDropdown;
         },
         sidebarToggle() {
-            if(window.innerWidth < 991) {
+            if(window.innerWidth <= 991) {
                 this.isSidebar = !this.isSidebar;
             }
         },

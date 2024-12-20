@@ -14,6 +14,15 @@
                     font-size: 25px !important;
                     background-color: #ffffff !important;
                     color: var(--bs-dark);
+                    @media screen and (max-width: 991px) {
+                        font-size: 23px !important;
+                    }
+                    @media screen and (max-width: 768px) {
+                        font-size: 20px !important;
+                    }
+                    @media screen and (max-width: 576px) {
+                        font-size: 18px !important;
+                    }
                     &.collapsed {
                         background-color: #ffffff !important;
                         color: var(--bs-secondary);
@@ -34,6 +43,15 @@
                     color: var(--bs-secondary);
                     //border-radius: 10px !important;
                     font-size: 20px;
+                    @media screen and (max-width: 991px) {
+                        font-size: 18px !important;
+                    }
+                    @media screen and (max-width: 768px) {
+                        font-size: 17px !important;
+                    }
+                    @media screen and (max-width: 576px) {
+                        font-size: 14px !important;
+                    }
                     .link {
                         color: #2491eb;
                         transition: 0.3s all ease-in-out;

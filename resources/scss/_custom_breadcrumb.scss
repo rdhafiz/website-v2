@@ -22,6 +22,10 @@
         height: 700px;
         width: 50%;
 
+        @media screen and (max-width: 991px) {
+            width: 100%;
+        }
+
         &:before {
             position: absolute;
             content: "";
@@ -110,8 +114,21 @@
         align-items: center;
         flex-direction: column;
 
+        @media screen and (max-width: 768px) {
+            height: 450px;
+        }
+
+        h1 {
+            @media screen and (max-width: 1024px) {
+                font-size: 30px;
+            }
+        }
+
         .breadcrumb {
             .breadcrumb-item {
+                @media screen and (max-width: 1024px) {
+                    font-size: 19px;
+                }
                 .text-white {
                     position: relative;
 

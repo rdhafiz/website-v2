@@ -16,14 +16,36 @@
         justify-content: space-between;
         align-items: center;
 
+        @media screen and (max-width: 1366px) {
+            flex-wrap: wrap;
+        }
+
+        .h1-md {
+            @media screen and (max-width: 576px) {
+                font-size: 25px !important;
+            }
+        }
+
         .each-award{
             min-height: 400px;
+            @media screen and (max-width: 1199px) {
+                min-height: 600px;
+            }
             &.height-auto {
                 min-height: auto;
             }
             .award-images{
                 position: relative;
                 display: block;
+                @media screen and (max-width: 1366px) {
+                    height: 300px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                @media screen and (max-width: 768px) {
+                    height: 200px;
+                }
                 img{
                     width: 300px;
                     height: 300px;
@@ -31,20 +53,64 @@
                     object-position: center;
                     border-radius: 50%;
                     border: 10px solid #ffffff;
+                    @media screen and (max-width: 768px) {
+                        width: 200px;
+                        height: 200px;
+                    }
+                    @media screen and (max-width: 576px) {
+                        width: 120px;
+                        height: 120px;
+                    }
                     &:nth-child(1){
                         position: absolute;
                         top: 0;
                         right: 0;
+                        @media screen and (max-width: 1199px){
+                            transform: translate(-50%, 0);
+                        }
+                        @media screen and (max-width: 768px){
+                            transform: translate(-25%, 0);
+                        }
+                        @media screen and (max-width: 576px) {
+                            transform: translate(0, 0);
+                        }
+                        @media screen and (max-width: 480px) {
+
+                        }
                     }
                     &:nth-child(2){
                         position: absolute;
                         top: 0;
                         right: 150px;
+                        @media screen and (max-width: 1199px){
+                            transform: translate(-50%, 0);
+                        }
+                        @media screen and (max-width: 768px){
+                            transform: translate(-25%, 0);
+                        }
+                        @media screen and (max-width: 576px) {
+                            transform: translate(0, 0);
+                        }
+                        @media screen and (max-width: 480px) {
+                            right: 65px;
+                        }
                     }
                     &:nth-child(3){
                         position: absolute;
                         top: 0;
                         right: 300px;
+                        @media screen and (max-width: 1199px){
+                            transform: translate(-50%, 0);
+                        }
+                        @media screen and (max-width: 768px){
+                            transform: translate(-25%, 0);
+                        }
+                        @media screen and (max-width: 576px) {
+                            transform: translate(0, 0);
+                        }
+                        @media screen and (max-width: 480px) {
+                            right: 125px;
+                        }
                     }
                 }
             }

@@ -9,6 +9,11 @@
         justify-content: space-between;
         align-items: center;
         background-color: #ffffff;
+        .fs-4 {
+            @media screen and (max-width: 576px) {
+                font-size: 16px !important;
+            }
+        }
         .each-course{
             width: 295px;
             //height: 530px;

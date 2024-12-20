@@ -11,6 +11,10 @@
                         border: none;
                         outline: none;
                         background-color: #2491eb;
+                        font-size: 30.119px;
+                        @media screen and (max-width: 991px) {
+                            font-size: 23px;
+                        }
                     }
                 }
             }
@@ -32,6 +36,10 @@
                         transition: 0.3s all ease-in-out;
                         border-bottom: none;
                         width: 50%;
+                        font-size: 22.704px;
+                        @media screen and (max-width: 991px) {
+                            font-size: 19px;
+                        }
                         &:first-child {
                             border-top-left-radius: 0.5rem !important;
                             border-bottom-left-radius: 0.5rem !important;
