@@ -53,7 +53,7 @@
                     <div class="h-100 p-4">
                         <div class="w-100">
                             <div class="w-100 mb-4">
-                                <h2>Early Year Education</h2>
+                                <h2>Early Year Educator</h2>
                             </div>
 
                             <div class="w-100 d-block d-md-flex justify-content-between mt-2">
@@ -87,7 +87,7 @@
                                     </span>
                                     <div class="d-block fw-normal">
                                         <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
-                                            How to find a english course?
+                                            How to find an English course?
                                         </router-link>
                                     </div>
                                 </div>
@@ -111,7 +111,7 @@
 
 
                             <div class="w-100 text-end mt-5">
-                                <router-link :to="{name: 'CourseDetails', params:{ slug: 'vocation-training-early-year-education'}}" class="btn px-3 py-2 btn-theme">
+                                <router-link :to="{name: 'CourseDetails', params:{ slug: 'vocation-training-early-year-educator'}}" class="btn px-3 py-2 btn-theme">
                                     View course <i class="fas fa-arrow-right ms-2"></i>
                                 </router-link>
                             </div>
@@ -162,7 +162,7 @@
                                     </span>
                                     <div class="d-block fw-normal">
                                         <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
-                                            How to find a english course?
+                                            How to find an English course?
                                         </router-link>
                                     </div>
                                 </div>
@@ -238,7 +238,7 @@
                                     </span>
                                     <div class="d-block fw-normal">
                                         <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
-                                            How to find a english course?
+                                            How to find an English course?
                                         </router-link>
                                     </div>
                                 </div>

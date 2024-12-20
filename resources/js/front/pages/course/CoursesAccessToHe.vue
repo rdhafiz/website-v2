@@ -85,7 +85,7 @@
                                     </span>
                                     <div class="d-block fw-normal">
                                         <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
-                                            How to find a english course?
+                                            How to find an English course?
                                         </router-link>
                                     </div>
                                 </div>
@@ -160,7 +160,7 @@
                                     </span>
                                     <div class="d-block fw-normal">
                                         <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
-                                            How to find a english course?
+                                            How to find an English course?
                                         </router-link>
                                     </div>
                                 </div>
@@ -235,7 +235,7 @@
                                     </span>
                                     <div class="d-block fw-normal">
                                         <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
-                                            How to find a english course?
+                                            How to find an English course?
                                         </router-link>
                                     </div>
                                 </div>
@@ -310,7 +310,7 @@
                                     </span>
                                     <div class="d-block fw-normal">
                                         <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
-                                            How to find a english course?
+                                            How to find an English course?
                                         </router-link>
                                     </div>
                                 </div>

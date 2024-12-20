@@ -71,7 +71,7 @@
             <AccessToHeHealthScience></AccessToHeHealthScience>
         </template>
 
-        <template v-if="this.routeName === 'vocation-training-early-year-education'">
+        <template v-if="this.routeName === 'vocation-training-early-year-educator'">
             <VocationalEarlyYearEducation></VocationalEarlyYearEducation>
         </template>
 
