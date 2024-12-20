@@ -48,7 +48,7 @@
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
                 <div class="w-100 d-xl-flex justify-content-start align-items-start border-bottom">
                     <div class="h-100">
-                        <img class="each-data-img" :src="'/assets/img/access/HealthProfessions.jpg'" alt="NursingMidwifery">
+                        <img class="each-data-img" :src="'/assets/img/access/HealthProfessions.jpg'" alt="NursingMidwifery" loading="lazy" />
                     </div>
                     <div class="h-100 p-4">
                         <div class="w-100">
@@ -123,7 +123,7 @@
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
                 <div class="w-100 d-xl-flex justify-content-start align-items-start border-bottom">
                     <div class="h-100">
-                        <img class="each-data-img" :src="'/assets/img/access/NursingMidwifery.jpg'" alt="NursingMidwifery">
+                        <img class="each-data-img" :src="'/assets/img/access/NursingMidwifery.jpg'" alt="NursingMidwifery" loading="lazy" />
                     </div>
                     <div class="h-100 p-4">
                         <div class="w-100">
