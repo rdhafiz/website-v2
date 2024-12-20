@@ -8,8 +8,8 @@
         </div>
         <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/new_and_event.jpg)' }"></div>
         <div class="container-fluid">
-            <div class="w-100 px-5">
-                <div class="w-100 px-5 position-relative z-2">
+            <div class="w-100 px-0 px-md-5">
+                <div class="w-100 px-1 px-md-5 position-relative z-2">
                     <div class="breadcrumb-left">
                         <div class="w-100 mt-5">
                             <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
@@ -54,7 +54,7 @@
                             <a href="javascript:void(0)" class="text-decoration-none d-block">
                                 <div class="w-100 position-relative">
                                     <div class="overflow-hidden">
-                                        <img :src="'/assets/img/news/news-4.jpg'" class="news-image" alt="news">
+                                        <img :src="'/assets/img/news/news-4.jpg'" class="news-image" alt="news" loading="lazy" />
                                     </div>
                                     <div class="w-100 h-100 bg-effect position-absolute start-0 top-0"></div>
                                     <div class="position-absolute start-0 bottom-0 p-3">
@@ -70,7 +70,7 @@
                                 <a href="javascript:void(0)" class="text-decoration-none d-block">
                                     <div class="w-100 news position-relative shadow">
                                         <div class="overflow-hidden">
-                                            <img :src="'/assets/img/news/news-5.jpg'" class="news-image row-box" alt="news">
+                                            <img :src="'/assets/img/news/news-5.jpg'" class="news-image row-box" alt="news" loading="lazy" />
                                         </div>
                                         <div class="bg-white p-4">
                                             <div class="fs-5 fw-medium mb-2 text-theme">Health & Medicine</div>

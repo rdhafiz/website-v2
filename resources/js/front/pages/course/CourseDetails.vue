@@ -10,8 +10,8 @@
             </div>
             <div class="breadcrumb-content-right"
                  :style="{ backgroundImage: 'url(/assets/img/breadcrumb/course_details.jpg)' }"></div>
-            <div class="w-100 px-5">
-                <div class="w-100 px-5">
+            <div class="w-100 px-md-5">
+                <div class="w-100 px-2 px-md-5">
                     <div class="container-fluid">
                         <div class="breadcrumb-left position-relative z-2">
                             <h1 class="w-100 text-white animate__animated animate__fadeInLeft">
@@ -71,7 +71,7 @@
             <AccessToHeHealthScience></AccessToHeHealthScience>
         </template>
 
-        <template v-if="this.routeName === 'vocation-training-early-year-education'">
+        <template v-if="this.routeName === 'vocation-training-early-year-educator'">
             <VocationalEarlyYearEducation></VocationalEarlyYearEducation>
         </template>
 

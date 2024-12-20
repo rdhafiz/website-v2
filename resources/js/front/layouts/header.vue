@@ -30,7 +30,7 @@
                             </li>
                             <li class="dropdown-custom">
                                 <a href="javascript:void(0)" @click="dropdownToggle()">
-                                    Courses <i class="fas fa-caret-down ms-2"></i>
+                                    Courses <i class="fas fa-chevron-down ms-2"></i>
                                 </a>
                                 <ul class="dropdown-custom-menu" :class="{ 'active' : isDropdown}">
                                     <li>
@@ -113,7 +113,7 @@ export default {
             this.isDropdown = !this.isDropdown;
         },
         sidebarToggle() {
-            if(window.innerWidth < 991) {
+            if(window.innerWidth <= 991) {
                 this.isSidebar = !this.isSidebar;
             }
         },

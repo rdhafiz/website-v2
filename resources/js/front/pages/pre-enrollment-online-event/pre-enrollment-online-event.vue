@@ -4,13 +4,13 @@
 
     <section class="w-100 py-5">
         <div class="container">
-            <div class="d-flex justify-content-center align-items-center px-5 w-100">
-                <div class="col-11 col-md-7">
+            <div class="row justify-content-center align-items-center px-lg-5 w-100">
+                <div class="col-12 col-lg-7">
                     <form method="POST" action="https://httpbin.org/post" class="w-100">
                         <h2 class="mb-4 text-center">
                             Online Open Events Pre Enrolment Form
                         </h2>
-                        <div class="border p-5 shadow">
+                        <div class="border p-4 p-md-5 shadow">
                             <div class="mb-3">
                                 <label for="course-you-want-to-attend" class="form-label"> Course You Want to Attend <span class="text-danger">*</span> </label>
                                 <select name="course_you_want_to_attend" id="course-you-want-to-attend" class="form-select bg-secondary-subtle py-2 px-3" required autocomplete="off">

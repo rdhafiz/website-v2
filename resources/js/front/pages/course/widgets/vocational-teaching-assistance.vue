@@ -1,8 +1,8 @@
 <template>
 
     <section class="course-details-cover w-100">
-        <div class="w-100 px-5">
-            <div class="w-100 px-5">
+        <div class="w-100 px-0 px-md-5">
+            <div class="w-100 px-2 px-md-5">
                 <div class="container-fluid py-5">
                     <div class="course-details-title mb-3 fw-bold">
                         Teaching Assistance
@@ -16,8 +16,8 @@
     </section>
 
     <section class="w-100 overview">
-        <div class="w-100 px-5">
-            <div class="w-100 px-5">
+        <div class="w-100 px-0 px-md-5">
+            <div class="w-100 px-2 px-md-5">
                 <div class="container-fluid py-5">
                     <div class="row">
                         <div class="col-lg-6">
@@ -77,7 +77,7 @@
                                     </span>
                                     <span class="d-block fw-normal">
                                     <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
-                                        How to find a english course?
+                                        How to find an English course?
                                     </router-link>
                                 </span>
                                 </h5>

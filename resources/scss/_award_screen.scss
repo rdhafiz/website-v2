@@ -16,14 +16,78 @@
         justify-content: space-between;
         align-items: center;
 
+        @media screen and (max-width: 1366px) {
+            flex-wrap: wrap;
+        }
+
+        .h1-md {
+            @media screen and (max-width: 576px) {
+                font-size: 25px !important;
+            }
+        }
+
         .each-award{
             min-height: 400px;
+            @media screen and (max-width: 1199px) {
+                min-height: 600px;
+            }
             &.height-auto {
                 min-height: auto;
+            }
+            .award-description {
+                height: auto;
+                @media screen and (max-width: 1199px) {
+                    height: 400px;
+                }
+            }
+            .person-image {
+                width: 300px;
+                height: 300px;
+                object-fit: cover;
+                object-position: center;
+                border: 10px solid var(--bs-white);
+                @media screen and (max-width: 1024px) {
+                    width: 250px;
+                    height: 250px;
+                    border: 7px solid var(--bs-white);
+                }
+                @media screen and (max-width: 768px) {
+                    width: 150px;
+                    height: 150px;
+                    border: 5px solid var(--bs-white);
+                }
+                @media screen and (max-width: 480px) {
+                    width: 130px;
+                    height: 130px;
+                }
+                &:nth-child(2) {
+                    margin-left: -100px;
+                    @media screen and (max-width: 768px) {
+                        margin-left: -40px;
+                    }
+                    @media screen and (max-width: 576px) {
+                        margin-left: -60px;
+                    }
+                }
+                &:nth-child(3) {
+                    margin-left: -100px;
+                    @media screen and (max-width: 768px) {
+                        margin-left: -40px;
+                    }
+                    @media screen and (max-width: 576px) {
+                        margin-left: -60px;
+                    }
+                }
             }
             .award-images{
                 position: relative;
                 display: block;
+                @media screen and (max-width: 1366px) {
+                    height: 300px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
                 img{
                     width: 300px;
                     height: 300px;
@@ -31,20 +95,64 @@
                     object-position: center;
                     border-radius: 50%;
                     border: 10px solid #ffffff;
+                    @media screen and (max-width: 768px) {
+                        width: 200px;
+                        height: 200px;
+                    }
+                    @media screen and (max-width: 576px) {
+                        width: 120px;
+                        height: 120px;
+                    }
                     &:nth-child(1){
                         position: absolute;
                         top: 0;
                         right: 0;
+                        @media screen and (max-width: 1199px){
+                            transform: translate(-50%, 0);
+                        }
+                        @media screen and (max-width: 768px){
+                            transform: translate(-25%, 0);
+                        }
+                        @media screen and (max-width: 576px) {
+                            transform: translate(0, 0);
+                        }
+                        @media screen and (max-width: 480px) {
+
+                        }
                     }
                     &:nth-child(2){
                         position: absolute;
                         top: 0;
                         right: 150px;
+                        @media screen and (max-width: 1199px){
+                            transform: translate(-50%, 0);
+                        }
+                        @media screen and (max-width: 768px){
+                            transform: translate(-25%, 0);
+                        }
+                        @media screen and (max-width: 576px) {
+                            transform: translate(0, 0);
+                        }
+                        @media screen and (max-width: 480px) {
+                            right: 65px;
+                        }
                     }
                     &:nth-child(3){
                         position: absolute;
                         top: 0;
                         right: 300px;
+                        @media screen and (max-width: 1199px){
+                            transform: translate(-50%, 0);
+                        }
+                        @media screen and (max-width: 768px){
+                            transform: translate(-25%, 0);
+                        }
+                        @media screen and (max-width: 576px) {
+                            transform: translate(0, 0);
+                        }
+                        @media screen and (max-width: 480px) {
+                            right: 125px;
+                        }
                     }
                 }
             }
