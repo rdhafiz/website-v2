@@ -54,12 +54,14 @@
                                 <label for="contact_number" class="form-label"> Phone Number <span class="text-danger">*</span> </label>
                                 <input id="contact_number" type="text" name="contact_number" v-model="param.contact_number" class="form-control bg-secondary-subtle py-2 px-3" placeholder="Enter your Phone Number" required autocomplete="off"/>
                             </div>
-                            <div class="mb-3">
+                            <div class="mb-3 d-flex justify-content-end">
                                 <div class="g-recaptcha" data-sitekey="6LcZiaMqAAAAANeSRNkTqgcZqVv4N-Rmw4Nlh5xx"></div>
                             </div>
-                            <button type="submit" class="btn btn-theme py-2 px-3">
-                                Submit
-                            </button>
+                            <div class="mb-3 d-flex justify-content-end">
+                                <button type="submit" class="btn btn-theme py-2 px-3">
+                                    Submit
+                                </button>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -108,6 +110,9 @@ export default {
                     const res = response.data;
                     if (res.success !== undefined) {
                         this.success = res.msg
+                        setTimeout(() => {
+                            location.reload()
+                        }, 1000)
                     } else if (res.error !== undefined) {
                         this.error = res.error
                     }
