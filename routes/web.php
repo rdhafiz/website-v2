@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\FrontController;
+use App\Http\Controllers\PreEnrolmentController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,4 +15,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::post('/action/pre-enrollment-online-event', [PreEnrolmentController::class, 'apply']);
 Route::get('/{any}', [FrontController::class, 'index'])->where('any', '.*');

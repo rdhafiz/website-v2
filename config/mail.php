@@ -114,6 +114,31 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | "To" Address
+    |--------------------------------------------------------------------------
+    */
+
+    'to' => [
+        'dev'           => explode(',', env('MAIL_TO_DEV')),
+        'contact'       => [
+            'prod' => explode(',', env('MAIL_TO_CONTACT')),
+        ],
+        'referral'      => [
+            'prod' => explode(',', env('MAIL_TO_REFERRAL')),
+        ],
+        'application'   => [
+            'prod' => explode(',', env('MAIL_TO_APPLICATION')),
+        ],
+        'pre_enrolment' => [
+            'prod' => explode(',', env('MAIL_TO_PRE_ENROLMENT')),
+        ],
+        'pre_enrolment_hnm' => [
+            'prod' => explode(',', env('MAIL_TO_PRE_ENROLMENT_HNM')),
+        ],
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
     | Markdown Mail Settings
     |--------------------------------------------------------------------------
     |
