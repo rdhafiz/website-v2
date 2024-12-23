@@ -5,70 +5,77 @@
                 <div class="container-lg">
                     <div class="w-100">
                         <div class="w-100 d-inline-block mb-3">
-                            <h1 class="h1-md fw-bold text-dark text-center" data-aos="fade-up">Why Learn with Us?</h1>
-                            <p class="fs-4 text-secondary text-center" data-aos="fade-up" data-aos-delay="500">Experience a learning platform that combines flexibility, expertise, <br> and personalized support to help you achieve your goals.</p>
+                            <h1 class="h1-md fw-bold text-dark text-center">Why Learn with Us?</h1>
+                            <p class="fs-4 text-secondary text-center">Experience a flexible, expert-driven platform with personalised support to help you reach your goals.</p>
                         </div>
                         <div class="w-100 mt-5">
                             <div class="w-100 text-center">
                                 <div class="w-100 d-flex justify-content-center align-items-center flex-wrap">
-                                    <div class="each-feature rounded-circle" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="each-feature rounded-circle shadow">
                                         <div class="w-100 h-100 d-flex align-items-center">
                                             <div class="w-100">
-                                                <h3 class="fw-bold text-white text-shadow-sm fs-3 text-center px-3 mb-0">Individualised support for learners throughout the course from a dedicated Support Teacher</h3>
+                                                <h3 class="fw-bold text-white text-shadow-sm fs-3 text-center px-3">Personalised Guidance</h3>
+                                                <h5 class="fw-normal text-white text-shadow-sm fs-5 text-center px-3 mb-0">Get one-on-one support from a dedicated teacher throughout your course.</h5>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="each-feature rounded-circle" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="each-feature rounded-circle shadow">
                                         <div class="w-100 h-100 d-flex align-items-center">
                                             <div class="w-100">
-                                                <h3 class="fw-bold text-white text-shadow-sm fs-3 text-center px-3 mb-0">Excellent developmental feedback resulting in a high number of distinctions</h3>
+                                                <h3 class="fw-bold text-white text-shadow-sm fs-3 text-center px-3">Expert Feedback</h3>
+                                                <h5 class="fw-normal text-white text-shadow-sm fs-5 text-center px-3 mb-0">Benefit from insightful critiques that drive high distinction rates.</h5>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="each-feature rounded-circle" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="each-feature rounded-circle shadow">
                                         <div class="w-100 h-100 d-flex align-items-center">
                                             <div class="w-100">
-                                                <h3 class="fw-bold text-white text-shadow-sm fs-3 text-center px-3 mb-0">Registered UCAS Centre. Full support with your university application & Personal Statement</h3>
-                                                <p class="fs-5 text-white opacity-75 text-center"></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="w-100 d-flex justify-content-center align-items-center flex-wrap">
-                                    <div class="each-feature rounded-circle" data-aos="fade-up" data-aos-delay="400">
-                                        <div class="w-100 h-100 d-flex align-items-center">
-                                            <div class="w-100">
-                                                <h3 class="fw-bold text-white text-shadow-sm fs-3 text-center px-3 mb-0">Live taught lessons from qualified specialists</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="each-feature rounded-circle" data-aos="fade-up" data-aos-delay="500">
-                                        <div class="w-100 h-100 d-flex align-items-center">
-                                            <div class="w-100">
-                                                <h3 class="fw-bold text-white text-shadow-sm fs-3 text-center px-3 mb-0">High standard of teaching resources available 24/7</h3>
+                                                <h3 class="fw-bold text-white text-shadow-sm fs-3 text-center px-3">UCAS-Certified Support</h3>
+                                                <h5 class="fw-normal text-white text-shadow-sm fs-5 text-center px-3 mb-0">As a registered UCAS Centre, we provide full assistance with your university application and Personal Statement.</h5>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="w-100 d-flex justify-content-center align-items-center flex-wrap">
-                                    <div class="each-feature rounded-circle" data-aos="fade-up" data-aos-delay="600">
+                                    <div class="each-feature rounded-circle shadow">
                                         <div class="w-100 h-100 d-flex align-items-center">
                                             <div class="w-100">
-                                                <h3 class="fw-bold text-white text-shadow-sm fs-3 text-center px-3 mb-0">A very high percentage of our learners gain coveted midwifery places at UK universities</h3>
+                                                <h3 class="fw-bold text-white text-shadow-sm fs-3 text-center px-3">Live Specialist Teaching</h3>
+                                                <h5 class="fw-normal text-white text-shadow-sm fs-5 text-center px-3 mb-0">Attend real-time lessons taught by qualified subject experts.</h5>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="each-feature rounded-circle" data-aos="fade-up" data-aos-delay="700">
+                                    <div class="each-feature rounded-circle shadow">
                                         <div class="w-100 h-100 d-flex align-items-center">
                                             <div class="w-100">
-                                                <h3 class="fw-bold text-white text-shadow-sm fs-3 text-center px-3 mb-0">Visiting speakers from UK universities talking about financial support at university </h3>
+                                                <h3 class="fw-bold text-white text-shadow-sm fs-3 text-center px-3">24/7 Resource Access</h3>
+                                                <h5 class="fw-normal text-white text-shadow-sm fs-5 text-center px-3 mb-0">Tap into high-quality learning materials anytime you need.</h5>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="each-feature rounded-circle" data-aos="fade-up" data-aos-delay="800">
+                                </div>
+                                <div class="w-100 d-flex justify-content-center align-items-center flex-wrap">
+                                    <div class="each-feature rounded-circle shadow">
                                         <div class="w-100 h-100 d-flex align-items-center">
                                             <div class="w-100">
-                                                <h3 class="fw-bold text-white text-shadow-sm fs-3 text-center px-3 mb-0">Fantastic guidance & support to ensure learners make informed choices about their futures</h3>
+                                                <h3 class="fw-bold text-white text-shadow-sm fs-3 text-center px-3">Proven Midwifery Success</h3>
+                                                <h5 class="fw-normal text-white text-shadow-sm fs-5 text-center px-3 mb-0">Join the many students who secure competitive midwifery spots at UK universities.</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="each-feature rounded-circle shadow">
+                                        <div class="w-100 h-100 d-flex align-items-center">
+                                            <div class="w-100">
+                                                <h3 class="fw-bold text-white text-shadow-sm fs-3 text-center px-3">University Insights</h3>
+                                                <h5 class="fw-normal text-white text-shadow-sm fs-5 text-center px-3 mb-0">Hear from visiting speakers offering advice on financial support and other crucial university topics.</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="each-feature rounded-circle shadow">
+                                        <div class="w-100 h-100 d-flex align-items-center">
+                                            <div class="w-100">
+                                                <h3 class="fw-bold text-white text-shadow-sm fs-3 text-center px-3">Guidance for the Future</h3>
+                                                <h5 class="fw-normal text-white text-shadow-sm fs-5 text-center px-3 mb-0">Receive honest, practical guidance to help you make smart decisions about your next steps.</h5>
                                             </div>
                                         </div>
                                     </div>
