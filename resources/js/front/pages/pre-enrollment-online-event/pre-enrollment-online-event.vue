@@ -6,14 +6,16 @@
         <div class="container">
             <div class="row justify-content-center align-items-center px-lg-5 w-100">
                 <div class="col-12 col-lg-7">
-                    <form method="POST" action="https://httpbin.org/post" class="w-100">
+                    <form @submit.prevent="applyNow()" class="w-100">
                         <h2 class="mb-4 text-center">
                             Online Open Events Pre Enrolment Form
                         </h2>
                         <div class="border p-4 p-md-5 shadow">
+                            <p v-if="error !== ''" class="alert alert-danger">{{ error }}</p>
+                            <p v-if="success !== ''" class="alert alert-success">{{ success }}</p>
                             <div class="mb-3">
-                                <label for="course-you-want-to-attend" class="form-label"> Course You Want to Attend <span class="text-danger">*</span> </label>
-                                <select name="course_you_want_to_attend" id="course-you-want-to-attend" class="form-select bg-secondary-subtle py-2 px-3" required autocomplete="off">
+                                <label for="course_name" class="form-label"> Course You Want to Attend <span class="text-danger">*</span> </label>
+                                <select name="course_name" id="course_name" v-model="param.course_name" class="form-select bg-secondary-subtle py-2 px-3" required autocomplete="off">
                                     <option value="">--click here to select a course--</option>
                                     <option value="access-to-he-nursing-midwifery">Access to HE Nursing &amp; Midwifery</option>
                                     <option value="access-to-he-nursing">Access to HE Nursing</option>
@@ -22,8 +24,8 @@
                                 </select>
                             </div>
                             <div class="mb-3">
-                                <label for="select-a-time-clot-below" class="form-label"> Select A Time Slot Below <span class="text-danger">*</span> </label>
-                                <select name="select_a_time_clot_below" id="select-a-time-clot-below" class="form-select bg-secondary-subtle py-2 px-3" required autocomplete="off">
+                                <label for="time_slot" class="form-label"> Select A Time Slot Below <span class="text-danger">*</span> </label>
+                                <select name="time_slot" id="time_slot" v-model="param.time_slot" class="form-select bg-secondary-subtle py-2 px-3" required autocomplete="off">
                                     <option value="">--click here to select a time slot--</option>
                                     <option value="Wednesday 18th December 2025">Wednesday 18th December 2025 - (6:30pm - 7:30pm)</option>
                                     <option value="Wednesday 8th January 2025">Wednesday 8th January 2025 - (6:30pm - 7:30pm)</option>
@@ -42,18 +44,18 @@
                             </div>
                             <div class="mb-3">
                                 <label for="name" class="form-label"> Name <span class="text-danger">*</span> </label>
-                                <input id="name" type="text" name="name" class="form-control bg-secondary-subtle py-2 px-3" placeholder="Enter your Name" required autocomplete="off" />
+                                <input id="name" type="text" name="name" v-model="param.name" class="form-control bg-secondary-subtle py-2 px-3" placeholder="Enter your Name" required autocomplete="off"/>
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label"> Email <span class="text-danger">*</span> </label>
-                                <input id="email" type="email" name="email" class="form-control bg-secondary-subtle py-2 px-3" placeholder="Enter your Email" required autocomplete="off" />
+                                <input id="email" type="email" name="email" v-model="param.email" class="form-control bg-secondary-subtle py-2 px-3" placeholder="Enter your Email" required autocomplete="off"/>
                             </div>
                             <div class="mb-3">
-                                <label for="phone" class="form-label"> Phone Number <span class="text-danger">*</span> </label>
-                                <input id="phone" type="text" name="phone" class="form-control bg-secondary-subtle py-2 px-3" placeholder="Enter your Phone Number" required autocomplete="off" />
+                                <label for="contact_number" class="form-label"> Phone Number <span class="text-danger">*</span> </label>
+                                <input id="contact_number" type="text" name="contact_number" v-model="param.contact_number" class="form-control bg-secondary-subtle py-2 px-3" placeholder="Enter your Phone Number" required autocomplete="off"/>
                             </div>
                             <div class="mb-3">
-                                <div class="g-recaptcha" :data-sitekey="siteKey"></div>
+                                <div class="g-recaptcha" data-sitekey="6LcZiaMqAAAAANeSRNkTqgcZqVv4N-Rmw4Nlh5xx"></div>
                             </div>
                             <button type="submit" class="btn btn-theme py-2 px-3">
                                 Submit
@@ -68,11 +70,21 @@
 </template>
 
 <script>
+import axios from 'axios';
 
 export default {
-    data(){
+    data() {
         return {
-            siteKey: '6LephJ4qAAAAAGYqiW7vrlosbbYojCq0MLA3gcJb',
+            error: '',
+            success: '',
+            param: {
+                course_name: '',
+                time_slot: '',
+                name: '',
+                email: '',
+                contact_number: '',
+                recaptcha_token: '',
+            },
         }
     },
     mounted() {
@@ -83,7 +95,25 @@ export default {
         document.head.appendChild(script);
     },
     methods: {
-
+        applyNow() {
+            this.error = ''
+            this.success = ''
+            this.param.recaptcha_token = grecaptcha.getResponse();
+            if (this.param.recaptcha_token !== '') {
+                axios.post('/action/pre-enrollment-online-event', this.param, {
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                }).then(response => {
+                    const res = response.data;
+                    if (res.success !== undefined) {
+                        this.success = res.msg
+                    } else if (res.error !== undefined) {
+                        this.error = res.error
+                    }
+                })
+            }
+        }
     }
 }
 
