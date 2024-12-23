@@ -8,20 +8,22 @@ use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 
-class PreEnrolmentController extends Controller
+class ContactController extends Controller
 {
-    public function apply(Request $request)
+    public function contact(Request $request)
     {
 
 
         try {
             $input = $request->input();
             $validator = Validator::make($input, [
-                'course_name' => 'required',
-                'time_slot' => 'required',
                 'name' => 'required|min:5',
                 'email' => 'required|email',
+                'subject' => 'required',
+                'message' => 'required',
+                'city' => 'required',
                 'contact_number' => 'required',
+                'know_us' => 'required',
                 'recaptcha_token' => 'required',
             ]);
             if ($validator->fails()) {
@@ -34,33 +36,30 @@ class PreEnrolmentController extends Controller
                     'error' => ['Invalid google recaptcha response! Please verify again.']
                 ]);
             }
-            if (!file_exists(resource_path('pre-apply'))) {
-                mkdir(resource_path('pre-apply'), 777);
+            if (!file_exists(resource_path('contact-us'))) {
+                mkdir(resource_path('contact-us'), 777);
             }
-            $applyResponse = array(
-                'course_name' => $request->course_name,
-                'time_slot' => $request->time_slot,
+            $contactResponse = array(
                 'name' => $request->name,
                 'email' => $request->email,
+                'subject' => $request->subject,
+                'message' => $request->message,
+                'city' => $request->city,
                 'contact_number' => $request->contact_number,
+                'know_us' => $request->know_us,
                 'created_at' => date('Y-m-d H:i:s')
             );
-            file_put_contents(resource_path('pre-apply/' . time() . uniqid() . '.json'), json_encode($applyResponse));
-            $emails = Config::get("mail.to.dev");
+            file_put_contents(resource_path('contact-us/' . time() . uniqid() . '.json'), json_encode($contactResponse));
+            $emails = Config::get('mail.to.dev');
             if (Config::get('app.env') === 'prod') {
-                if ($applyResponse['course_name'] == 'access-to-he-nursing-midwifery')
-                    $emails = Config::get("mail.to.pre_enrolment_hnm.prod");
-                else
-                    $emails = Config::get("mail.to.pre_enrolment.prod");
+                $emails = Config::get('mail.to.contact.prod');
             }
-            Mail::send('emails.pre-enrolment', ['input' => $applyResponse], function ($m) use ($applyResponse, $emails) {
-                $m->subject("Submission for Information Requests for [" . $applyResponse['course_name'] . "]");
+            Mail::send('emails.contact-enquiry', ['input' => $contactResponse], function ($m) use ($emails) {
+                $m->subject('Contact from "Mediprospects"');
                 $m->from(Config::get('constants.CONTACT_FROM_EMAIL'), Config::get('constants.CONTACT_FROM_NAME'));
-                foreach ($emails as $email) {
-                    $m->to($email);
-                }
+                $m->to($emails);
             });
-            return response()->json(['success' => true, 'msg' => 'Request has been submitted successfully']);
+            return response()->json(['success' => true, 'msg' => 'Enquiry has been submitted successfully']);
         } catch (\Exception $e) {
             return response()->json(['error' => $e->getMessage()]);
         }
