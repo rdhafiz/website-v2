@@ -1,24 +1,12 @@
 {
   "resources/js/front/app.js": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "file": "assets/app-DRabApOK.js",
-=======
-    "file": "assets/app-CF9o-CS7.js",
->>>>>>> b02dca9 (build)
-=======
-    "file": "assets/app-Cj5HLL9e.js",
->>>>>>> 676af94 (image-height-issue-solve)
+    "file": "assets/app-BtRwZXs4.js",
     "name": "app",
     "src": "resources/js/front/app.js",
     "isEntry": true
   },
   "resources/scss/app.scss": {
-<<<<<<< HEAD
     "file": "assets/app-Cn91yXOL.css",
-=======
-    "file": "assets/app-BKdqNrqb.css",
->>>>>>> b02dca9 (build)
     "src": "resources/scss/app.scss",
     "isEntry": true
   }
