@@ -20,6 +20,9 @@
             </div>
             <div class="border rounded-3 p-3 p-md-5">
                 <div class="mt-3">
+                    <h5 class="fs-5 text-secondary fw-normal mb-3">
+                        Most people are eligible to study for FREE. Contact us for more information.
+                    </h5>
                     <h2 class="text-secondary fw-bold"> Advanced Learner Loan <span class="fw-normal"> ( <span class="text-danger">*</span> Eligibility rules apply ) </span> </h2>
                     <h5 class="fs-5 text-secondary fw-normal">
                         Student Finance England will fund the course for learners living in the UK (England, Northern Ireland, Scotland, or Wales). This is a non-means-tested loan; it will be written off in full when you complete your degree. Our advisors will provide you with a letter from us and support you when you apply for the loan. More information here:

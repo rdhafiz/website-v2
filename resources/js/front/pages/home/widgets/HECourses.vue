@@ -8,7 +8,7 @@
 
                         <div class="w-100 d-inline-block mb-3">
                             <h1 class="h1-md fw-bold text-dark text-center" data-aos="fade-up">Access to HE Diplomas</h1>
-                            <p class="fs-4 text-secondary text-center">Unlock your potential with specialized diploma courses <br> designed to prepare you for higher education and professional success.</p>
+                            <p class="fs-4 text-secondary text-center">Unlock your potential with specialised diploma courses <br> designed to prepare you for higher education and professional success.</p>
                         </div>
                         <div class="w-100 mt-2 mt-xl-5">
                             <div class="w-100 text-center">
