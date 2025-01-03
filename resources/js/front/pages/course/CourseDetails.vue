@@ -33,7 +33,7 @@
                                         </router-link>
                                     </li>
                                 </template>
-                                <template v-if="this.routeName === 'vocation-training-early-year-education' || this.routeName === 'vocational-training-teaching-assistance' || this.routeName === 'vocational-training-adult-care'">
+                                <template v-if="this.routeName === 'vocational-training-early-year-educator' || this.routeName === 'vocational-training-teaching-assistance' || this.routeName === 'vocational-training-adult-care'">
                                     <li class="breadcrumb-item">
                                         <router-link :to="{name: 'CourseVocationalTraining'}" class="text-decoration-none text-white p-0 m-0">
                                             Vocational Courses & Training
@@ -71,7 +71,7 @@
             <AccessToHeHealthScience></AccessToHeHealthScience>
         </template>
 
-        <template v-if="this.routeName === 'vocation-training-early-year-educator'">
+        <template v-if="this.routeName === 'vocational-training-early-year-educator'">
             <VocationalEarlyYearEducation></VocationalEarlyYearEducation>
         </template>
 
