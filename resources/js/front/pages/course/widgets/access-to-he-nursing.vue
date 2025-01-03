@@ -139,7 +139,7 @@
                                 <div class="mb-2">
                                     <div
                                         class="w-100 px-3 py-2 border border-secondary border-opacity-25 rounded-3 shadow mb-4">
-                                        <div class="fs-4 fw-medium">Health Studies (3 Credits)</div>
+                                        <div class="fs-4 fw-medium">Health Studies (6 Credits)</div>
                                         <div class="fs-6">
                                             <ul class="m-0">
                                                 <li>Promoting Health</li>
