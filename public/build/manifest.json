@@ -1,10 +1,14 @@
 {
   "resources/js/front/app.js": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "file": "assets/app-DRabApOK.js",
 =======
     "file": "assets/app-CF9o-CS7.js",
 >>>>>>> b02dca9 (build)
+=======
+    "file": "assets/app-Cj5HLL9e.js",
+>>>>>>> 676af94 (image-height-issue-solve)
     "name": "app",
     "src": "resources/js/front/app.js",
     "isEntry": true
