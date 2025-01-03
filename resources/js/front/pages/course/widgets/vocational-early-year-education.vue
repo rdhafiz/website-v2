@@ -5,7 +5,7 @@
             <div class="w-100 px-2 px-md-5">
                 <div class="container-fluid py-5">
                     <div class="course-details-title mb-3 fw-bold">
-                        Early Year Educator
+                        NCFE CACHE Level 3 Diploma for Working in the Early Years Sector (Early Years Educator)
                     </div>
                     <a href="javascript:void(0)" class="btn btn-theme px-5 py-3">
                         Apply now
@@ -33,7 +33,7 @@
                                 </h2>
                                 <h5 class="text-secondary fw-normal">
                                     Sessions are taught face-to-face at our training centre in Plaistow. Unless you are
-                                    <a href="https://d.docs.live.net/4b46855ef934ee8c/Documents/Consultancy/Mediprospects/Website/FAQs" class="text-theme" target="_blank">exempt</a> you will need to attend at least half of the face-to-face sessions.
+                                    <router-link :to="{name: 'FAQs'}" class="text-theme" target="_blank">exempt</router-link> you will need to attend at least half of the face-to-face sessions.
                                     <br><br>
                                     You will be issued with a Mediprospects Office 365 account and will be able to
                                     attend the balance of your course through live online lessons on Microsoft Teams.

@@ -48,12 +48,12 @@
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
                 <div class="w-100 d-xl-flex justify-content-start align-items-start border-bottom">
                     <div>
-                        <img class="each-data-img vocational-image" :src="'/assets/img/vocational/early-years-educator.jpg'" alt="early-years-educator" loading="lazy" />
+                        <img class="each-data-img" :src="'/assets/img/vocational/early-years-educator.jpg'" alt="early-years-educator" loading="lazy" />
                     </div>
                     <div class="h-100 p-4">
                         <div class="w-100">
                             <div class="w-100 mb-4">
-                                <h2>Early Year Educator</h2>
+                                <h2>NCFE CACHE Level 3 Diploma for Working in the Early Years Sector (Early Years Educator)</h2>
                             </div>
 
                             <div class="w-100 d-block d-md-flex justify-content-between mt-2">
@@ -69,11 +69,9 @@
                                     <strong class="fs-5">Location:</strong>
                                 </div>
                                 <div class="w-100 ps-md-3">
-                                    <strong class="p-0 fs-5">Blended learning</strong><br>
+                                    <strong class="p-0 fs-5">Blended Learning</strong><br>
                                     <span class="p-0 fs-6">
-                                        Sessions are taught face-to-face at our training centre in Plaistow. Unless you are exempt you will need to attend at least half of the face-to-face sessions. <br><br>
-                                        You will be issued with a Mediprospects Office 365 account and will be able to attend the balance of your course through live online lessons on Microsoft Teams. <br><br>
-                                        You will attend 44 sessions, 9 hours a week, in addition you will need to allocate around 10 hours per week for home study and portfolio building.
+                                        Sessions are taught face-to-face at our training centre in Plaistow.
                                     </span>
                                 </div>
                             </div>
@@ -82,8 +80,8 @@
                                     <strong class="fs-5">Entry Requirements:</strong>
                                 </div>
                                 <div class="w-100 ps-md-3 fs-5">
-                                    <strong class="p-0 fs-5">Minimum age: 19</strong><br>
-                                    <span class="p-0 fs-6">
+                                    <span class="p-0 fs-5">Minimum age: 19</span><br>
+                                    <span class="p-0 fs-5">
                                         Level 1 English or above or willing to study towards it.
                                     </span>
                                     <div class="d-block fw-normal">
@@ -106,7 +104,12 @@
                                     <strong class="fs-5">Course Fee:</strong>
                                 </div>
                                 <div class="w-100 ps-md-3 fs-5">
-                                    <span> <span class="text-danger">*</span> £4,670. The course is eligible for and Advanced Learner Loan for more information follow the link </span>
+                                    <span> <span class="text-danger">*</span> £4,670.
+                                        <br>
+                                        <small class="text-secondary">
+                                            The course is eligible for and Advanced Learner Loan for more information follow the link
+                                        </small>
+                                    </span>
                                 </div>
                             </div>
 
