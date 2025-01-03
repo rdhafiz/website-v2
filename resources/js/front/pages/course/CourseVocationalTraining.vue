@@ -47,7 +47,7 @@
 
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
                 <div class="w-100 d-xl-flex justify-content-start align-items-start border-bottom">
-                    <div class="h-100">
+                    <div>
                         <img class="each-data-img vocational-image" :src="'/assets/img/vocational/early-years-educator.jpg'" alt="early-years-educator" loading="lazy" />
                     </div>
                     <div class="h-100 p-4">
@@ -123,7 +123,7 @@
 
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
                 <div class="w-100 d-xl-flex justify-content-start align-items-start border-bottom">
-                    <div class="h-100">
+                    <div>
                         <img class="each-data-img" :src="'/assets/img/access/NursingMidwifery.jpg'" alt="NursingMidwifery" loading="lazy" />
                     </div>
                     <div class="h-100 p-4">
@@ -199,7 +199,7 @@
 
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
                 <div class="w-100 d-xl-flex justify-content-start align-items-start border-bottom">
-                    <div class="h-100">
+                    <div>
                         <img class="each-data-img" :src="'/assets/img/access/Nursing.jpg'" alt="NursingMidwifery">
                     </div>
                     <div class="h-100 p-4">
