@@ -51,6 +51,16 @@
                                 </ul>
                             </li>
                             <li>
+                                <router-link :to="{name: 'FeesFunding'}" @click="sidebarToggle()">
+                                    Fees & Funding
+                                </router-link>
+                            </li>
+                            <li>
+                                <router-link :to="{name: 'Pathways'}" @click="sidebarToggle()">
+                                    Pathways
+                                </router-link>
+                            </li>
+                            <li>
                                 <router-link :to="{name: 'Awards'}" @click="sidebarToggle()">
                                     Awards
                                 </router-link>
@@ -78,16 +88,6 @@
                             <li>
                                 <router-link :to="{name: 'whyChooseUs'}" @click="sidebarToggle()">
                                     Why study with us?
-                                </router-link>
-                            </li>
-                            <li>
-                                <router-link :to="{name: 'FeesFunding'}" @click="sidebarToggle()">
-                                    Fees & Funding
-                                </router-link>
-                            </li>
-                            <li>
-                                <router-link :to="{name: 'Pathways'}" @click="sidebarToggle()">
-                                    Pathways
                                 </router-link>
                             </li>
                         </ul>

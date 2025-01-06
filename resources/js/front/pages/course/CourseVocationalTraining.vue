@@ -96,7 +96,7 @@
                                     <strong class="fs-5">Course Credit:</strong>
                                 </div>
                                 <div class="w-100 ps-md-3 fs-5">
-                                    95 credits (45 graded and 15 ungraded)
+                                    95 credits
                                 </div>
                             </div>
                             <div class="w-100 d-block d-md-flex justify-content-between mt-2">
