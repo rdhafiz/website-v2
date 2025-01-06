@@ -48,16 +48,6 @@
                                             English & Maths
                                         </router-link>
                                     </li>
-                                    <li>
-                                        <router-link :to="{name: 'FeesFunding'}" class="dropdown-item" @click="dropdownToggle();sidebarToggle()">
-                                            Fees & Funding
-                                        </router-link>
-                                    </li>
-                                    <li>
-                                        <router-link :to="{name: 'Pathways'}" class="dropdown-item" @click="dropdownToggle();sidebarToggle()">
-                                            Pathways
-                                        </router-link>
-                                    </li>
                                 </ul>
                             </li>
                             <li>
@@ -65,11 +55,11 @@
                                     Awards
                                 </router-link>
                             </li>
-                            <li>
-                                <router-link :to="{name: 'NewsEvents'}" @click="sidebarToggle()">
-                                    News & Events
-                                </router-link>
-                            </li>
+<!--                            <li>-->
+<!--                                <router-link :to="{name: 'NewsEvents'}" @click="sidebarToggle()">-->
+<!--                                    News & Events-->
+<!--                                </router-link>-->
+<!--                            </li>-->
                             <li>
                                 <router-link :to="{name: 'About'}" @click="sidebarToggle()">
                                     About Us
@@ -83,6 +73,21 @@
                             <li>
                                 <router-link :to="{name: 'FAQs'}" @click="sidebarToggle()">
                                     FAQs
+                                </router-link>
+                            </li>
+                            <li>
+                                <router-link :to="{name: 'whyChooseUs'}" @click="sidebarToggle()">
+                                    Why study with us?
+                                </router-link>
+                            </li>
+                            <li>
+                                <router-link :to="{name: 'FeesFunding'}" @click="sidebarToggle()">
+                                    Fees & Funding
+                                </router-link>
+                            </li>
+                            <li>
+                                <router-link :to="{name: 'Pathways'}" @click="sidebarToggle()">
+                                    Pathways
                                 </router-link>
                             </li>
                         </ul>
