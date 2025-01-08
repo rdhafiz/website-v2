@@ -222,7 +222,7 @@
                                     <strong class="fs-5">Courses:</strong>
                                 </div>
                                 <div class="w-100 ps-md-3">
-                                    <span class="fs-5">3 Courses starting Spring 2025</span>
+                                    <span class="fs-5">New course starting spring 2025</span>
                                 </div>
                             </div>
                             <div class="w-100 d-block d-md-flex justify-content-between mt-2">

@@ -41,7 +41,7 @@
                     <div class="w-100 mt-5">
                         <h2 class="text-secondary fw-bold">Work experience</h2>
                         <h5 class="text-secondary fw-normal">
-                            Work experience is an essential part of the course. You will need to attend at least <span class="bg-warning text-dark px-2"> 125 </span> hours over the period of the course either employed or as a volunteer in a childcare setting.
+                            Work experience is an essential part of the course. You will need to attend at least <span class="bg-warning bg-opacity-50 mx-1 text-dark px-2"> 125 </span> hours over the period of the course either employed or as a volunteer in a childcare setting.
                         </h5>
                     </div>
 
