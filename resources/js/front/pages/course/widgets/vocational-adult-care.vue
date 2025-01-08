@@ -30,7 +30,7 @@
                     <div class="w-100 mt-5">
                         <h2 class="text-secondary fw-bold">Location: Blended learning: </h2>
                         <h5 class="text-secondary fw-normal">
-                            Sessions are taught face-to-face at our training centre in Plaistow. Unless you are exempt you will need to attend at least half of the face-to-face sessions.
+                            Sessions are taught face-to-face at our training centre in Plaistow. Unless you are <router-link :to="{name: 'FAQs'}" class="text-theme" target="_blank"> exempt</router-link> you will need to attend at least half of the face-to-face sessions.
                             <br><br>
                             You will be issued with a Mediprospects Office 365 account and will be able to attend the balance of your course through live online lessons on Microsoft Teams.
                             <br><br>
@@ -116,48 +116,45 @@
                         <h5 class="text-secondary fw-normal">
                             To achieve this qualification, you need to complete 10 mandatory units. For each unit, you will be achieving a certain number of credits, all of these will add up to 39 credits.
                             <br><br>
-                            <ul>
-                                <li class="mb-2">
-                                    Promote Communication in Care Settings (A/650/1366)
-                                </li>
-                                <li class="mb-2">
-                                    Handling Information in Adult Care (D/650/1367)
-                                </li>
-                                <li class="mb-2">
-                                    Promote Own Continuous Personal and Professional Development (F/650/1368)
-                                </li>
-                                <li class="mb-2">
-                                    Person-Centred Practice, Choice and Independence (H/650/1369)
-                                </li>
-                                <li class="mb-2">
-                                    Understand How to Promote Personal Wellbeing (L/650/1370)
-                                </li>
-                                <li class="mb-2">
-                                    Promote Equality, Diversity, Inclusion and Human Rights in Care Settings (M/650/1371)
-                                </li>
-                                <li class="mb-2">
-                                    Promote Health and Safety in Care Settings (R/650/1372)
-                                </li>
-                                <li class="mb-2">
-                                    Support the Health and Wellbeing of Individuals in a Care Setting (T/650/1373)
-                                </li>
-                                <li class="mb-2">
-                                    Scope and Responsibilities of an Adult Care Worker (Y/650/1374)
-                                </li>
-                                <li class="mb-2">
-                                    Understand Duty of Care (A/650/1375)
-                                </li>
-                                <li class="mb-2">
-                                    Understand How to Safeguard Individuals (D/650/1376)
-                                </li>
-                                <li class="mb-2">
-                                    Understand Mental Capacity and Restrictive Practices (F/650/1377)
-                                </li>
-                                <li class="mb-2">
-                                    Infection Prevention and Control in a Care Setting (H/650/13783)
-                                </li>
-                            </ul>
-
+                            <div class="mb-2">
+                                Promote Communication in Care Settings (A/650/1366)
+                            </div>
+                            <div class="mb-2">
+                                Handling Information in Adult Care (D/650/1367)
+                            </div>
+                            <div class="mb-2">
+                                Promote Own Continuous Personal and Professional Development (F/650/1368)
+                            </div>
+                            <div class="mb-2">
+                                Person-Centred Practice, Choice and Independence (H/650/1369)
+                            </div>
+                            <div class="mb-2">
+                                Understand How to Promote Personal Wellbeing (L/650/1370)
+                            </div>
+                            <div class="mb-2">
+                                Promote Equality, Diversity, Inclusion and Human Rights in Care Settings (M/650/1371)
+                            </div>
+                            <div class="mb-2">
+                                Promote Health and Safety in Care Settings (R/650/1372)
+                            </div>
+                            <div class="mb-2">
+                                Support the Health and Wellbeing of Individuals in a Care Setting (T/650/1373)
+                            </div>
+                            <div class="mb-2">
+                                Scope and Responsibilities of an Adult Care Worker (Y/650/1374)
+                            </div>
+                            <div class="mb-2">
+                                Understand Duty of Care (A/650/1375)
+                            </div>
+                            <div class="mb-2">
+                                Understand How to Safeguard Individuals (D/650/1376)
+                            </div>
+                            <div class="mb-2">
+                                Understand Mental Capacity and Restrictive Practices (F/650/1377)
+                            </div>
+                            <div class="mb-2">
+                                Infection Prevention and Control in a Care Setting (H/650/13783)
+                            </div>
                         </h5>
                     </div>
 

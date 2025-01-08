@@ -8,8 +8,27 @@
                 <div class="shadow-2"></div>
                 <div class="shadow-3"></div>
             </div>
-            <div class="breadcrumb-content-right"
-                 :style="{ backgroundImage: 'url(/assets/img/breadcrumb/course_details.jpg)' }"></div>
+            <template v-if="this.routeName === 'access-to-he-nursing-&-midwifery'">
+                <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/access/NursingMidwifery.jpg)' }"></div>
+            </template>
+            <template v-if="this.routeName === 'access-to-he-health-professions'">
+                <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/access/access-to-he-health-profession.webp)' }"></div>
+            </template>
+            <template v-if="this.routeName === 'access-to-he-nursing'">
+                <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/access/Nursing.jpg)' }"></div>
+            </template>
+            <template v-if="this.routeName === 'access-to-he-health-science'">
+                <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/access/SupportFund.jpg)' }"></div>
+            </template>
+            <template v-if="this.routeName === 'vocational-training-early-year-educator'">
+                <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/vocational/early-years-educator.jpg)' }"></div>
+            </template>
+            <template v-if="this.routeName === 'vocational-training-teaching-assistance'">
+                <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/vocational/teaching-assistant.png)' }"></div>
+            </template>
+            <template v-if="this.routeName === 'vocational-training-adult-care'">
+                <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/vocational/adult-care.png)' }"></div>
+            </template>
             <div class="w-100 px-md-5">
                 <div class="w-100 px-2 px-md-5">
                     <div class="container-fluid">
@@ -121,12 +140,15 @@ export default {
         const route = useRoute();
         if (route.params.slug) {
             this.routeName = route.params.slug;
-            console.log(this.routeName);
         } else {
             this.$router.back();
         }
     },
-    methods: {}
+    methods: {
+
+
+
+    }
 }
 
 </script>
