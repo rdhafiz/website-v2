@@ -102,7 +102,9 @@
             <VocationalAdultCare></VocationalAdultCare>
         </template>
 
-        <Teams/>
+        <div class="w-100" v-if="course_type === 'access'">
+            <Teams/>
+        </div>
 
     </div>
 
@@ -133,6 +135,7 @@ export default {
     },
     data() {
         return {
+            course_type: null,
             routeName: '',
             access: [
                 'access-to-he-health-professions',
@@ -152,22 +155,16 @@ export default {
         if (route.params.slug) {
             this.routeName = route.params.slug;
             if(this.access.includes(this.routeName)) {
-                localStorage.setItem('course_type', 'access');
+                this.course_type = 'access';
+                localStorage.setItem('course_type', this.course_type);
             } else if(this.vocational.includes(this.routeName)) {
-                localStorage.setItem('course_type', 'vocational');
+                this.course_type = 'vocational';
+                localStorage.setItem('course_type', this.course_type);
             }
         } else {
             this.$router.back();
         }
-    },
-    methods: {
-        enableAccess() {
-            localStorage.setItem('course_type', 'access');
-        },
-        enableVocational() {
-            localStorage.setItem('course_type', 'vocational');
-        },
-    },
+    }
 }
 
 </script>
