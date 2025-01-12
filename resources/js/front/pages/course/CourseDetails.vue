@@ -134,21 +134,40 @@ export default {
     data() {
         return {
             routeName: '',
+            access: [
+                'access-to-he-health-professions',
+                'access-to-he-nursing-&-midwifery',
+                'access-to-he-nursing',
+                'access-to-he-health-science',
+            ],
+            vocational: [
+                'vocational-training-early-year-educator',
+                'vocational-training-teaching-assistance',
+                'vocational-training-adult-care'
+            ]
         }
     },
     mounted() {
         const route = useRoute();
         if (route.params.slug) {
             this.routeName = route.params.slug;
+            if(this.access.includes(this.routeName)) {
+                localStorage.setItem('course_type', 'access');
+            } else if(this.vocational.includes(this.routeName)) {
+                localStorage.setItem('course_type', 'vocational');
+            }
         } else {
             this.$router.back();
         }
     },
     methods: {
-
-
-
-    }
+        enableAccess() {
+            localStorage.setItem('course_type', 'access');
+        },
+        enableVocational() {
+            localStorage.setItem('course_type', 'vocational');
+        },
+    },
 }
 
 </script>
