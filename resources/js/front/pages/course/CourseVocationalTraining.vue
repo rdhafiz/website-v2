@@ -297,8 +297,8 @@ export default {
     data(){
         return {}
     },
-    mounted() {
-
+    created() {
+        localStorage.setItem('course_type', 'vocational');
     },
     methods: {
 

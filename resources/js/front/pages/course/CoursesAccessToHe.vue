@@ -354,8 +354,8 @@ export default {
     data() {
         return {}
     },
-    mounted() {
-
+    created() {
+        localStorage.setItem('course_type', 'access');
     },
     methods: {}
 }
