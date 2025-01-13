@@ -6,7 +6,8 @@
                     <div class="website-name">
                         <h1 class="m-0">
                             <router-link :to="{name: 'Home'}">
-                                Mediprospects
+                                <img class="logo logo-dark" :src="'/assets/img/logo.png'" alt="">
+                                <img class="logo logo-light" :src="'/assets/img/logo-light.png'" alt="">
                             </router-link>
                         </h1>
                     </div>
@@ -28,34 +29,27 @@
                                     Home
                                 </router-link>
                             </li>
-                            <li class="dropdown-custom">
-                                <a href="javascript:void(0)" @click="dropdownToggle()">
-                                    Courses <i class="fas fa-chevron-down ms-2"></i>
-                                </a>
-                                <ul class="dropdown-custom-menu" :class="{ 'active' : isDropdown}">
-                                    <li>
-                                        <router-link :to="{name: 'CourseAccessToHe'}" class="dropdown-item" @click="dropdownToggle();sidebarToggle()">
-                                            Access to Higher Education
-                                        </router-link>
-                                    </li>
-                                    <li>
-                                        <router-link :to="{name: 'CourseVocationalTraining'}" class="dropdown-item" @click="dropdownToggle();sidebarToggle()">
-                                            Vocational Courses & Training
-                                        </router-link>
-                                    </li>
-                                    <li>
-                                        <router-link :to="{name: 'EnglishMaths'}" class="dropdown-item" @click="dropdownToggle();sidebarToggle()">
-                                            English & Maths
-                                        </router-link>
-                                    </li>
-                                </ul>
+                            <li v-if="course_type === 'access'">
+                                <router-link :to="{name: 'CourseAccessToHe'}" @click="sidebarToggle()">
+                                    Courses
+                                </router-link>
                             </li>
-                            <li>
+                            <li v-if="course_type === 'vocational'">
+                                <router-link :to="{name: 'CourseVocationalTraining'}" @click="sidebarToggle()">
+                                    Courses
+                                </router-link>
+                            </li>
+                            <li v-if="course_type === 'access'">
+                                <router-link :to="{name: 'EnglishMaths'}" @click="sidebarToggle()">
+                                    English & Maths
+                                </router-link>
+                            </li>
+                            <li v-if="course_type === 'access'">
                                 <router-link :to="{name: 'FeesFunding'}" @click="sidebarToggle()">
                                     Fees & Funding
                                 </router-link>
                             </li>
-                            <li>
+                            <li v-if="course_type === 'access'">
                                 <router-link :to="{name: 'Pathways'}" @click="sidebarToggle()">
                                     Pathways
                                 </router-link>
@@ -65,11 +59,6 @@
                                     Awards
                                 </router-link>
                             </li>
-<!--                            <li>-->
-<!--                                <router-link :to="{name: 'NewsEvents'}" @click="sidebarToggle()">-->
-<!--                                    News & Events-->
-<!--                                </router-link>-->
-<!--                            </li>-->
                             <li>
                                 <router-link :to="{name: 'About'}" @click="sidebarToggle()">
                                     About Us
@@ -80,7 +69,7 @@
                                     Contact
                                 </router-link>
                             </li>
-                            <li>
+                            <li v-if="course_type === 'access'">
                                 <router-link :to="{name: 'FAQs'}" @click="sidebarToggle()">
                                     FAQs
                                 </router-link>
@@ -108,6 +97,7 @@ export default {
     },
     data() {
         return {
+            course_type: null,
             headerLight: false,
             isDropdown: false,
             isSidebar: false,
@@ -123,8 +113,17 @@ export default {
             }
         },
     },
+    watch: {
+        $route(v) {
+            this.course_type = localStorage.getItem('course_type');
+            setTimeout(() => {
+                this.course_type = localStorage.getItem('course_type');
+            }, 1000);
+        }
+    },
     mounted() {
         const THIS = this;
+        this.course_type = localStorage.getItem('course_type');
         window.addEventListener('scroll', () => {
             THIS.headerLight = window.scrollY > 200;
         });
