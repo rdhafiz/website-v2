@@ -84,7 +84,7 @@ export default {
                 contact_number: '',
                 postcode: '',
                 preferred_communication_method: '',
-                recaptcha_token: 'TEST_TOKEN',
+                recaptcha_token: '',
             },
             courseMapping: {
                 'access-to-he-nursing-midwifery': 'Access to HE Nursing & Midwifery',
@@ -115,7 +115,7 @@ export default {
             this.error = ''
             this.success = ''
             this.param.full_course_name = this.courseMapping[this.param.course_name] || '';
-            //this.param.recaptcha_token = grecaptcha.getResponse();
+            this.param.recaptcha_token = grecaptcha.getResponse();
             if (this.param.recaptcha_token !== '') {
                 axios.post('/action/apply-for-interest', this.param, {
                     headers: {
