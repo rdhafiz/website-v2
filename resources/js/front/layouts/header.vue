@@ -99,14 +99,10 @@ export default {
         return {
             course_type: null,
             headerLight: false,
-            isDropdown: false,
             isSidebar: false,
         }
     },
     methods: {
-        dropdownToggle() {
-            this.isDropdown = !this.isDropdown;
-        },
         sidebarToggle() {
             if(window.innerWidth <= 991) {
                 this.isSidebar = !this.isSidebar;

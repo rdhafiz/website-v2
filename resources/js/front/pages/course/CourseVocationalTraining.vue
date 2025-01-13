@@ -48,77 +48,72 @@
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
                 <div class="w-100 d-xl-flex justify-content-start align-items-start border-bottom">
                     <div>
-                        <img class="each-data-img" :src="'/assets/img/vocational/early-years-educator.jpg'" alt="early-years-educator" loading="lazy" />
+                        <img class="each-data-img vocational-image" :src="'/assets/img/vocational/early-years-educator.jpg'" alt="early-years-educator" loading="lazy" />
                     </div>
-                    <div class="h-100 p-4">
-                        <div class="w-100">
-                            <div class="w-100 mb-4">
-                                <h2>NCFE CACHE Level 3 Diploma for Working in the Early Years Sector (Early Years Educator)</h2>
+                    <div class="p-4 w-100">
+                        <div class="w-100 d-block" style="min-height: 78px">
+                            <h2>NCFE CACHE Level 3 Diploma for Working in the Early Years Sector (Early Years Educator)</h2>
+                        </div>
+                        <div class="w-100 d-block d-md-flex justify-content-between mt-2">
+                            <div style="width: 200px">
+                                <strong class="fs-5">Courses:</strong>
                             </div>
-
-                            <div class="w-100 d-block d-md-flex justify-content-between mt-2">
-                                <div style="width: 200px">
-                                    <strong class="fs-5">Courses:</strong>
-                                </div>
-                                <div class="w-100 ps-md-3">
-                                    <span class="fs-5">New course starting spring 2025</span>
-                                </div>
+                            <div class="w-100 ps-md-3">
+                                <span class="fs-5">New course starting spring 2025</span>
                             </div>
-                            <div class="w-100 d-block d-md-flex justify-content-between mt-2">
-                                <div style="width: 200px">
-                                    <strong class="fs-5">Location:</strong>
-                                </div>
-                                <div class="w-100 ps-md-3">
-                                    <strong class="p-0 fs-5">Blended Learning</strong><br>
-                                    <span class="p-0 fs-6">
+                        </div>
+                        <div class="w-100 d-block d-md-flex justify-content-between mt-2">
+                            <div style="width: 200px">
+                                <strong class="fs-5">Location:</strong>
+                            </div>
+                            <div class="w-100 ps-md-3">
+                                <strong class="p-0 fs-5">Blended Learning</strong><br>
+                                <span class="p-0 fs-6">
                                         Sessions are taught face-to-face at our training centre in Plaistow.
                                     </span>
-                                </div>
                             </div>
-                            <div class="w-100 d-block d-md-flex justify-content-between mt-3">
-                                <div style="width: 200px">
-                                    <strong class="fs-5">Entry Requirements:</strong>
-                                </div>
-                                <div class="w-100 ps-md-3 fs-5">
-                                    <span class="p-0 fs-5">Minimum age: 19</span><br>
-                                    <span class="p-0 fs-5">
+                        </div>
+                        <div class="w-100 d-block d-md-flex justify-content-between mt-3">
+                            <div style="width: 200px">
+                                <strong class="fs-5">Entry Requirements:</strong>
+                            </div>
+                            <div class="w-100 ps-md-3 fs-5">
+                                <span class="p-0 fs-5">Minimum age: 19</span><br>
+                                <span class="p-0 fs-5">
                                         Level 1 English or above or willing to study towards it.
                                     </span>
-                                    <div class="d-block fw-normal">
-                                        <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
-                                            How to find an English course?
-                                        </router-link>
-                                    </div>
+                                <div class="d-block fw-normal">
+                                    <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
+                                        How to find an English course?
+                                    </router-link>
                                 </div>
                             </div>
-                            <div class="w-100 d-block d-md-flex justify-content-between mt-3">
-                                <div style="width: 200px">
-                                    <strong class="fs-5">Course Credit:</strong>
-                                </div>
-                                <div class="w-100 ps-md-3 fs-5">
-                                    95 credits
-                                </div>
+                        </div>
+                        <div class="w-100 d-block d-md-flex justify-content-between mt-3">
+                            <div style="width: 200px">
+                                <strong class="fs-5">Course Credit:</strong>
                             </div>
-                            <div class="w-100 d-block d-md-flex justify-content-between mt-2">
-                                <div style="width: 200px">
-                                    <strong class="fs-5">Course Fee:</strong>
-                                </div>
-                                <div class="w-100 ps-md-3 fs-5">
+                            <div class="w-100 ps-md-3 fs-5">
+                                95 credits
+                            </div>
+                        </div>
+                        <div class="w-100 d-block d-md-flex justify-content-between mt-2">
+                            <div style="width: 200px">
+                                <strong class="fs-5">Course Fee:</strong>
+                            </div>
+                            <div class="w-100 ps-md-3 fs-5">
                                     <span> <span class="text-danger">*</span> £4,670.
                                         <br>
                                         <small class="text-secondary">
                                             The course is eligible for and Advanced Learner Loan for more information follow the link
                                         </small>
                                     </span>
-                                </div>
                             </div>
-
-
-                            <div class="w-100 text-end mt-5">
-                                <router-link :to="{name: 'CourseDetails', params:{ slug: 'vocational-training-early-year-educator'}}" class="btn px-3 py-2 btn-theme">
-                                    View course <i class="fas fa-arrow-right ms-2"></i>
-                                </router-link>
-                            </div>
+                        </div>
+                        <div class="w-100 text-end mt-5">
+                            <router-link :to="{name: 'CourseDetails', params:{ slug: 'vocational-training-NCFE-CACHE-Level-3-Diploma-for-Working-in-the-Early-Years-Sector-(Early-Years-Educator)'}}" class="btn px-3 py-2 btn-theme">
+                                View course <i class="fas fa-arrow-right ms-2"></i>
+                            </router-link>
                         </div>
                     </div>
                 </div>
@@ -127,78 +122,72 @@
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
                 <div class="w-100 d-xl-flex justify-content-start align-items-start border-bottom">
                     <div>
-                        <img class="each-data-img" :src="'/assets/img/vocational/teaching-assistant.png'" alt="teaching-assistant" loading="lazy" />
+                        <img class="each-data-img vocational-image" :src="'/assets/img/vocational/teaching-assistant.png'" alt="teaching-assistant" loading="lazy" />
                     </div>
-                    <div class="h-100 p-4">
-                        <div class="w-100">
-                            <div class="w-100 mb-4">
-                                <h2>NCFE CACHE Level 3 Diploma in Supporting Teaching and Learning</h2>
+                    <div class="p-4 w-100">
+                        <div class="w-100 d-block" style="min-height: 78px">
+                            <h2>NCFE CACHE Level 3 Diploma in Supporting Teaching and Learning</h2>
+                        </div>
+                        <div class="w-100 d-block d-md-flex justify-content-between mt-2">
+                            <div style="width: 200px">
+                                <strong class="fs-5">Courses:</strong>
                             </div>
-
-                            <div class="w-100 d-block d-md-flex justify-content-between mt-2">
-                                <div style="width: 200px">
-                                    <strong class="fs-5">Courses:</strong>
-                                </div>
-                                <div class="w-100 ps-md-3">
-                                    <span class="fs-5">New course starting spring 2025</span>
-                                </div>
+                            <div class="w-100 ps-md-3">
+                                <span class="fs-5">New course starting spring 2025</span>
                             </div>
-                            <div class="w-100 d-block d-md-flex justify-content-between mt-2">
-                                <div style="width: 200px">
-                                    <strong class="fs-5">Location:</strong>
-                                </div>
-                                <div class="w-100 ps-md-3">
-                                    <strong class="p-0 fs-5">Blended Learning</strong><br>
-                                    <span class="p-0 fs-6">
+                        </div>
+                        <div class="w-100 d-block d-md-flex justify-content-between mt-2">
+                            <div style="width: 200px">
+                                <strong class="fs-5">Location:</strong>
+                            </div>
+                            <div class="w-100 ps-md-3">
+                                <strong class="p-0 fs-5">Blended Learning</strong><br>
+                                <span class="p-0 fs-6">
                                         Sessions are taught face-to-face at our training centre in Plaistow.
                                     </span>
-                                </div>
                             </div>
-                            <div class="w-100 d-block d-md-flex justify-content-between mt-3">
-                                <div style="width: 200px">
-                                    <strong class="fs-5">Entry Requirements:</strong>
-                                </div>
-                                <div class="w-100 ps-md-3 fs-5">
-                                    <span class="p-0 fs-5">Minimum age: 19</span><br>
-                                    <span class="p-0 fs-5">
+                        </div>
+                        <div class="w-100 d-block d-md-flex justify-content-between mt-3">
+                            <div style="width: 200px">
+                                <strong class="fs-5">Entry Requirements:</strong>
+                            </div>
+                            <div class="w-100 ps-md-3 fs-5">
+                                <span class="p-0 fs-5">Minimum age: 19</span><br>
+                                <span class="p-0 fs-5">
                                         Level 1 English or above or willing to study towards it.
                                     </span>
-                                    <div class="d-block fw-normal">
-                                        <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
-                                            How to find an English course?
-                                        </router-link>
-                                    </div>
+                                <div class="d-block fw-normal">
+                                    <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
+                                        How to find an English course?
+                                    </router-link>
                                 </div>
                             </div>
-                            <div class="w-100 d-block d-md-flex justify-content-between mt-3">
-                                <div style="width: 200px">
-                                    <strong class="fs-5">Course Credit:</strong>
-                                </div>
-                                <div class="w-100 ps-md-3 fs-5">
-                                    53 credits
-                                </div>
+                        </div>
+                        <div class="w-100 d-block d-md-flex justify-content-between mt-3">
+                            <div style="width: 200px">
+                                <strong class="fs-5">Course Credit:</strong>
                             </div>
-                            <div class="w-100 d-block d-md-flex justify-content-between mt-2">
-                                <div style="width: 200px">
-                                    <strong class="fs-5">Course Fee:</strong>
-                                </div>
-                                <div class="w-100 ps-md-3 fs-5">
+                            <div class="w-100 ps-md-3 fs-5">
+                                53 credits
+                            </div>
+                        </div>
+                        <div class="w-100 d-block d-md-flex justify-content-between mt-2">
+                            <div style="width: 200px">
+                                <strong class="fs-5">Course Fee:</strong>
+                            </div>
+                            <div class="w-100 ps-md-3 fs-5">
                                     <span> <span class="text-danger">*</span> £2,225.
                                         <br>
                                         <small class="text-secondary">
                                             The course is eligible for and Advanced Learner Loan for more information follow the link
                                         </small>
                                     </span>
-                                </div>
                             </div>
-
-
-                            <div class="w-100 text-end mt-5">
-                                <router-link :to="{name: 'CourseDetails', params:{ slug: 'vocational-training-teaching-assistance'}}"
-                                             class="btn px-3 py-2 btn-theme">
-                                    View course <i class="fas fa-arrow-right ms-2"></i>
-                                </router-link>
-                            </div>
+                        </div>
+                        <div class="w-100 text-end mt-5">
+                            <router-link :to="{name: 'CourseDetails', params:{ slug: 'vocational-training-NCFE-CACHE-Level-3-Diploma-in-Supporting-Teaching-and-Learning'}}" class="btn px-3 py-2 btn-theme">
+                                View course <i class="fas fa-arrow-right ms-2"></i>
+                            </router-link>
                         </div>
                     </div>
                 </div>
@@ -207,80 +196,75 @@
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
                 <div class="w-100 d-xl-flex justify-content-start align-items-start border-bottom">
                     <div>
-                        <img class="each-data-img" :src="'/assets/img/vocational/adult-care.png'" alt="adult-care.png" />
+                        <img class="each-data-img vocational-image" :src="'/assets/img/vocational/adult-care.png'" alt="adult-care.png" loading="lazy" />
                     </div>
-                    <div class="h-100 p-4">
-                        <div class="w-100">
-                            <div class="w-100 mb-4">
-                                <h2>
-                                    NCFE CACHE Level 3 Diploma in Adult Care
-                                </h2>
+                    <div class="p-4 w-100">
+                        <div class="w-100 d-block" style="min-height: 78px">
+                            <h2>
+                                NCFE CACHE Level 3 Diploma in Adult Care
+                            </h2>
+                        </div>
+                        <div class="w-100 d-block d-md-flex justify-content-between mt-2">
+                            <div style="width: 200px">
+                                <strong class="fs-5">Courses:</strong>
                             </div>
-
-                            <div class="w-100 d-block d-md-flex justify-content-between mt-2">
-                                <div style="width: 200px">
-                                    <strong class="fs-5">Courses:</strong>
-                                </div>
-                                <div class="w-100 ps-md-3">
-                                    <span class="fs-5">New course starting spring 2025</span>
-                                </div>
+                            <div class="w-100 ps-md-3">
+                                <span class="fs-5">New course starting spring 2025</span>
                             </div>
-                            <div class="w-100 d-block d-md-flex justify-content-between mt-2">
-                                <div style="width: 200px">
-                                    <strong class="fs-5">Location:</strong>
-                                </div>
-                                <div class="w-100 ps-md-3">
-                                    <strong class="p-0 fs-5">Blended Learning</strong><br>
-                                    <span class="p-0 fs-6">
+                        </div>
+                        <div class="w-100 d-block d-md-flex justify-content-between mt-2">
+                            <div style="width: 200px">
+                                <strong class="fs-5">Location:</strong>
+                            </div>
+                            <div class="w-100 ps-md-3">
+                                <strong class="p-0 fs-5">Blended Learning</strong><br>
+                                <span class="p-0 fs-6">
                                         Sessions are taught face-to-face at our training centre in Plaistow.
                                     </span>
-                                </div>
                             </div>
-                            <div class="w-100 d-block d-md-flex justify-content-between mt-3">
-                                <div style="width: 200px">
-                                    <strong class="fs-5">Entry Requirements:</strong>
-                                </div>
-                                <div class="w-100 ps-md-3 fs-5">
-                                    <span class="p-0 fs-5">Minimum age: 19</span><br>
-                                    <span class="p-0 fs-5">
+                        </div>
+                        <div class="w-100 d-block d-md-flex justify-content-between mt-3">
+                            <div style="width: 200px">
+                                <strong class="fs-5">Entry Requirements:</strong>
+                            </div>
+                            <div class="w-100 ps-md-3 fs-5">
+                                <span class="p-0 fs-5">Minimum age: 19</span><br>
+                                <span class="p-0 fs-5">
                                         Level 1 English or above or willing to study towards it.
                                     </span>
-                                    <div class="d-block fw-normal">
-                                        <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
-                                            How to find an English course?
-                                        </router-link>
-                                    </div>
+                                <div class="d-block fw-normal">
+                                    <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
+                                        How to find an English course?
+                                    </router-link>
                                 </div>
                             </div>
-                            <div class="w-100 d-block d-md-flex justify-content-between mt-3">
-                                <div style="width: 200px">
-                                    <strong class="fs-5">Course Credit:</strong>
-                                </div>
-                                <div class="w-100 ps-md-3 fs-5">
-                                    58 credits
-                                </div>
+                        </div>
+                        <div class="w-100 d-block d-md-flex justify-content-between mt-3">
+                            <div style="width: 200px">
+                                <strong class="fs-5">Course Credit:</strong>
                             </div>
-                            <div class="w-100 d-block d-md-flex justify-content-between mt-2">
-                                <div style="width: 200px">
-                                    <strong class="fs-5">Course Fee:</strong>
-                                </div>
-                                <div class="w-100 ps-md-3 fs-5">
+                            <div class="w-100 ps-md-3 fs-5">
+                                58 credits
+                            </div>
+                        </div>
+                        <div class="w-100 d-block d-md-flex justify-content-between mt-2">
+                            <div style="width: 200px">
+                                <strong class="fs-5">Course Fee:</strong>
+                            </div>
+                            <div class="w-100 ps-md-3 fs-5">
                                     <span> <span class="text-danger">*</span> £2,880
                                         <br>
                                         <small class="text-secondary">
                                             The course is eligible for Advanced Learner Loans. For more information follow the link
                                         </small>
                                     </span>
-                                </div>
                             </div>
-
-
-                            <div class="w-100 text-end mt-5">
-                                <router-link :to="{name: 'CourseDetails', params:{ slug: 'vocational-training-adult-care'}}"
-                                             class="btn px-3 py-2 btn-theme">
-                                    View course <i class="fas fa-arrow-right ms-2"></i>
-                                </router-link>
-                            </div>
+                        </div>
+                        <div class="w-100 text-end mt-5">
+                            <router-link :to="{name: 'CourseDetails', params:{ slug: 'vocational-training-NCFE-CACHE-Level-3-Diploma-in-Adult-Care'}}"
+                                         class="btn px-3 py-2 btn-theme">
+                                View course <i class="fas fa-arrow-right ms-2"></i>
+                            </router-link>
                         </div>
                     </div>
                 </div>
