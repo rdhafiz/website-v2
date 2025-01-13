@@ -48,7 +48,7 @@
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
                 <div class="w-100 d-xl-flex justify-content-start align-items-start border-bottom">
                     <div>
-                        <img class="each-data-img" :src="'/assets/img/vocational/early-years-educator.jpg'" alt="early-years-educator" loading="lazy" />
+                        <img class="each-data-img vocational-image" :src="'/assets/img/vocational/early-years-educator.jpg'" alt="early-years-educator" loading="lazy" />
                     </div>
                     <div class="p-4 w-100">
                         <div class="w-100 d-block" style="min-height: 78px">
@@ -122,7 +122,7 @@
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
                 <div class="w-100 d-xl-flex justify-content-start align-items-start border-bottom">
                     <div>
-                        <img class="each-data-img" :src="'/assets/img/vocational/teaching-assistant.png'" alt="teaching-assistant" loading="lazy" />
+                        <img class="each-data-img vocational-image" :src="'/assets/img/vocational/teaching-assistant.png'" alt="teaching-assistant" loading="lazy" />
                     </div>
                     <div class="p-4 w-100">
                         <div class="w-100 d-block" style="min-height: 78px">
@@ -196,7 +196,7 @@
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
                 <div class="w-100 d-xl-flex justify-content-start align-items-start border-bottom">
                     <div>
-                        <img class="each-data-img" :src="'/assets/img/vocational/adult-care.png'" alt="adult-care.png" loading="lazy" />
+                        <img class="each-data-img vocational-image" :src="'/assets/img/vocational/adult-care.png'" alt="adult-care.png" loading="lazy" />
                     </div>
                     <div class="p-4 w-100">
                         <div class="w-100 d-block" style="min-height: 78px">
