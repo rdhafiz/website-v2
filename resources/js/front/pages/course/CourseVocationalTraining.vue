@@ -111,7 +111,7 @@
                             </div>
                         </div>
                         <div class="w-100 text-end mt-5">
-                            <router-link :to="{name: 'CourseDetails', params:{ slug: 'vocational-training-early-year-educator'}}" class="btn px-3 py-2 btn-theme">
+                            <router-link :to="{name: 'CourseDetails', params:{ slug: 'vocational-training-NCFE-CACHE-Level-3-Diploma-for-Working-in-the-Early-Years-Sector-(Early-Years-Educator)'}}" class="btn px-3 py-2 btn-theme">
                                 View course <i class="fas fa-arrow-right ms-2"></i>
                             </router-link>
                         </div>
@@ -185,8 +185,7 @@
                             </div>
                         </div>
                         <div class="w-100 text-end mt-5">
-                            <router-link :to="{name: 'CourseDetails', params:{ slug: 'vocational-training-teaching-assistance'}}"
-                                         class="btn px-3 py-2 btn-theme">
+                            <router-link :to="{name: 'CourseDetails', params:{ slug: 'vocational-training-NCFE-CACHE-Level-3-Diploma-in-Supporting-Teaching-and-Learning'}}" class="btn px-3 py-2 btn-theme">
                                 View course <i class="fas fa-arrow-right ms-2"></i>
                             </router-link>
                         </div>
@@ -262,7 +261,7 @@
                             </div>
                         </div>
                         <div class="w-100 text-end mt-5">
-                            <router-link :to="{name: 'CourseDetails', params:{ slug: 'vocational-training-adult-care'}}"
+                            <router-link :to="{name: 'CourseDetails', params:{ slug: 'vocational-training-NCFE-CACHE-Level-3-Diploma-in-Adult-Care'}}"
                                          class="btn px-3 py-2 btn-theme">
                                 View course <i class="fas fa-arrow-right ms-2"></i>
                             </router-link>

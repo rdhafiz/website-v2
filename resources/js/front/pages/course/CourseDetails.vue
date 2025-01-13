@@ -20,13 +20,13 @@
             <template v-if="this.routeName === 'access-to-he-health-science'">
                 <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/access/SupportFund.jpg)' }"></div>
             </template>
-            <template v-if="this.routeName === 'vocational-training-early-year-educator'">
+            <template v-if="this.routeName === 'vocational-training-NCFE-CACHE-Level-3-Diploma-for-Working-in-the-Early-Years-Sector-(Early-Years-Educator)'">
                 <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/vocational/early-years-educator.jpg)' }"></div>
             </template>
-            <template v-if="this.routeName === 'vocational-training-teaching-assistance'">
+            <template v-if="this.routeName === 'vocational-training-NCFE-CACHE-Level-3-Diploma-in-Supporting-Teaching-and-Learning'">
                 <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/vocational/teaching-assistant.png)' }"></div>
             </template>
-            <template v-if="this.routeName === 'vocational-training-adult-care'">
+            <template v-if="this.routeName === 'vocational-training-NCFE-CACHE-Level-3-Diploma-in-Adult-Care'">
                 <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/vocational/adult-care.png)' }"></div>
             </template>
             <div class="w-100 px-md-5">
@@ -52,7 +52,7 @@
                                         </router-link>
                                     </li>
                                 </template>
-                                <template v-if="this.routeName === 'vocational-training-early-year-educator' || this.routeName === 'vocational-training-teaching-assistance' || this.routeName === 'vocational-training-adult-care'">
+                                <template v-if="this.routeName === 'vocational-training-NCFE-CACHE-Level-3-Diploma-for-Working-in-the-Early-Years-Sector-(Early-Years-Educator)' || this.routeName === 'vocational-training-NCFE-CACHE-Level-3-Diploma-in-Supporting-Teaching-and-Learning' || this.routeName === 'vocational-training-NCFE-CACHE-Level-3-Diploma-in-Adult-Care'">
                                     <li class="breadcrumb-item">
                                         <router-link :to="{name: 'CourseVocationalTraining'}" class="text-decoration-none text-white p-0 m-0">
                                             Vocational Courses & Training
@@ -90,15 +90,15 @@
             <AccessToHeHealthScience></AccessToHeHealthScience>
         </template>
 
-        <template v-if="this.routeName === 'vocational-training-early-year-educator'">
+        <template v-if="this.routeName === 'vocational-training-NCFE-CACHE-Level-3-Diploma-for-Working-in-the-Early-Years-Sector-(Early-Years-Educator)'">
             <VocationalEarlyYearEducation></VocationalEarlyYearEducation>
         </template>
 
-        <template v-if="this.routeName === 'vocational-training-teaching-assistance'">
+        <template v-if="this.routeName === 'vocational-training-NCFE-CACHE-Level-3-Diploma-in-Supporting-Teaching-and-Learning'">
             <VocationalTeachingAssistance></VocationalTeachingAssistance>
         </template>
 
-        <template v-if="this.routeName === 'vocational-training-adult-care'">
+        <template v-if="this.routeName === 'vocational-training-NCFE-CACHE-Level-3-Diploma-in-Adult-Care'">
             <VocationalAdultCare></VocationalAdultCare>
         </template>
 
@@ -144,9 +144,9 @@ export default {
                 'access-to-he-health-science',
             ],
             vocational: [
-                'vocational-training-early-year-educator',
-                'vocational-training-teaching-assistance',
-                'vocational-training-adult-care'
+                'vocational-training-NCFE-CACHE-Level-3-Diploma-for-Working-in-the-Early-Years-Sector-(Early-Years-Educator)',
+                'vocational-training-NCFE-CACHE-Level-3-Diploma-in-Supporting-Teaching-and-Learning',
+                'vocational-training-NCFE-CACHE-Level-3-Diploma-in-Adult-Care'
             ]
         }
     },
