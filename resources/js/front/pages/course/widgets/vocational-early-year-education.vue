@@ -34,10 +34,10 @@
                                 <h5 class="text-secondary fw-normal">
                                     Sessions are taught face-to-face at our training centre in Plaistow. Unless you are
                                     <router-link :to="{name: 'FAQs'}" class="text-theme" target="_blank">exempt</router-link> you will need to attend at least half of the face-to-face sessions.
-                                    <br><br>
+                                    <br/><br/>
                                     You will be issued with a Mediprospects Office 365 account and will be able to
                                     attend the balance of your course through live online lessons on Microsoft Teams.
-                                    <br><br>
+                                    <br/><br/>
                                     You will attend 44 sessions, 9 hours a week, in addition you will need to allocate
                                     around 10 hours per week for home study and portfolio building.
                                 </h5>
@@ -56,19 +56,19 @@
                                 <h2 class="text-secondary fw-bold">Entry Requirements</h2>
                                 <h5 class="text-secondary fw-normal">
                                     <strong class="p-0 fs-5">Minimum age: 19</strong>
-                                    <br><br>
+                                    <br/><br/>
                                     <strong class="p-0 fs-5">Safeguarding: </strong>
                                     You will need to agree to a clearance check through the Disclosure and
                                     Barring Service prior to starting the course.
-                                    <br><br>
+                                    <br/><br/>
                                     <strong class="p-0 fs-5">Previous experience: </strong> A level 2 early years
                                     qualification and/or experience in the sector is helpful but not essential.
                                     You will need to demonstrate enthusiasm for the subject and a commitment
                                     to meet the course requirements.
-                                    <br><br>
+                                    <br/><br/>
                                     <strong class="p-0 fs-5">Level 1 English or above or willing to study towards it.</strong> <br>
                                     You will need to have written, reading and spoken English at a minimum of Level 1. If you have not already achieved this, we can support you while you study for your main qualification.
-                                    <br><br>
+                                    <br/><br/>
                                     <span class="d-block fw-normal">
                                         <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
                                             How to find an English course?
@@ -100,10 +100,10 @@
                                     You will be joining other learners who are keen to start learning and working in the Early years sector.
                                     You will have access to online resources, which will form part of the weekly teaching sessions.
                                     You are also encouraged to use these resources outside of class time to expand your knowledge and understanding.
-                                    <br><br>
+                                    <br/><br/>
                                     The course will provide you with the knowledge and skills you need to support young children from birth to the age of 5.
                                     During the course you will learn about
-                                    <br><br>
+                                    <br/><br/>
                                     <ul>
                                         <li>your role as an early years educator</li>
                                         <li>child development</li>
@@ -135,28 +135,30 @@
                                 <h2 class="text-secondary fw-bold">Next steps</h2>
                                 <h5 class="text-secondary fw-normal">
                                     At the end of the course, you may progress to work in early years care for example in a nursery, pre-school setting or in the reception classes of a primary school.
+                                    <br/><br/>
                                     To achieve this qualification, you need to complete 10 mandatory units. For each unit, you will be achieving a certain number of credits, all of these will add up to 95 credits.
+                                    <br/><br/>
                                 </h5>
                                 <h5 class="text-secondary fw-normal">
-                                    <p><strong>EYE L3 WF 1</strong> Introduction to the role of the early years educator (T/651/1390) <br></p>
+                                    <p class="line-height-1_5"><strong>EYE L3 WF 1</strong> Introduction to the role of the early years educator (T/651/1390) <br></p>
 
-                                    <p><strong>EYE L3 WF 2</strong> Holistic child development (Y/651/1391) <br></p>
+                                    <p class="line-height-1_5"><strong>EYE L3 WF 2</strong> Holistic child development (Y/651/1391) <br></p>
 
-                                    <p><strong>EYE L3 WF 3</strong> Children with special educational needs and disabilities (SEND) (A/651/1392) <br></p>
+                                    <p class="line-height-1_5"><strong>EYE L3 WF 3</strong> Children with special educational needs and disabilities (SEND) (A/651/1392) <br></p>
 
-                                    <p><strong>EYE L3 WF 4</strong> Effective communication in an early years setting (D/651/1393) <br></p>
+                                    <p class="line-height-1_5"><strong>EYE L3 WF 4</strong> Effective communication in an early years setting (D/651/1393) <br></p>
 
-                                    <p><strong>EYE L3 WF 5</strong> Safeguarding and welfare requirements (F/651/1394) <br></p>
+                                    <p class="line-height-1_5"><strong>EYE L3 WF 5</strong> Safeguarding and welfare requirements (F/651/1394) <br></p>
 
-                                    <p><strong>EYE L3 WF 6</strong> Health, wellbeing and safety (H/651/1395) <br></p>
+                                    <p class="line-height-1_5"><strong>EYE L3 WF 6</strong> Health, wellbeing and safety (H/651/1395) <br></p>
 
-                                    <p><strong>EYE L3 WF 7</strong> Promoting an effective early years curriculum (J/651/1396) <br></p>
+                                    <p class="line-height-1_5"><strong>EYE L3 WF 7</strong> Promoting an effective early years curriculum (J/651/1396) <br></p>
 
-                                    <p><strong>EYE L3 WF 8</strong> Assessment of children’s learning and development (K/651/1397) <br></p>
+                                    <p class="line-height-1_5"><strong>EYE L3 WF 8</strong> Assessment of children’s learning and development (K/651/1397) <br></p>
 
-                                    <p><strong>EYE L3 WF 9</strong> Understanding play for learning and holistic development (L/651/1398) <br></p>
+                                    <p class="line-height-1_5"><strong>EYE L3 WF 9</strong> Understanding play for learning and holistic development (L/651/1398) <br></p>
 
-                                    <p><strong>EYE L3 WF 10</strong> Partnership working (M/651/1399) <br></p>
+                                    <p class="line-height-1_5"><strong>EYE L3 WF 10</strong> Partnership working (M/651/1399) <br></p>
                                 </h5>
                             </div>
 
