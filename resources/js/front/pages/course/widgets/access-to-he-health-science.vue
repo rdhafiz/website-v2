@@ -7,9 +7,7 @@
                     <div class="course-details-title mb-3 fw-bold">
                         Access to HE: Health Science
                     </div>
-                    <a href="javascript:void(0)" class="btn px-3 py-2 btn-theme">
-                        Apply now
-                    </a>
+                    <router-link :to="{name: 'ApplyForInterest', params: {course: 'access-to-he-health-science'}}" class="btn px-3 py-2 btn-theme">Apply Now</router-link>
                 </div>
             </div>
         </div>

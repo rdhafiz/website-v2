@@ -1,6 +1,5 @@
 import {createRouter, createWebHistory} from "vue-router";
 
-
 //=====================
 // Pages
 //=====================
@@ -21,6 +20,7 @@ import SafeGuardingPolicy from "../pages/general/safe_guarding_policy.vue";
 import Pathways from "../pages/general/pathways.vue";
 import FeesFunding from "../pages/general/fees_funding.vue";
 import PreEnrollmentOnlineEvent from "../pages/pre-enrollment-online-event/pre-enrollment-online-event.vue";
+import CourseApplication from "../pages/course_appication/form.vue";
 import EnglishMaths from "../pages/english-&-maths/english-&-maths.vue";
 import FAQs from "../pages/FAQs/FAQs.vue";
 import whyChooseUs from "../pages/General/why-choose-us.vue";
@@ -46,6 +46,7 @@ const routes = [
             {path: ROOT_URL + '/safe-guarding-policy', name: 'SafeGuardingPolicy', component: SafeGuardingPolicy},
             {path: ROOT_URL + '/fees-funding-grands-information', name: 'FeesFunding', component: FeesFunding},
             {path: ROOT_URL + '/pre-enrollment-online-event', name: 'PreEnrollmentOnlineEvent', component: PreEnrollmentOnlineEvent},
+            {path: ROOT_URL + '/apply-for-interest/:course?', name: 'ApplyForInterest', component: CourseApplication},
             {path: ROOT_URL + '/frequently-asking-question', name: 'FAQs', component: FAQs},
             {path: ROOT_URL + '/why-choose-us', name: 'whyChooseUs', component: whyChooseUs},
         ]

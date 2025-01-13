@@ -135,6 +135,12 @@ return [
         'pre_enrolment_hnm' => [
             'prod' => explode(',', env('MAIL_TO_PRE_ENROLMENT_HNM')),
         ],
+        'access_courses' => [
+            'prod' => explode(',', env('MAIL_TO_ACCESS_COURSE_MANAGER')),
+        ],
+        'other_courses' => [
+            'prod' => explode(',', env('MAIL_TO_OTHER_COURSE_MANAGER')),
+        ],
     ],
 
     /*
