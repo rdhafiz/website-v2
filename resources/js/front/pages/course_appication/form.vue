@@ -40,7 +40,7 @@
                             </div>
                             <div class="mb-3">
                                 <label for="postcode" class="form-label"> Postcode</label>
-                                <input type="text" class="form-control bg-secondary-subtle py-2 px-3" name="postcode" placeholder="Postcode">
+                                <input type="text" class="form-control bg-secondary-subtle py-2 px-3" name="postcode" placeholder="Postcode" v-model="param.postcode">
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Preferred Method of Communication</label>
