@@ -90,7 +90,7 @@ export default {
                 'access-to-he-nursing-midwifery': 'Access to HE Nursing & Midwifery',
                 'access-to-he-nursing': 'Access to HE Nursing',
                 'access-to-he-health-professions': 'Access to HE Health Professions',
-                'access-to-he-health-science': 'Access to HE Health Sciences',
+                'access-to-he-health-science': 'Access to HE Health Science',
                 'early-years-educator': 'Diploma for Working in the Early Years Sector (Early Years Educator)',
                 'teaching-and-learning': 'Diploma in Supporting Teaching and Learning',
                 'adult-care': 'Adult Care',
