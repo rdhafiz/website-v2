@@ -20,7 +20,7 @@
                                     <option value="access-to-he-nursing-midwifery">Access to HE Nursing & Midwifery</option>
                                     <option value="access-to-he-nursing">Access to HE Nursing</option>
                                     <option value="access-to-he-health-professions">Access to HE Health Professions</option>
-                                    <option value="access-to-he-health-sciences">Access to HE Health Sciences</option>
+                                    <option value="access-to-he-health-science">Access to HE Health Science</option>
                                     <option value="early-years-educator">Diploma for Working in the Early Years Sector (Early Years Educator)</option>
                                     <option value="teaching-and-learning">Diploma in Supporting Teaching and Learning</option>
                                     <option value="adult-care">Adult Care</option>
@@ -90,7 +90,7 @@ export default {
                 'access-to-he-nursing-midwifery': 'Access to HE Nursing & Midwifery',
                 'access-to-he-nursing': 'Access to HE Nursing',
                 'access-to-he-health-professions': 'Access to HE Health Professions',
-                'access-to-he-health-sciences': 'Access to HE Health Sciences',
+                'access-to-he-health-science': 'Access to HE Health Sciences',
                 'early-years-educator': 'Diploma for Working in the Early Years Sector (Early Years Educator)',
                 'teaching-and-learning': 'Diploma in Supporting Teaching and Learning',
                 'adult-care': 'Adult Care',
