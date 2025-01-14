@@ -29,9 +29,7 @@ class ApplicationController extends Controller
             $reCaptcha = $input['recaptcha_token'];
             $reCaptcha = Helpers::verifyReCaptcha($reCaptcha);
             if (!$reCaptcha) {
-                return redirect()->back()->withInput($input)->withErrors([
-                    'error' => ['Invalid google recaptcha response! Please verify again.']
-                ]);
+                return response()->json(['error' => 'Invalid google recaptcha response! Please verify again.']);
             }
             $response = [
                 'course_name' => $request->full_course_name,
