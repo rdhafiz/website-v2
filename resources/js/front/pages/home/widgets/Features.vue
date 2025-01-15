@@ -22,8 +22,8 @@
                                     <div class="each-feature rounded-circle shadow">
                                         <div class="w-100 h-100 d-flex align-items-center">
                                             <div class="w-100">
-                                                <h3 class="fw-bold text-white text-shadow-sm fs-3 text-center px-3">Expert Feedback</h3>
-                                                <h5 class="fw-normal text-white text-shadow-sm fs-5 text-center px-3 mb-0">Benefit from insightful critiques that drive high distinction rates.</h5>
+                                                <h3 class="fw-bold text-white text-shadow-sm fs-3 text-center px-3">Excellent Developmental Feedback!</h3>
+                                                <h5 class="fw-normal text-white text-shadow-sm fs-5 text-center px-3 mb-0">Many learners achieve distinctions on all assignments.</h5>
                                             </div>
                                         </div>
                                     </div>

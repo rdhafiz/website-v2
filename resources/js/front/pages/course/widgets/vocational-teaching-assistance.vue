@@ -7,6 +7,7 @@
                     <div class="course-details-title mb-3 fw-bold">
                         NCFE CACHE Level 3 Diploma in Supporting Teaching and Learning
                     </div>
+                    <router-link :to="{name: 'ApplyForInterest', params: {course: 'teaching-and-learning'}}" class="btn px-3 py-2 btn-theme me-2">Learn More</router-link>
                     <router-link :to="{name: 'ApplyForInterest', params: {course: 'teaching-and-learning'}}" class="btn px-3 py-2 btn-theme">Apply Now</router-link>
                 </div>
             </div>

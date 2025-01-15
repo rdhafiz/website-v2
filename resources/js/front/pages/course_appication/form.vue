@@ -7,9 +7,9 @@
             <div class="row justify-content-center align-items-center px-lg-5 w-100">
                 <div class="col-12 col-lg-7">
                     <form @submit.prevent="applyNow()" class="w-100">
-                        <h2 class="mb-4 text-center">
+<!--                        <h2 class="mb-4 text-center">
                             Apply for Interest
-                        </h2>
+                        </h2>-->
                         <div class="border p-4 p-md-5 shadow">
                             <p v-if="error !== ''" class="alert alert-danger">{{ error }}</p>
                             <p v-if="success !== ''" class="alert alert-success">{{ success }}</p>
