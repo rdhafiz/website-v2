@@ -23,7 +23,7 @@ import PreEnrollmentOnlineEvent from "../pages/pre-enrollment-online-event/pre-e
 import CourseApplication from "../pages/course_appication/form.vue";
 import EnglishMaths from "../pages/english-&-maths/english-&-maths.vue";
 import FAQs from "../pages/FAQs/FAQs.vue";
-import whyChooseUs from "../pages/General/why-choose-us.vue";
+import whyChooseUs from "../pages/general/why-choose-us.vue";
 
 const ROOT_URL = "";
 const routes = [
