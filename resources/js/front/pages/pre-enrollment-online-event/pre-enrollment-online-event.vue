@@ -20,7 +20,7 @@
                                     <option value="access-to-he-nursing-midwifery">Access to HE Nursing &amp; Midwifery</option>
                                     <option value="access-to-he-nursing">Access to HE Nursing</option>
                                     <option value="access-to-he-health-professions">Access to HE Health Professions</option>
-                                    <option value="access-to-he-health-sciences">Access to HE Health Sciences</option>
+                                    <option value="access-to-he-health-science">Access to HE Health Science</option>
                                 </select>
                             </div>
                             <div class="mb-3">
@@ -87,6 +87,12 @@ export default {
                 contact_number: '',
                 recaptcha_token: '',
             },
+            courseMapping: {
+                'access-to-he-nursing-midwifery': 'Access to HE Nursing & Midwifery',
+                'access-to-he-nursing': 'Access to HE Nursing',
+                'access-to-he-health-professions': 'Access to HE Health Professions',
+                'access-to-he-health-science': 'Access to HE Health Science',
+            }
         }
     },
     mounted() {
@@ -100,6 +106,7 @@ export default {
         applyNow() {
             this.error = ''
             this.success = ''
+            this.param.course_name = this.courseMapping[this.param.course_name] || '';
             this.param.recaptcha_token = grecaptcha.getResponse();
             if (this.param.recaptcha_token !== '') {
                 axios.post('/action/pre-enrollment-online-event', this.param, {
