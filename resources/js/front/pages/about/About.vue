@@ -7,7 +7,7 @@
                 <span class="shadow-2"></span>
                 <span class="shadow-3"></span>
             </div>
-            <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/about.jpg)' }"></div>
+            <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/about.png)' }"></div>
             <div class="container-fluid">
                 <div class="breadcrumb-left">
                     <div class="px-0 px-md-5 w-100">
