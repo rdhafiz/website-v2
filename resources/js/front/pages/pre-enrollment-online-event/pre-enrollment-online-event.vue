@@ -55,7 +55,7 @@
                                 <input id="contact_number" type="text" name="contact_number" v-model="param.contact_number" class="form-control bg-secondary-subtle py-2 px-3" placeholder="Enter your Phone Number" required autocomplete="off"/>
                             </div>
                             <div class="mb-3 d-flex justify-content-end">
-                                <div class="g-recaptcha" data-sitekey="6LcZiaMqAAAAANeSRNkTqgcZqVv4N-Rmw4Nlh5xx"></div>
+                                <div class="g-recaptcha" data-sitekey="6LcxyfMfAAAAAHSWxtSr_o9QMbD9Fi5e_qxlxEQ-"></div>
                             </div>
                             <div class="mb-3 d-flex justify-content-end">
                                 <button type="submit" class="btn btn-theme py-2 px-3">
