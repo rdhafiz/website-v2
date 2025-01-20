@@ -31,11 +31,11 @@
                             </div>
                             <div class="w-100">
                                 <div class="w-100">
-                                    <a class="text-white fs-2 me-2" href="https://www.facebook.com/Mediprospects"><i class="fab fa-facebook-square"></i></a>
-                                    <a class="text-white fs-2 me-2" href="https://twitter.com/mediprospects"><i class="fab fa-twitter-square"></i></a>
-                                    <a class="text-white fs-2 me-2" href="https://www.instagram.com/mediprospects"><i class="fab fa-instagram-square"></i></a>
-                                    <a class="text-white fs-2 me-2" href="https://www.youtube.com/channel/UCEvnazoDiNrAx2-Zv3wgdFw"><i class="fab fa-youtube-square"></i></a>
-                                    <a class="text-white fs-2 me-2" href="https://www.linkedin.com/company/mediprospects/about/"><i class="fab fa-linkedin"></i></a>
+                                    <a target="_blank" class="text-white fs-2 me-2" href="https://www.facebook.com/Mediprospects"><i class="fab fa-facebook-square"></i></a>
+                                    <a target="_blank" class="text-white fs-2 me-2" href="https://twitter.com/mediprospects"><i class="fab fa-twitter-square"></i></a>
+                                    <a target="_blank" class="text-white fs-2 me-2" href="https://www.instagram.com/mediprospects"><i class="fab fa-instagram-square"></i></a>
+                                    <a target="_blank" class="text-white fs-2 me-2" href="https://www.youtube.com/channel/UCEvnazoDiNrAx2-Zv3wgdFw"><i class="fab fa-youtube-square"></i></a>
+                                    <a target="_blank" class="text-white fs-2 me-2" href="https://www.linkedin.com/company/mediprospects/about/"><i class="fab fa-linkedin"></i></a>
                                 </div>
                             </div>
                         </div>

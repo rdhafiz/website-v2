@@ -5,7 +5,7 @@
                 <div class="container-lg">
                     <div class="w-100">
                         <div class="w-100 d-inline-block mb-3">
-                            <h1 class="h1-md fw-bold text-dark text-center">Why Learn with Us?</h1>
+                            <h1 class="h1-md fw-bold text-dark text-center">Why Study with Us?</h1>
                             <p class="fs-4 text-secondary text-center">Experience a flexible, expert-driven platform with personalised support to help you reach your goals.</p>
                         </div>
                         <div class="w-100 mt-5">

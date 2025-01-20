@@ -6,7 +6,7 @@
             <span class="shadow-2"></span>
             <span class="shadow-3"></span>
         </div>
-        <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/courses.jpg)' }"></div>
+        <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/access-to-he.png)' }"></div>
         <div class="container-fluid">
             <div class="w-100 px-0 px-md-5">
                 <div class="w-100 px-1 px-md-5 position-relative z-2">

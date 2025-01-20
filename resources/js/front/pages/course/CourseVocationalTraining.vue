@@ -31,10 +31,10 @@
                                 </li>
                             </ul>
 
-                            <h1 class="mt-5 text-white fw-bold animate__animated animate__fadeInLeft" style="animation-delay: 0.2s">
+<!--                            <h1 class="mt-5 text-white fw-bold animate__animated animate__fadeInLeft" style="animation-delay: 0.2s">
                                 Weekly one-hour <br> online open events <br>
                                 <router-link :to="{name: 'PreEnrollmentOnlineEvent'}" class="btn btn-outline-light btn-lg mt-3 px-5">Book Here</router-link>
-                            </h1>
+                            </h1>-->
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
                                 <div class="w-100 ps-md-3">
                                     <strong class="p-0 fs-5">Blended Learning</strong><br>
                                     <span class="p-0 fs-6">
-                                        Sessions are taught face-to-face at our training centre in Plaistow.
+                                        Sessions are taught face-to-face at our training centre in Plaistow. Unless you are exempt you will need to attend at least half of the face-to-face sessions.
                                     </span>
                                 </div>
                             </div>
@@ -150,7 +150,7 @@
                                 <div class="w-100 ps-md-3">
                                     <strong class="p-0 fs-5">Blended Learning</strong><br>
                                     <span class="p-0 fs-6">
-                                        Sessions are taught face-to-face at our training centre in Plaistow.
+                                        Sessions are taught face-to-face at our training centre in Plaistow. Unless you are exempt you will need to attend at least half of the face-to-face sessions.
                                     </span>
                                 </div>
                             </div>
@@ -232,7 +232,7 @@
                                 <div class="w-100 ps-md-3">
                                     <strong class="p-0 fs-5">Blended Learning</strong><br>
                                     <span class="p-0 fs-6">
-                                        Sessions are taught face-to-face at our training centre in Plaistow.
+                                        Sessions are taught face-to-face at our training centre in Plaistow. Unless you are exempt you will need to attend at least half of the face-to-face sessions.
                                     </span>
                                 </div>
                             </div>
