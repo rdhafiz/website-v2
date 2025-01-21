@@ -15,7 +15,7 @@
                             <p v-if="success !== ''" class="alert alert-success">{{ success }}</p>
                             <div class="mb-3">
                                 <label for="course_name" class="form-label"> Course You are Interested to <span class="text-danger">*</span> </label>
-                                <select name="course_name" id="course_name" v-model="param.course_name" class="form-select bg-secondary-subtle py-2 px-3" required autocomplete="off">
+                                <select name="course_name" id="course_name" v-model="param.course_name" class="form-select bg-secondary-subtle py-3 px-3" required autocomplete="off">
                                     <option value="">--select a course--</option>
                                     <option value="access-to-he-nursing-midwifery">Access to HE Nursing & Midwifery</option>
                                     <option value="access-to-he-nursing">Access to HE Nursing</option>
@@ -28,23 +28,23 @@
                             </div>
                             <div class="mb-3">
                                 <label for="name" class="form-label"> Name <span class="text-danger">*</span> </label>
-                                <input id="name" type="text" name="name" v-model="param.name" class="form-control bg-secondary-subtle py-2 px-3" placeholder="Enter your Name" required autocomplete="off"/>
+                                <input id="name" type="text" name="name" v-model="param.name" class="form-control bg-secondary-subtle py-3 px-3" placeholder="Enter your Name" required autocomplete="off"/>
                             </div>
                             <div class="mb-3">
                                 <label for="contact_number" class="form-label"> Phone Number <span class="text-danger">*</span> </label>
-                                <input id="contact_number" type="text" name="contact_number" v-model="param.contact_number" class="form-control bg-secondary-subtle py-2 px-3" placeholder="Enter your Phone Number" required autocomplete="off"/>
+                                <input id="contact_number" type="text" name="contact_number" v-model="param.contact_number" class="form-control bg-secondary-subtle py-3 px-3" placeholder="Enter your Phone Number" required autocomplete="off"/>
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label"> Email <span class="text-danger">*</span> </label>
-                                <input id="email" type="email" name="email" v-model="param.email" class="form-control bg-secondary-subtle py-2 px-3" placeholder="Enter your Email" required autocomplete="off"/>
+                                <input id="email" type="email" name="email" v-model="param.email" class="form-control bg-secondary-subtle py-3 px-3" placeholder="Enter your Email" required autocomplete="off"/>
                             </div>
                             <div class="mb-3">
                                 <label for="postcode" class="form-label"> Postcode</label>
-                                <input type="text" class="form-control bg-secondary-subtle py-2 px-3" name="postcode" placeholder="Postcode" v-model="param.postcode">
+                                <input type="text" class="form-control bg-secondary-subtle py-3 px-3" name="postcode" placeholder="Postcode" v-model="param.postcode">
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Preferred Method of Communication</label>
-                                <select class="form-control bg-secondary-subtle py-2 px-3" ref="preferred_communication_method" name="preferred_communication_method" id="preferred_communication_method" v-model="param.preferred_communication_method">
+                                <select class="form-control bg-secondary-subtle py-3 px-3" ref="preferred_communication_method" name="preferred_communication_method" id="preferred_communication_method" v-model="param.preferred_communication_method">
                                     <option value="">--select a communication method--</option>
                                     <option value="WhatsApp"> WhatsApp</option>
                                     <option value="Email"> Email</option>

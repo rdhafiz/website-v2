@@ -10,12 +10,12 @@
                         <h2 class="mb-4 text-center">
                             Online Open Events Pre Enrolment Form
                         </h2>
-                        <div class="border p-4 p-md-5 shadow">
+                        <div class="border p-4 p-md-5 shadow rounded-3">
                             <p v-if="error !== ''" class="alert alert-danger">{{ error }}</p>
                             <p v-if="success !== ''" class="alert alert-success">{{ success }}</p>
                             <div class="mb-3">
                                 <label for="course_name" class="form-label"> Course You Want to Attend <span class="text-danger">*</span> </label>
-                                <select name="course_name" id="course_name" v-model="param.course_name" class="form-select bg-secondary-subtle py-2 px-3" required autocomplete="off">
+                                <select name="course_name" id="course_name" v-model="param.course_name" class="form-select bg-secondary-subtle py-3 px-3" required autocomplete="off">
                                     <option value="">--click here to select a course--</option>
                                     <option value="access-to-he-nursing-midwifery">Access to HE Nursing &amp; Midwifery</option>
                                     <option value="access-to-he-nursing">Access to HE Nursing</option>
@@ -25,7 +25,7 @@
                             </div>
                             <div class="mb-3">
                                 <label for="time_slot" class="form-label"> Select A Time Slot Below <span class="text-danger">*</span> </label>
-                                <select name="time_slot" id="time_slot" v-model="param.time_slot" class="form-select bg-secondary-subtle py-2 px-3" required autocomplete="off">
+                                <select name="time_slot" id="time_slot" v-model="param.time_slot" class="form-select bg-secondary-subtle py-3 px-3" required autocomplete="off">
                                     <option value="">--click here to select a time slot--</option>
                                     <option value="Wednesday 18th December 2025">Wednesday 18th December 2025 - (6:30pm - 7:30pm)</option>
                                     <option value="Wednesday 8th January 2025">Wednesday 8th January 2025 - (6:30pm - 7:30pm)</option>
@@ -44,15 +44,15 @@
                             </div>
                             <div class="mb-3">
                                 <label for="name" class="form-label"> Name <span class="text-danger">*</span> </label>
-                                <input id="name" type="text" name="name" v-model="param.name" class="form-control bg-secondary-subtle py-2 px-3" placeholder="Enter your Name" required autocomplete="off"/>
+                                <input id="name" type="text" name="name" v-model="param.name" class="form-control bg-secondary-subtle py-3 px-3" placeholder="Enter your Name" required autocomplete="off"/>
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label"> Email <span class="text-danger">*</span> </label>
-                                <input id="email" type="email" name="email" v-model="param.email" class="form-control bg-secondary-subtle py-2 px-3" placeholder="Enter your Email" required autocomplete="off"/>
+                                <input id="email" type="email" name="email" v-model="param.email" class="form-control bg-secondary-subtle py-3 px-3" placeholder="Enter your Email" required autocomplete="off"/>
                             </div>
                             <div class="mb-3">
                                 <label for="contact_number" class="form-label"> Phone Number <span class="text-danger">*</span> </label>
-                                <input id="contact_number" type="text" name="contact_number" v-model="param.contact_number" class="form-control bg-secondary-subtle py-2 px-3" placeholder="Enter your Phone Number" required autocomplete="off"/>
+                                <input id="contact_number" type="text" name="contact_number" v-model="param.contact_number" class="form-control bg-secondary-subtle py-3 px-3" placeholder="Enter your Phone Number" required autocomplete="off"/>
                             </div>
                             <div class="mb-3 d-flex justify-content-end">
                                 <div class="g-recaptcha" data-sitekey="6LcxyfMfAAAAAHSWxtSr_o9QMbD9Fi5e_qxlxEQ-"></div>

@@ -78,15 +78,15 @@
                                         <p v-if="success !== ''" class="alert alert-success">{{ success }}</p>
                                         <div class="form-group mb-3">
                                             <label for="full-name" class="form-label fs-6"> Name <span class="ms-1 text-danger">*</span> </label>
-                                            <input id="full-name" type="text" name="name" v-model="param.name" placeholder="Enter your name" class="form-control px-3 py-2" required autocomplete="off" />
+                                            <input id="full-name" type="text" name="name" v-model="param.name" placeholder="Enter your name" class="form-control px-3 py-3" required autocomplete="off" />
                                         </div>
                                         <div class="form-group mb-3">
                                             <label for="email-address" class="form-label fs-6"> Email <span class="ms-1 text-danger">*</span> </label>
-                                            <input id="email-address" type="email" name="email" v-model="param.email" placeholder="Enter your email address" class="form-control px-3 py-2" required autocomplete="off" />
+                                            <input id="email-address" type="email" name="email" v-model="param.email" placeholder="Enter your email address" class="form-control px-3 py-3" required autocomplete="off" />
                                         </div>
                                         <div class="form-group mb-3">
                                             <label for="subject" class="form-label fs-6"> Subject <span class="ms-1 text-danger">*</span> </label>
-                                            <input id="subject" type="text" name="subject" v-model="param.subject" placeholder="Enter your subject" class="form-control px-3 py-2" required autocomplete="off" />
+                                            <input id="subject" type="text" name="subject" v-model="param.subject" placeholder="Enter your subject" class="form-control px-3 py-3" required autocomplete="off" />
                                         </div>
                                         <div class="form-group mb-3">
                                             <label for="message" class="form-label fs-6"> Message <span class="ms-1 text-danger">*</span> </label>
@@ -94,15 +94,15 @@
                                         </div>
                                         <div class="form-group mb-3">
                                             <label for="town/city" class="form-label fs-6"> Town/City <span class="ms-1 text-danger">*</span> </label>
-                                            <input id="town/city" type="text" name="town/city" v-model="param.city" placeholder="Enter your town/city" class="form-control px-3 py-2" required autocomplete="off" />
+                                            <input id="town/city" type="text" name="town/city" v-model="param.city" placeholder="Enter your town/city" class="form-control px-3 py-3" required autocomplete="off" />
                                         </div>
                                         <div class="form-group mb-3">
                                             <label for="contact_number" class="form-label fs-6"> Phone Number <span class="ms-1 text-danger">*</span> </label>
-                                            <input id="contact_number" type="text" name="contact_number" v-model="param.contact_number" placeholder="Enter your phone number" class="form-control px-3 py-2" required autocomplete="off" />
+                                            <input id="contact_number" type="text" name="contact_number" v-model="param.contact_number" placeholder="Enter your phone number" class="form-control px-3 py-3" required autocomplete="off" />
                                         </div>
                                         <div class="form-group mb-3">
                                             <label for="how-did-you-find-out-about-us" class="form-label fs-6"> How did you find out about us? <span class="ms-1 text-danger">*</span> </label>
-                                            <select id="how-did-you-find-out-about-us" name="know_us" v-model="param.know_us" class="form-select px-3 py-2" required autocomplete="off">
+                                            <select id="how-did-you-find-out-about-us" name="know_us" v-model="param.know_us" class="form-select px-3 py-3" required autocomplete="off">
                                                 <option value="--">--</option>
                                                 <option value="Have used Mediprospects Previously">Have used Mediprospects Previously</option>
                                                 <option value="Search Engine">Search Engine</option>
