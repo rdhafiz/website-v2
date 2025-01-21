@@ -25,7 +25,7 @@
                                                     <p class="fs-5 text-center mb-3">Prepare for a rewarding career in health professions.</p>
                                                 </div>
                                                 <div class="w-100">
-                                                    <router-link :to="{name: 'CourseDetails', params: { slug: 'access-to-he-health-professions' }}" class="btn btn-theme px-3">More Information <i class="fas fa-arrow-right ms-2"></i></router-link>
+                                                    <router-link :to="{name: 'CourseDetails', params: { slug: 'access-to-he-health-professions' }}" class="btn btn-theme px-3 py-2">More Information <i class="fas fa-arrow-right ms-2"></i></router-link>
                                                 </div>
                                             </div>
                                         </div>
@@ -43,7 +43,7 @@
                                                     <p class="fs-5 text-center mb-3">Gain the expertise to pursue a career in nursing and midwifery.</p>
                                                 </div>
                                                 <div class="w-100">
-                                                    <router-link :to="{name: 'CourseDetails', params:{ slug: 'access-to-he-nursing-&-midwifery'}}" class="btn btn-theme px-3">More Information <i class="fas fa-arrow-right ms-2"></i></router-link>
+                                                    <router-link :to="{name: 'CourseDetails', params:{ slug: 'access-to-he-nursing-&-midwifery'}}" class="btn btn-theme px-3 py-2">More Information <i class="fas fa-arrow-right ms-2"></i></router-link>
                                                 </div>
                                             </div>
                                         </div>
@@ -61,7 +61,7 @@
                                                     <p class="fs-5 text-center mb-3">Develop the skills for the nursing profession.</p>
                                                 </div>
                                                 <div class="w-100">
-                                                    <router-link :to="{name: 'CourseDetails', params: { slug: 'access-to-he-nursing' }}" class="btn btn-theme px-3">More Information <i class="fas fa-arrow-right ms-2"></i></router-link>
+                                                    <router-link :to="{name: 'CourseDetails', params: { slug: 'access-to-he-nursing' }}" class="btn btn-theme px-3 py-2">More Information <i class="fas fa-arrow-right ms-2"></i></router-link>
                                                 </div>
                                             </div>
                                         </div>
@@ -79,7 +79,7 @@
                                                     <p class="fs-5 text-center mb-3">Your pathway to a rewarding career in healthcare and science.</p>
                                                 </div>
                                                 <div class="w-100">
-                                                    <router-link :to="{name: 'CourseDetails', params: { slug: 'access-to-he-health-science' } }" class="btn btn-theme px-3">More Information <i class="fas fa-arrow-right ms-2"></i></router-link>
+                                                    <router-link :to="{name: 'CourseDetails', params: { slug: 'access-to-he-health-science' } }" class="btn btn-theme px-3 py-2">More Information <i class="fas fa-arrow-right ms-2"></i></router-link>
                                                 </div>
                                             </div>
                                         </div>
