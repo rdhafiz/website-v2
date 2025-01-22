@@ -24,6 +24,7 @@ import CourseApplication from "../pages/course_appication/form.vue";
 import EnglishMaths from "../pages/english-&-maths/english-&-maths.vue";
 import FAQs from "../pages/FAQs/FAQs.vue";
 import whyChooseUs from "../pages/general/why-choose-us.vue";
+import NotFound from "../pages/general/not_found.vue";
 
 const ROOT_URL = "";
 const routes = [
@@ -50,7 +51,8 @@ const routes = [
             {path: ROOT_URL + '/frequently-asking-question', name: 'FAQs', component: FAQs},
             {path: ROOT_URL + '/why-choose-us', name: 'whyChooseUs', component: whyChooseUs},
         ]
-    }
+    },
+    {path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound},
 ];
 
 const router = createRouter({

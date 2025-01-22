@@ -21,7 +21,7 @@ export default {
             const app = $('#app')
             preloader.fadeOut()
             app.fadeIn();
-        }, 1000)
+        }, 500)
     },
     watch: {
         '$route.name': (routeName) => {
