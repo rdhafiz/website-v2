@@ -27,7 +27,7 @@
                     </div>
 
                     <div class="w-100 mt-5">
-                        <h2 class="text-secondary fw-bold">Location: Blended learning:</h2>
+                        <h2 class="text-secondary fw-bold">Location: Online learning</h2>
                         <h5 class="text-secondary fw-normal">
                             Sessions are taught face-to-face at our training centre in Plaistow. Unless you are <router-link :to="{name: 'FAQs'}" class="text-theme" target="_blank">exempt</router-link> you will need to attend at least half of the face-to-face sessions.
                             <br><br>
@@ -40,7 +40,7 @@
                     <div class="w-100 mt-5">
                         <h2 class="text-secondary fw-bold">Work experience</h2>
                         <h5 class="text-secondary fw-normal">
-                            Work experience is an essential part of the course. You will need to attend at least <span class="bg-warning bg-opacity-50 mx-1 text-dark px-2"> 125 </span> hours over the period of the course either employed or as a volunteer in a childcare setting.
+                            Work experience is an essential part of the course. You will need to attend at least <span class="bg-warning bg-opacity-50 mx-1 text-dark px-2"> 175 </span> hours over the period of the course either employed or as a volunteer in a childcare setting.
                         </h5>
                     </div>
 
@@ -71,12 +71,137 @@
                         <h5 class="text-secondary fw-normal">
                             53 credits
                         </h5>
+
+                        <div id="table-units" class="table-responsive mt-5">
+                            <table class="table table-borderless table-striped">
+                            <tr>
+                                <th>Unit Number</th>
+                                 <th>Regulated Unit Number</th>
+                                 <th>Unit Title</th>
+                                 <th>Level</th>
+                                 <th>Credit</th>
+                            </tr>
+                            <tr>
+                                <td>STL3C1</td>
+                                <td>T/616/5878</td>
+                                <td>Schools and colleges as organisations</td>
+                                <td>3</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>STL3C2</td>
+                                <td>A/616/5879</td>
+                                <td>Support health and safety in a learning environment</td>
+                                <td>3</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>STL3C3 </td>
+                                <td>M/616/5880</td>
+                                <td>Understand how to safeguard children and young people</td>
+                                <td>3</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>STL3C4 </td>
+                                <td>T/616/5881</td>
+                                <td>Develop professional relationships with children, young people and adults</td>
+                                <td>3</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>STL3C5 </td>
+                                <td>A/616/5882 </td>
+                                <td>Understand how children and young people develop </td>
+                                <td>3</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>STL3C6 </td>
+                                <td>F/616/5883 </td>
+                                <td>Support positive behaviour in children and young people </td>
+                                <td>3</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>STL3C7 </td>
+                                <td>J/616/5884 </td>
+                                <td>Support children and young people during learning activities </td>
+                                <td>3</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>STL3C8 </td>
+                                <td>L/616/5885 </td>
+                                <td>Support English and maths skills </td>
+                                <td>3</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>STL3C9 </td>
+                                <td>M/616/5958 </td>
+                                <td>Support the use of ICT in the learning environment </td>
+                                <td>3</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>STL3C10 </td>
+                                <td>J/616/5965 </td>
+                                <td>Support assessment for learning </td>
+                                <td>3</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>STL3C11 </td>
+                                <td>L/616/5966 </td>
+                                <td>Engage in personal and professional development </td>
+                                <td>3</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>STL3D12 </td>
+                                <td>D/616/5969</td>
+                                <td>Support children and young people’s speech, language and communication</td>
+                                <td>3</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>STL3D13 </td>
+                                <td>Y/616/5971 </td>
+                                <td>Understand how to support bilingual learners </td>
+                                <td>3</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>STL3D14 </td>
+                                <td>A/616/5977</td>
+                                <td>Understand how to support learning of children and young people with special educational needs and disabilities</td>
+                                <td>3</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>STL3D15 </td>
+                                <td>F/616/5978 </td>
+                                <td>Support children and young people during transitions </td>
+                                <td>3</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>STL3D16 </td>
+                                <td>J/616/5979</td>
+                                <td>Support the role of play, leisure and extra-curricular activities for children and young people</td>
+                                <td>3</td>
+                                <td>3</td>
+                            </tr>
+                        </table>
+                        </div>
                     </div>
 
                     <div class="w-100 mt-5">
                         <h2 class="text-secondary fw-bold">Course Fees</h2>
                         <h5 class="text-secondary fw-normal">
-                            £2,225 The course is eligible for and Advanced Learner Loan for more information follow the link
+                            The course fee is £2,225. The course is eligible for Advanced Learner Loan. For more information follow the link
+                            <a class="text-decoration-underline" target="_blank" href="https://www.gov.uk/advanced-learner-loan">here</a>.
                         </h5>
                     </div>
 
@@ -120,6 +245,18 @@
     </section>
 
 </template>
+<style>
+#table-units tr th {
+    font-size: 1.5rem;
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+}
+#table-units tr td {
+    font-size: 1.25rem;
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+}
+</style>
 
 <script>
 

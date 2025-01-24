@@ -32,17 +32,19 @@
                             Sessions are taught face-to-face at our training centre in Plaistow. Unless you are <router-link :to="{name: 'FAQs'}" class="text-theme" target="_blank"> exempt</router-link> you will need to attend at least half of the face-to-face sessions.
                             <br><br>
                             You will be issued with a Mediprospects Office 365 account and will be able to attend the balance of your course through live online lessons on Microsoft Teams.
+<!--
                             <br><br>
                             The course lasts between 6 and 12 months, You will attend xx sessions, 6 hours a week. In addition, you will need to allocate around xx hours per week for home study and portfolio building.
+                            -->
                         </h5>
                     </div>
 
-                    <div class="w-100 mt-5">
+<!--                    <div class="w-100 mt-5">
                         <h2 class="text-secondary fw-bold">Work experience</h2>
                         <h5 class="text-secondary fw-normal">
                             Work experience is an essential part of the course. You will need to attend  xx hours over the period of the course either employed or as a volunteer in a care setting.
                         </h5>
-                    </div>
+                    </div>-->
 
                     <div class="w-100 mt-5">
                         <h2 class="text-secondary fw-bold">Entry Requirements</h2>

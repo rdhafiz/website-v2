@@ -54,7 +54,7 @@
                                     Pathways
                                 </router-link>
                             </li>
-                            <li>
+                            <li v-if="course_type === 'access'">
                                 <router-link :to="{name: 'Awards'}" @click="sidebarToggle()">
                                     Awards
                                 </router-link>
@@ -74,7 +74,7 @@
                                     FAQs
                                 </router-link>
                             </li>
-                            <li>
+                            <li v-if="course_type === 'access'">
                                 <router-link :to="{name: 'whyChooseUs'}" @click="sidebarToggle()">
                                     Why study with us?
                                 </router-link>
