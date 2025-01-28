@@ -2,7 +2,7 @@
 
     <br><br><br><br>
 
-    <section v-if="tab === 'access'" class="w-100 py-5 faq_screen">
+    <section v-if="course_type === 'access'" class="w-100 py-5 faq_screen">
         <div class="container">
             <div class="faqs-title mb-3 fw-bold"> Frequently Asked Questions </div>
             <div class="accordion" id="accordionExample">
@@ -392,7 +392,7 @@
         </div>
     </section>
 
-    <section v-if="tab === 'vocational'" class="w-100 py-5 faq_screen">
+    <section v-if="course_type === 'vocational'" class="w-100 py-5 faq_screen">
         <div class="container">
             <div class="faqs-title mb-3 fw-bold"> Frequently Asked Questions </div>
             <div class="accordion" id="accordionExample">
@@ -472,17 +472,14 @@
 
 <script>
 
-import {useRoute} from "vue-router";
-
 export default {
     data() {
         return {
-            tab: 'access',
+            course_type: '',
         }
     },
     mounted() {
-        let route = useRoute();
-        if(route.query.course_type === 'vocational') { this.tab = 'vocational'; }
+        this.course_type = localStorage.getItem('course_type');
     },
     methods: {}
 }
