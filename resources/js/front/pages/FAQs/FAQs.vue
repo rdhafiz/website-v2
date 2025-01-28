@@ -2,7 +2,7 @@
 
     <br><br><br><br>
 
-    <section class="w-100 py-5 faq_screen">
+    <section v-if="course_type === 'access'" class="w-100 py-5 faq_screen">
         <div class="container">
             <div class="faqs-title mb-3 fw-bold"> Frequently Asked Questions </div>
             <div class="accordion" id="accordionExample">
@@ -392,16 +392,94 @@
         </div>
     </section>
 
+    <section v-if="course_type === 'vocational'" class="w-100 py-5 faq_screen">
+        <div class="container">
+            <div class="faqs-title mb-3 fw-bold"> Frequently Asked Questions </div>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item shadow-sm border border-secondary border-opacity-25">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            1. What does blended learning mean?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-light border-top px-5">
+                            Blended learning combines traditional face-to-face teaching / learning practices with the use of online learning tools. With these courses, unless you are exempt you must attend at least half of the face-to-face teaching sessions. You will be able attend the balance of these sessions through online live lessons using Microsoft Teams. You can of course attend all of your lessons face-to-face.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item shadow-sm border border-secondary border-opacity-25">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            2. Do I need to do a work placement with this course?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-light border-top px-5">
+                            The work placement is an essential part of the course – it will enable you to put what you learn in the taught sessions into practice. Assignments will draw on your work experience and assessment includes observation in the workplace.
+                            How many hours you need to do as part of your course, depends on the qualification you are enrolling on. This can be undertaken in either paid employment or as a volunteer within a setting appropriate to your course. For example, if you are enrolling on the Level 3 Diploma in Adult Care, you will need to be an employee or volunteer in an adult care setting.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item shadow-sm border border-secondary border-opacity-25">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            3. How can I get support with paying for this course?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-light border-top px-5">
+                            If you live in the UK, you may be entitled to a non-means-tested Student Loan to cover the course's entire cost. For more information,
+                            read here:
+                            <a href="https://www.gov.uk/advanced-learner-loan" target="_blank" class="text-decoration-none link">https://www.gov.uk/advanced-learner-loan.</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item shadow-sm border border-secondary border-opacity-25">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            4. What are the entry requirements for this course?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-light border-top px-5">
+                            To join this course, you will need to be aged 19 or over and have GCSE English Grade C/4 or above or Functional Skills Level 1 (or be willing to study towards it).
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item shadow-sm border border-secondary border-opacity-25">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            5. How will this course be assessed?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-light border-top px-5">
+                            You will be assessed through coursework and written assignments. Your practical skills will also be assessed through observations carried out by your tutor at your work placement. Your tutor will guide you on how to prepare the portfolio and will give you feedback on your work (both class-based and placement based work).
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </template>
 
 <script>
 
 export default {
     data() {
-        return {}
+        return {
+            course_type: '',
+        }
     },
     mounted() {
-
+        this.course_type = localStorage.getItem('course_type');
     },
     methods: {}
 }

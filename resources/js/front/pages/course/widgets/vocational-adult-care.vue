@@ -29,7 +29,7 @@
                     <div class="w-100 mt-5">
                         <h2 class="text-secondary fw-bold">Location: Blended learning: </h2>
                         <h5 class="text-secondary fw-normal">
-                            Sessions are taught face-to-face at our training centre in Plaistow. Unless you are <router-link :to="{name: 'FAQs'}" class="text-theme" target="_blank"> exempt</router-link> you will need to attend at least half of the face-to-face sessions.
+                            Sessions are taught face-to-face at our training centre in Plaistow. Unless you are exempt you will need to attend at least half of the face-to-face sessions.
                             <br><br>
                             You will be issued with a Mediprospects Office 365 account and will be able to attend the balance of your course through live online lessons on Microsoft Teams.
 <!--
@@ -78,7 +78,7 @@
                     <div class="w-100 mt-5">
                         <h2 class="text-secondary fw-bold">Course Fee:</h2>
                         <h5 class="text-secondary fw-normal">
-                            £2,880. The course is eligible for Advanced Learner Loans. For more information follow the link
+                            £2,880. The course is eligible for Advanced Learner Loans. For more information follow the link <a class="text-decoration-underline" target="_blank" href="https://www.gov.uk/advanced-learner-loan">here</a>
                         </h5>
                     </div>
 
@@ -94,7 +94,15 @@
                     <div class="w-100 mt-5">
                         <h2 class="text-secondary fw-bold">Work placement</h2>
                         <h5 class="text-secondary fw-normal">
-                            The work placement is an integral part of the course. You will draw on workplace experience during taught sessions and apply what you have learned during classes in your work practice. Assignments draw on your work experience and assessment includes observation in the workplace. If you are struggling with finding a work placement our team may be able to help you.
+                            The work placement is an integral part of the course. You will
+                            need to attend 350 hours over the period of the course either
+                            employed or as a volunteer in a care setting. You will draw on
+                            workplace experience during taught sessions and apply what
+                            you have learned during classes in your work practice.
+                            Assignments draw on your work experience and assessment
+                            includes observation in the workplace. If you are struggling
+                            with finding a work placement our team may be able to help
+                            you.
                         </h5>
                     </div>
 

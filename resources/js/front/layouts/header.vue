@@ -74,6 +74,11 @@
                                     FAQs
                                 </router-link>
                             </li>
+                            <li v-if="course_type === 'vocational'">
+                                <router-link :to="{name: 'FAQs'}" @click="sidebarToggle()">
+                                    FAQs
+                                </router-link>
+                            </li>
                             <li v-if="course_type === 'access'">
                                 <router-link :to="{name: 'whyChooseUs'}" @click="sidebarToggle()">
                                     Why study with us?

@@ -31,8 +31,7 @@
                                     Location: Blended learning:
                                 </h2>
                                 <h5 class="text-secondary fw-normal">
-                                    Sessions are taught face-to-face at our training centre in Plaistow. Unless you are
-                                    <router-link :to="{name: 'FAQs'}" class="text-theme" target="_blank">exempt</router-link> you will need to attend at least half of the face-to-face sessions.
+                                    Sessions are taught face-to-face at our training centre in Plaistow. Unless you are exempt you will need to attend at least half of the face-to-face sessions.
                                     <br><br>
                                     You will be issued with a Mediprospects Office 365 account and will be able to
                                     attend the balance of your course through live online lessons on Microsoft Teams.
@@ -87,7 +86,7 @@
                                 <h2 class="text-secondary fw-bold">Course Fee</h2>
                                 <h5 class="text-secondary fw-normal">
                                     £4,670. The course is eligible for and Advanced Learner Loan for more information
-                                    follow the link.
+                                    follow the link. <a class="text-decoration-underline" target="_blank" href="https://www.gov.uk/advanced-learner-loan">here</a>
                                 </h5>
                             </div>
 
