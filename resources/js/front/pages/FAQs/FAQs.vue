@@ -482,9 +482,7 @@ export default {
     },
     mounted() {
         let route = useRoute();
-        if(route.query.course_type === 'vocational') {
-            this.tab = 'vocational';
-        }
+        if(route.query.course_type === 'vocational') { this.tab = 'vocational'; }
     },
     methods: {}
 }
