@@ -29,7 +29,7 @@
                     <div class="w-100 mt-5">
                         <h2 class="text-secondary fw-bold">Location: Online learning</h2>
                         <h5 class="text-secondary fw-normal">
-                            Sessions are taught face-to-face at our training centre in Plaistow. Unless you are <router-link :to="{name: 'FAQs'}" class="text-theme" target="_blank">exempt</router-link> you will need to attend at least half of the face-to-face sessions.
+                            Sessions are taught face-to-face at our training centre in Plaistow. Unless you are exempt you will need to attend at least half of the face-to-face sessions.
                             <br><br>
                             You will be issued with a Mediprospects Office 365 account and will be able to attend the balance of your course through live online lessons on Microsoft Teams.
                             <br><br>
@@ -40,7 +40,7 @@
                     <div class="w-100 mt-5">
                         <h2 class="text-secondary fw-bold">Work experience</h2>
                         <h5 class="text-secondary fw-normal">
-                            Work experience is an essential part of the course. You will need to attend at least <span class="bg-warning bg-opacity-50 mx-1 text-dark px-2"> 175 </span> hours over the period of the course either employed or as a volunteer in a childcare setting.
+                            Work experience is an essential part of the course. You will need to attend at least 175 hours over the period of the course either employed or as a volunteer in a childcare setting.
                         </h5>
                     </div>
 
@@ -48,7 +48,7 @@
                         <h2 class="text-secondary fw-bold">Entry Requirements</h2>
                         <h5 class="text-secondary fw-normal">
                             <strong class="p-0 fs-5">Minimum age: 19</strong><br><br>
-                            <span class="p-0 fs-6">
+                            <span class="p-0 fs-5">
                                 <strong>Safeguarding:</strong> You will need to agree to a clearance check through the Disclosure and Barring Service prior to starting the course.
                                 <br><br>
                                 <strong>Previous experience:</strong> A level 2 early years qualification and/or experience in the sector is helpful but not essential. You will need to demonstrate enthusiasm for the subject and a commitment to meet the course requirements.

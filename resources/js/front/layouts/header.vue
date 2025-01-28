@@ -70,7 +70,12 @@
                                 </router-link>
                             </li>
                             <li v-if="course_type === 'access'">
-                                <router-link :to="{name: 'FAQs'}" @click="sidebarToggle()">
+                                <router-link :to="{name: 'FAQs',query:{course_type:'access'}}" @click="sidebarToggle()">
+                                    FAQs
+                                </router-link>
+                            </li>
+                            <li v-if="course_type === 'vocational'">
+                                <router-link :to="{name: 'FAQs',query:{course_type:'vocational'}}" @click="sidebarToggle()">
                                     FAQs
                                 </router-link>
                             </li>
