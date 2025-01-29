@@ -92,21 +92,6 @@
                     </div>
 
                     <div class="w-100 mt-5">
-                        <h2 class="text-secondary fw-bold">Work placement</h2>
-                        <h5 class="text-secondary fw-normal">
-                            The work placement is an integral part of the course. You will
-                            need to attend 350 hours over the period of the course either
-                            employed or as a volunteer in a care setting. You will draw on
-                            workplace experience during taught sessions and apply what
-                            you have learned during classes in your work practice.
-                            Assignments draw on your work experience and assessment
-                            includes observation in the workplace. If you are struggling
-                            with finding a work placement our team may be able to help
-                            you.
-                        </h5>
-                    </div>
-
-                    <div class="w-100 mt-5">
                         <h2 class="text-secondary fw-bold">Assessment</h2>
                         <h5 class="text-secondary fw-normal">
                             You will need to work with at least two service users. You will build a portfolio to demonstrate your competence in the workplace. Your tutor will guide you on how to complete your portfolio, give you feedback on your work and visit you in the workplace to carry out observations of you at work.
@@ -171,6 +156,21 @@
                         <h2 class="text-secondary fw-bold">Optional Units</h2>
                         <h5 class="text-secondary fw-normal">
                             You will need to complete optional units to achieve the qualification. Your tutor will help you to select the most appropriate units to study.
+                        </h5>
+                    </div>
+
+                    <div class="w-100 mt-5">
+                        <h2 class="text-secondary fw-bold">Work placement</h2>
+                        <h5 class="text-secondary fw-normal">
+                            The work placement is an integral part of the course. You will
+                            need to attend 350 hours over the period of the course either
+                            employed or as a volunteer in a care setting. You will draw on
+                            workplace experience during taught sessions and apply what
+                            you have learned during classes in your work practice.
+                            Assignments draw on your work experience and assessment
+                            includes observation in the workplace. If you are struggling
+                            with finding a work placement our team may be able to help
+                            you.
                         </h5>
                     </div>
 
