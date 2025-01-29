@@ -72,129 +72,139 @@
                             53 credits
                         </h5>
 
-                        <div id="table-units" class="table-responsive mt-5">
-                            <table class="table table-borderless table-striped">
-                            <tr>
-                                <th>Unit Number</th>
-                                 <th>Regulated Unit Number</th>
-                                 <th>Unit Title</th>
-                                 <th>Level</th>
-                                 <th>Credit</th>
-                            </tr>
-                            <tr>
-                                <td>STL3C1</td>
-                                <td>T/616/5878</td>
-                                <td>Schools and colleges as organisations</td>
-                                <td>3</td>
-                                <td>2</td>
-                            </tr>
-                            <tr>
-                                <td>STL3C2</td>
-                                <td>A/616/5879</td>
-                                <td>Support health and safety in a learning environment</td>
-                                <td>3</td>
-                                <td>3</td>
-                            </tr>
-                            <tr>
-                                <td>STL3C3 </td>
-                                <td>M/616/5880</td>
-                                <td>Understand how to safeguard children and young people</td>
-                                <td>3</td>
-                                <td>4</td>
-                            </tr>
-                            <tr>
-                                <td>STL3C4 </td>
-                                <td>T/616/5881</td>
-                                <td>Develop professional relationships with children, young people and adults</td>
-                                <td>3</td>
-                                <td>2</td>
-                            </tr>
-                            <tr>
-                                <td>STL3C5 </td>
-                                <td>A/616/5882 </td>
-                                <td>Understand how children and young people develop </td>
-                                <td>3</td>
-                                <td>3</td>
-                            </tr>
-                            <tr>
-                                <td>STL3C6 </td>
-                                <td>F/616/5883 </td>
-                                <td>Support positive behaviour in children and young people </td>
-                                <td>3</td>
-                                <td>4</td>
-                            </tr>
-                            <tr>
-                                <td>STL3C7 </td>
-                                <td>J/616/5884 </td>
-                                <td>Support children and young people during learning activities </td>
-                                <td>3</td>
-                                <td>4</td>
-                            </tr>
-                            <tr>
-                                <td>STL3C8 </td>
-                                <td>L/616/5885 </td>
-                                <td>Support English and maths skills </td>
-                                <td>3</td>
-                                <td>4</td>
-                            </tr>
-                            <tr>
-                                <td>STL3C9 </td>
-                                <td>M/616/5958 </td>
-                                <td>Support the use of ICT in the learning environment </td>
-                                <td>3</td>
-                                <td>3</td>
-                            </tr>
-                            <tr>
-                                <td>STL3C10 </td>
-                                <td>J/616/5965 </td>
-                                <td>Support assessment for learning </td>
-                                <td>3</td>
-                                <td>3</td>
-                            </tr>
-                            <tr>
-                                <td>STL3C11 </td>
-                                <td>L/616/5966 </td>
-                                <td>Engage in personal and professional development </td>
-                                <td>3</td>
-                                <td>3</td>
-                            </tr>
-                            <tr>
-                                <td>STL3D12 </td>
-                                <td>D/616/5969</td>
-                                <td>Support children and young people’s speech, language and communication</td>
-                                <td>3</td>
-                                <td>4</td>
-                            </tr>
-                            <tr>
-                                <td>STL3D13 </td>
-                                <td>Y/616/5971 </td>
-                                <td>Understand how to support bilingual learners </td>
-                                <td>3</td>
-                                <td>3</td>
-                            </tr>
-                            <tr>
-                                <td>STL3D14 </td>
-                                <td>A/616/5977</td>
-                                <td>Understand how to support learning of children and young people with special educational needs and disabilities</td>
-                                <td>3</td>
-                                <td>4</td>
-                            </tr>
-                            <tr>
-                                <td>STL3D15 </td>
-                                <td>F/616/5978 </td>
-                                <td>Support children and young people during transitions </td>
-                                <td>3</td>
-                                <td>4</td>
-                            </tr>
-                            <tr>
-                                <td>STL3D16 </td>
-                                <td>J/616/5979</td>
-                                <td>Support the role of play, leisure and extra-curricular activities for children and young people</td>
-                                <td>3</td>
-                                <td>3</td>
-                            </tr>
-                        </table>
+                        <div class="mt-5">
+                            <h2 class="text-secondary fw-bold"> You will study 16 mandatory units </h2>
+                            <div id="table-units" class="table-responsive">
+                                <table class="table table-borderless table-striped">
+                                    <tr>
+                                        <th>Unit Number</th>
+                                        <th>Regulated Unit Number</th>
+                                        <th>Unit Title</th>
+                                        <th>Level</th>
+                                        <th>Credit</th>
+                                    </tr>
+                                    <tr>
+                                        <td>STL3C1</td>
+                                        <td>T/616/5878</td>
+                                        <td>Schools and colleges as organisations</td>
+                                        <td>3</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>STL3C2</td>
+                                        <td>A/616/5879</td>
+                                        <td>Support health and safety in a learning environment</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>STL3C3 </td>
+                                        <td>M/616/5880</td>
+                                        <td>Understand how to safeguard children and young people</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>STL3C4 </td>
+                                        <td>T/616/5881</td>
+                                        <td>Develop professional relationships with children, young people and adults</td>
+                                        <td>3</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>STL3C5 </td>
+                                        <td>A/616/5882 </td>
+                                        <td>Understand how children and young people develop </td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>STL3C6 </td>
+                                        <td>F/616/5883 </td>
+                                        <td>Support positive behaviour in children and young people </td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>STL3C7 </td>
+                                        <td>J/616/5884 </td>
+                                        <td>Support children and young people during learning activities </td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>STL3C8 </td>
+                                        <td>L/616/5885 </td>
+                                        <td>Support English and maths skills </td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>STL3C9 </td>
+                                        <td>M/616/5958 </td>
+                                        <td>Support the use of ICT in the learning environment </td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>STL3C10 </td>
+                                        <td>J/616/5965 </td>
+                                        <td>Support assessment for learning </td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>STL3C11 </td>
+                                        <td>L/616/5966 </td>
+                                        <td>Engage in personal and professional development </td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>STL3D12 </td>
+                                        <td>D/616/5969</td>
+                                        <td>Support children and young people’s speech, language and communication</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>STL3D13 </td>
+                                        <td>Y/616/5971 </td>
+                                        <td>Understand how to support bilingual learners </td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>STL3D14 </td>
+                                        <td>A/616/5977</td>
+                                        <td>Understand how to support learning of children and young people with special educational needs and disabilities</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>STL3D15 </td>
+                                        <td>F/616/5978 </td>
+                                        <td>Support children and young people during transitions </td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>STL3D16 </td>
+                                        <td>J/616/5979</td>
+                                        <td>Support the role of play, leisure and extra-curricular activities for children and young people</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                    </tr>
+                                </table>
+                            </div>
                         </div>
+                    </div>
+
+                    <div class="w-100 mt-5">
+                        <h2 class="text-secondary fw-bold">Work placement</h2>
+                        <h5 class="text-secondary fw-normal">
+                            Work placement is an integral part of the course and without it you will be unable to complete the course. You will draw on workplace experience during taught sessions and apply what you have learned during classes in your work practice. Assignments draw on your work experience and assessment includes observation in the workplace. If you are struggling with finding a work placement our team may be able to help you.
+                        </h5>
                     </div>
 
                     <div class="w-100 mt-5">
@@ -215,13 +225,6 @@
                             This NCFE CACHE Level 3 Award in Supporting Teaching and Learning qualification is ideal for those looking to pursue a career as a teaching assistant.
                             <br><br>
                             All sessions are taught by experienced trainers who are subject specialists. You will be joining other learners who are keen to start learning and working as teaching assistants. You will have access to online resources, which will form part of the weekly teaching sessions. You are also encouraged to use these resources outside of class time to expand your knowledge and understanding.
-                        </h5>
-                    </div>
-
-                    <div class="w-100 mt-5">
-                        <h2 class="text-secondary fw-bold">Work placement</h2>
-                        <h5 class="text-secondary fw-normal">
-                            Work placement is an integral part of the course and without it you will be unable to complete the course. You will draw on workplace experience during taught sessions and apply what you have learned during classes in your work practice. Assignments draw on your work experience and assessment includes observation in the workplace. If you are struggling with finding a work placement our team may be able to help you.
                         </h5>
                     </div>
 
