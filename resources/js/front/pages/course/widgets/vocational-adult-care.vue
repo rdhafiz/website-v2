@@ -92,20 +92,6 @@
                     </div>
 
                     <div class="w-100 mt-5">
-                        <h2 class="text-secondary fw-bold">Assessment</h2>
-                        <h5 class="text-secondary fw-normal">
-                            You will need to work with at least two service users. You will build a portfolio to demonstrate your competence in the workplace. Your tutor will guide you on how to complete your portfolio, give you feedback on your work and visit you in the workplace to carry out observations of you at work.
-                        </h5>
-                    </div>
-
-                    <div class="w-100 mt-5">
-                        <h2 class="text-secondary fw-bold">Next steps</h2>
-                        <h5 class="text-secondary fw-normal">
-                            This qualification develops the knowledge and skills needed when working in care settings. The combination of mandatory and optional units allow you to meet your job role or planned progression route. It will help you to progress into roles in residential care, day care, community support, adult nursing support and allied health professions.
-                        </h5>
-                    </div>
-
-                    <div class="w-100 mt-5">
                         <h2 class="text-secondary fw-bold">Mandatory Units</h2>
                         <h5 class="text-secondary fw-normal">
                             To achieve this qualification, you need to complete 10 mandatory units. For each unit, you will be achieving a certain number of credits, all of these will add up to 39 credits.
@@ -171,6 +157,20 @@
                             includes observation in the workplace. If you are struggling
                             with finding a work placement our team may be able to help
                             you.
+                        </h5>
+                    </div>
+
+                    <div class="w-100 mt-5">
+                        <h2 class="text-secondary fw-bold">Assessment</h2>
+                        <h5 class="text-secondary fw-normal">
+                            You will need to work with at least two service users. You will build a portfolio to demonstrate your competence in the workplace. Your tutor will guide you on how to complete your portfolio, give you feedback on your work and visit you in the workplace to carry out observations of you at work.
+                        </h5>
+                    </div>
+
+                    <div class="w-100 mt-5">
+                        <h2 class="text-secondary fw-bold">Next steps</h2>
+                        <h5 class="text-secondary fw-normal">
+                            This qualification develops the knowledge and skills needed when working in care settings. The combination of mandatory and optional units allow you to meet your job role or planned progression route. It will help you to progress into roles in residential care, day care, community support, adult nursing support and allied health professions.
                         </h5>
                     </div>
 
