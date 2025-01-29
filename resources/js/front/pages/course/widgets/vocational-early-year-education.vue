@@ -31,8 +31,7 @@
                                     Location: Blended learning:
                                 </h2>
                                 <h5 class="text-secondary fw-normal">
-                                    Sessions are taught face-to-face at our training centre in Plaistow. Unless you are
-                                    <router-link :to="{name: 'FAQs'}" class="text-theme" target="_blank">exempt</router-link> you will need to attend at least half of the face-to-face sessions.
+                                    Sessions are taught face-to-face at our training centre in Plaistow. Unless you are exempt you will need to attend at least half of the face-to-face sessions.
                                     <br><br>
                                     You will be issued with a Mediprospects Office 365 account and will be able to
                                     attend the balance of your course through live online lessons on Microsoft Teams.
@@ -87,7 +86,7 @@
                                 <h2 class="text-secondary fw-bold">Course Fee</h2>
                                 <h5 class="text-secondary fw-normal">
                                     £4,670. The course is eligible for and Advanced Learner Loan for more information
-                                    follow the link.
+                                    follow the link. <a class="text-decoration-underline" target="_blank" href="https://www.gov.uk/advanced-learner-loan">here</a>
                                 </h5>
                             </div>
 
@@ -110,23 +109,6 @@
                                         <li>the early years curriculum</li>
                                         <li>working in partnership with colleagues, parents and carers and other professional</li>
                                     </ul>
-                                </h5>
-                            </div>
-
-                            <div class="w-100 mt-5">
-                                <h2 class="text-secondary fw-bold">Work placement</h2>
-                                <h5 class="text-secondary fw-normal">
-                                    The work placement is an integral part of the course and without it you will be unable to complete the course.
-                                    You will draw on workplace experience during taught sessions and apply what you have learned during classes in your work practice.
-                                    Assignments draw on your work experience and assessment includes observation in the workplace.
-                                    If you are struggling with finding a work placement our team may be able to help you.
-                                </h5>
-                            </div>
-
-                            <div class="w-100 mt-5">
-                                <h2 class="text-secondary fw-bold">Assessment</h2>
-                                <h5 class="text-secondary fw-normal">
-                                    Course work is assessed and includes coursework and written assignments as well as assessment of your practical skills in a childcare setting.
                                 </h5>
                             </div>
 
@@ -156,6 +138,23 @@
                                     <p><strong>EYE L3 WF 9</strong> Understanding play for learning and holistic development (L/651/1398) <br></p>
 
                                     <p><strong>EYE L3 WF 10</strong> Partnership working (M/651/1399) <br></p>
+                                </h5>
+                            </div>
+
+                            <div class="w-100 mt-5">
+                                <h2 class="text-secondary fw-bold">Work placement</h2>
+                                <h5 class="text-secondary fw-normal">
+                                    The work placement is an integral part of the course and without it you will be unable to complete the course.
+                                    You will draw on workplace experience during taught sessions and apply what you have learned during classes in your work practice.
+                                    Assignments draw on your work experience and assessment includes observation in the workplace.
+                                    If you are struggling with finding a work placement our team may be able to help you.
+                                </h5>
+                            </div>
+
+                            <div class="w-100 mt-5">
+                                <h2 class="text-secondary fw-bold">Assessment</h2>
+                                <h5 class="text-secondary fw-normal">
+                                    Course work is assessed and includes coursework and written assignments as well as assessment of your practical skills in a childcare setting.
                                 </h5>
                             </div>
 

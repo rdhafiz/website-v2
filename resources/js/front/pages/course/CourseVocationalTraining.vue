@@ -6,7 +6,8 @@
             <span class="shadow-2"></span>
             <span class="shadow-3"></span>
         </div>
-        <div class="breadcrumb-content-right" :style="{ backgroundImage: 'url(/assets/img/breadcrumb/courses.png)' }"></div>
+        <div class="breadcrumb-content-right"
+             :style="{ backgroundImage: 'url(/assets/img/breadcrumb/courses.png)' }"></div>
         <div class="container-fluid">
             <div class="w-100 px-0 px-md-5">
                 <div class="w-100 px-2 px-md-5 position-relative z-2">
@@ -25,16 +26,17 @@
                                     /
                                 </li>
                                 <li class="breadcrumb-item">
-                                    <router-link :to="{name: 'CourseVocationalTraining'}" class="text-decoration-none text-white p-0 m-0">
+                                    <router-link :to="{name: 'CourseVocationalTraining'}"
+                                                 class="text-decoration-none text-white p-0 m-0">
                                         Vocational Courses & Training
                                     </router-link>
                                 </li>
                             </ul>
 
-<!--                            <h1 class="mt-5 text-white fw-bold animate__animated animate__fadeInLeft" style="animation-delay: 0.2s">
-                                Weekly one-hour <br> online open events <br>
-                                <router-link :to="{name: 'PreEnrollmentOnlineEvent'}" class="btn btn-outline-light btn-lg mt-3 px-5">Book Here</router-link>
-                            </h1>-->
+                            <!--                            <h1 class="mt-5 text-white fw-bold animate__animated animate__fadeInLeft" style="animation-delay: 0.2s">
+                                                            Weekly one-hour <br> online open events <br>
+                                                            <router-link :to="{name: 'PreEnrollmentOnlineEvent'}" class="btn btn-outline-light btn-lg mt-3 px-5">Book Here</router-link>
+                                                        </h1>-->
                         </div>
                     </div>
                 </div>
@@ -48,12 +50,14 @@
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
                 <div class="w-100 d-xl-flex justify-content-start align-items-start border-bottom">
                     <div>
-                        <img class="each-data-img" :src="'/assets/img/vocational/early-years-educator.jpg'" alt="early-years-educator" loading="lazy" />
+                        <img class="each-data-img" :src="'/assets/img/vocational/early-years-educator.jpg'"
+                             alt="early-years-educator" loading="lazy"/>
                     </div>
                     <div class="h-100 p-4">
                         <div class="w-100">
                             <div class="w-100 mb-4">
-                                <h2>NCFE CACHE Level 3 Diploma for Working in the Early Years Sector (Early Years Educator)</h2>
+                                <h2>NCFE CACHE Level 3 Diploma for Working in the Early Years Sector (Early Years
+                                    Educator)</h2>
                             </div>
 
                             <div class="w-100 d-block d-md-flex justify-content-between mt-2">
@@ -85,7 +89,8 @@
                                         Level 1 English or above or willing to study towards it.
                                     </span>
                                     <div class="d-block fw-normal">
-                                        <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
+                                        <router-link :to="{name: 'EnglishMaths'}"
+                                                     class="text-decoration-none text-theme d-block">
                                             How to find an English course?
                                         </router-link>
                                     </div>
@@ -115,7 +120,9 @@
 
 
                             <div class="w-100 text-end mt-5">
-                                <router-link :to="{name: 'CourseDetails', params:{ slug: 'vocational-training-early-year-educator'}}" class="btn px-3 py-2 btn-theme">
+                                <router-link
+                                    :to="{name: 'CourseDetails', params:{ slug: 'vocational-training-early-year-educator'}}"
+                                    class="btn px-3 py-2 btn-theme">
                                     View course <i class="fas fa-arrow-right ms-2"></i>
                                 </router-link>
                             </div>
@@ -127,7 +134,8 @@
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
                 <div class="w-100 d-xl-flex justify-content-start align-items-start border-bottom">
                     <div>
-                        <img class="each-data-img" :src="'/assets/img/vocational/teaching-assistant.png'" alt="teaching-assistant" loading="lazy" />
+                        <img class="each-data-img" :src="'/assets/img/vocational/teaching-assistant.png'"
+                             alt="teaching-assistant" loading="lazy"/>
                     </div>
                     <div class="h-100 p-4">
                         <div class="w-100">
@@ -148,9 +156,10 @@
                                     <strong class="fs-5">Location:</strong>
                                 </div>
                                 <div class="w-100 ps-md-3">
-                                    <strong class="p-0 fs-5">Blended Learning</strong><br>
+                                    <strong class="p-0 fs-5">Online Via Microsoft Teams</strong><br>
                                     <span class="p-0 fs-6">
-                                        Sessions are taught face-to-face at our training centre in Plaistow. Unless you are exempt you will need to attend at least half of the face-to-face sessions.
+                                        You will be issued with a Mediprospects Office 365 account,
+                                        Live online lessons delivered by subject specialists.
                                     </span>
                                 </div>
                             </div>
@@ -164,7 +173,8 @@
                                         Level 1 English or above or willing to study towards it.
                                     </span>
                                     <div class="d-block fw-normal">
-                                        <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
+                                        <router-link :to="{name: 'EnglishMaths'}"
+                                                     class="text-decoration-none text-theme d-block">
                                             How to find an English course?
                                         </router-link>
                                     </div>
@@ -194,8 +204,9 @@
 
 
                             <div class="w-100 text-end mt-5">
-                                <router-link :to="{name: 'CourseDetails', params:{ slug: 'vocational-training-teaching-assistance'}}"
-                                             class="btn px-3 py-2 btn-theme">
+                                <router-link
+                                    :to="{name: 'CourseDetails', params:{ slug: 'vocational-training-teaching-assistance'}}"
+                                    class="btn px-3 py-2 btn-theme">
                                     View course <i class="fas fa-arrow-right ms-2"></i>
                                 </router-link>
                             </div>
@@ -207,7 +218,7 @@
             <div class="each-data border rounded-3 shadow mb-5 overflow-hidden">
                 <div class="w-100 d-xl-flex justify-content-start align-items-start border-bottom">
                     <div>
-                        <img class="each-data-img" :src="'/assets/img/vocational/adult-care.png'" alt="adult-care.png" />
+                        <img class="each-data-img" :src="'/assets/img/vocational/adult-care.png'" alt="adult-care.png"/>
                     </div>
                     <div class="h-100 p-4">
                         <div class="w-100">
@@ -246,7 +257,8 @@
                                         Level 1 English or above or willing to study towards it.
                                     </span>
                                     <div class="d-block fw-normal">
-                                        <router-link :to="{name: 'EnglishMaths'}" class="text-decoration-none text-theme d-block">
+                                        <router-link :to="{name: 'EnglishMaths'}"
+                                                     class="text-decoration-none text-theme d-block">
                                             How to find an English course?
                                         </router-link>
                                     </div>
@@ -276,8 +288,9 @@
 
 
                             <div class="w-100 text-end mt-5">
-                                <router-link :to="{name: 'CourseDetails', params:{ slug: 'vocational-training-adult-care'}}"
-                                             class="btn px-3 py-2 btn-theme">
+                                <router-link
+                                    :to="{name: 'CourseDetails', params:{ slug: 'vocational-training-adult-care'}}"
+                                    class="btn px-3 py-2 btn-theme">
                                     View course <i class="fas fa-arrow-right ms-2"></i>
                                 </router-link>
                             </div>
@@ -294,15 +307,13 @@
 <script>
 
 export default {
-    data(){
+    data() {
         return {}
     },
     created() {
         localStorage.setItem('course_type', 'vocational');
     },
-    methods: {
-
-    }
+    methods: {}
 }
 
 </script>

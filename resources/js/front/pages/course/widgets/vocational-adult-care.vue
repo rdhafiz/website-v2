@@ -29,7 +29,7 @@
                     <div class="w-100 mt-5">
                         <h2 class="text-secondary fw-bold">Location: Blended learning: </h2>
                         <h5 class="text-secondary fw-normal">
-                            Sessions are taught face-to-face at our training centre in Plaistow. Unless you are <router-link :to="{name: 'FAQs'}" class="text-theme" target="_blank"> exempt</router-link> you will need to attend at least half of the face-to-face sessions.
+                            Sessions are taught face-to-face at our training centre in Plaistow. Unless you are exempt you will need to attend at least half of the face-to-face sessions.
                             <br><br>
                             You will be issued with a Mediprospects Office 365 account and will be able to attend the balance of your course through live online lessons on Microsoft Teams.
 <!--
@@ -78,7 +78,7 @@
                     <div class="w-100 mt-5">
                         <h2 class="text-secondary fw-bold">Course Fee:</h2>
                         <h5 class="text-secondary fw-normal">
-                            £2,880. The course is eligible for Advanced Learner Loans. For more information follow the link
+                            £2,880. The course is eligible for Advanced Learner Loans. For more information follow the link <a class="text-decoration-underline" target="_blank" href="https://www.gov.uk/advanced-learner-loan">here</a>
                         </h5>
                     </div>
 
@@ -88,27 +88,6 @@
                             <strong>NCFE CACHE Level 3 Diploma in Adult Care </strong> will equip you with the knowledge and skills required to work in a care role in a range of settings. It contains both mandatory and optional units allowing learners to tailor the qualification to meet their current role and planed preferred progression paths.
                             <br><br>
                             All sessions are taught by experienced trainers who are subject specialists. You will be joining other learners who are keen to start learning and working in the Adult Care sector. You will have access to online resources, which will form part of the weekly teaching sessions. You are also encouraged to use these resources outside of class time to expand your knowledge and understanding.
-                        </h5>
-                    </div>
-
-                    <div class="w-100 mt-5">
-                        <h2 class="text-secondary fw-bold">Work placement</h2>
-                        <h5 class="text-secondary fw-normal">
-                            The work placement is an integral part of the course. You will draw on workplace experience during taught sessions and apply what you have learned during classes in your work practice. Assignments draw on your work experience and assessment includes observation in the workplace. If you are struggling with finding a work placement our team may be able to help you.
-                        </h5>
-                    </div>
-
-                    <div class="w-100 mt-5">
-                        <h2 class="text-secondary fw-bold">Assessment</h2>
-                        <h5 class="text-secondary fw-normal">
-                            You will need to work with at least two service users. You will build a portfolio to demonstrate your competence in the workplace. Your tutor will guide you on how to complete your portfolio, give you feedback on your work and visit you in the workplace to carry out observations of you at work.
-                        </h5>
-                    </div>
-
-                    <div class="w-100 mt-5">
-                        <h2 class="text-secondary fw-bold">Next steps</h2>
-                        <h5 class="text-secondary fw-normal">
-                            This qualification develops the knowledge and skills needed when working in care settings. The combination of mandatory and optional units allow you to meet your job role or planned progression route. It will help you to progress into roles in residential care, day care, community support, adult nursing support and allied health professions.
                         </h5>
                     </div>
 
@@ -163,6 +142,35 @@
                         <h2 class="text-secondary fw-bold">Optional Units</h2>
                         <h5 class="text-secondary fw-normal">
                             You will need to complete optional units to achieve the qualification. Your tutor will help you to select the most appropriate units to study.
+                        </h5>
+                    </div>
+
+                    <div class="w-100 mt-5">
+                        <h2 class="text-secondary fw-bold">Work placement</h2>
+                        <h5 class="text-secondary fw-normal">
+                            The work placement is an integral part of the course. You will
+                            need to attend 350 hours over the period of the course either
+                            employed or as a volunteer in a care setting. You will draw on
+                            workplace experience during taught sessions and apply what
+                            you have learned during classes in your work practice.
+                            Assignments draw on your work experience and assessment
+                            includes observation in the workplace. If you are struggling
+                            with finding a work placement our team may be able to help
+                            you.
+                        </h5>
+                    </div>
+
+                    <div class="w-100 mt-5">
+                        <h2 class="text-secondary fw-bold">Assessment</h2>
+                        <h5 class="text-secondary fw-normal">
+                            You will need to work with at least two service users. You will build a portfolio to demonstrate your competence in the workplace. Your tutor will guide you on how to complete your portfolio, give you feedback on your work and visit you in the workplace to carry out observations of you at work.
+                        </h5>
+                    </div>
+
+                    <div class="w-100 mt-5">
+                        <h2 class="text-secondary fw-bold">Next steps</h2>
+                        <h5 class="text-secondary fw-normal">
+                            This qualification develops the knowledge and skills needed when working in care settings. The combination of mandatory and optional units allow you to meet your job role or planned progression route. It will help you to progress into roles in residential care, day care, community support, adult nursing support and allied health professions.
                         </h5>
                     </div>
 
