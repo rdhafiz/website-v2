@@ -113,7 +113,7 @@
                             </div>
 
                             <div class="w-100 mt-5">
-                                <h2 class="text-secondary fw-bold">Next steps</h2>
+                                <h2 class="text-secondary fw-bold">You will study 10 mandatory units</h2>
                                 <h5 class="text-secondary fw-normal">
                                     At the end of the course, you may progress to work in early years care for example in a nursery, pre-school setting or in the reception classes of a primary school.
                                     To achieve this qualification, you need to complete 10 mandatory units. For each unit, you will be achieving a certain number of credits, all of these will add up to 95 credits.
