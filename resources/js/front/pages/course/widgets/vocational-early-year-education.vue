@@ -113,24 +113,7 @@
                             </div>
 
                             <div class="w-100 mt-5">
-                                <h2 class="text-secondary fw-bold">Work placement</h2>
-                                <h5 class="text-secondary fw-normal">
-                                    The work placement is an integral part of the course and without it you will be unable to complete the course.
-                                    You will draw on workplace experience during taught sessions and apply what you have learned during classes in your work practice.
-                                    Assignments draw on your work experience and assessment includes observation in the workplace.
-                                    If you are struggling with finding a work placement our team may be able to help you.
-                                </h5>
-                            </div>
-
-                            <div class="w-100 mt-5">
-                                <h2 class="text-secondary fw-bold">Assessment</h2>
-                                <h5 class="text-secondary fw-normal">
-                                    Course work is assessed and includes coursework and written assignments as well as assessment of your practical skills in a childcare setting.
-                                </h5>
-                            </div>
-
-                            <div class="w-100 mt-5">
-                                <h2 class="text-secondary fw-bold">Next steps</h2>
+                                <h2 class="text-secondary fw-bold">You will study 10 mandatory units</h2>
                                 <h5 class="text-secondary fw-normal">
                                     At the end of the course, you may progress to work in early years care for example in a nursery, pre-school setting or in the reception classes of a primary school.
                                     To achieve this qualification, you need to complete 10 mandatory units. For each unit, you will be achieving a certain number of credits, all of these will add up to 95 credits.
@@ -155,6 +138,23 @@
                                     <p><strong>EYE L3 WF 9</strong> Understanding play for learning and holistic development (L/651/1398) <br></p>
 
                                     <p><strong>EYE L3 WF 10</strong> Partnership working (M/651/1399) <br></p>
+                                </h5>
+                            </div>
+
+                            <div class="w-100 mt-5">
+                                <h2 class="text-secondary fw-bold">Work placement</h2>
+                                <h5 class="text-secondary fw-normal">
+                                    The work placement is an integral part of the course and without it you will be unable to complete the course.
+                                    You will draw on workplace experience during taught sessions and apply what you have learned during classes in your work practice.
+                                    Assignments draw on your work experience and assessment includes observation in the workplace.
+                                    If you are struggling with finding a work placement our team may be able to help you.
+                                </h5>
+                            </div>
+
+                            <div class="w-100 mt-5">
+                                <h2 class="text-secondary fw-bold">Assessment</h2>
+                                <h5 class="text-secondary fw-normal">
+                                    Course work is assessed and includes coursework and written assignments as well as assessment of your practical skills in a childcare setting.
                                 </h5>
                             </div>
 
