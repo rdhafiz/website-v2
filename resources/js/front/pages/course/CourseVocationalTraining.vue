@@ -156,10 +156,9 @@
                                     <strong class="fs-5">Location:</strong>
                                 </div>
                                 <div class="w-100 ps-md-3">
-                                    <strong class="p-0 fs-5">Online Via Microsoft Teams</strong><br>
+                                    <strong class="p-0 fs-5">Blended Learning</strong><br>
                                     <span class="p-0 fs-6">
-                                        You will be issued with a Mediprospects Office 365 account,
-                                        Live online lessons delivered by subject specialists.
+                                        Sessions are taught face-to-face at our training centre in Plaistow. Unless you are exempt you will need to attend at least half of the face-to-face sessions.
                                     </span>
                                 </div>
                             </div>

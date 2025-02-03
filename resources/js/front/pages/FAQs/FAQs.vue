@@ -405,7 +405,12 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                         <div class="accordion-body bg-light border-top px-5">
-                            Blended learning combines traditional face-to-face teaching / learning practices with the use of online learning tools. With these courses, unless you are exempt you must attend at least half of the face-to-face teaching sessions. You will be able attend the balance of these sessions through online live lessons using Microsoft Teams. You can of course attend all of your lessons face-to-face.
+                            Blended learning combines traditional face-to-face teaching and learning practices with online learning tools.
+                            For these courses, unless you are exempt,
+                            you must attend more than half of the teaching sessions in person.
+                            Exemptions may apply if you meet specific criteria, such as location or personal circumstances,
+                            allowing you to attend all sessions online via live lessons on Microsoft Teams.
+                            Alternatively, you can opt to attend all lessons face-to-face if that suits your preferences.
                         </div>
                     </div>
                 </div>
